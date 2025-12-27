@@ -1,0 +1,16 @@
+{
+  "name": "bks-news",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "AI-generated news briefings as a static site",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  }
+}

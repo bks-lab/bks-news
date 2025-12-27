@@ -1,0 +1,93 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const briefings = await getCollection('briefings', ({ data }) => !data.draft);
+const sortedBriefings = briefings.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const typeLabels: Record<string, string> = {
+  weekly: 'Weekly',
+  breaking: 'Breaking',
+  research: 'Research',
+  digest: 'Digest'
+};
+---
+
+<Base title="AI Briefings">
+  <header>
+    <h1>BKS AI Briefings</h1>
+    <p class="meta">Automatisch generierte AI-News und Analysen</p>
+  </header>
+
+  {sortedBriefings.length === 0 ? (
+    <p>Noch keine Briefings vorhanden.</p>
+  ) : (
+    <ul class="briefing-list">
+      {sortedBriefings.map((briefing) => (
+        <li class="briefing-item">
+          <a href={`/bks-news/briefings/${briefing.slug}/`}>
+            <span class="date">{briefing.data.date.toLocaleDateString('de-DE')}</span>
+            <span class="type tag">{typeLabels[briefing.data.type] || briefing.data.type}</span>
+            <span class="title">{briefing.data.title}</span>
+          </a>
+          {briefing.data.description && (
+            <p class="description">{briefing.data.description}</p>
+          )}
+        </li>
+      ))}
+    </ul>
+  )}
+
+  <footer>
+    <hr />
+    <p class="meta">
+      Powered by <a href="https://github.com/bks-lab/bks-news">Claude Scheduler</a> |
+      <a href="https://bks-lab.de">BKS-Lab</a>
+    </p>
+  </footer>
+</Base>
+
+<style>
+  header {
+    margin-bottom: 3rem;
+  }
+
+  .briefing-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .briefing-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .briefing-item a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .date {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    min-width: 100px;
+  }
+
+  .title {
+    color: var(--color-text);
+    font-weight: 500;
+  }
+
+  .description {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-left: 0;
+  }
+
+  footer {
+    margin-top: 3rem;
+  }
+</style>
