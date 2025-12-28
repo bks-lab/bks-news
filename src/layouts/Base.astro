@@ -124,6 +124,39 @@ const { title, description = 'AI-generated news briefings by BKS-Lab' } = Astro.
         margin: 2rem 0;
       }
 
+      /* Images - responsive with max dimensions */
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 1.5rem 0;
+        display: block;
+      }
+
+      /* Hero/feature images - larger but constrained */
+      article img:first-of-type {
+        max-height: 400px;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      /* Inline images - smaller */
+      p img,
+      .content img {
+        max-height: 300px;
+        object-fit: contain;
+      }
+
+      /* Image captions via alt text */
+      img + em {
+        display: block;
+        text-align: center;
+        color: var(--color-muted);
+        font-size: 0.85rem;
+        margin-top: -1rem;
+        margin-bottom: 1.5rem;
+      }
+
       .tag {
         display: inline-block;
         background: #1a1a1a;
