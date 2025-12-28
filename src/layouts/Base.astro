@@ -1,4 +1,7 @@
 ---
+import ThemeToggle from '../components/ThemeToggle.astro';
+import Footer from '../components/Footer.astro';
+
 interface Props {
   title: string;
   description?: string;
@@ -8,21 +11,39 @@ const { title, description = 'AI-generated news briefings by BKS-Lab' } = Astro.
 ---
 
 <!doctype html>
-<html lang="de">
+<html lang="de" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/bks-news/favicon.svg" />
+    <link rel="alternate" type="application/rss+xml" title="BKS News RSS" href="/bks-news/rss.xml" />
     <title>{title} | BKS News</title>
+    <script is:inline>
+      // Prevent flash of wrong theme
+      const savedTheme = localStorage.getItem('theme');
+      const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', savedTheme || (systemPrefersDark ? 'dark' : 'light'));
+    </script>
     <style is:global>
       :root {
+        /* Dark theme (default) */
         --color-bg: #0f0f0f;
         --color-text: #e5e5e5;
         --color-muted: #888;
         --color-accent: #3b82f6;
         --color-border: #333;
+        --color-card-bg: #1a1a1a;
         --max-width: 800px;
+      }
+
+      [data-theme="light"] {
+        --color-bg: #fafafa;
+        --color-text: #1a1a1a;
+        --color-muted: #666;
+        --color-accent: #2563eb;
+        --color-border: #e0e0e0;
+        --color-card-bg: #ffffff;
       }
 
       * {
@@ -37,6 +58,7 @@ const { title, description = 'AI-generated news briefings by BKS-Lab' } = Astro.
         color: var(--color-text);
         line-height: 1.7;
         padding: 2rem;
+        transition: background 0.3s, color 0.3s;
       }
 
       main {
@@ -76,18 +98,19 @@ const { title, description = 'AI-generated news briefings by BKS-Lab' } = Astro.
       }
 
       code {
-        background: #1a1a1a;
+        background: var(--color-card-bg);
         padding: 0.2em 0.4em;
         border-radius: 4px;
         font-size: 0.9em;
       }
 
       pre {
-        background: #1a1a1a;
+        background: var(--color-card-bg);
         padding: 1rem;
         border-radius: 8px;
         overflow-x: auto;
         margin-bottom: 1rem;
+        border: 1px solid var(--color-border);
       }
 
       pre code {
@@ -115,7 +138,7 @@ const { title, description = 'AI-generated news briefings by BKS-Lab' } = Astro.
       }
 
       th {
-        background: #1a1a1a;
+        background: var(--color-card-bg);
       }
 
       hr {
@@ -159,12 +182,13 @@ const { title, description = 'AI-generated news briefings by BKS-Lab' } = Astro.
 
       .tag {
         display: inline-block;
-        background: #1a1a1a;
+        background: var(--color-card-bg);
         padding: 0.2em 0.6em;
         border-radius: 4px;
         font-size: 0.85em;
         margin-right: 0.5rem;
         color: var(--color-muted);
+        border: 1px solid var(--color-border);
       }
 
       .meta {
@@ -189,11 +213,36 @@ const { title, description = 'AI-generated news briefings by BKS-Lab' } = Astro.
         color: var(--color-muted);
         font-size: 1rem;
       }
+
+      /* Header with theme toggle */
+      .site-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      .site-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: var(--color-text);
+        text-decoration: none;
+      }
+
+      .site-title:hover {
+        text-decoration: none;
+        color: var(--color-accent);
+      }
     </style>
   </head>
   <body>
     <main>
+      <header class="site-header">
+        <a href="/bks-news/" class="site-title">BKS News</a>
+        <ThemeToggle />
+      </header>
       <slot />
+      <Footer />
     </main>
   </body>
 </html>

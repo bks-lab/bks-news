@@ -1,0 +1,22 @@
+---
+interface Props {
+  content: string;
+}
+
+const { content } = Astro.props;
+
+// Calculate reading time (average 200 words per minute for German)
+const words = content.split(/\s+/).length;
+const readingTime = Math.ceil(words / 200);
+---
+
+<span class="reading-time">
+  {readingTime} Min. Lesezeit
+</span>
+
+<style>
+  .reading-time {
+    color: var(--color-muted);
+    font-size: 0.85rem;
+  }
+</style>

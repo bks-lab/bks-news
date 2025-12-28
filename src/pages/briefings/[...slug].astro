@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import TableOfContents from '../../components/TableOfContents.astro';
+import ScrollToTop from '../../components/ScrollToTop.astro';
 
 export async function getStaticPaths() {
   const briefings = await getCollection('briefings');
@@ -11,7 +13,20 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await entry.render();
+const { Content, headings } = await entry.render();
+
+// Get all briefings for prev/next navigation
+const allBriefings = (await getCollection('briefings'))
+  .filter(b => !b.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const currentIndex = allBriefings.findIndex(b => b.slug === entry.slug);
+const prevBriefing = currentIndex < allBriefings.length - 1 ? allBriefings[currentIndex + 1] : null;
+const nextBriefing = currentIndex > 0 ? allBriefings[currentIndex - 1] : null;
+
+// Calculate reading time
+const words = entry.body.split(/\s+/).length;
+const readingTime = Math.ceil(words / 200);
 
 const typeLabels: Record<string, string> = {
   weekly: 'Weekly Briefing',
@@ -22,11 +37,12 @@ const typeLabels: Record<string, string> = {
 ---
 
 <Base title={entry.data.title} description={entry.data.description}>
-  <a href="/bks-news/" class="back">&larr; Alle Briefings</a>
-
   <article>
     <header>
-      <span class="tag">{typeLabels[entry.data.type] || entry.data.type}</span>
+      <div class="header-meta">
+        <span class="tag">{typeLabels[entry.data.type] || entry.data.type}</span>
+        <span class="reading-time">{readingTime} Min. Lesezeit</span>
+      </div>
       <h1>{entry.data.title}</h1>
       <p class="meta">
         {entry.data.date.toLocaleDateString('de-DE', {
@@ -45,6 +61,8 @@ const typeLabels: Record<string, string> = {
       )}
     </header>
 
+    <TableOfContents headings={headings} />
+
     <div class="content">
       <Content />
     </div>
@@ -52,23 +70,51 @@ const typeLabels: Record<string, string> = {
     {entry.data.sources && entry.data.sources.length > 0 && (
       <div class="sources">
         <h3>Quellen</h3>
-        <ul>
+        <div class="sources-grid">
           {entry.data.sources.map((source: { title: string; url: string }) => (
-            <li>
-              <a href={source.url} target="_blank" rel="noopener">
-                {source.title}
-              </a>
-            </li>
+            <a href={source.url} target="_blank" rel="noopener" class="source-card">
+              <span class="source-title">{source.title}</span>
+              <span class="source-domain">{new URL(source.url).hostname.replace('www.', '')}</span>
+            </a>
           ))}
-        </ul>
+        </div>
       </div>
     )}
+
+    <nav class="briefing-nav">
+      {prevBriefing && (
+        <a href={`/bks-news/briefings/${prevBriefing.slug}/`} class="nav-prev">
+          <span class="nav-label">&larr; Vorher</span>
+          <span class="nav-title">{prevBriefing.data.title}</span>
+        </a>
+      )}
+      {nextBriefing && (
+        <a href={`/bks-news/briefings/${nextBriefing.slug}/`} class="nav-next">
+          <span class="nav-label">Neuer &rarr;</span>
+          <span class="nav-title">{nextBriefing.data.title}</span>
+        </a>
+      )}
+    </nav>
   </article>
+
+  <ScrollToTop />
 </Base>
 
 <style>
   article header {
     margin-bottom: 2rem;
+  }
+
+  .header-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .reading-time {
+    color: var(--color-muted);
+    font-size: 0.85rem;
   }
 
   .tags {
@@ -77,5 +123,127 @@ const typeLabels: Record<string, string> = {
 
   .content {
     font-size: 1.05rem;
+  }
+
+  /* TL;DR Card Styling */
+  .content :global(h2:first-of-type + p + ul),
+  .content :global(h2:first-of-type + ul) {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border: 1px solid var(--color-accent);
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    list-style: none;
+    margin: 1.5rem 0;
+  }
+
+  .content :global(h2:first-of-type + p + ul li),
+  .content :global(h2:first-of-type + ul li) {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin: 0;
+  }
+
+  .content :global(h2:first-of-type + p + ul li:last-child),
+  .content :global(h2:first-of-type + ul li:last-child) {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  /* Sources Grid */
+  .sources {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .sources h3 {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+  }
+
+  .sources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  .source-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem;
+    background: #1a1a1a;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+
+  .source-card:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+  .source-title {
+    color: var(--color-text);
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .source-domain {
+    color: var(--color-muted);
+    font-size: 0.8rem;
+  }
+
+  /* Prev/Next Navigation */
+  .briefing-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .nav-prev, .nav-next {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem;
+    background: #1a1a1a;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: border-color 0.2s;
+  }
+
+  .nav-prev:hover, .nav-next:hover {
+    border-color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .nav-next {
+    text-align: right;
+  }
+
+  .nav-label {
+    color: var(--color-muted);
+    font-size: 0.8rem;
+  }
+
+  .nav-title {
+    color: var(--color-text);
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .briefing-nav {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
