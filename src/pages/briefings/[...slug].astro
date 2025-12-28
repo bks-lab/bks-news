@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import TableOfContents from '../../components/TableOfContents.astro';
 import ScrollToTop from '../../components/ScrollToTop.astro';
 import TagLink from '../../components/TagLink.astro';
+import RelatedArticles from '../../components/RelatedArticles.astro';
 
 export async function getStaticPaths() {
   const briefings = await getCollection('briefings');
@@ -81,6 +82,12 @@ const typeLabels: Record<string, string> = {
         </div>
       </div>
     )}
+
+    <RelatedArticles
+      currentSlug={entry.slug}
+      currentTags={entry.data.tags}
+      allBriefings={allBriefings}
+    />
 
     <nav class="briefing-nav">
       {prevBriefing && (
