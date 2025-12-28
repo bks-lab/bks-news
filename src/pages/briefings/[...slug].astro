@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import TableOfContents from '../../components/TableOfContents.astro';
 import ScrollToTop from '../../components/ScrollToTop.astro';
+import TagLink from '../../components/TagLink.astro';
 
 export async function getStaticPaths() {
   const briefings = await getCollection('briefings');
@@ -55,7 +56,7 @@ const typeLabels: Record<string, string> = {
       {entry.data.tags.length > 0 && (
         <div class="tags">
           {entry.data.tags.map((tag: string) => (
-            <span class="tag">{tag}</span>
+            <TagLink tag={tag} />
           ))}
         </div>
       )}

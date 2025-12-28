@@ -1,0 +1,70 @@
+---
+import TagLink from './TagLink.astro';
+
+interface Props {
+  tags: Array<{ tag: string; count: number }>;
+  activeTag?: string;
+  showCounts?: boolean;
+  limit?: number;
+}
+
+const { tags, activeTag, showCounts = true, limit } = Astro.props;
+
+// Sort by count (descending), then alphabetically
+const sortedTags = [...tags]
+  .sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag));
+
+const displayTags = limit ? sortedTags.slice(0, limit) : sortedTags;
+---
+
+<div class="tag-cloud">
+  <span class="label">Themen:</span>
+  <div class="tags">
+    {displayTags.map(({ tag, count }) => (
+      <TagLink
+        tag={tag}
+        count={showCounts ? count : undefined}
+        active={activeTag === tag}
+      />
+    ))}
+    {limit && sortedTags.length > limit && (
+      <a href="/bks-news/tags/" class="more-link">
+        +{sortedTags.length - limit} mehr
+      </a>
+    )}
+  </div>
+</div>
+
+<style>
+  .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .label {
+    color: var(--color-muted);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .more-link {
+    color: var(--color-muted);
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+
+  .more-link:hover {
+    color: var(--color-accent);
+  }
+</style>

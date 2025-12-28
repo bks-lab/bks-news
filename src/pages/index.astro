@@ -1,9 +1,24 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import TagCloud from '../components/TagCloud.astro';
+import TagLink from '../components/TagLink.astro';
 
 const briefings = await getCollection('briefings', ({ data }) => !data.draft);
 const sortedBriefings = briefings.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Aggregate all tags with counts
+const tagCounts = new Map<string, number>();
+briefings.forEach(briefing => {
+  briefing.data.tags.forEach(tag => {
+    const normalizedTag = tag.toLowerCase();
+    tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
+  });
+});
+
+const allTags = Array.from(tagCounts.entries())
+  .map(([tag, count]) => ({ tag, count }))
+  .sort((a, b) => b.count - a.count);
 
 const typeLabels: Record<string, string> = {
   weekly: 'Weekly',
@@ -19,19 +34,30 @@ const typeLabels: Record<string, string> = {
     <p class="meta">Automatisch generierte AI-News und Analysen</p>
   </header>
 
+  {allTags.length > 0 && (
+    <TagCloud tags={allTags} showCounts={true} limit={10} />
+  )}
+
   {sortedBriefings.length === 0 ? (
     <p>Noch keine Briefings vorhanden.</p>
   ) : (
     <ul class="briefing-list">
       {sortedBriefings.map((briefing) => (
         <li class="briefing-item">
-          <a href={`/bks-news/briefings/${briefing.slug}/`}>
+          <a href={`/bks-news/briefings/${briefing.slug}/`} class="briefing-link">
             <span class="date">{briefing.data.date.toLocaleDateString('de-DE')}</span>
             <span class="type tag">{typeLabels[briefing.data.type] || briefing.data.type}</span>
             <span class="title">{briefing.data.title}</span>
           </a>
           {briefing.data.description && (
             <p class="description">{briefing.data.description}</p>
+          )}
+          {briefing.data.tags.length > 0 && (
+            <div class="tags">
+              {briefing.data.tags.map((tag: string) => (
+                <TagLink tag={tag} size="sm" />
+              ))}
+            </div>
           )}
         </li>
       ))}
@@ -42,7 +68,7 @@ const typeLabels: Record<string, string> = {
 
 <style>
   header {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .briefing-list {
@@ -55,7 +81,7 @@ const typeLabels: Record<string, string> = {
     border-bottom: 1px solid var(--color-border);
   }
 
-  .briefing-item a {
+  .briefing-link {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -80,4 +106,10 @@ const typeLabels: Record<string, string> = {
     margin-left: 0;
   }
 
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
 </style>
