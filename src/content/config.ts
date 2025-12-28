@@ -20,6 +20,8 @@ const briefingSchema = z.object({
   type: z.enum(['weekly', 'breaking', 'research', 'digest']).default('weekly'),
   // ACHTUNG: Nur eigene/lizenzfreie Bilder! Siehe Kommentar oben.
   heroImage: z.string().url().optional(),
+  // Auto-generiertes AI-Bild via Pollinations.ai (kostenlos, rechtlich sicher)
+  autoImage: z.boolean().default(false),
   sources: z.array(z.object({
     title: z.string(),
     url: z.string().url()

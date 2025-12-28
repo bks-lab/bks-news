@@ -37,13 +37,29 @@ const typeLabels: Record<string, string> = {
   research: 'Research',
   digest: 'Digest'
 };
+
+// Auto-Image via Pollinations.ai (kostenlos, rechtlich sicher)
+const heroUrl = entry.data.heroImage ||
+  (entry.data.autoImage
+    ? `https://image.pollinations.ai/prompt/${encodeURIComponent(
+        `abstract AI visualization ${entry.data.title} blue purple gradient minimalist futuristic 1200x630`
+      )}`
+    : null);
 ---
 
-<Base title={entry.data.title} description={entry.data.description} heroImage={entry.data.heroImage}>
+<Base title={entry.data.title} description={entry.data.description} heroImage={heroUrl || undefined}>
   <article>
+    {heroUrl && (
+      <img
+        src={heroUrl}
+        alt={entry.data.title}
+        class="hero-image"
+        loading="lazy"
+      />
+    )}
     <header>
       <div class="header-meta">
-        <span class="tag">{typeLabels[entry.data.type] || entry.data.type}</span>
+        <span class={`type-badge type-${entry.data.type}`}>{typeLabels[entry.data.type] || entry.data.type}</span>
         <span class="reading-time">{readingTime} Min. Lesezeit</span>
       </div>
       <h1>{entry.data.title}</h1>
@@ -120,6 +136,16 @@ const typeLabels: Record<string, string> = {
 </Base>
 
 <style>
+  /* Hero Image */
+  .hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+
   article header {
     margin-bottom: 2rem;
   }
@@ -129,6 +155,37 @@ const typeLabels: Record<string, string> = {
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
+  }
+
+  /* Dezente Type-Badges */
+  .type-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+  }
+
+  .type-weekly {
+    background: rgba(102, 126, 234, 0.15);
+    color: #667eea;
+  }
+
+  .type-breaking {
+    background: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+  }
+
+  .type-research {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+  }
+
+  .type-digest {
+    background: rgba(245, 158, 11, 0.15);
+    color: #f59e0b;
   }
 
   .reading-time {

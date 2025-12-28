@@ -44,18 +44,28 @@ Briefings werden automatisch via Claude Scheduler generiert.
 
 ### Production aktivieren
 
-In `~/.claude/scheduler/config/tasks.yaml` den Output ändern:
+Die Konfiguration ist bereits vorbereitet in `~/.claude/scheduler/config/tasks.yaml`:
 
 ```yaml
 output:
-  type: repo  # statt "file"
+  type: repo
   destination: ~/Developer/bks/bks-news
   path_pattern: src/content/briefings/{{YYYY}}/{{MM}}/{{DATE}}-{{SLUG}}.md
 ```
 
-Dann Schedule aktivieren:
+**Scheduler aktivieren:**
 ```bash
-~/.claude/skills/claude-scheduler/scripts/install-schedule.sh ai-weekly-briefing
+~/.claude/skills/claude-scheduler/scripts/install-schedule.sh install
+```
+
+**Scheduler deaktivieren:**
+```bash
+~/.claude/skills/claude-scheduler/scripts/install-schedule.sh uninstall
+```
+
+**Status prüfen:**
+```bash
+~/.claude/skills/claude-scheduler/scripts/install-schedule.sh status
 ```
 
 ### Schedule
@@ -84,11 +94,21 @@ description: "Short description"
 date: 2025-12-27
 tags: [ai, weekly]
 type: weekly  # weekly | breaking | research | digest
+autoImage: true  # Optional: AI-generiertes Hero-Image via Pollinations.ai
 sources:
   - title: "Source Name"
     url: "https://..."
 draft: false
 ```
+
+### Auto-Image Feature
+
+Setze `autoImage: true` im Frontmatter für automatisch generierte Hero-Images via Pollinations.ai:
+
+- **Kostenlos** - Keine API-Keys oder Kosten
+- **Automatisch** - Bild wird aus Titel generiert
+- **Rechtlich sicher** - AI-generiert, keine Urheberrechte
+- **Optional** - Standard ist `false`, bestehende Artikel unverändert
 
 ## Bildrechte (WICHTIG!)
 

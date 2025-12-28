@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+import { getLanguageFromUrl } from '../i18n/translations';
+
+const lang = getLanguageFromUrl(Astro.url);
+const isEn = lang === 'en';
+
+const title = isEn ? 'Page Not Found' : 'Seite nicht gefunden';
+const description = isEn
+  ? 'The page you are looking for does not exist.'
+  : 'Die gesuchte Seite existiert nicht.';
+const backHome = isEn ? 'Back to Home' : 'Zur Startseite';
+const basePath = isEn ? '/bks-news/en' : '/bks-news';
+---
+
+<Base title={title} description={description} lang={lang}>
+  <main class="error-page">
+    <div class="error-content">
+      <h1>404</h1>
+      <p class="error-title">{title}</p>
+      <p class="error-description">{description}</p>
+      <a href={basePath} class="back-link">{backHome}</a>
+    </div>
+  </main>
+</Base>
+
+<style>
+  .error-page {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .error-content h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--color-muted);
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  .error-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .error-description {
+    color: var(--color-muted);
+    margin-bottom: 2rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: var(--color-accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+  }
+
+  .back-link:hover {
+    opacity: 0.9;
+  }
+</style>
