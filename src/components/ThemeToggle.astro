@@ -47,18 +47,35 @@
 <script>
   const toggle = document.getElementById('theme-toggle');
   const html = document.documentElement;
+  const darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
-  // Check for saved preference or system preference
-  const savedTheme = localStorage.getItem('theme');
-  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
+  // Get current theme - only use saved if explicitly set by user
+  function getTheme() {
+    const saved = localStorage.getItem('theme');
+    if (saved) return saved;
+    return darkModeQuery.matches ? 'dark' : 'light';
+  }
 
-  html.setAttribute('data-theme', initialTheme);
+  // Apply theme
+  function applyTheme(theme: string) {
+    html.setAttribute('data-theme', theme);
+  }
 
+  // Initial apply
+  applyTheme(getTheme());
+
+  // Listen for system preference changes (when no manual override)
+  darkModeQuery.addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+      applyTheme(e.matches ? 'dark' : 'light');
+    }
+  });
+
+  // Manual toggle - saves preference
   toggle?.addEventListener('click', () => {
     const currentTheme = html.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    html.setAttribute('data-theme', newTheme);
+    applyTheme(newTheme);
     localStorage.setItem('theme', newTheme);
   });
 </script>
