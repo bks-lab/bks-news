@@ -338,55 +338,19 @@ const fullTitle = `${title} | BKS News`;
         }
       }
 
-      /* TL;DR Section Styling - Pure CSS using #tldr ID */
+      /* TL;DR Section - Hide heading completely */
       #tldr {
-        display: inline-block !important;
-        background: #3b82f6 !important;
-        color: white !important;
-        font-size: 0.7rem !important;
-        font-weight: 700 !important;
-        text-transform: uppercase !important;
-        letter-spacing: 0.1em !important;
-        padding: 0.35rem 0.7rem !important;
-        border-radius: 4px !important;
-        margin-bottom: 0.5rem !important;
-        margin-top: 0 !important;
-        line-height: 1.5 !important;
+        display: none !important;
       }
 
-      /* Style the paragraph and list after TL;DR */
-      #tldr + p {
-        color: var(--color-muted);
-        font-size: 0.9rem;
-        margin-bottom: 0.5rem;
+      /* Also hide from TOC */
+      a[href="#tldr"] {
+        display: none !important;
       }
 
-      #tldr + p + ul,
-      #tldr + ul {
-        background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(37, 99, 235, 0.05) 100%) !important;
-        border: 1px solid #3b82f6 !important;
-        border-radius: 12px !important;
-        padding: 1.25rem 1.5rem !important;
-        list-style: none !important;
-        margin: 0 0 2rem 0 !important;
-      }
-
-      [data-theme="light"] #tldr + p + ul,
-      [data-theme="light"] #tldr + ul {
-        background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(37, 99, 235, 0.03) 100%);
-      }
-
-      #tldr + p + ul li,
-      #tldr + ul li {
-        padding: 0.6rem 0;
-        border-bottom: 1px solid rgba(59, 130, 246, 0.2);
-        margin: 0;
-      }
-
-      #tldr + p + ul li:last-child,
-      #tldr + ul li:last-child {
-        border-bottom: none;
-        padding-bottom: 0;
+      /* Parent li in TOC */
+      nav.toc li:has(a[href="#tldr"]) {
+        display: none !important;
       }
     </style>
   </head>
