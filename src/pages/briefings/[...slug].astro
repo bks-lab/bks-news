@@ -5,6 +5,7 @@ import TableOfContents from '../../components/TableOfContents.astro';
 import ScrollToTop from '../../components/ScrollToTop.astro';
 import TagLink from '../../components/TagLink.astro';
 import RelatedArticles from '../../components/RelatedArticles.astro';
+import SourceCard from '../../components/SourceCard.astro';
 
 export async function getStaticPaths() {
   const briefings = await getCollection('briefings');
@@ -83,12 +84,10 @@ const typeLabels: Record<string, string> = {
     {entry.data.sources && entry.data.sources.length > 0 && (
       <div class="sources">
         <h3>Quellen</h3>
+        <p class="sources-intro">{entry.data.sources.length} Quellen aus verifizierten Nachrichtenportalen und offiziellen Unternehmensblogs.</p>
         <div class="sources-grid">
           {entry.data.sources.map((source: { title: string; url: string }) => (
-            <a href={source.url} target="_blank" rel="noopener" class="source-card">
-              <span class="source-title">{source.title}</span>
-              <span class="source-domain">{new URL(source.url).hostname.replace('www.', '')}</span>
-            </a>
+            <SourceCard title={source.title} url={source.url} lang="de" />
           ))}
         </div>
       </div>
@@ -175,42 +174,19 @@ const typeLabels: Record<string, string> = {
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .sources-intro {
+    color: var(--color-muted);
+    font-size: 0.85rem;
+    margin-bottom: 1.25rem;
   }
 
   .sources-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1rem;
-  }
-
-  .source-card {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-    padding: 1rem;
-    background: var(--color-card-bg);
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    text-decoration: none;
-    transition: border-color 0.2s, transform 0.2s;
-  }
-
-  .source-card:hover {
-    border-color: var(--color-accent);
-    transform: translateY(-2px);
-    text-decoration: none;
-  }
-
-  .source-title {
-    color: var(--color-text);
-    font-size: 0.95rem;
-    line-height: 1.4;
-  }
-
-  .source-domain {
-    color: var(--color-muted);
-    font-size: 0.8rem;
   }
 
   /* Prev/Next Navigation */

@@ -1,0 +1,179 @@
+---
+interface Props {
+  title: string;
+  url: string;
+  lang?: 'de' | 'en';
+}
+
+const { title, url, lang = 'de' } = Astro.props;
+
+const hostname = new URL(url).hostname.replace('www.', '');
+
+// Known source categorization with metadata
+const sourceMetadata: Record<string, { type: string; typeEn: string; icon: string; color: string }> = {
+  // Major Tech News
+  'techcrunch.com': { type: 'Tech News', typeEn: 'Tech News', icon: 'news', color: '#0a0' },
+  'theverge.com': { type: 'Tech News', typeEn: 'Tech News', icon: 'news', color: '#e00' },
+  'wired.com': { type: 'Tech News', typeEn: 'Tech News', icon: 'news', color: '#000' },
+  'arstechnica.com': { type: 'Tech News', typeEn: 'Tech News', icon: 'news', color: '#ff4e00' },
+
+  // Business News
+  'fortune.com': { type: 'Wirtschaft', typeEn: 'Business', icon: 'business', color: '#e4002b' },
+  'bloomberg.com': { type: 'Wirtschaft', typeEn: 'Business', icon: 'business', color: '#2800d7' },
+  'reuters.com': { type: 'Agentur', typeEn: 'News Agency', icon: 'agency', color: '#ff8000' },
+  'wsj.com': { type: 'Wirtschaft', typeEn: 'Business', icon: 'business', color: '#0274b6' },
+
+  // European News
+  'euronews.com': { type: 'Europa News', typeEn: 'EU News', icon: 'news', color: '#003399' },
+  'spiegel.de': { type: 'Nachrichten', typeEn: 'News', icon: 'news', color: '#e64415' },
+  'heise.de': { type: 'Tech News', typeEn: 'Tech News', icon: 'news', color: '#b30' },
+
+  // Official Company Blogs
+  'openai.com': { type: 'Offiziell', typeEn: 'Official', icon: 'official', color: '#10a37f' },
+  'anthropic.com': { type: 'Offiziell', typeEn: 'Official', icon: 'official', color: '#d4a574' },
+  'blog.google': { type: 'Offiziell', typeEn: 'Official', icon: 'official', color: '#4285f4' },
+  'ai.meta.com': { type: 'Offiziell', typeEn: 'Official', icon: 'official', color: '#0866ff' },
+  'nvidia.com': { type: 'Offiziell', typeEn: 'Official', icon: 'official', color: '#76b900' },
+
+  // Developer / Technical
+  'github.com': { type: 'Repository', typeEn: 'Repository', icon: 'code', color: '#333' },
+  'arxiv.org': { type: 'Forschung', typeEn: 'Research', icon: 'research', color: '#b31b1b' },
+  'papers.nips.cc': { type: 'Forschung', typeEn: 'Research', icon: 'research', color: '#1a1a2e' },
+
+  // Industry News
+  'sdtimes.com': { type: 'Dev News', typeEn: 'Dev News', icon: 'news', color: '#00457c' },
+  'theaiinsider.tech': { type: 'AI News', typeEn: 'AI News', icon: 'news', color: '#6366f1' },
+  'venturebeat.com': { type: 'Tech News', typeEn: 'Tech News', icon: 'news', color: '#c41230' },
+};
+
+// Get metadata for this source
+const meta = sourceMetadata[hostname] || {
+  type: 'Quelle',
+  typeEn: 'Source',
+  icon: 'link',
+  color: 'var(--color-muted)'
+};
+
+const displayType = lang === 'en' ? meta.typeEn : meta.type;
+
+// Icon SVGs
+const icons: Record<string, string> = {
+  news: '<path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/>',
+  business: '<path d="M3 21h18"/><path d="M9 8h1"/><path d="M9 12h1"/><path d="M9 16h1"/><path d="M14 8h1"/><path d="M14 12h1"/><path d="M14 16h1"/><path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/>',
+  official: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/>',
+  research: '<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>',
+  code: '<path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/>',
+  agency: '<circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>',
+  link: '<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>',
+};
+---
+
+<a href={url} target="_blank" rel="noopener" class="source-card">
+  <div class="source-header">
+    <span class="source-type" style={`--type-color: ${meta.color}`}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <Fragment set:html={icons[meta.icon]} />
+      </svg>
+      {displayType}
+    </span>
+    <span class="source-domain">{hostname}</span>
+  </div>
+  <span class="source-title">{title}</span>
+  <span class="source-action">
+    {lang === 'en' ? 'Read article' : 'Artikel lesen'}
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+      <polyline points="15 3 21 3 21 9"/>
+      <line x1="10" y1="14" x2="21" y2="3"/>
+    </svg>
+  </span>
+</a>
+
+<style>
+  .source-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+  }
+
+  .source-card:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+  }
+
+  .source-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .source-type {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.2rem 0.5rem;
+    background: color-mix(in srgb, var(--type-color) 15%, transparent);
+    color: var(--type-color);
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .source-type svg {
+    opacity: 0.9;
+  }
+
+  .source-domain {
+    color: var(--color-muted);
+    font-size: 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .source-title {
+    color: var(--color-text);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .source-action {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: var(--color-muted);
+    font-size: 0.75rem;
+    margin-top: auto;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--color-border);
+    transition: color 0.2s;
+  }
+
+  .source-card:hover .source-action {
+    color: var(--color-accent);
+  }
+
+  .source-action svg {
+    transition: transform 0.2s;
+  }
+
+  .source-card:hover .source-action svg {
+    transform: translate(2px, -2px);
+  }
+</style>
