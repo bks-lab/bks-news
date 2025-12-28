@@ -8,6 +8,7 @@ const briefingsCollection = defineCollection({
     date: z.coerce.date(),
     tags: z.array(z.string()).default([]),
     type: z.enum(['weekly', 'breaking', 'research', 'digest']).default('weekly'),
+    heroImage: z.string().url().optional(),
     sources: z.array(z.object({
       title: z.string(),
       url: z.string().url()
