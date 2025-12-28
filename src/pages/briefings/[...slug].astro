@@ -99,26 +99,26 @@ const typeLabels: Record<string, string> = {
 
   <ScrollToTop />
 
-  <script>
+  <script is:inline>
     // Transform TL;DR section with JavaScript for reliable styling
-    document.addEventListener('DOMContentLoaded', () => {
-      const content = document.querySelector('.content');
+    document.addEventListener('DOMContentLoaded', function() {
+      var content = document.querySelector('.content');
       if (!content) return;
 
-      const firstH2 = content.querySelector('h2');
-      if (firstH2 && firstH2.textContent?.trim().toUpperCase() === 'TL;DR') {
+      var firstH2 = content.querySelector('h2');
+      if (firstH2 && firstH2.textContent && firstH2.textContent.trim().toUpperCase() === 'TL;DR') {
         // Create styled TL;DR badge
-        const badge = document.createElement('div');
+        var badge = document.createElement('div');
         badge.className = 'tldr-badge';
         badge.textContent = 'TL;DR';
 
         // Create wrapper for the entire TL;DR section
-        const wrapper = document.createElement('div');
+        var wrapper = document.createElement('div');
         wrapper.className = 'tldr-section';
 
         // Find the intro text and bullet list
-        let nextEl = firstH2.nextElementSibling;
-        const elementsToWrap: Element[] = [];
+        var nextEl = firstH2.nextElementSibling;
+        var elementsToWrap = [];
 
         while (nextEl && nextEl.tagName !== 'H2' && nextEl.tagName !== 'HR') {
           elementsToWrap.push(nextEl);
@@ -127,11 +127,15 @@ const typeLabels: Record<string, string> = {
 
         // Build the wrapper
         wrapper.appendChild(badge);
-        elementsToWrap.forEach(el => wrapper.appendChild(el.cloneNode(true)));
+        for (var i = 0; i < elementsToWrap.length; i++) {
+          wrapper.appendChild(elementsToWrap[i].cloneNode(true));
+        }
 
         // Replace original elements
-        firstH2.replaceWith(wrapper);
-        elementsToWrap.forEach(el => el.remove());
+        firstH2.parentNode.replaceChild(wrapper, firstH2);
+        for (var j = 0; j < elementsToWrap.length; j++) {
+          elementsToWrap[j].parentNode.removeChild(elementsToWrap[j]);
+        }
       }
     });
   </script>
