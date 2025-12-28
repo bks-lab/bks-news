@@ -116,6 +116,14 @@ export function getLanguageFromUrl(url: URL): Language {
   return 'de';
 }
 
+// Page name mappings for different languages
+const pageNameMappings: Record<string, Record<Language, string>> = {
+  'datenschutz': { de: 'datenschutz', en: 'privacy' },
+  'privacy': { de: 'datenschutz', en: 'privacy' },
+  'impressum': { de: 'impressum', en: 'imprint' },
+  'imprint': { de: 'impressum', en: 'imprint' },
+};
+
 export function getLocalizedPath(path: string, lang: Language): string {
   // Normalize path - ensure trailing slash and handle edge cases
   let normalizedPath = path;
@@ -131,7 +139,21 @@ export function getLocalizedPath(path: string, lang: Language): string {
   }
 
   // Remove existing language prefix
-  const cleanPath = normalizedPath.replace(/^\/bks-news\/en\//, '/bks-news/');
+  let cleanPath = normalizedPath.replace(/^\/bks-news\/en\//, '/bks-news/');
+
+  // Check for page name mappings (e.g., datenschutz <-> privacy)
+  for (const [key, mapping] of Object.entries(pageNameMappings)) {
+    const dePattern = new RegExp(`/bks-news/${mapping.de}/?$`);
+    const enPattern = new RegExp(`/bks-news/${mapping.en}/?$`);
+
+    if (dePattern.test(cleanPath) || enPattern.test(cleanPath)) {
+      const targetName = mapping[lang];
+      if (lang === 'en') {
+        return `/bks-news/en/${targetName}/`;
+      }
+      return `/bks-news/${targetName}/`;
+    }
+  }
 
   // Ensure trailing slash
   const pathWithSlash = cleanPath.endsWith('/') ? cleanPath : cleanPath + '/';

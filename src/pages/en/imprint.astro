@@ -1,0 +1,166 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const lang = 'en';
+---
+
+<Base title="Imprint" description="Imprint and legal information for BKS News" lang={lang}>
+  <article class="legal">
+    <a href="/bks-news/en/" class="back">&larr; Back</a>
+    <h1>Imprint</h1>
+    <p class="meta">Legal information according to § 5 DDG (German Digital Services Act)</p>
+
+    <section>
+      <h2>Operator</h2>
+      <p>
+        <strong>Boiman Kupermann Solutions GmbH</strong><br>
+        Im Zollhafen 12<br>
+        50678 Cologne, Germany
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        <strong>Phone:</strong> +49 (0)178 189 87 91<br>
+        <strong>Email:</strong> info@boiman-kupermann.com<br>
+        <strong>Website:</strong> <a href="https://www.boiman-kupermann.com" target="_blank" rel="noopener">www.boiman-kupermann.com</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Represented by</h2>
+      <p><strong>Authorized Managing Director:</strong> Lior Boiman</p>
+    </section>
+
+    <section>
+      <h2>Commercial Register</h2>
+      <p>
+        <strong>Registration in the Commercial Register</strong><br>
+        Registry Court: Amtsgericht Köln (Local Court Cologne)<br>
+        Registration Number: HRB 117126
+      </p>
+    </section>
+
+    <section>
+      <h2>VAT ID</h2>
+      <p>
+        <strong>VAT Identification Number according to § 27 a UStG:</strong><br>
+        DE365333309
+      </p>
+    </section>
+
+    <section>
+      <h2>Editorial Responsibility</h2>
+      <p>
+        <strong>Responsible for content according to § 18 para. 2 MStV:</strong><br>
+        Lior Boiman<br>
+        Im Zollhafen 12<br>
+        50678 Cologne, Germany
+      </p>
+    </section>
+
+    <section>
+      <h2>Data Protection Officer</h2>
+      <p>
+        <strong>Name:</strong> Michael Kupermann<br>
+        <strong>Address:</strong> Luegallee 118, 40545 Düsseldorf, Germany<br>
+        <strong>Email:</strong> datenschutz@kupermann.com<br>
+        <em>Data Protection Officer - TÜV Nord Certified</em>
+      </p>
+    </section>
+
+    <section>
+      <h2>Disclaimer</h2>
+
+      <h3>Liability for Content</h3>
+      <p>
+        As a service provider, we are responsible for our own content on these pages in accordance with general legislation pursuant to § 7 para. 1 DDG. However, according to §§ 8 to 10 DDG, we as a service provider are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.
+      </p>
+      <p>
+        Obligations to remove or block the use of information under general law remain unaffected. However, liability in this regard is only possible from the time of knowledge of a specific legal violation. Upon becoming aware of corresponding legal violations, we will remove this content immediately.
+      </p>
+
+      <h3>Liability for Links</h3>
+      <p>
+        Our offer contains links to external third-party websites, over whose content we have no influence. Therefore, we cannot assume any liability for this third-party content. The respective provider or operator of the pages is always responsible for the content of the linked pages.
+      </p>
+      <p>
+        The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognizable at the time of linking. However, permanent content control of the linked pages is not reasonable without concrete evidence of a legal violation.
+      </p>
+      <p>
+        <strong>Upon becoming aware of legal violations, we will remove such links immediately.</strong> If you encounter a link that refers to an illegal website, please notify us at info@boiman-kupermann.com.
+      </p>
+
+      <h3>Copyright</h3>
+      <p>
+        The content and works created by the site operators on these pages are subject to German copyright law. Reproduction, processing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use.
+      </p>
+      <p>
+        Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is marked as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. Upon becoming aware of legal violations, we will remove such content immediately.
+      </p>
+
+      <h3>AI-Generated Content</h3>
+      <p>
+        The editorial content of this website is researched and created using Artificial Intelligence (AI). Despite careful review, we cannot guarantee the accuracy, completeness, and timeliness of the information provided. Use of the content is at the reader's own risk.
+      </p>
+    </section>
+
+    <p class="update-note">Last updated: December 2025</p>
+  </article>
+</Base>
+
+<style>
+  .legal {
+    max-width: 680px;
+  }
+
+  .back {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    color: var(--color-muted);
+    text-decoration: none;
+  }
+
+  .back:hover {
+    color: var(--color-accent);
+  }
+
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .meta {
+    color: var(--color-muted);
+    margin-bottom: 2rem;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    color: var(--color-text);
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 0.75rem;
+  }
+
+  .update-note {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-border);
+    color: var(--color-muted);
+    font-size: 0.85rem;
+  }
+</style>
