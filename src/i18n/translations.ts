@@ -117,13 +117,29 @@ export function getLanguageFromUrl(url: URL): Language {
 }
 
 export function getLocalizedPath(path: string, lang: Language): string {
-  // Remove any existing language prefix
-  const cleanPath = path.replace(/^\/bks-news\/(en\/)?/, '/bks-news/');
+  // Normalize path - ensure trailing slash and handle edge cases
+  let normalizedPath = path;
+
+  // Handle root paths
+  if (normalizedPath === '/bks-news' || normalizedPath === '/bks-news/') {
+    return lang === 'en' ? '/bks-news/en/' : '/bks-news/';
+  }
+
+  // Handle /bks-news/en or /bks-news/en/
+  if (normalizedPath === '/bks-news/en' || normalizedPath === '/bks-news/en/') {
+    return lang === 'en' ? '/bks-news/en/' : '/bks-news/';
+  }
+
+  // Remove existing language prefix
+  const cleanPath = normalizedPath.replace(/^\/bks-news\/en\//, '/bks-news/');
+
+  // Ensure trailing slash
+  const pathWithSlash = cleanPath.endsWith('/') ? cleanPath : cleanPath + '/';
 
   if (lang === 'en') {
-    return cleanPath.replace('/bks-news/', '/bks-news/en/');
+    return pathWithSlash.replace('/bks-news/', '/bks-news/en/');
   }
-  return cleanPath;
+  return pathWithSlash;
 }
 
 export function getAlternateLanguagePath(currentPath: string, currentLang: Language): string {
