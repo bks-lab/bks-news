@@ -31,7 +31,6 @@ This week in 30 seconds:
 
 ## The Story of the Week
 
-![MCP Agentic AI Foundation](https://www.linuxfoundation.org/hubfs/AAIF-logo.png)
 
 ### MCP Becomes Universal Standard – and the Entire Industry is Joining In
 
@@ -57,7 +56,6 @@ The timing is no accident: the shift from chat to agents requires interoperabili
 
 ### GPT-5.2: OpenAI's Response to Code Red
 
-![GPT-5.2](https://cdn.openai.com/gpt-5-2/hero.jpg)
 
 Just 10 days after the internal "Code Red" memo, OpenAI delivered GPT-5.2 on December 11 – along with the specialized GPT-5.2 Codex for software engineering.
 
@@ -81,7 +79,6 @@ Pricing: $1.75 input / $14 output per 1M tokens – more expensive than Gemini 3
 
 ### Disney Opens 200+ Characters for Sora
 
-![Disney Sora](https://variety.com/wp-content/uploads/2025/12/disney-sora-deal.jpg)
 
 The month's most surprising partnership: Disney and OpenAI are allowing users to generate videos featuring over 200 Disney characters via Sora – from Mickey Mouse to Marvel heroes.
 
@@ -93,7 +90,6 @@ This is a radical shift for Disney, which has traditionally guarded its IP like 
 
 ### Trump's AI Executive Order: Federal vs. State
 
-![Trump AI Policy](https://www.whitehouse.gov/wp-content/uploads/2025/12/ai-policy-signing.jpg)
 
 On December 11, President Trump signed the Executive Order "Ensuring a National Policy Framework for Artificial Intelligence". The core message: **Federal law should override State laws.**
 
@@ -125,7 +121,6 @@ In Brief:
 
 ## Tool of the Week
 
-![Gemini Deep Research](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini3Flash_Social.width-1300.png)
 
 **Gemini Deep Research** - PhD-Level Research on Demand
 
@@ -143,7 +138,6 @@ The game changer: you can now embed Deep Research directly in your own apps. Ins
 
 ## Fail of the Week
 
-![State AI Laws](https://media.wired.com/photos/ai-regulation-chaos.jpg)
 
 **1,000+ AI Laws in 47 States – and No Overview**
 

@@ -31,7 +31,6 @@ This week in 30 seconds:
 
 ## The Story of the Week
 
-![AI Hype Correction](https://cdn.technologyreview.com/i/images/ai-hype-2025-mit.jpg)
 
 ### 2025: The Year of AI Reckoning
 
@@ -59,7 +58,6 @@ Ng's assessment is particularly striking because he's one of the biggest AI enth
 
 ### 55,000 Jobs: AI as Reason for Termination
 
-![AI Layoffs](https://media.cnbc.com/api/v1/image/108053842-1731449295987-gettyimages-2180958997-AFP_36NR8ZB.jpeg)
 
 The numbers are in: **55,000 layoffs in the US were explicitly attributed to AI in 2025.** According to Challenger, Gray & Christmas, this is the highest count since tracking began.
 
@@ -78,7 +76,6 @@ CEO Marc Benioff was blunt about it: "AI has flattened hiring needs." Salesforce
 
 ### NY RAISE Act: Transparency Becomes Mandatory
 
-![NY RAISE Act](https://www.governor.ny.gov/sites/default/files/styles/full_width/public/2025-12/raise-act-signing.jpg)
 
 On December 19th, Governor Kathy Hochul signed the **RAISE Act** – the first US state law mandating transparency for frontier AI models.
 
@@ -95,7 +92,6 @@ The law targets "large AI developers" – meaning OpenAI, Anthropic, Google, Met
 
 ### Anthropic: DOE Partnership for Science
 
-![Anthropic Genesis Mission](https://www.anthropic.com/images/news/genesis-mission.jpg)
 
 Anthropic and the US Department of Energy announced the "Genesis Mission" – a multi-year partnership to bring AI to all 17 national laboratories.
 
@@ -125,7 +121,6 @@ Quick notes:
 
 ## Tool of the Week
 
-![ChatGPT Images](https://cdn.openai.com/images/chatgpt-images-hero.jpg)
 
 **ChatGPT Images 1.5** - Image generation reimagined
 
@@ -144,7 +139,6 @@ The use case: product mockups, social media content, presentations – anything 
 
 ## Fail of the Week
 
-![AI Job Displacement](https://media.wired.com/photos/ai-jobs-displacement.jpg)
 
 **Stanford Study: 20% fewer junior developer jobs since 2022**
 

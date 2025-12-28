@@ -33,7 +33,6 @@ This week in 30 seconds:
 
 ## The Story of the Week
 
-![OpenAI Code Red](https://fortune.com/img-assets/wp-content/uploads/2025/12/OpenAI-Google-Code-Red.jpg)
 
 ### OpenAI declares "Code Red" – and this is no hype
 
@@ -57,7 +56,6 @@ OpenAI's response came quickly: GPT-5.2 on December 11 – just one month after 
 
 ### Gemini 3 Flash becomes the new standard
 
-![Gemini 3 Flash](https://techcrunch.com/wp-content/uploads/2025/12/gemini-3_flash_model_blog_header_dark_bleed_2096x1182.jpeg)
 
 On December 17, Google made Gemini 3 Flash the default model in the Gemini App and Google Search – worldwide. The benchmarks justify it: 81.2% on MMMU-Pro (multimodality), 78% on SWE-bench (coding), and 90.4% on GPQA Diamond (PhD-level reasoning). The pricing? $0.50 per 1M input tokens, $3.00 per 1M output tokens – and 3x faster than Gemini 2.5 Pro.
 
@@ -67,7 +65,6 @@ Tulsee Doshi, Senior Director at Google: "Flash is just a much cheaper offering 
 
 ### The craziest 25 days in AI history
 
-![AI Model Race](https://vertu-website-oss.vertu.com/2025/12/model-12.15.webp)
 
 From November 17 to December 11, 2025, something unprecedented happened: four frontier models within 25 days. xAI's Grok 4.1 (November 17), Google's Gemini 3 (November 18), Anthropic's Claude Opus 4.5 (November 24), and OpenAI's GPT-5.2 (December 11).
 
@@ -77,7 +74,6 @@ The industry has transformed from "question-answering systems" to "autonomous ag
 
 ### Nvidia acquires Groq for $20 billion – biggest deal ever
 
-![Nvidia Groq](https://image.cnbcfm.com/api/v1/image/nvidia-groq-deal.jpg)
 
 On Christmas Eve, Nvidia announced the largest acquisition in the company's history: **$20 billion in cash** for Groq, the AI chip challenger specializing in low-latency inference.
 
@@ -119,7 +115,6 @@ Briefly noted:
 
 ## Tool of the Week
 
-![Gemini Deep Research](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini3Flash_Social.width-1300.png)
 
 **Gemini Deep Research** - Reimagined research agent based on Gemini 3 Pro
 
@@ -131,7 +126,6 @@ Who should use it: Anyone spending more than 30 minutes on research. [Learn more
 
 ## Fail of the Week
 
-![AI Slop Social Media](https://images.euronews.com/articles/stories/09/58/08/19/1200x675_cmsv2_ab702385-f1d7-5706-bdbe-97fa1b23f67d-9580819.jpg)
 
 **"AI Slop" takes over social media**
 

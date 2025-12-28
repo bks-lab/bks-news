@@ -29,7 +29,6 @@ This week in 30 seconds:
 
 ## The Story of the Week
 
-![Anthropic Bun Acquisition](https://bun.com/blog/bun-joins-anthropic/og.png)
 
 ### Anthropic Makes Its First Deal – And It's Strategically Brilliant
 
@@ -55,7 +54,6 @@ Bun founder Jarred Sumner and his team remain on board and continue working on t
 
 ### AWS re:Invent 2025: The Era of Frontier Agents Begins
 
-![AWS re:Invent](https://m.media-amazon.com/images/G/01/DeveloperBlogs/AmazonDeveloperBlogs/default/reinvent_2025.png)
 
 From December 1-5, AWS transformed Las Vegas into an AI hub once again. The clear message: **Agents are the new paradigm.**
 
@@ -72,7 +70,6 @@ Amazon Nova 2 brings three new models: Pro (Reasoning), Sonic (Voice), Omni (Mul
 
 ### OpenAI Declares "Code Red"
 
-![OpenAI Code Red](https://image.cnbcfm.com/api/v1/image/108060960-1732656159215-gettyimages-2154802590-AFP_34PA8L8.jpeg)
 
 On December 2, Sam Altman sent an internal memo with the subject "Code Red." The message: ChatGPT is losing ground to Gemini.
 
@@ -100,7 +97,6 @@ Briefly noted:
 
 ## Tool of the Week
 
-![Kiro Autonomous Agent](https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/12/02/kiro-agent.png)
 
 **Kiro Autonomous Agent** - The Developer Who Never Sleeps
 
@@ -114,7 +110,6 @@ Who should use it: Teams that want to automate recurring development tasks – f
 
 ## Fail of the Week
 
-![Enterprise AI Reality](https://cdn.technologyreview.com/i/images/ai-hype-2025.jpg)
 
 **MIT Study: 95% of Enterprise AI Pilots Deliver Zero Value**
 
