@@ -1,0 +1,118 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import TagCloud from '../../components/TagCloud.astro';
+import TagLink from '../../components/TagLink.astro';
+import { t } from '../../i18n/translations';
+
+const lang = 'en';
+
+const briefings = await getCollection('briefings-en', ({ data }) => !data.draft);
+const sortedBriefings = briefings.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Aggregate all tags with counts
+const tagCounts = new Map<string, number>();
+briefings.forEach(briefing => {
+  briefing.data.tags.forEach(tag => {
+    const normalizedTag = tag.toLowerCase();
+    tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
+  });
+});
+
+const allTags = Array.from(tagCounts.entries())
+  .map(([tag, count]) => ({ tag, count }))
+  .sort((a, b) => b.count - a.count);
+
+const typeLabels: Record<string, string> = {
+  weekly: t('type.weekly', lang),
+  breaking: t('type.breaking', lang),
+  research: t('type.research', lang),
+  digest: t('type.digest', lang)
+};
+---
+
+<Base title="AI Briefings" lang={lang}>
+  <header>
+    <h1>{t('index.title', lang)}</h1>
+    <p class="meta">{t('index.subtitle', lang)}</p>
+  </header>
+
+  {allTags.length > 0 && (
+    <TagCloud tags={allTags} showCounts={true} limit={10} basePath="/bks-news/en/tags" label="Topics:" moreLabel="more" />
+  )}
+
+  {sortedBriefings.length === 0 ? (
+    <p>{t('index.noBriefings', lang)}</p>
+  ) : (
+    <ul class="briefing-list">
+      {sortedBriefings.map((briefing) => (
+        <li class="briefing-item">
+          <a href={`/bks-news/en/briefings/${briefing.slug}/`} class="briefing-link">
+            <span class="date">{briefing.data.date.toLocaleDateString('en-US')}</span>
+            <span class="type tag">{typeLabels[briefing.data.type] || briefing.data.type}</span>
+            <span class="title">{briefing.data.title}</span>
+          </a>
+          {briefing.data.description && (
+            <p class="description">{briefing.data.description}</p>
+          )}
+          {briefing.data.tags.length > 0 && (
+            <div class="tags">
+              {briefing.data.tags.map((tag: string) => (
+                <TagLink tag={tag} size="sm" basePath="/bks-news/en/tags" />
+              ))}
+            </div>
+          )}
+        </li>
+      ))}
+    </ul>
+  )}
+
+</Base>
+
+<style>
+  header {
+    margin-bottom: 2rem;
+  }
+
+  .briefing-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .briefing-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .briefing-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .date {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    min-width: 100px;
+  }
+
+  .title {
+    color: var(--color-text);
+    font-weight: 500;
+  }
+
+  .description {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-left: 0;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+</style>

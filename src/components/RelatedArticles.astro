@@ -1,15 +1,25 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import TagLink from './TagLink.astro';
+import type { Language } from '../i18n/translations';
 
 interface Props {
   currentSlug: string;
   currentTags: string[];
-  allBriefings: CollectionEntry<'briefings'>[];
+  allBriefings: CollectionEntry<'briefings' | 'briefings-en'>[];
   limit?: number;
+  basePath?: string;
+  lang?: Language;
 }
 
-const { currentSlug, currentTags, allBriefings, limit = 3 } = Astro.props;
+const {
+  currentSlug,
+  currentTags,
+  allBriefings,
+  limit = 3,
+  basePath = '/bks-news/briefings',
+  lang = 'de'
+} = Astro.props;
 
 // Find related articles based on shared tags
 const relatedArticles = allBriefings
@@ -41,24 +51,28 @@ const typeLabels: Record<string, string> = {
   research: 'Research',
   digest: 'Digest'
 };
+
+const title = lang === 'en' ? 'Related Articles' : 'Verwandte Artikel';
+const tagBasePath = lang === 'en' ? '/bks-news/en/tags' : '/bks-news/tags';
+const dateLocale = lang === 'en' ? 'en-US' : 'de-DE';
 ---
 
 {relatedArticles.length > 0 && (
   <aside class="related-articles">
-    <h3>Verwandte Artikel</h3>
+    <h3>{title}</h3>
     <ul>
       {relatedArticles.map(({ briefing, sharedTags }) => (
         <li>
-          <a href={`/bks-news/briefings/${briefing.slug}/`} class="related-link">
+          <a href={`${basePath}/${briefing.slug}/`} class="related-link">
             <span class="related-meta">
-              <span class="date">{briefing.data.date.toLocaleDateString('de-DE')}</span>
+              <span class="date">{briefing.data.date.toLocaleDateString(dateLocale)}</span>
               <span class="type">{typeLabels[briefing.data.type] || briefing.data.type}</span>
             </span>
             <span class="related-title">{briefing.data.title}</span>
           </a>
           <div class="shared-tags">
             {sharedTags.map((tag: string) => (
-              <TagLink tag={tag} size="sm" />
+              <TagLink tag={tag} size="sm" basePath={tagBasePath} />
             ))}
           </div>
         </li>

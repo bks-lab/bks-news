@@ -6,9 +6,20 @@ interface Props {
   activeTag?: string;
   showCounts?: boolean;
   limit?: number;
+  basePath?: string;
+  label?: string;
+  moreLabel?: string;
 }
 
-const { tags, activeTag, showCounts = true, limit } = Astro.props;
+const {
+  tags,
+  activeTag,
+  showCounts = true,
+  limit,
+  basePath = '/bks-news/tags',
+  label = 'Themen:',
+  moreLabel = 'mehr'
+} = Astro.props;
 
 // Sort by count (descending), then alphabetically
 const sortedTags = [...tags]
@@ -18,18 +29,19 @@ const displayTags = limit ? sortedTags.slice(0, limit) : sortedTags;
 ---
 
 <div class="tag-cloud">
-  <span class="label">Themen:</span>
+  <span class="label">{label}</span>
   <div class="tags">
     {displayTags.map(({ tag, count }) => (
       <TagLink
         tag={tag}
         count={showCounts ? count : undefined}
         active={activeTag === tag}
+        basePath={basePath}
       />
     ))}
     {limit && sortedTags.length > limit && (
-      <a href="/bks-news/tags/" class="more-link">
-        +{sortedTags.length - limit} mehr
+      <a href={`${basePath}/`} class="more-link">
+        +{sortedTags.length - limit} {moreLabel}
       </a>
     )}
   </div>

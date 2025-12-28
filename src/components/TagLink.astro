@@ -4,9 +4,10 @@ interface Props {
   count?: number;
   size?: 'sm' | 'md' | 'lg';
   active?: boolean;
+  basePath?: string;
 }
 
-const { tag, count, size = 'md', active = false } = Astro.props;
+const { tag, count, size = 'md', active = false, basePath = '/bks-news/tags' } = Astro.props;
 
 const sizeClasses = {
   sm: 'tag-sm',
@@ -16,7 +17,7 @@ const sizeClasses = {
 ---
 
 <a
-  href={`/bks-news/tags/${tag.toLowerCase()}/`}
+  href={`${basePath}/${tag.toLowerCase()}/`}
   class:list={['tag-link', sizeClasses[size], { active }]}
 >
   {tag}

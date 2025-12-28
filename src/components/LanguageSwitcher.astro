@@ -1,0 +1,44 @@
+---
+import { languages, getLanguageFromUrl, getAlternateLanguagePath, type Language } from '../i18n/translations';
+
+const currentLang = getLanguageFromUrl(Astro.url);
+const alternateLang: Language = currentLang === 'de' ? 'en' : 'de';
+const alternatePath = getAlternateLanguagePath(Astro.url.pathname, currentLang);
+---
+
+<div class="language-switcher">
+  <span class="current-lang">{languages[currentLang]}</span>
+  <span class="separator">/</span>
+  <a href={alternatePath} class="alt-lang" hreflang={alternateLang}>
+    {languages[alternateLang]}
+  </a>
+</div>
+
+<style>
+  .language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.85rem;
+  }
+
+  .current-lang {
+    color: var(--color-text);
+    font-weight: 500;
+  }
+
+  .separator {
+    color: var(--color-muted);
+  }
+
+  .alt-lang {
+    color: var(--color-muted);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .alt-lang:hover {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+</style>

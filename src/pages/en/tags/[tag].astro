@@ -1,0 +1,170 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import TagLink from '../../../components/TagLink.astro';
+import { t } from '../../../i18n/translations';
+
+const lang = 'en';
+
+export async function getStaticPaths() {
+  const briefings = await getCollection('briefings-en', ({ data }) => !data.draft);
+
+  // Get all unique tags
+  const allTags = new Set<string>();
+  briefings.forEach(briefing => {
+    briefing.data.tags.forEach(tag => allTags.add(tag.toLowerCase()));
+  });
+
+  // Generate a page for each tag
+  return Array.from(allTags).map(tag => ({
+    params: { tag },
+    props: { tag }
+  }));
+}
+
+const { tag } = Astro.props;
+
+// Get all briefings with this tag
+const allBriefings = await getCollection('briefings-en', ({ data }) => !data.draft);
+const briefings = allBriefings
+  .filter(b => b.data.tags.some(t => t.toLowerCase() === tag))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Get all tags for the sidebar
+const tagCounts = new Map<string, number>();
+allBriefings.forEach(briefing => {
+  briefing.data.tags.forEach(t => {
+    const normalizedTag = t.toLowerCase();
+    tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
+  });
+});
+
+const allTags = Array.from(tagCounts.entries())
+  .map(([t, count]) => ({ tag: t, count }))
+  .sort((a, b) => b.count - a.count);
+
+const typeLabels: Record<string, string> = {
+  weekly: t('type.weekly', lang),
+  breaking: t('type.breaking', lang),
+  research: t('type.research', lang),
+  digest: t('type.digest', lang)
+};
+---
+
+<Base title={`${tag} - Topic`} description={`All articles about "${tag}"`} lang={lang}>
+  <header>
+    <a href="/bks-news/en/tags/" class="back">&larr; {t('tags.backToTags', lang)}</a>
+    <h1>#{tag}</h1>
+    <p class="meta">{briefings.length} {briefings.length === 1 ? 'article' : 'articles'}</p>
+  </header>
+
+  <div class="related-tags">
+    <span class="label">More topics:</span>
+    {allTags.filter(t => t.tag !== tag).slice(0, 8).map(({ tag: t, count }) => (
+      <TagLink tag={t} size="sm" basePath="/bks-news/en/tags" />
+    ))}
+  </div>
+
+  {briefings.length === 0 ? (
+    <p>No articles found for this topic.</p>
+  ) : (
+    <ul class="briefing-list">
+      {briefings.map((briefing) => (
+        <li class="briefing-item">
+          <a href={`/bks-news/en/briefings/${briefing.slug}/`}>
+            <span class="date">{briefing.data.date.toLocaleDateString('en-US')}</span>
+            <span class="type tag">{typeLabels[briefing.data.type] || briefing.data.type}</span>
+            <span class="title">{briefing.data.title}</span>
+          </a>
+          {briefing.data.description && (
+            <p class="description">{briefing.data.description}</p>
+          )}
+          <div class="tags">
+            {briefing.data.tags.map((t: string) => (
+              <TagLink tag={t} size="sm" active={t.toLowerCase() === tag} basePath="/bks-news/en/tags" />
+            ))}
+          </div>
+        </li>
+      ))}
+    </ul>
+  )}
+</Base>
+
+<style>
+  header {
+    margin-bottom: 2rem;
+  }
+
+  .back {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: var(--color-muted);
+    text-decoration: none;
+  }
+
+  .back:hover {
+    color: var(--color-accent);
+  }
+
+  h1 {
+    color: var(--color-accent);
+  }
+
+  .related-tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: var(--color-card-bg);
+    border-radius: 8px;
+  }
+
+  .label {
+    color: var(--color-muted);
+    font-size: 0.8rem;
+  }
+
+  .briefing-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .briefing-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .briefing-item a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+
+  .date {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    min-width: 100px;
+  }
+
+  .title {
+    color: var(--color-text);
+    font-weight: 500;
+  }
+
+  .description {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+</style>

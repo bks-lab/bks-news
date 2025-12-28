@@ -1,0 +1,95 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import TagLink from '../../../components/TagLink.astro';
+import { t } from '../../../i18n/translations';
+
+const lang = 'en';
+
+const briefings = await getCollection('briefings-en', ({ data }) => !data.draft);
+
+// Aggregate all tags with counts
+const tagCounts = new Map<string, number>();
+briefings.forEach(briefing => {
+  briefing.data.tags.forEach(tag => {
+    const normalizedTag = tag.toLowerCase();
+    tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
+  });
+});
+
+// Convert to array and sort by count
+const sortedTags = Array.from(tagCounts.entries())
+  .map(([tag, count]) => ({ tag, count }))
+  .sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag));
+
+const totalArticles = briefings.length;
+---
+
+<Base title={t('tags.title', lang)} description={t('tags.description', lang)} lang={lang}>
+  <header>
+    <a href="/bks-news/en/" class="back">&larr; Back</a>
+    <h1>{t('tags.title', lang)}</h1>
+    <p class="meta">{sortedTags.length} topics in {totalArticles} articles</p>
+  </header>
+
+  <div class="tag-grid">
+    {sortedTags.map(({ tag, count }) => (
+      <a href={`/bks-news/en/tags/${tag}/`} class="tag-card">
+        <span class="tag-name">{tag}</span>
+        <span class="tag-count">{count} {count === 1 ? 'article' : 'articles'}</span>
+      </a>
+    ))}
+  </div>
+</Base>
+
+<style>
+  header {
+    margin-bottom: 2rem;
+  }
+
+  .back {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: var(--color-muted);
+    text-decoration: none;
+  }
+
+  .back:hover {
+    color: var(--color-accent);
+  }
+
+  .tag-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+
+  .tag-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem;
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+
+  .tag-card:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+  .tag-name {
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .tag-count {
+    color: var(--color-muted);
+    font-size: 0.8rem;
+  }
+</style>

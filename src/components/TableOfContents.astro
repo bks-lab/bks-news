@@ -5,17 +5,18 @@ interface Props {
     slug: string;
     text: string;
   }>;
+  label?: string;
 }
 
-const { headings } = Astro.props;
+const { headings, label = 'Inhalt:' } = Astro.props;
 
 // Only include h2 headings (main sections)
 const tocItems = headings.filter(h => h.depth === 2);
 ---
 
 {tocItems.length > 2 && (
-  <nav class="toc" aria-label="Inhaltsverzeichnis">
-    <span class="toc-label">Inhalt:</span>
+  <nav class="toc" aria-label={label.replace(':', '')}>
+    <span class="toc-label">{label}</span>
     <ul>
       {tocItems.map((heading, index) => (
         <li>

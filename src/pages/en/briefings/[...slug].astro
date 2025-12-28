@@ -1,13 +1,16 @@
 ---
 import { getCollection } from 'astro:content';
-import Base from '../../layouts/Base.astro';
-import TableOfContents from '../../components/TableOfContents.astro';
-import ScrollToTop from '../../components/ScrollToTop.astro';
-import TagLink from '../../components/TagLink.astro';
-import RelatedArticles from '../../components/RelatedArticles.astro';
+import Base from '../../../layouts/Base.astro';
+import TableOfContents from '../../../components/TableOfContents.astro';
+import ScrollToTop from '../../../components/ScrollToTop.astro';
+import TagLink from '../../../components/TagLink.astro';
+import RelatedArticles from '../../../components/RelatedArticles.astro';
+import { t } from '../../../i18n/translations';
+
+const lang = 'en';
 
 export async function getStaticPaths() {
-  const briefings = await getCollection('briefings');
+  const briefings = await getCollection('briefings-en');
   return briefings.map((entry) => ({
     params: { slug: entry.slug },
     props: { entry }
@@ -18,7 +21,7 @@ const { entry } = Astro.props;
 const { Content, headings } = await entry.render();
 
 // Get all briefings for prev/next navigation
-const allBriefings = (await getCollection('briefings'))
+const allBriefings = (await getCollection('briefings-en'))
   .filter(b => !b.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
@@ -31,23 +34,23 @@ const words = entry.body.split(/\s+/).length;
 const readingTime = Math.ceil(words / 200);
 
 const typeLabels: Record<string, string> = {
-  weekly: 'Weekly Briefing',
-  breaking: 'Breaking News',
-  research: 'Research',
-  digest: 'Digest'
+  weekly: t('type.weekly', lang),
+  breaking: t('type.breaking', lang),
+  research: t('type.research', lang),
+  digest: t('type.digest', lang)
 };
 ---
 
-<Base title={entry.data.title} description={entry.data.description} heroImage={entry.data.heroImage}>
+<Base title={entry.data.title} description={entry.data.description} heroImage={entry.data.heroImage} lang={lang}>
   <article>
     <header>
       <div class="header-meta">
         <span class="tag">{typeLabels[entry.data.type] || entry.data.type}</span>
-        <span class="reading-time">{readingTime} Min. Lesezeit</span>
+        <span class="reading-time">{readingTime} {t('article.readingTime', lang)}</span>
       </div>
       <h1>{entry.data.title}</h1>
       <p class="meta">
-        {entry.data.date.toLocaleDateString('de-DE', {
+        {entry.data.date.toLocaleDateString('en-US', {
           weekday: 'long',
           year: 'numeric',
           month: 'long',
@@ -57,7 +60,7 @@ const typeLabels: Record<string, string> = {
       {entry.data.tags.length > 0 && (
         <div class="tags">
           {entry.data.tags.map((tag: string) => (
-            <TagLink tag={tag} />
+            <TagLink tag={tag} basePath="/bks-news/en/tags" />
           ))}
         </div>
       )}
@@ -70,11 +73,11 @@ const typeLabels: Record<string, string> = {
           <path d="M15 13v2"/>
           <path d="M9 13v2"/>
         </svg>
-        <span>Dieser Artikel wurde mit KI recherchiert und erstellt</span>
+        <span>{t('article.aiDisclosure', lang)}</span>
       </div>
     </header>
 
-    <TableOfContents headings={headings} />
+    <TableOfContents headings={headings} label={t('toc.title', lang)} />
 
     <div class="content">
       <Content />
@@ -82,7 +85,7 @@ const typeLabels: Record<string, string> = {
 
     {entry.data.sources && entry.data.sources.length > 0 && (
       <div class="sources">
-        <h3>Quellen</h3>
+        <h3>{t('article.sources', lang)}</h3>
         <div class="sources-grid">
           {entry.data.sources.map((source: { title: string; url: string }) => (
             <a href={source.url} target="_blank" rel="noopener" class="source-card">
@@ -98,18 +101,20 @@ const typeLabels: Record<string, string> = {
       currentSlug={entry.slug}
       currentTags={entry.data.tags}
       allBriefings={allBriefings}
+      basePath="/bks-news/en/briefings"
+      lang={lang}
     />
 
     <nav class="briefing-nav">
       {prevBriefing && (
-        <a href={`/bks-news/briefings/${prevBriefing.slug}/`} class="nav-prev">
-          <span class="nav-label">&larr; Vorher</span>
+        <a href={`/bks-news/en/briefings/${prevBriefing.slug}/`} class="nav-prev">
+          <span class="nav-label">&larr; {t('article.prevArticle', lang)}</span>
           <span class="nav-title">{prevBriefing.data.title}</span>
         </a>
       )}
       {nextBriefing && (
-        <a href={`/bks-news/briefings/${nextBriefing.slug}/`} class="nav-next">
-          <span class="nav-label">Neuer &rarr;</span>
+        <a href={`/bks-news/en/briefings/${nextBriefing.slug}/`} class="nav-next">
+          <span class="nav-label">{t('article.nextArticle', lang)} &rarr;</span>
           <span class="nav-title">{nextBriefing.data.title}</span>
         </a>
       )}
