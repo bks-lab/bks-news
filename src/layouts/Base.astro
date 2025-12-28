@@ -342,8 +342,8 @@ const fullTitle = `${title} | BKS News`;
         }
       }
 
-      /* Summary Section - Minimal, elegant styling */
-      #auf-einen-blick {
+      /* TL;DR Section - with hover tooltip */
+      #tldr {
         font-size: 0.75rem;
         font-weight: 600;
         text-transform: uppercase;
@@ -353,16 +353,45 @@ const fullTitle = `${title} | BKS News`;
         padding-bottom: 0.5rem;
         margin-bottom: 1rem;
         margin-top: 0;
+        cursor: help;
+        position: relative;
+        display: inline-block;
       }
 
-      #auf-einen-blick + p {
+      #tldr::after {
+        content: 'Too Long; Didn\'t Read';
+        position: absolute;
+        left: 0;
+        top: 100%;
+        margin-top: 0.5rem;
+        padding: 0.5rem 0.75rem;
+        background: var(--color-card-bg);
+        border: 1px solid var(--color-border);
+        border-radius: 6px;
+        font-size: 0.7rem;
+        font-style: italic;
+        text-transform: none;
+        letter-spacing: 0;
+        white-space: nowrap;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.2s, visibility 0.2s;
+        z-index: 10;
+      }
+
+      #tldr:hover::after {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      #tldr + p {
         color: var(--color-muted);
         font-size: 0.85rem;
         font-style: italic;
         margin-bottom: 1rem;
       }
 
-      #auf-einen-blick + p + ul {
+      #tldr + p + ul {
         background: var(--color-accent-subtle);
         border-left: 3px solid var(--color-accent);
         border-radius: 0 8px 8px 0;
@@ -371,19 +400,19 @@ const fullTitle = `${title} | BKS News`;
         margin: 0 0 2.5rem 0;
       }
 
-      #auf-einen-blick + p + ul li {
+      #tldr + p + ul li {
         padding: 0.6rem 0;
         border-bottom: 1px solid var(--color-border);
         margin: 0;
         line-height: 1.6;
       }
 
-      #auf-einen-blick + p + ul li:last-child {
+      #tldr + p + ul li:last-child {
         border-bottom: none;
         padding-bottom: 0;
       }
 
-      #auf-einen-blick + p + ul li strong {
+      #tldr + p + ul li strong {
         color: var(--color-text);
       }
     </style>

@@ -9,69 +9,57 @@ interface Props {
 
 const { headings } = Astro.props;
 
-// Filter to only include h2 and h3
-const tocItems = headings.filter(h => h.depth === 2 || h.depth === 3);
+// Only include h2 headings (main sections)
+const tocItems = headings.filter(h => h.depth === 2);
 ---
 
-{tocItems.length > 0 && (
-  <nav class="toc">
-    <details open>
-      <summary>Inhalt</summary>
-      <ul>
-        {tocItems.map((heading) => (
-          <li class={heading.depth === 3 ? 'toc-sub' : ''}>
-            <a href={`#${heading.slug}`}>{heading.text}</a>
-          </li>
-        ))}
-      </ul>
-    </details>
+{tocItems.length > 2 && (
+  <nav class="toc" aria-label="Inhaltsverzeichnis">
+    <span class="toc-label">Inhalt:</span>
+    <ul>
+      {tocItems.map((heading, index) => (
+        <li>
+          <a href={`#${heading.slug}`}>{heading.text}</a>
+          {index < tocItems.length - 1 && <span class="separator">·</span>}
+        </li>
+      ))}
+    </ul>
   </nav>
 )}
 
 <style>
   .toc {
-    background: #1a1a1a;
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    padding: 1rem 1.5rem;
-    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin: 1.5rem 0 2rem;
+    padding: 0;
+    font-size: 0.85rem;
   }
 
-  .toc summary {
-    font-weight: 600;
-    cursor: pointer;
-    color: var(--color-text);
-    font-size: 0.9rem;
+  .toc-label {
+    color: var(--color-muted);
+    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-  }
-
-  .toc summary::-webkit-details-marker {
-    display: none;
-  }
-
-  .toc summary::before {
-    content: '+ ';
-    color: var(--color-accent);
-  }
-
-  .toc[open] summary::before {
-    content: '- ';
+    margin-right: 0.25rem;
   }
 
   .toc ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem;
     list-style: none;
     padding: 0;
-    margin: 1rem 0 0 0;
+    margin: 0;
   }
 
   .toc li {
-    margin: 0.5rem 0;
-  }
-
-  .toc li.toc-sub {
-    margin-left: 1.5rem;
-    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin: 0;
   }
 
   .toc a {
@@ -81,11 +69,31 @@ const tocItems = headings.filter(h => h.depth === 2 || h.depth === 3);
   }
 
   .toc a:hover {
-    color: var(--color-accent);
+    color: var(--color-text);
+    text-decoration: underline;
   }
 
-  .toc li.toc-sub a {
-    color: var(--color-muted);
-    opacity: 0.8;
+  .separator {
+    color: var(--color-border);
+    margin: 0 0.5rem;
+    user-select: none;
+  }
+
+  @media (max-width: 600px) {
+    .toc {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .toc ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .separator {
+      display: none;
+    }
   }
 </style>
