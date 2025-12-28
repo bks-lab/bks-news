@@ -1,0 +1,191 @@
+---
+title: "AI Weekly - Week 50/2025"
+description: "MCP becomes Linux Foundation Standard, GPT-5.2 responds to Code Red, and Trump signs AI Executive Order"
+date: 2025-12-14
+tags: [ai, weekly, mcp, openai, anthropic, google, trump, policy, disney, sora]
+type: weekly
+sources:
+  - title: "Introducing GPT-5.2"
+    url: "https://openai.com/index/introducing-gpt-5-2/"
+  - title: "MCP joins the Agentic AI Foundation"
+    url: "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
+  - title: "Linux Foundation Agentic AI Foundation"
+    url: "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation"
+  - title: "Trump AI Executive Order"
+    url: "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/"
+  - title: "Disney-OpenAI Sora Deal"
+    url: "https://openai.com/news/"
+  - title: "Accenture-Anthropic Partnership"
+    url: "https://www.anthropic.com/news/anthropic-accenture-partnership"
+draft: false
+---
+
+## TL;DR
+
+This week in 30 seconds:
+- **Open Standard:** MCP donated to Linux Foundation – OpenAI, Google, Microsoft, AWS are joining
+- **GPT-5.2:** OpenAI's response to Code Red with 400K context and 93.2% GPQA Diamond
+- **Policy Bombshell:** Trump signs Executive Order against State AI laws
+
+---
+
+## The Story of the Week
+
+![MCP Agentic AI Foundation](https://www.linuxfoundation.org/hubfs/AAIF-logo.png)
+
+### MCP Becomes Universal Standard – and the Entire Industry is Joining In
+
+On December 9, 2025, something historic happened for the AI industry: Anthropic donated the Model Context Protocol (MCP) to the Linux Foundation. But that was just the beginning.
+
+The newly established **Agentic AI Foundation (AAIF)** unites the industry's biggest competitors for the first time: Anthropic, OpenAI, Google, Microsoft, AWS, Cloudflare, and Bloomberg as Platinum members. Three projects form the foundation:
+
+1. **MCP (Anthropic):** The universal standard for AI tool integration – over 10,000 published MCP servers ranging from developer tools to Fortune 500 deployments
+2. **AGENTS.md (OpenAI):** Already adopted by 60,000+ open-source projects, including Cursor, Devin, GitHub Copilot, Gemini CLI
+3. **Goose (Block):** Open-source agent framework for local, trustworthy AI workflows
+
+> "We are seeing AI enter a new phase, as conversational systems shift to autonomous agents that can work together." - Jim Zemlin, Executive Director, Linux Foundation
+
+The timing is no accident: the shift from chat to agents requires interoperability. If your Claude agent needs to talk to a GPT tool and a Gemini service, you need standards. MCP delivers exactly that.
+
+**What changes for developers:** Nothing dramatic – existing maintainers retain technical control. But now vendor neutrality is guaranteed. MCP belongs to no one and to everyone simultaneously.
+
+**Bottom Line:** The AI industry has learned: standards win over walled gardens. Anyone building MCP servers now is building for the entire ecosystem, not just one vendor.
+
+---
+
+## Other Top Stories
+
+### GPT-5.2: OpenAI's Response to Code Red
+
+![GPT-5.2](https://cdn.openai.com/gpt-5-2/hero.jpg)
+
+Just 10 days after the internal "Code Red" memo, OpenAI delivered GPT-5.2 on December 11 – along with the specialized GPT-5.2 Codex for software engineering.
+
+**Three Variants:**
+- **Instant:** Speed-optimized for routine queries
+- **Thinking:** For complex work like coding, long documents, math
+- **Pro:** Maximum accuracy for enterprise-critical tasks
+
+**The Numbers:**
+- 400K context window (2.5x GPT-5.1)
+- 93.2% on GPQA Diamond (PhD-level Q&A)
+- 80.0% on SWE-bench Verified (just slightly behind Claude Opus 4.5's 80.9%)
+- 100% on AIME 2025 without tools
+- 38% fewer errors than predecessor
+
+Pricing: $1.75 input / $14 output per 1M tokens – more expensive than Gemini 3 Flash, but with more capabilities.
+
+**Reality Check:** The benchmarks are impressive, but this doesn't solve OpenAI's growth problem. Gemini continues growing faster, and Claude dominates enterprise coding.
+
+---
+
+### Disney Opens 200+ Characters for Sora
+
+![Disney Sora](https://variety.com/wp-content/uploads/2025/12/disney-sora-deal.jpg)
+
+The month's most surprising partnership: Disney and OpenAI are allowing users to generate videos featuring over 200 Disney characters via Sora – from Mickey Mouse to Marvel heroes.
+
+This is a radical shift for Disney, which has traditionally guarded its IP like treasure. The deal shows: even the most conservative content owners recognize that AI-generated content is inevitable. Better to participate in a controlled way than to be left behind.
+
+**What's Allowed:** Non-commercial use with Disney branding/watermarks. Commercial use requires a separate license.
+
+---
+
+### Trump's AI Executive Order: Federal vs. State
+
+![Trump AI Policy](https://www.whitehouse.gov/wp-content/uploads/2025/12/ai-policy-signing.jpg)
+
+On December 11, President Trump signed the Executive Order "Ensuring a National Policy Framework for Artificial Intelligence". The core message: **Federal law should override State laws.**
+
+**What the Order Actually Does:**
+- AI Litigation Task Force: To review State AI laws for constitutional compliance within 30 days
+- Commerce Department: 90 days to identify "onerous" State laws
+- Funding Pressure: States with "problematic" AI laws lose broadband funding
+
+**The Exceptions:** Child safety, AI infrastructure, and government procurement remain state matters.
+
+**Industry Reaction:** Mixed. Big Tech welcomes standardization, but 24 State Attorneys General have already filed protests – citing violations of the 10th Amendment and dormant commerce clause arguments. The tension between innovation and consumer protection remains unresolved.
+
+**Critical Voices:** Consumer advocacy groups (EFF, NCLC) warn that the order could endanger important consumer protection laws in California (privacy) and Massachusetts (transparency).
+
+---
+
+## Quick Hits
+
+In Brief:
+
+- **Accenture-Anthropic Multi-Year Deal:** Bringing enterprises from AI pilots to production – concrete implementation support instead of just API access. [Details](https://www.anthropic.com/news/anthropic-accenture-partnership)
+- **Gemini 3 Flash Release:** Google makes Flash the default in Gemini App + Search. 81.2% MMMU-Pro, 90.4% GPQA Diamond. [Launch](https://blog.google/products/gemini/gemini-3-flash/)
+- **Gemini Deep Research:** Reimagined research agent based on Gemini 3 Pro – now with Interactions API for developers. [More](https://blog.google/products/gemini/gemini-3/)
+- **Adobe ChatGPT Integration:** Edit directly in ChatGPT: Photoshop, Acrobat, Express via natural language. [TechCrunch](https://techcrunch.com/2025/12/04/all-the-biggest-news-from-aws-big-tech-show-reinvent-2025/)
+- **NIST AI Cybersecurity Framework:** First official standard for AI-specific security risks (data poisoning, model theft). [NIST](https://www.nist.gov/news-events/news/2025/12/nist-launches-centers-ai-manufacturing-and-critical-infrastructure)
+- **xAI + El Salvador:** Grok for 1M+ students across 5,000 public schools – first nationwide AI education program. [News](https://champaignmagazine.com/2025/12/14/ai-by-ai-weekly-top-5-december-8-14-2025/)
+
+---
+
+## Tool of the Week
+
+![Gemini Deep Research](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini3Flash_Social.width-1300.png)
+
+**Gemini Deep Research** - PhD-Level Research on Demand
+
+Google's newly redesigned research agent is based on Gemini 3 Pro and is now available to developers via the Interactions API. The tool:
+
+- Systematically searches sources (web, papers, docs)
+- Synthesizes findings into structured reports
+- Delivers PhD-level insights with source attribution
+
+The game changer: you can now embed Deep Research directly in your own apps. Instead of manually writing prompts, you call an API and get research reports back.
+
+[Google Gemini Deep Research](https://blog.google/products/gemini/gemini-3/)
+
+---
+
+## Fail of the Week
+
+![State AI Laws](https://media.wired.com/photos/ai-regulation-chaos.jpg)
+
+**1,000+ AI Laws in 47 States – and No Overview**
+
+Over **1,000 AI-related bills** were introduced across US states in 2025. In healthcare alone: 250+ bills in 47 states. The problem: no company can be compliant when every state makes its own rules.
+
+The Trump Executive Order responds to this – but with a sledgehammer instead of consensus. The result: legal uncertainty for years as courts determine constitutionality.
+
+**Root Cause:** AI regulation became a campaign issue before technical standards existed.
+
+**What We Learn:** Fragmented regulation is just as harmful as no regulation. The industry should have pushed for self-imposed standards earlier.
+
+---
+
+## Number of the Week
+
+**10,000+ MCP Servers**
+
+Number of published Model Context Protocol servers – ranging from developer tools to Fortune 500 deployments
+
+A year after launch, MCP has become the de facto standard for AI tool integration. The Linux Foundation donation now secures its future. For comparison: REST APIs took 5+ years to achieve similar adoption.
+
+---
+
+## Reading List
+
+For the Weekend:
+
+1. **[MCP joins the Agentic AI Foundation](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)** - The official Anthropic announcement with governance details (5 min)
+2. **[Introducing GPT-5.2](https://openai.com/index/introducing-gpt-5-2/)** - OpenAI's launch post with benchmarks and capabilities (7 min)
+3. **[Trump's AI Executive Order Analysis](https://www.sidley.com/en/insights/newsupdates/2025/12/unpacking-the-december-11-2025-executive-order)** - Legal deep dive by Sidley Austin (10 min)
+
+---
+
+## Next Week
+
+What's Coming:
+
+- **Gemini 3 Flash Rollout** – more regions and integrations
+- **NY RAISE Act** – Hochul expected to sign for AI transparency
+- **OpenAI GPT-5.2 Pro** – Enterprise rollout begins
+- **Anthropic Genesis Mission Details** – DOE partnership gets concrete
+
+---
+
+*This newsletter was researched and written with AI-assisted.*

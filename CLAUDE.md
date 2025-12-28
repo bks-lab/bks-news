@@ -90,6 +90,39 @@ sources:
 draft: false
 ```
 
+## Bildrechte (WICHTIG!)
+
+**NIEMALS externe Bilder von News-Seiten einbetten!**
+
+Das Hotlinking oder Einbetten von Bildern von Quellseiten (TechCrunch, Fortune, OpenAI Blog, etc.) ist eine **Urheberrechtsverletzung** und kann zu Abmahnungen führen.
+
+### Erlaubte Bildquellen
+
+| Quelle | Beispiel | Hinweis |
+|--------|----------|---------|
+| KI-generiert | DALL-E, Midjourney | Rechtlich am sichersten |
+| Lizenzfrei (CC0) | Unsplash, Pexels | Keine Attribution nötig |
+| Eigene Bilder | `/public/images/` | Selbst erstellt |
+| Offizielle Press-Kits | openai.com/brand | Nur mit Genehmigung |
+
+### Verboten
+
+- Screenshots von Artikeln
+- Bilder von News-Websites (TechCrunch, Verge, Fortune, etc.)
+- Hotlinking zu externen Bild-URLs
+- Social Media Bilder ohne Embed
+
+### Bei Unsicherheit
+
+**Nur verlinken, nicht einbetten.** Die aktuelle Text-basierte Lösung mit Source-Links ist rechtlich am sichersten.
+
+### Rechtlicher Hintergrund
+
+- §2 UrhG: Bilder sind urheberrechtlich geschützt
+- §49 UrhG (Pressespiegel): Gilt NICHT für Bilder
+- BGH "Vorschaubilder": Gilt nur für Suchmaschinen, nicht für redaktionelle Nutzung
+- Risiko bei Verstoß: 500-2000 EUR pro Bild + Unterlassungserklärung
+
 ### Site Configuration
 
 - Base URL: `/bks-news` (required for all internal links)
