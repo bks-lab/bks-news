@@ -99,46 +99,6 @@ const typeLabels: Record<string, string> = {
 
   <ScrollToTop />
 
-  <script is:inline>
-    // Transform TL;DR section with JavaScript for reliable styling
-    document.addEventListener('DOMContentLoaded', function() {
-      var content = document.querySelector('.content');
-      if (!content) return;
-
-      var firstH2 = content.querySelector('h2');
-      if (firstH2 && firstH2.textContent && firstH2.textContent.trim().toUpperCase() === 'TL;DR') {
-        // Create styled TL;DR badge
-        var badge = document.createElement('div');
-        badge.className = 'tldr-badge';
-        badge.textContent = 'TL;DR';
-
-        // Create wrapper for the entire TL;DR section
-        var wrapper = document.createElement('div');
-        wrapper.className = 'tldr-section';
-
-        // Find the intro text and bullet list
-        var nextEl = firstH2.nextElementSibling;
-        var elementsToWrap = [];
-
-        while (nextEl && nextEl.tagName !== 'H2' && nextEl.tagName !== 'HR') {
-          elementsToWrap.push(nextEl);
-          nextEl = nextEl.nextElementSibling;
-        }
-
-        // Build the wrapper
-        wrapper.appendChild(badge);
-        for (var i = 0; i < elementsToWrap.length; i++) {
-          wrapper.appendChild(elementsToWrap[i].cloneNode(true));
-        }
-
-        // Replace original elements
-        firstH2.parentNode.replaceChild(wrapper, firstH2);
-        for (var j = 0; j < elementsToWrap.length; j++) {
-          elementsToWrap[j].parentNode.removeChild(elementsToWrap[j]);
-        }
-      }
-    });
-  </script>
 </Base>
 
 <style>
