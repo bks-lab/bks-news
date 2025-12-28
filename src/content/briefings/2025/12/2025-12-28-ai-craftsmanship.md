@@ -1,6 +1,6 @@
 ---
 title: "AI Craftsmanship - Dezember 2025"
-description: "Claude Code Ultrathink, Skills als Open Standard, Agentic Coding Best Practices und MCP-Sicherheitswarnung"
+description: "Claude Code Thinking Modes, Skills als Open Standard, Agentic Coding Best Practices und MCP-Entwicklungen"
 date: 2025-12-28
 tags: [ai, craftsmanship, claude-code, skills, mcp, agentic-coding]
 type: craftsmanship
@@ -18,85 +18,70 @@ sources:
     url: "https://siliconangle.com/2025/12/11/model-context-protocol-security-risks-grow-unsecured-servers-appear-across-internet/"
   - title: "TechCrunch: Google MCP Server Launch"
     url: "https://techcrunch.com/2025/12/10/google-is-going-all-in-on-mcp-servers-agent-ready-by-design/"
+  - title: "SiliconANGLE: Skills Open Standard"
+    url: "https://siliconangle.com/2025/12/18/anthropic-makes-agent-skills-open-standard/"
 draft: false
 ---
 
 ## TL;DR
 
-- **Ultrathink Mode**: Claude Code hat abgestufte Thinking-Budgets ("think" → "ultrathink" = 4k → 32k Tokens)
-- **Skills Open Standard**: Anthropic öffnet die Skill-Spezifikation am 18. Dezember 2025
-- **Claude Code 2.0.74**: LSP-Integration, Plugin-System, Checkpoints für Code-Rewind
-- **MCP Security Alert**: ~1.000 ungesicherte MCP-Server im Internet entdeckt
-- **Agentic Coding**: Armin Ronacher empfiehlt Go, klare Tool-Grenzen, Parallelisierung
+- **Thinking Modes**: Claude Code hat abgestufte Budgets ("think" → "megathink" → "ultrathink")
+- **Skills Open Standard**: Anthropic öffnet die Skill-Spezifikation ([18. Dezember 2025](https://siliconangle.com/2025/12/18/anthropic-makes-agent-skills-open-standard/))
+- **Claude Code 2.0.74**: LSP-Integration und Terminal-Erweiterungen
+- **MCP Security**: ~1.000 ungesicherte Server entdeckt – aber auch Fortschritte
+- **Agentic Coding**: Ecosystem-Stabilität wichtiger als Sprachenwahl
 
 ---
 
-## Technik der Woche: Ultrathink Mode
+## Technik der Woche: Thinking Modes in Claude Code
 
-Claude Code hat ein Feature, das viele nicht kennen: **abgestufte Thinking-Budgets**. Je nach Komplexität der Aufgabe kannst du Claude mehr "Denkzeit" geben:
+Claude Code hat **abgestufte Thinking-Budgets**. Je nach Komplexität der Aufgabe kannst du Claude mehr "Denkzeit" geben:
 
-| Keyword | Token-Budget | Wann nutzen |
-|---------|--------------|-------------|
-| `"think"` | ~4.000 | Standard-Tasks |
-| `"think hard"` | ~10.000 | Komplexere Probleme |
-| `"ultrathink"` | ~32.000 | Architektur, Debugging |
+| Keyword | Budget | Wann nutzen |
+|---------|--------|-------------|
+| `"think"` | Standard | Einfache Tasks |
+| `"think hard"` / `"megathink"` | Erhöht | Komplexere Probleme |
+| `"ultrathink"` | Maximum | Architektur, Debugging |
 
-**Wichtig**: Diese Keywords funktionieren **nur in Claude Code** (CLI), nicht in der Web-Oberfläche oder API. Claude Code hat eine Preprocessing-Schicht, die diese Begriffe abfängt.
+**Hinweis**: Die exakten Token-Zahlen sind nicht offiziell dokumentiert. [ClaudeLog](https://claudelog.com/faqs/what-is-ultrathink/) nennt Schätzungen, aber Anthropic hat keine genauen Werte veröffentlicht.
 
-**Praxis-Tipp**: Kombiniere Ultrathink mit Skills für maximale Qualität:
+**Wichtig**: Diese Keywords funktionieren **nur in Claude Code** (CLI), nicht in der Web-Oberfläche oder API.
 
-```
-"ultrathink" und analysiere diese Architektur mit dem code-review Skill
-```
-
-Der Skill gibt die Struktur vor, Ultrathink liefert die Tiefe.
+**Einschränkung**: Forschung zeigt, dass mehr Thinking-Budget nicht immer bessere Ergebnisse liefert. Self-Consistency und iteratives Vorgehen können oft effektiver sein als maximale Rechenzeit.
 
 ---
 
-## Claude Code 2.0.74: Die neuen Features
+## Claude Code Updates
 
-Das Dezember-Update bringt vier wichtige Neuerungen:
+### Version 2.0.74: Die tatsächlichen Neuerungen
 
-### 1. LSP Integration
+Das [Dezember-Update](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) bringt:
 
-Language Server Protocol direkt im Terminal:
+**LSP Integration** – Language Server Protocol direkt im Terminal:
 - Go-to-Definition
 - Find References
 - Hover Documentation
 
-IDE-Level Code-Intelligence ohne IDE.
+**Terminal-Erweiterungen** – Neue `/terminal-setup` Unterstützung für Kitty, Alacritty, Zed und Warp. Syntax-Highlighting Toggle mit `Ctrl+T`.
 
-### 2. Plugin System
+### Bereits verfügbare Features (nicht neu in 2.0.74)
 
-Skills, Hooks, Commands und MCP-Server als verteilbare Bundles:
-
-```bash
-/plugin install superpowers
-/plugin marketplace
-/plugin enable/disable
-```
-
-Team-Setup in Sekunden teilbar. Onboarding wird trivial.
-
-### 3. Checkpoints & Rewind
-
-Claude speichert automatisch Code-Snapshots vor jeder Änderung:
-
+**Checkpoints & Rewind** (seit v2.0) – Claude speichert automatisch Code-Snapshots:
 ```
 Esc + Esc  oder  /rewind
 ```
 
-Code und Konversation separat wiederherstellbar. Mutigere Experimente ohne Angst vor Fehlern.
-
-### 4. Terminal-Erweiterungen
-
-Neue `/terminal-setup` Unterstützung für Kitty, Alacritty, Zed und Warp. Syntax-Highlighting Toggle mit `Ctrl+T`.
+**Plugin System** – Skills, Hooks und Commands als verteilbare Bundles:
+```bash
+/plugin install superpowers
+/plugin marketplace
+```
 
 ---
 
 ## Skills werden Open Standard
 
-Am **18. Dezember 2025** hat Anthropic die Skill-Spezifikation geöffnet – nur 9 Tage nach Gründung der Agentic AI Foundation (AAIF) bei der Linux Foundation.
+Am [**18. Dezember 2025**](https://siliconangle.com/2025/12/18/anthropic-makes-agent-skills-open-standard/) hat Anthropic die Skill-Spezifikation geöffnet – 9 Tage nach Gründung der [Agentic AI Foundation (AAIF)](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation) bei der Linux Foundation.
 
 **Was bedeutet das?**
 
@@ -104,15 +89,15 @@ Am **18. Dezember 2025** hat Anthropic die Skill-Spezifikation geöffnet – nur
 - Andere Plattformen können Skills implementieren
 - Die Skill-Syntax ist dokumentiert und stabil
 
-**Skills vs. MCP in Kürze:**
+### Skills und MCP: Komplementär, nicht konkurrierend
 
 | Aspekt | Skills | MCP |
 |--------|--------|-----|
-| Setup | <1 Minute (Markdown-Datei) | 30-60 Min (Server) |
-| Tokens | ~100 (Metadata) | 10.000+ (Tool-Definitionen) |
-| Use Case | Workflows, Wissen, CLI-Tools | WebSocket-Streaming |
+| Stärke | Domain-Wissen, Workflows | Daten-Integration, Tools |
+| Setup | <1 Minute (Markdown) | 30-60 Min (Server) |
+| Use Case | Prozesse, CLI-Tools | APIs, Streaming, Datenbanken |
 
-Für die allermeisten Aufgaben braucht man keinen MCP-Server – nur eine Markdown-Datei.
+**Wichtig**: Anthropic selbst sagt, dass Entwickler wahrscheinlich **beide** nutzen werden. Skills für Domain-Expertise, MCP für externe Datenquellen und Tools.
 
 > **Vertiefung**: [Skills vs. MCP: Warum Markdown-Dateien Server-Protokolle schlagen](https://bks-lab.github.io/bks-lab-page/blog/skills-vs-mcp)
 
@@ -120,95 +105,95 @@ Für die allermeisten Aufgaben braucht man keinen MCP-Server – nur eine Markdo
 
 ## Agentic Coding Best Practices
 
-Armin Ronacher (Flask-Autor) hat seine Erfahrungen mit agentic coding geteilt. Die wichtigsten Erkenntnisse:
+[Armin Ronacher](https://lucumr.pocoo.org/2025/6/12/agentic-coding/) (Flask-Autor) hat seine Erfahrungen mit agentic coding geteilt.
 
-### 1. Sprache: Go vor Python
+### Kernerkenntnisse
 
-Go's explizite Kontextsysteme helfen KI-Agenten beim Verstehen des Code-Flows. Python's "Magic" (Pytest Fixtures, Async-Loops) führt oft zu fehlerhaftem generierten Code.
+**1. Ecosystem-Stabilität vor Sprache**
 
-### 2. Alles kann ein Tool sein
+Ronacher bevorzugt Go – aber nicht weil Go "besser" ist, sondern wegen der Ecosystem-Stabilität. Python's dynamische Features (Pytest Fixtures, Async-Patterns) verwirren Agenten oft.
+
+**Nuance**: "Basic Python" (Flask, einfache Scripts) funktioniert gut. Das Problem sind komplexe Frameworks, nicht die Sprache selbst.
+
+**2. Alles kann ein Tool sein**
 
 Von Shell-Scripts bis Log-Dateien. Entscheidend:
 - **Geschwindigkeit** (Agent wartet)
 - **Fehlerklarheit** (Agent muss verstehen was schief ging)
 - **Schutz vor Missbrauch** (Agent macht Fehler)
 
-### 3. Einfachheit schlägt Komplexität
-
-Funktionen mit klaren, beschreibenden Namen statt Klassen mit komplexer Vererbung. Der Agent braucht weniger Kontext um zu verstehen was passiert.
-
-### 4. Der klassische Flow
+**3. Der klassische Flow**
 
 1. **Research**: Dateien lesen, verstehen
-2. **Plan**: Mit "ultrathink" Lösung entwerfen
+2. **Plan**: Lösung entwerfen (mit extended thinking)
 3. **Code**: Implementieren
 4. **Check**: Selbst-Review, Tests
 5. **Commit**: Nur wenn alles grün
 
 ---
 
-## Warnung: MCP Security Concerns
+## MCP: Security-Warnung und Fortschritte
 
-**Bitsight Technologies (Dezember 2025)**: Rund **1.000 MCP-Server** sind öffentlich im Internet ohne Authentifizierung erreichbar.
+### Das Problem
 
-Das Problem:
+[Bitsight Technologies](https://siliconangle.com/2025/12/11/model-context-protocol-security-risks-grow-unsecured-servers-appear-across-internet/) (Dezember 2025): Rund **1.000 MCP-Server** sind öffentlich ohne Authentifizierung erreichbar.
+
 - MCP-Spezifikation empfiehlt OAuth 2.1
 - Authentifizierung ist aber **optional**
-- Viele Deployments überspringen Security
+- Viele DIY-Deployments überspringen Security
 
-**Risiko**: Ungeschützte MCP-Server können von Angreifern missbraucht werden, um KI-Agenten zu manipulieren.
+### Die Lösung: Managed MCP
 
-**Lesson Learned**: Skills haben dieses Problem nicht – keine Server = keine Angriffsfläche.
-
----
-
-## Google geht All-In auf MCP
-
-Parallel zur Security-Warnung: Google hat **managed MCP-Server** für seine Dienste gelauncht:
-
+[Google](https://techcrunch.com/2025/12/10/google-is-going-all-in-on-mcp-servers-agent-ready-by-design/) hat **managed MCP-Server** für seine Dienste gelauncht:
 - Google Maps
 - BigQuery
 - Compute Engine
 - Kubernetes Engine
 
-Der Unterschied zu DIY-MCP-Servern: Google übernimmt Hosting, Security und Updates. Das löst viele der Sicherheitsprobleme – aber nur für Google-Dienste.
+**Vorteil**: Google übernimmt Security, Hosting und Updates. Das zeigt den Weg: MCP-Server sollten von Experten betrieben werden, nicht als DIY-Lösung.
+
+### Balance
+
+MCP hat echte Stärken:
+- **Context Preservation** über Multi-Step-Workflows
+- **Reduced Hallucinations** durch externe Datenquellen
+- **Dynamic Capability Discovery**
+
+Das Security-Problem betrifft primär schlecht konfigurierte Self-Hosted-Server, nicht das Protokoll selbst.
 
 ---
 
 ## Tool der Woche: Claude Code Checkpoints
 
-Das neue Checkpoint-System verdient besondere Erwähnung:
+Das Checkpoint-System (seit v2.0):
 
 **Problem**: Bei experimentellen Änderungen Angst vor "kaputtem Code".
 
-**Lösung**: Claude speichert automatisch vor jeder Änderung. Zwei Optionen zum Zurückspulen:
+**Lösung**: Claude speichert automatisch vor jeder Änderung:
 
 1. `Esc + Esc` – Schneller Rewind
 2. `/rewind` – Checkpoint-Auswahl
 
-Du kannst **Code** und **Konversation** separat wiederherstellen. Das ermöglicht:
-- "Was wäre wenn"-Experimente
-- Parallele Ansätze testen
-- Fehler ohne Konsequenzen machen
+Du kannst **Code** und **Konversation** separat wiederherstellen.
 
 ---
 
 ## Zahl der Woche
 
 ```
-~32.000 Tokens
+8x
 ```
 
-Das maximale Thinking-Budget mit "ultrathink" in Claude Code. Zum Vergleich: Das Standard-Budget mit "think" ist ~4.000 Tokens – also 8x weniger Rechenzeit für komplexe Probleme.
+Der Unterschied zwischen Standard-Thinking ("think") und Maximum-Thinking ("ultrathink") in Claude Code. Aber Achtung: Mehr ist nicht immer besser – iteratives Arbeiten kann effektiver sein als ein langer Thinking-Block.
 
 ---
 
 ## Leseliste
 
-- [Anthropic: Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) – Offizieller Guide für agentic coding
-- [Armin Ronacher: Agentic Coding Recommendations](https://lucumr.pocoo.org/2025/6/12/agentic-coding/) – Erfahrungsbericht vom Flask-Autor
+- [Anthropic: Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) – Offizieller Guide
+- [Armin Ronacher: Agentic Coding](https://lucumr.pocoo.org/2025/6/12/agentic-coding/) – Praxis-Erfahrungen
 - [Skills vs. MCP](https://bks-lab.github.io/bks-lab-page/blog/skills-vs-mcp) – Wann welches Tool?
-- [GitHub: Claude Code CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) – Alle Updates im Detail
+- [GitHub: Claude Code CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) – Alle Updates
 
 ---
 
@@ -216,7 +201,7 @@ Das maximale Thinking-Budget mit "ultrathink" in Claude Code. Zum Vergleich: Das
 
 - Deep Dive: Custom Agents in Claude Code
 - Skill-Library Aufbau: Von 0 auf 10 Skills
-- MCP Security: Wie man Server richtig absichert
+- MCP Security: Best Practices für sichere Server
 
 ---
 
