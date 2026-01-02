@@ -39,7 +39,9 @@ const typeLabels: Record<string, string> = {
 };
 
 // Hero-Image: AI-generiert via Pollinations.ai (generate-hero.sh)
-const heroUrl = entry.data.heroImage || null;
+// Füge Base-URL hinzu für GitHub Pages (/bks-news/)
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+const heroUrl = entry.data.heroImage ? `${baseUrl}${entry.data.heroImage}` : null;
 const heroAlt = entry.data.heroImageAlt || entry.data.title;
 ---
 
