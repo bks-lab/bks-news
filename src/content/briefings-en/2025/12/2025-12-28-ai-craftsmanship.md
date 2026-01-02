@@ -2,9 +2,10 @@
 title: "AI Craftsmanship - December 2025"
 description: "Claude Code Thinking Modes, Skills as Open Standard, Agentic Coding Best Practices, and MCP Developments"
 date: 2025-12-28
+heroImage: "/images/briefings/2025/12/2025-12-28-craftsmanship-hero.jpg"
+heroImageAlt: "AI-generated illustration: Developer Tools and Code Visualization"
 tags: [ai, craftsmanship, claude-code, skills, mcp, agentic-coding]
 type: craftsmanship
-autoImage: true
 sources:
   - title: "GitHub: Claude Code CHANGELOG"
     url: "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"

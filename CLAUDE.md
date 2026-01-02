@@ -92,23 +92,32 @@ Use `@/*` for imports from `src/` (configured in tsconfig.json).
 title: "Briefing Title"
 description: "Short description"
 date: 2025-12-27
+heroImage: "/images/briefings/2025/12/2025-12-27-hero.jpg"
+heroImageAlt: "AI-generierte Illustration zum Thema..."
 tags: [ai, weekly]
 type: weekly  # weekly | breaking | research | digest
-autoImage: true  # Optional: AI-generiertes Hero-Image via Pollinations.ai
 sources:
   - title: "Source Name"
     url: "https://..."
 draft: false
 ```
 
-### Auto-Image Feature
+### Hero-Image Workflow (Pollinations.ai)
 
-Setze `autoImage: true` im Frontmatter für automatisch generierte Hero-Images via Pollinations.ai:
+Hero-Images werden via Pollinations.ai generiert - **kostenlos, kein API-Key nötig**.
+
+**Generierung:**
+```bash
+~/.claude/skills/bks-news-generator/scripts/generate-hero.sh \
+  "AI abstract tech visualization blue" \
+  "public/images/briefings/2025/12/2025-12-27-hero.jpg" \
+  1200 630
+```
 
 - **Kostenlos** - Keine API-Keys oder Kosten
-- **Automatisch** - Bild wird aus Titel generiert
-- **Rechtlich sicher** - AI-generiert, keine Urheberrechte
-- **Optional** - Standard ist `false`, bestehende Artikel unverändert
+- **Rechtlich sicher** - AI-generiert = eigenes Werk
+- **Format** - 1200×630 (OG-Image Standard)
+- **Speicherort** - `/public/images/briefings/YYYY/MM/`
 
 ## Bildrechte (WICHTIG!)
 

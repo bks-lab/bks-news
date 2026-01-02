@@ -18,10 +18,10 @@ const briefingSchema = z.object({
   date: z.coerce.date(),
   tags: z.array(z.string()).default([]),
   type: z.enum(['weekly', 'breaking', 'research', 'digest', 'craftsmanship']).default('weekly'),
-  // ACHTUNG: Nur eigene/lizenzfreie Bilder! Siehe Kommentar oben.
-  heroImage: z.string().url().optional(),
-  // Auto-generiertes AI-Bild via Pollinations.ai (kostenlos, rechtlich sicher)
-  autoImage: z.boolean().default(false),
+  // Hero-Image: Immer AI-generiert via Pollinations.ai (generate-hero.sh)
+  // Pfad: /images/briefings/YYYY/MM/YYYY-MM-DD-hero.jpg
+  heroImage: z.string().optional(),
+  heroImageAlt: z.string().optional(),
   sources: z.array(z.object({
     title: z.string(),
     url: z.string().url()
