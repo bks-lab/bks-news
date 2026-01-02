@@ -48,12 +48,17 @@ const heroAlt = entry.data.heroImageAlt || entry.data.title;
 <Base title={entry.data.title} description={entry.data.description} heroImage={heroUrl || undefined}>
   <article>
     {heroUrl && (
-      <img
-        src={heroUrl}
-        alt={heroAlt}
-        class="hero-image"
-        loading="lazy"
-      />
+      <figure class="hero-figure">
+        <img
+          src={heroUrl}
+          alt={heroAlt}
+          class="hero-image"
+          loading="lazy"
+        />
+        <figcaption class="hero-credit">
+          Bild generiert mit <a href="https://pollinations.ai" target="_blank" rel="noopener">Pollinations.ai</a>
+        </figcaption>
+      </figure>
     )}
     <header>
       <div class="header-meta">
@@ -135,13 +140,29 @@ const heroAlt = entry.data.heroImageAlt || entry.data.title;
 
 <style>
   /* Hero Image */
+  .hero-figure {
+    margin: 0 0 2rem 0;
+  }
+
   .hero-image {
     width: 100%;
     height: auto;
     max-height: 400px;
     object-fit: cover;
     border-radius: 12px;
-    margin-bottom: 2rem;
+  }
+
+  .hero-credit {
+    font-size: 0.75rem;
+    color: var(--color-muted);
+    text-align: right;
+    margin-top: 0.5rem;
+    opacity: 0.7;
+  }
+
+  .hero-credit a {
+    color: var(--color-muted);
+    text-decoration: underline;
   }
 
   article header {

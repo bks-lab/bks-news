@@ -207,4 +207,4 @@ The difference between standard thinking ("think") and maximum thinking ("ultrat
 
 ---
 
-*This newsletter was created with AI assistance and reviewed by 4 specialized validation agents (Fact-Check, Devil's Advocate, Quality Editor, Legal Compliance).*
+*This newsletter was created with AI assistance and reviewed by 4 specialized validation agents. Hero image generated with [Pollinations.ai](https://pollinations.ai).*

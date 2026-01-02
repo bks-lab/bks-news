@@ -206,4 +206,4 @@ Der Unterschied zwischen Standard-Thinking ("think") und Maximum-Thinking ("ultr
 
 ---
 
-*Dieser Newsletter wurde mit AI-Unterstützung erstellt und durch 4 spezialisierte Validierungs-Agenten geprüft (Fact-Check, Devil's Advocate, Quality Editor, Legal Compliance).*
+*Dieser Newsletter wurde mit AI-Unterstützung erstellt und durch 4 spezialisierte Validierungs-Agenten geprüft. Hero-Bild generiert mit [Pollinations.ai](https://pollinations.ai).*
