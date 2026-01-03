@@ -35,7 +35,8 @@ const typeLabels: Record<string, string> = {
   weekly: 'Weekly Briefing',
   breaking: 'Breaking News',
   research: 'Research',
-  digest: 'Digest'
+  digest: 'Digest',
+  craftsmanship: 'AI Craftsmanship'
 };
 
 // Hero-Image: AI-generiert via Pollinations.ai (generate-hero.sh)
@@ -205,6 +206,11 @@ const heroAlt = entry.data.heroImageAlt || entry.data.title;
   .type-digest {
     background: rgba(245, 158, 11, 0.15);
     color: #f59e0b;
+  }
+
+  .type-craftsmanship {
+    background: rgba(139, 92, 246, 0.15);
+    color: #8b5cf6;
   }
 
   .reading-time {
