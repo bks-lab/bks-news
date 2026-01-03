@@ -102,14 +102,17 @@ const heroAlt = entry.data.heroImageAlt || entry.data.title;
     </div>
 
     {entry.data.sources && entry.data.sources.length > 0 && (
-      <div class="sources">
+      <div class="sources" id="sources">
         <h3>Quellen</h3>
-        <p class="sources-intro">{entry.data.sources.length} Quellen aus verifizierten Nachrichtenportalen und offiziellen Unternehmensblogs.</p>
-        <div class="sources-grid">
-          {entry.data.sources.map((source: { title: string; url: string }) => (
-            <SourceCard title={source.title} url={source.url} lang="de" />
+        <ol class="sources-list">
+          {entry.data.sources.map((source: { title: string; url: string }, index: number) => (
+            <li id={`source-${index + 1}`}>
+              <a href={source.url} target="_blank" rel="noopener noreferrer">
+                {source.title}
+              </a>
+            </li>
           ))}
-        </div>
+        </ol>
       </div>
     )}
 
@@ -244,7 +247,7 @@ const heroAlt = entry.data.heroImageAlt || entry.data.title;
     font-size: 1.05rem;
   }
 
-  /* Sources Grid */
+  /* Sources List */
   .sources {
     margin-top: 3rem;
     padding-top: 2rem;
@@ -256,19 +259,57 @@ const heroAlt = entry.data.heroImageAlt || entry.data.title;
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+  }
+
+  .sources-list {
+    list-style: decimal;
+    padding-left: 1.5rem;
+    margin: 0;
+  }
+
+  .sources-list li {
     margin-bottom: 0.5rem;
-  }
-
-  .sources-intro {
+    font-size: 0.9rem;
     color: var(--color-muted);
-    font-size: 0.85rem;
-    margin-bottom: 1.25rem;
   }
 
-  .sources-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1rem;
+  .sources-list li::marker {
+    color: var(--color-accent);
+    font-weight: 600;
+  }
+
+  .sources-list a {
+    color: var(--color-text);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--color-muted);
+  }
+
+  .sources-list a:hover {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+  }
+
+  /* Inline Citations [1] */
+  .content :global(a[href^="#source-"]) {
+    font-size: 0.75em;
+    vertical-align: super;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 0.1em;
+  }
+
+  .content :global(a[href^="#source-"]:hover) {
+    text-decoration: underline;
+  }
+
+  /* Highlight target source when clicked */
+  .sources-list li:target {
+    background: rgba(102, 126, 234, 0.1);
+    margin-left: -0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 4px;
   }
 
   /* Prev/Next Navigation */
