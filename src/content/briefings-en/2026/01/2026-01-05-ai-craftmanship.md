@@ -5,7 +5,7 @@ date: 2026-01-05
 heroImage: "/images/briefings/2026/01/2026-01-05-hero.jpg"
 heroImageAlt: "AI-generated illustration: Developer tools and code structures"
 tags: [ai, craftmanship, mcp, claude-code, developer-tools, coding, agents]
-type: craftmanship
+type: craftsmanship
 sources:
   - title: "Anthropic donates MCP to Linux Foundation"
     url: "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
