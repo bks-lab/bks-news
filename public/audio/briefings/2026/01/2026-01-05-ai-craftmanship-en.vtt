@@ -1,0 +1,484 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:12,800
+MCP Revolution: Anthropic donates the Model Context Protocol to the Linux Foundation - OpenAI, Google and Microsoft are on board.
+
+4
+00:00:12,800 --> 00:00:21,237
+Claude Code 2.0: Background Agents, LSP support and Chrome integration make it the most powerful CLI tool.
+
+5
+00:00:21,237 --> 00:00:29,112
+Reality Check: AI code produces 1.7x more bugs and makes experienced developers 19% slower.
+
+6
+00:00:29,112 --> 00:00:30,362
+Story of the Week.
+
+7
+00:00:30,362 --> 00:00:34,012
+MCP becomes the global standard for AI agents.
+
+8
+00:00:34,012 --> 00:00:43,750
+On December 9, 2025, Anthropic took a historic step: The Model Context Protocol (MCP) was donated to the Linux Foundation .
+
+9
+00:00:43,750 --> 00:00:48,237
+This transforms an Anthropic project into a true industry standard.
+
+10
+00:00:48,237 --> 00:00:53,275
+The new Agentic AI Foundation (AAIF) unites the biggest names:.
+
+11
+00:00:53,275 --> 00:00:56,925
+Founding members: Anthropic, Block, OpenAI.
+
+12
+00:00:56,925 --> 00:01:02,637
+Supporters: Google, Microsoft, AWS, Cloudflare, Bloomberg.
+
+13
+00:01:02,637 --> 00:01:04,562
+The numbers speak for themselves:.
+
+14
+00:01:04,562 --> 00:01:09,125
+10,000+ active public MCP servers
+
+15
+00:01:09,125 --> 00:01:14,175
+97 million monthly SDK downloads (Python + TypeScript)
+
+16
+00:01:14,175 --> 00:01:17,887
+75+ official connectors in Claude's Directory
+
+17
+00:01:17,887 --> 00:01:24,887
+"Since its introduction, we have been committed to keeping MCP open-source, community-driven and vendor-neutral."
+
+18
+00:01:24,887 --> 00:01:26,762
+What does this mean for developers?
+
+19
+00:01:26,762 --> 00:01:35,662
+MCP is now the "USB-C for AI" - a universal standard that allows AI agents to access external tools and data.
+
+20
+00:01:35,662 --> 00:01:41,937
+ChatGPT, Cursor, Gemini, Microsoft Copilot and VS Code already support it .
+
+21
+00:01:41,937 --> 00:01:52,012
+Next milestone: In April 2026, W3C begins formal discussions on "MCP-Identity" - digital passports for AI agents.
+
+22
+00:01:52,012 --> 00:01:58,675
+Bottom Line: Anyone building MCP servers today is building for the entire AI ecosystem.
+
+23
+00:01:58,675 --> 00:02:01,787
+The fragmentation of the tool landscape is over.
+
+24
+00:02:01,787 --> 00:02:02,937
+Top Stories.
+
+25
+00:02:02,937 --> 00:02:06,912
+Claude Code 2.0: The most important new features.
+
+26
+00:02:06,912 --> 00:02:10,475
+Claude Code has received massive updates in recent weeks .
+
+27
+00:02:10,475 --> 00:02:11,537
+The highlights:.
+
+28
+00:02:11,537 --> 00:02:15,387
+Background Agents (v2.0.60).
+
+29
+00:02:15,387 --> 00:02:18,812
+Agents now run in the background while you continue working.
+
+30
+00:02:18,812 --> 00:02:21,050
+No more blocking on long tasks.
+
+31
+00:02:21,050 --> 00:02:25,325
+LSP Support (v2.0.74).
+
+32
+00:02:25,325 --> 00:02:30,812
+Real code intelligence: Go-to-Definition, Find References, Hover documentation.
+
+33
+00:02:30,812 --> 00:02:33,850
+Claude now understands your code at compiler level.
+
+34
+00:02:33,850 --> 00:02:37,975
+Chrome Integration (v2.0.72).
+
+35
+00:02:37,975 --> 00:02:40,825
+Browser automation directly from Claude Code.
+
+36
+00:02:40,825 --> 00:02:47,112
+Install the Chrome Extension and let Claude analyze web pages, fill out forms or take screenshots.
+
+37
+00:02:47,112 --> 00:02:48,312
+Named Sessions.
+
+38
+00:02:48,312 --> 00:02:49,137
+bash
+
+39
+00:02:49,137 --> 00:02:50,962
+/rename my-feature
+
+40
+00:02:50,962 --> 00:02:52,950
+claude --resume my-feature
+
+41
+00:02:52,950 --> 00:02:55,687
+Session management like tmux - finally!
+
+42
+00:02:55,687 --> 00:02:57,312
+MCP Wildcards.
+
+43
+00:02:57,312 --> 00:03:03,487
+mcp__server__*  # Allow all tools from a server
+
+44
+00:03:03,487 --> 00:03:06,337
+Granular permissions without individual listing.
+
+45
+00:03:06,337 --> 00:03:08,225
+Opus 4.5 for Pro.
+
+46
+00:03:08,225 --> 00:03:15,950
+Pro users now have access to Opus 4.5 with Extended Thinking - the strongest model for complex coding tasks.
+
+47
+00:03:15,950 --> 00:03:20,900
+Cursor 2.0 vs. Copilot: The IDE war escalates.
+
+48
+00:03:20,900 --> 00:03:24,100
+The two biggest AI coding assistants have upgraded :.
+
+49
+00:03:24,100 --> 00:03:25,812
+Cursor 2.0:.
+
+50
+00:03:25,812 --> 00:03:30,262
+Parallel agent execution with up to 8 agents simultaneously.
+
+51
+00:03:30,262 --> 00:03:33,075
+New Plan mode for complex refactorings.
+
+52
+00:03:33,075 --> 00:03:35,937
+AI Code Review directly in the editor.
+
+53
+00:03:35,937 --> 00:03:40,925
+Multi-model support (OpenAI, Anthropic, Gemini, xAI).
+
+54
+00:03:40,925 --> 00:03:42,250
+GitHub Copilot:.
+
+55
+00:03:42,250 --> 00:03:44,637
+Agent Mode for multi-file changes.
+
+56
+00:03:44,637 --> 00:03:48,350
+Next Edit Suggestions - AI predicts what you'll edit next.
+
+57
+00:03:48,350 --> 00:03:52,300
+Project Padawan: Assign issues directly to Copilot.
+
+58
+00:03:52,300 --> 00:03:59,200
+The verdict: Copilot is lower friction (install and go), Cursor has the higher ceiling for productivity.
+
+59
+00:03:59,200 --> 00:04:07,087
+For large projects, some teams report significant time savings - actual productivity depends heavily on the use case .
+
+60
+00:04:07,087 --> 00:04:08,037
+Quick Hits.
+
+61
+00:04:08,037 --> 00:04:16,325
+SmolAgents: Hugging Face's minimalist agent framework uses a CodeAgent approach - the model writes Python instead of JSON .
+
+62
+00:04:16,325 --> 00:04:25,187
+Vibe Coding Trend: Describe UI/UX in natural language, the IDE generates scaffolding, styling and state management .
+
+63
+00:04:25,187 --> 00:04:35,537
+84% Adoption: According to Stack Overflow, 84% of developers already use AI tools, 46% of code is AI-generated
+
+64
+00:04:35,537 --> 00:04:41,312
+Tabby: Self-hosted AI coding assistant for teams who don't want to send their code to the cloud .
+
+65
+00:04:41,312 --> 00:04:51,837
+LangGraph Dominance: With 22,900+ GitHub Stars and 4.2M monthly downloads, LangGraph is the most-used agent framework .
+
+66
+00:04:51,837 --> 00:04:52,962
+Tool of the Week.
+
+67
+00:04:52,962 --> 00:04:55,062
+SmolAgents: Less is more.
+
+68
+00:04:55,062 --> 00:04:59,037
+Hugging Face has taken a radically different approach with SmolAgents :.
+
+69
+00:04:59,037 --> 00:05:04,950
+The problem: Most agent frameworks force LLMs to output complex JSON structures.
+
+70
+00:05:04,950 --> 00:05:07,462
+This is error-prone and hard to debug.
+
+71
+00:05:08,387 --> 00:05:12,387
+The solution: SmolAgents uses a "CodeAgent" architecture.
+
+72
+00:05:12,387 --> 00:05:15,562
+The model writes and executes standard Python code.
+
+73
+00:05:15,562 --> 00:05:19,525
+No JSON schemas, no tool definitions - just code.
+
+74
+00:05:19,525 --> 00:05:20,750
+Why this is clever:.
+
+75
+00:05:20,750 --> 00:05:23,887
+LLMs are better at code than structured JSON.
+
+76
+00:05:23,887 --> 00:05:27,825
+Python errors are easier to debug than JSON parsing errors.
+
+77
+00:05:27,825 --> 00:05:30,912
+Seamless integration with existing Python code.
+
+78
+00:05:30,912 --> 00:05:32,062
+Installation:.
+
+79
+00:05:32,062 --> 00:05:32,887
+bash
+
+80
+00:05:32,887 --> 00:05:34,700
+pip install smolagents
+
+81
+00:05:34,700 --> 00:05:40,362
+For whom: Developers who prefer a "code-first" approach and don't need enterprise features.
+
+82
+00:05:40,362 --> 00:05:41,512
+Fail of the Week.
+
+83
+00:05:41,512 --> 00:05:44,787
+AI code produces 1.7x more bugs.
+
+84
+00:05:44,787 --> 00:05:48,237
+A new study from CodeRabbit delivered sobering numbers :.
+
+85
+00:05:48,237 --> 00:05:50,437
+Metric  AI Code  Human Code
+
+86
+00:05:50,437 --> 00:05:54,400
+Issues per PR  10.83  6.45
+
+87
+00:05:54,400 --> 00:05:57,387
+Ratio  1.7x more  Baseline
+
+88
+00:05:57,387 --> 00:06:00,475
+Analyzed: 470 Pull Requests.
+
+89
+00:06:00,475 --> 00:06:01,650
+Main problems:.
+
+90
+00:06:01,650 --> 00:06:05,162
+Logic and correctness errors (most common category).
+
+91
+00:06:05,162 --> 00:06:08,787
+Code quality and readability (leads to technical debt).
+
+92
+00:06:08,787 --> 00:06:11,950
+Security risks (insecure password handling).
+
+93
+00:06:11,950 --> 00:06:15,962
+The only bright spot: AI makes fewer typos than humans.
+
+94
+00:06:15,962 --> 00:06:19,925
+The lesson: AI code needs more review, not less.
+
+95
+00:06:19,925 --> 00:06:24,100
+Treat AI like a junior developer who is fast but unreliable.
+
+96
+00:06:24,100 --> 00:06:25,237
+Number of the Week.
+
+97
+00:06:25,237 --> 00:06:27,450
+19% slower with AI
+
+98
+00:06:27,450 --> 00:06:35,400
+The METR study tested 16 experienced open-source developers  (small sample size, but methodologically sound):.
+
+99
+00:06:35,400 --> 00:06:36,275
+Setup:.
+
+100
+00:06:36,275 --> 00:06:43,550
+246 issues from real projects (averaging 22,000+ GitHub Stars)
+
+101
+00:06:43,550 --> 00:06:50,500
+Randomized: With or without AI (Cursor Pro + Claude 3.5/3.7).
+
+102
+00:06:50,500 --> 00:06:53,087
+Average task duration: 2 hours.
+
+103
+00:06:53,087 --> 00:06:53,937
+Result:.
+
+104
+00:06:53,937 --> 00:06:59,950
+"When developers are allowed to use AI tools, they take 19% longer to complete issues."
+
+105
+00:06:59,950 --> 00:07:04,750
+The twist: The developers still believed AI made them 20% faster.
+
+106
+00:07:04,750 --> 00:07:06,500
+Possible explanations:.
+
+107
+00:07:06,500 --> 00:07:11,375
+AI tools have a learning curve (teams need ~11 weeks for full productivity).
+
+108
+00:07:11,375 --> 00:07:15,200
+Benchmark tasks ≠ real-world complexity.
+
+109
+00:07:15,200 --> 00:07:18,475
+Experienced developers benefit less than beginners.
+
+110
+00:07:18,475 --> 00:07:23,250
+The warning: Critically question productivity claims from AI tool vendors.
+
+111
+00:07:23,250 --> 00:07:24,350
+Reading List.
+
+112
+00:07:24,350 --> 00:07:32,825
+1.  Prompt Engineering in 2026  - From prompts to context engineering: The evolution of the field (15 min)
+
+113
+00:07:32,825 --> 00:07:41,425
+2.  METR Study: Full Report  - Methodology and all data from the controversial productivity study (25 min)
+
+114
+00:07:41,425 --> 00:07:47,712
+3.  Claude Code Changelog  - All features from recent releases in detail (10 min)
+
+115
+00:07:47,712 --> 00:07:48,687
+Next Week.
+
+116
+00:07:48,687 --> 00:07:54,887
+W3C Meeting: First discussions on MCP-Identity (agent authentication).
+
+117
+00:07:54,887 --> 00:07:58,987
+Cursor 2.1: Expected release with improved Plan mode.
+
+118
+00:07:58,987 --> 00:08:04,100
+AI Craftmanship February: Focus on practical MCP server development.
+
+119
+00:08:04,100 --> 00:08:07,225
+This newsletter was created with AI assistance.
+
+120
+00:08:07,225 --> 00:08:10,287
+All facts were verified against original sources.
+
+121
+00:08:10,287 --> 00:08:12,887
+Subscribe to newsletter  ·  Give feedback
+
