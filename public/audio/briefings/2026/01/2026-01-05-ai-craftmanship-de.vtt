@@ -7,478 +7,450 @@ TL;DR.
 Diese Woche in 30 Sekunden:.
 
 3
-00:00:04,912 --> 00:00:13,712
-MCP-Revolution: Anthropic doniert das Model Context Protocol an die Linux Foundation - OpenAI, Google und Microsoft sind dabei.
+00:00:04,912 --> 00:00:12,575
+Context Engineering: Anthropic definiert den neuen Skill - es geht nicht mehr um Prompts, sondern um Token-Konfiguration.
 
 4
-00:00:13,712 --> 00:00:21,550
-Claude Code 2.0: Background Agents, LSP-Support und Chrome-Integration machen es zum mächtigsten CLI-Tool.
+00:00:12,575 --> 00:00:21,575
+Devin's Bilanz: 67% PR-Merge-Rate, 4x schneller - aber nur 15% Erfolgsquote bei komplexen Tasks.
 
 5
-00:00:21,550 --> 00:00:29,125
-Reality Check: AI-Code produziert 1.7x mehr Bugs und macht erfahrene Entwickler 19% langsamer.
+00:00:21,575 --> 00:00:28,525
+Microsoft-Übernahme: Copilot hat Marktanteile verloren - Akquisition eines Coding-Startups erwartet.
 
 6
-00:00:29,125 --> 00:00:31,887
-🌟 Story der Woche
+00:00:28,525 --> 00:00:31,050
+🎯 Technik der Woche
 
 7
-00:00:31,887 --> 00:00:35,662
-MCP wird zum globalen Standard für AI-Agents.
+00:00:31,050 --> 00:00:34,400
+Context Engineering ersetzt Prompt Engineering.
 
 8
-00:00:35,662 --> 00:00:46,612
-Am 9. Dezember 2025 hat Anthropic einen historischen Schritt gemacht: Das Model Context Protocol (MCP) wurde an die Linux Foundation gespendet .
+00:00:34,400 --> 00:00:39,675
+Anthropic hat einen neuen Guide veröffentlicht, der die Entwickler-Landschaft verändert .
 
 9
-00:00:46,612 --> 00:00:51,075
-Damit wird aus einem Anthropic-Projekt ein echter Industriestandard.
+00:00:39,675 --> 00:00:41,875
+Die zentrale These:.
 
 10
-00:00:51,075 --> 00:00:56,225
-Die neue Agentic AI Foundation (AAIF) vereint die größten Namen:.
+00:00:41,875 --> 00:00:53,062
+Building with language models is becoming less about finding the right words for your prompts, and more about answering: what configuration of context is most likely to generate our model's desired behavior?
 
 11
-00:00:56,225 --> 00:01:00,337
-Gründungsmitglieder: Anthropic, Block, OpenAI.
+00:00:53,062 --> 00:00:55,600
+Was ist Context Engineering?
 
 12
-00:01:00,337 --> 00:01:06,062
-Unterstützer: Google, Microsoft, AWS, Cloudflare, Bloomberg.
+00:00:55,600 --> 00:01:07,450
+Gartner definiert es so : "Designing and structuring the relevant data, workflows and environment so AI systems can understand intent, make better decisions and deliver contextual, enterprise-aligned outcomes.
 
 13
-00:01:06,062 --> 00:01:08,437
-Die Zahlen sprechen für sich:.
+00:01:07,450 --> 00:01:09,625
+Warum das wichtig ist:.
 
 14
-00:01:08,437 --> 00:01:12,900
-10.000+ aktive öffentliche MCP-Server
+00:01:09,625 --> 00:01:12,525
+Prompt Engineering  Context Engineering
 
 15
-00:01:12,900 --> 00:01:18,350
-97 Millionen monatliche SDK-Downloads (Python + TypeScript)
+00:01:12,525 --> 00:01:16,300
+Fokus auf WIE fragen  Fokus auf WAS bereitstellen
 
 16
-00:01:18,350 --> 00:01:22,950
-75+ offizielle Konnektoren in Claude's Directory
+00:01:16,300 --> 00:01:19,300
+Einzelne Interaktion  System-Design
 
 17
-00:01:22,950 --> 00:01:30,712
-Seit seiner Einführung sind wir dem Ziel verpflichtet, MCP open-source, community-driven und vendor-neutral zu halten.
+00:01:19,300 --> 00:01:21,325
+Statisch  Dynamisch
 
 18
-00:01:30,712 --> 00:01:33,400
-Was bedeutet das für Entwickler?
+00:01:21,325 --> 00:01:24,375
+Die drei Kernprinzipien von Anthropic:.
 
 19
-00:01:33,400 --> 00:01:42,150
-MCP ist jetzt das "USB-C für AI" - ein universeller Standard, mit dem AI-Agents auf externe Tools und Daten zugreifen.
+00:01:24,375 --> 00:01:29,212
+1. Finite Attention Budget - Jeder Token verbraucht Aufmerksamkeit.
 
 20
-00:01:42,150 --> 00:01:48,925
-ChatGPT, Cursor, Gemini, Microsoft Copilot und VS Code unterstützen es bereits .
+00:01:29,212 --> 00:01:34,287
+Bei n² Pairwise-Relationships sinkt die Präzision mit wachsendem Context
 
 21
-00:01:48,925 --> 00:01:59,250
-Nächster Meilenstein: Im April 2026 beginnt das W3C formelle Diskussionen über "MCP-Identity" - digitale Pässe für AI-Agents.
+00:01:34,287 --> 00:01:40,987
+2. Just-In-Time Retrieval - Nicht alles vorladen, sondern Identifier speichern und dynamisch fetchen
 
 22
-00:01:59,250 --> 00:02:04,937
-Bottom Line: Wer heute MCP-Server baut, baut für das gesamte AI-Ökosystem.
+00:01:40,987 --> 00:01:47,787
+3. Goldilocks Zone - System-Prompts spezifisch genug für Guidance, flexibel genug für Heuristiken
 
 23
-00:02:04,937 --> 00:02:08,312
-Die Fragmentierung der Tool-Landschaft ist vorbei.
+00:01:47,787 --> 00:01:53,087
+Gartner's Empfehlung: Unternehmen sollten einen "Context Engineering Lead" ernennen .
 
 24
-00:02:08,312 --> 00:02:10,362
-🔥 Top-Stories
+00:01:53,087 --> 00:02:01,500
+Bottom Line: Wer 2026 mit AI-Agents arbeitet, muss Context Engineering beherrschen - nicht Prompt Engineering.
 
 25
-00:02:10,362 --> 00:02:14,325
-Claude Code 2.0: Die wichtigsten neuen Features.
+00:02:01,500 --> 00:02:03,550
+🔥 Top-Stories
 
 26
-00:02:14,325 --> 00:02:18,300
-Claude Code hat in den letzten Wochen massive Updates bekommen .
+00:02:03,550 --> 00:02:06,950
+Devin's Performance Review: Die echten Zahlen.
 
 27
-00:02:18,300 --> 00:02:19,912
-Die Highlights:.
+00:02:06,950 --> 00:02:11,825
+Cognition hat Devin's 2025-Bilanz veröffentlicht .
 
 28
-00:02:19,912 --> 00:02:23,950
-Background Agents (v2.0.60).
+00:02:11,825 --> 00:02:15,500
+Die Zahlen sind beeindruckend - aber mit Nuancen:.
 
 29
-00:02:23,950 --> 00:02:28,300
-Agents laufen jetzt im Hintergrund, während du weiterarbeitest.
+00:02:15,500 --> 00:02:17,437
+Die Verbesserungen:.
 
 30
-00:02:28,300 --> 00:02:31,300
-Keine Blockierung mehr bei langen Tasks.
+00:02:17,437 --> 00:02:20,375
+4x schneller beim Problem-Solving
 
 31
-00:02:31,300 --> 00:02:35,650
-LSP-Support (v2.0.74).
+00:02:20,375 --> 00:02:23,612
+2x effizienter beim Ressourcenverbrauch
 
 32
-00:02:35,650 --> 00:02:41,325
-Echte Code-Intelligence: Go-to-Definition, Find References, Hover-Dokumentation.
+00:02:23,612 --> 00:02:29,562
+67% PR-Merge-Rate (vs. 34% im Vorjahr)
 
 33
-00:02:41,325 --> 00:02:44,862
-Claude versteht deinen Code jetzt auf Compiler-Niveau.
+00:02:29,562 --> 00:02:35,450
+20x schneller bei Security-Fixes (1.5 min vs. 30 min)
 
 34
-00:02:44,862 --> 00:02:49,275
-Chrome Integration (v2.0.72).
+00:02:35,450 --> 00:02:37,762
+Real-World Case Studies:.
 
 35
-00:02:49,275 --> 00:02:52,650
-Browser-Automation direkt aus Claude Code.
+00:02:37,762 --> 00:02:39,625
+Kunde  Ergebnis
 
 36
-00:02:52,650 --> 00:02:59,687
-Installiere die Chrome Extension und lass Claude Webseiten analysieren, Formulare ausfüllen oder Screenshots machen.
+00:02:39,625 --> 00:02:43,675
+Große Bank  5-10% Developer-Zeit gespart
 
 37
-00:02:59,687 --> 00:03:01,462
-Named Sessions.
+00:02:43,675 --> 00:02:49,112
+Nubank  8-12x schnellere Migration, 20x Kostenreduktion
 
 38
-00:03:01,462 --> 00:03:02,712
-bash
+00:02:49,112 --> 00:02:55,612
+Litera  40% mehr Test-Coverage, 93% schnellere Regressions-Zyklen
 
 39
-00:03:02,712 --> 00:03:04,662
-rename my-feature
+00:02:55,612 --> 00:02:58,725
+EightSleep  3x mehr Data-Features shipped
 
 40
-00:03:04,662 --> 00:03:07,175
-claude --resume my-feature
+00:02:58,725 --> 00:03:07,487
+Die andere Seite: Answer.AI testete Devin einen Monat lang - Ergebnis: nur 15% Erfolgsrate bei 20 Tasks .
 
 41
-00:03:07,175 --> 00:03:10,387
-Session-Management wie bei tmux - endlich!
+00:03:07,487 --> 00:03:11,837
+Das Pattern: Devin ist ein Spezialist, kein Generalist.
 
 42
-00:03:10,387 --> 00:03:12,562
-MCP Wildcards.
+00:03:11,837 --> 00:03:18,737
+Am besten bei repetitiven Tasks wie Migrationen und Refactoring - nicht bei kreativer Produktentwicklung .
 
 43
-00:03:12,562 --> 00:03:18,800
-mcp__server__*  # Alle Tools eines Servers erlauben
+00:03:18,737 --> 00:03:21,775
+Microsoft wird Coding-Startup kaufen.
 
 44
-00:03:18,800 --> 00:03:22,312
-Granulare Permissions ohne Einzelauflistung.
+00:03:21,775 --> 00:03:29,075
+The Information prognostiziert : Microsoft wird 2026 ein AI-Coding-Startup akquirieren.
 
 45
-00:03:22,312 --> 00:03:24,812
-Opus 4.5 für Pro.
+00:03:29,075 --> 00:03:33,450
+Der Grund: GitHub Copilot hat massiv Marktanteile verloren.
 
 46
-00:03:24,812 --> 00:03:32,337
-Pro-Nutzer haben jetzt Zugang zu Opus 4.5 mit Extended Thinking - das stärkste Modell für komplexe Coding-Tasks.
+00:03:33,450 --> 00:03:35,700
+Die aktuelle Verteilung:.
 
 47
-00:03:32,337 --> 00:03:37,175
-Cursor 2.0 vs. Copilot: Der IDE-Krieg eskaliert.
+00:03:35,700 --> 00:03:37,700
+Tool  Marktanteil
 
 48
-00:03:37,175 --> 00:03:41,162
-Die beiden größten AI-Coding-Assistenten haben aufgerüstet :.
+00:03:37,700 --> 00:03:41,337
+GitHub Copilot  ~25%
 
 49
-00:03:41,162 --> 00:03:43,350
-Cursor 2.0:.
+00:03:41,337 --> 00:03:44,387
+Cursor  ~25%
 
 50
-00:03:43,350 --> 00:03:47,675
-Parallele Agent-Ausführung mit bis zu 8 Agents gleichzeitig.
+00:03:44,387 --> 00:03:47,662
+Claude Code  ~25%
 
 51
-00:03:47,675 --> 00:03:50,962
-Neuer Plan-Modus für komplexe Refactorings.
+00:03:47,662 --> 00:03:50,775
+Andere  ~25%
 
 52
-00:03:50,962 --> 00:03:53,912
-AI Code Review direkt im Editor.
+00:03:50,775 --> 00:03:52,962
+Warum Akquisition?
 
 53
-00:03:53,912 --> 00:03:59,137
-Multi-Model-Support (OpenAI, Anthropic, Gemini, xAI).
+00:03:52,962 --> 00:03:59,300
+Microsoft's Inflection-Deal ($650M) zeigte, wie man Antitrust umgeht .
 
 54
-00:03:59,137 --> 00:04:01,125
-GitHub Copilot:.
+00:03:59,300 --> 00:04:04,737
+OpenAI hat bereits Windsurf (ex-Codeium) für $3 Mrd. gekauft .
 
 55
-00:04:01,125 --> 00:04:03,912
-Agent Mode für Multi-File-Changes.
+00:04:04,737 --> 00:04:10,175
+Für Entwickler, die gewechselt haben, ist eine Übernahme der einzige Weg zurück .
 
 56
-00:04:03,912 --> 00:04:09,500
-Next Edit Suggestions - AI sagt voraus, was du als nächstes editieren willst.
+00:04:10,175 --> 00:04:16,300
+Mögliche Targets: Cursor, Replit, oder ein kleineres Startup mit starker Technology.
 
 57
-00:04:09,500 --> 00:04:13,762
-Project Padawan: Weise Issues direkt an Copilot zu.
-
-58
-00:04:13,762 --> 00:04:21,250
-Die Entscheidung: Copilot ist lower friction (installieren und los), Cursor hat das höhere Ceiling für Produktivität.
-
-59
-00:04:21,250 --> 00:04:30,200
-Bei großen Projekten berichten einige Teams von signifikanten Zeiteinsparungen - die tatsächliche Produktivität hängt stark vom Anwendungsfall ab .
-
-60
-00:04:30,200 --> 00:04:33,225
+00:04:16,300 --> 00:04:19,325
 ⚡ Quick Hits
 
+58
+00:04:19,325 --> 00:04:25,500
+Show Me The Money": Menlo Ventures nennt 2026 das Jahr der ROI-Nachweise
+
+59
+00:04:25,500 --> 00:04:32,187
+105.000 Software-Jobs: Entgegen Befürchtungen steigen die Stellen - AI treibt Nachfrage
+
+60
+00:04:32,187 --> 00:04:38,037
+Stack Overflow Vertrauen sinkt: Erstmals fallen positive AI-Sentiments signifikant .
+
 61
-00:04:33,225 --> 00:04:41,512
-SmolAgents: Hugging Face's minimalistisches Agent-Framework nutzt einen CodeAgent-Ansatz - das Modell schreibt Python statt JSON .
+00:04:38,037 --> 00:04:43,150
+Super Agents: IBM prognostiziert Multi-Agent-Dashboards als Standard .
 
 62
-00:04:41,512 --> 00:04:49,987
-Vibe Coding Trend: Beschreibe UI/UX in natürlicher Sprache, die IDE generiert Scaffolding, Styling und State Management .
+00:04:43,150 --> 00:04:49,775
+Vibe → OVP: Software-Praxis evolviert von "Vibe Coding" zu "Objective-Validation Protocol" .
 
 63
-00:04:49,987 --> 00:05:00,775
-84% Adoption: Laut Stack Overflow nutzen 84% der Entwickler bereits AI-Tools, 46% des Codes ist AI-generiert
-
-64
-00:05:00,775 --> 00:05:07,225
-Tabby: Self-hosted AI-Coding-Assistent für Teams, die ihren Code nicht in die Cloud schicken wollen .
-
-65
-00:05:07,225 --> 00:05:17,225
-LangGraph Dominanz: Mit 22.900+ GitHub Stars und 4.2M monatlichen Downloads ist LangGraph das meistgenutzte Agent-Framework .
-
-66
-00:05:17,225 --> 00:05:20,150
+00:04:49,775 --> 00:04:52,700
 🛠️ Tool der Woche
 
+64
+00:04:52,700 --> 00:04:55,412
+Context Engineering Checkliste.
+
+65
+00:04:55,412 --> 00:04:59,425
+Basierend auf Anthropic's Guide  - die wichtigsten Techniken:.
+
+66
+00:04:59,425 --> 00:05:01,950
+1. System Prompt Design
+
 67
-00:05:20,150 --> 00:05:23,112
-SmolAgents: Weniger ist mehr.
+00:05:01,950 --> 00:05:05,225
+❌ Zu vage: "Sei hilfreich"
 
 68
-00:05:24,087 --> 00:05:28,812
-Hugging Face hat mit SmolAgents einen radikal anderen Ansatz gewählt :.
+00:05:05,225 --> 00:05:09,812
+❌ Zu rigide: "Wenn X dann Y, sonst Z"
 
 69
-00:05:28,762 --> 00:05:35,437
-Das Problem: Die meisten Agent-Frameworks zwingen LLMs, komplexe JSON-Strukturen auszugeben.
+00:05:09,812 --> 00:05:13,962
+✅ Goldilocks: "Du bist ein Code-Reviewer.
 
 70
-00:05:35,437 --> 00:05:38,762
-Das ist fehleranfällig und schwer zu debuggen.
+00:05:13,962 --> 00:05:17,187
+Fokussiere auf Security und Performance.
 
 71
-00:05:38,762 --> 00:05:43,300
-Die Lösung: SmolAgents nutzt eine "CodeAgent"-Architektur.
+00:05:17,187 --> 00:05:19,775
+Frage nach bei Unklarheiten.
 
 72
-00:05:43,300 --> 00:05:46,850
-Das Modell schreibt und führt Standard-Python-Code aus.
+00:05:19,775 --> 00:05:21,875
+2. Tool Design
 
 73
-00:05:46,850 --> 00:05:51,237
-Keine JSON-Schemas, keine Tool-Definitionen - nur Code.
+00:05:21,875 --> 00:05:25,200
+Minimal, fokussiert, klar benannt .
 
 74
-00:05:51,237 --> 00:05:53,400
-Warum das clever ist:.
+00:05:26,175 --> 00:05:31,537
+Faustregel: Wenn ein Mensch nicht sicher wüsste welches Tool, ist es zu komplex.
 
 75
-00:05:53,400 --> 00:05:57,537
-LLMs sind besser in Code als in strukturiertem JSON.
+00:05:31,487 --> 00:05:33,825
+3. Memory Management
 
 76
-00:05:57,537 --> 00:06:01,600
-Python-Fehler sind leichter zu debuggen als JSON-Parsing-Fehler.
+00:05:33,825 --> 00:05:37,937
+Compaction: Konversations-Historie zusammenfassen .
 
 77
-00:06:01,600 --> 00:06:05,300
-Nahtlose Integration mit bestehendem Python-Code.
+00:05:37,937 --> 00:05:43,087
+Structured Notes: Persistente Memory-Files außerhalb des Context Windows .
 
 78
-00:06:05,300 --> 00:06:07,125
-Installation:.
+00:05:43,087 --> 00:05:47,437
+Sub-Agents: Spezialisierte Agents für fokussierte Tasks .
 
 79
-00:06:07,125 --> 00:06:08,375
-bash
+00:05:47,437 --> 00:05:53,750
+Das Mantra: "The smallest set of high-signal tokens that maximize the likelihood of some desired outcome.
 
 80
-00:06:08,375 --> 00:06:10,925
-pip install smolagents
-
-81
-00:06:10,925 --> 00:06:17,600
-Für wen: Entwickler, die einen "code-first" Ansatz bevorzugen und keine Enterprise-Features brauchen.
-
-82
-00:06:17,600 --> 00:06:20,325
+00:05:53,750 --> 00:05:56,475
 💥 Fail der Woche
 
+81
+00:05:56,475 --> 00:06:00,000
+Die 19%-Langsamkeit kehrt zurück.
+
+82
+00:06:00,000 --> 00:06:05,562
+Die METR-Studie aus 2025 wurde in neuen Analysen bestätigt :.
+
 83
-00:06:20,325 --> 00:06:23,925
-AI-Code produziert 1.7x mehr Bugs.
+00:06:05,562 --> 00:06:15,162
+Das Problem: Erfahrene Entwickler sind mit AI-Tools 19% langsamer auf ihrem eigenen Code - obwohl sie glauben, 20% schneller zu sein.
 
 84
-00:06:23,925 --> 00:06:28,362
-Eine neue Studie von CodeRabbit hat ernüchternde Zahlen geliefert :.
+00:06:15,162 --> 00:06:22,250
+2026-Update: Stack Overflow's Survey zeigt erstmals sinkende positive AI-Sentiments.
 
 85
-00:06:28,362 --> 00:06:30,900
-Metrik  AI-Code  Human-Code
+00:06:22,250 --> 00:06:24,750
+Der Hype-Backlash ist real .
 
 86
-00:06:30,900 --> 00:06:35,137
-Issues pro PR  10.83  6.45
+00:06:24,750 --> 00:06:26,675
+Mögliche Gründe:.
 
 87
-00:06:35,137 --> 00:06:38,462
-Verhältnis  1.7x mehr  Baseline
+00:06:26,675 --> 00:06:29,112
+Context-Switching-Overhead.
 
 88
-00:06:38,462 --> 00:06:42,037
-Analysiert: 470 Pull Requests.
+00:06:29,112 --> 00:06:32,487
+Übermäßiges Vertrauen führt zu weniger Prüfung
 
 89
-00:06:42,037 --> 00:06:43,862
-Hauptprobleme:.
+00:06:32,487 --> 00:06:36,750
+AI-Tools optimiert für Demos, nicht für echte Codebases.
 
 90
-00:06:43,862 --> 00:06:47,900
-Logik- und Korrektheitsfehler (häufigste Kategorie).
+00:06:36,750 --> 00:06:43,075
+Die Lektion: "Show me the money" gilt auch für Developer Productivity - nicht nur Enterprise ROI .
 
 91
-00:06:47,900 --> 00:06:51,937
-Code-Qualität und Lesbarkeit (führt zu Technical Debt).
-
-92
-00:06:51,937 --> 00:06:55,700
-Sicherheitsrisiken (unsichere Passwortbehandlung).
-
-93
-00:06:55,700 --> 00:07:00,125
-Der einzige Lichtblick: AI macht weniger Tippfehler als Menschen.
-
-94
-00:07:00,125 --> 00:07:04,475
-Die Lektion: AI-Code braucht mehr Review, nicht weniger.
-
-95
-00:07:04,475 --> 00:07:09,475
-Behandle AI wie einen Junior-Entwickler, der schnell aber unzuverlässig ist.
-
-96
-00:07:09,475 --> 00:07:12,037
+00:06:43,075 --> 00:06:45,637
 📊 Zahl der Woche
 
+92
+00:06:45,637 --> 00:06:47,837
+105.000
+
+93
+00:06:47,837 --> 00:06:53,375
+Offene Software-Engineering-Stellen weltweit im Januar 2026 .
+
+94
+00:06:53,375 --> 00:06:58,550
+Der Kontext: Trotz AI-Ängsten und Layoffs bei Tech-Giants steigt die Nachfrage.
+
+95
+00:06:58,550 --> 00:07:04,137
+Der Treiber: AI, ML und Cloud erfordern mehr Engineers, nicht weniger .
+
+96
+00:07:04,137 --> 00:07:06,350
+Die gefragtesten Skills:.
+
 97
-00:07:12,037 --> 00:07:14,987
-19% langsamer mit AI
+00:07:06,350 --> 00:07:08,975
+AI/ML Integration.
 
 98
-00:07:14,987 --> 00:07:22,375
-Die METR-Studie hat 16 erfahrene Open-Source-Entwickler getestet  (kleine Stichprobe, aber methodisch sauber):.
+00:07:08,975 --> 00:07:11,150
+Cloud-native Development.
 
 99
-00:07:22,375 --> 00:07:23,825
-Setup:.
+00:07:11,150 --> 00:07:13,175
+Cybersecurity.
 
 100
-00:07:23,825 --> 00:07:31,575
-246 Issues aus echten Projekten (durchschnittlich 22.000+ GitHub Stars)
+00:07:13,175 --> 00:07:15,750
+Context Engineering (neu!
 
 101
-00:07:31,575 --> 00:07:38,362
-Randomisiert: Mit oder ohne AI (Cursor Pro + Claude 3.5/3.7).
+00:07:15,750 --> 00:07:19,212
+Die Warnung: Entry-Level-Positionen schrumpfen.
 
 102
-00:07:38,362 --> 00:07:41,725
-Durchschnittliche Task-Dauer: 2 Stunden.
+00:07:19,212 --> 00:07:21,775
+AI übernimmt Junior-Tasks.
 
 103
-00:07:41,725 --> 00:07:43,250
-Ergebnis:.
+00:07:21,775 --> 00:07:25,162
+Mid-Level mit AI-Skills ist der Sweet Spot .
 
 104
-00:07:43,250 --> 00:07:49,100
-When developers are allowed to use AI tools, they take 19% longer to complete issues.
-
-105
-00:07:49,100 --> 00:07:55,012
-Der Twist: Die Entwickler glaubten trotzdem, AI habe sie 20% schneller gemacht.
-
-106
-00:07:55,012 --> 00:07:57,237
-Mögliche Erklärungen:.
-
-107
-00:07:57,237 --> 00:08:03,337
-AI-Tools haben eine Lernkurve (Teams brauchen ~11 Wochen für volle Produktivität).
-
-108
-00:08:03,337 --> 00:08:07,087
-Benchmark-Aufgaben ≠ Real-World-Komplexität.
-
-109
-00:08:07,087 --> 00:08:10,850
-Erfahrene Entwickler profitieren weniger als Anfänger.
-
-110
-00:08:10,850 --> 00:08:16,175
-Die Warnung: Produktivitäts-Claims von AI-Tool-Anbietern kritisch hinterfragen.
-
-111
-00:08:16,175 --> 00:08:18,487
+00:07:25,162 --> 00:07:27,475
 📚 Leseliste
 
-112
-00:08:18,487 --> 00:08:27,587
-1.  Prompt Engineering in 2026  - Von Prompts zu Context Engineering: Die Evolution des Feldes (15 min)
+105
+00:07:27,475 --> 00:07:33,612
+1.  Anthropic: Effective Context Engineering  - Der definitive Guide (20 min)
 
-113
-00:08:27,587 --> 00:08:36,312
-2.  METR-Studie: Vollständiger Report  - Methodik und alle Daten der kontroversen Produktivitätsstudie (25 min)
+106
+00:07:33,612 --> 00:07:40,962
+2.  Devin's 2025 Performance Review  - Alle Metriken und Case Studies (15 min)
 
-114
-00:08:36,312 --> 00:08:42,287
-3.  Claude Code Changelog  - Alle Features der letzten Releases im Detail (10 min)
+107
+00:07:40,962 --> 00:07:46,562
+3.  Gartner: Context Engineering  - Enterprise-Perspektive (10 min)
 
-115
-00:08:42,287 --> 00:08:44,287
+108
+00:07:46,562 --> 00:07:48,562
 📅 Next Week
 
-116
-00:08:44,287 --> 00:08:50,275
-W3C Meeting: Erste Diskussionen zu MCP-Identity (Agent-Authentifizierung).
+109
+00:07:48,562 --> 00:07:55,662
+CES 2026 Nachbereitung: Was die AI-Hardware-Announcements für Entwickler bedeuten.
 
-117
-00:08:50,275 --> 00:08:55,187
-Cursor 2.1: Erwartetes Release mit verbessertem Plan-Modus.
+110
+00:07:55,662 --> 00:07:59,787
+Context Engineering Deep Dive: Praktische Implementierung.
 
-118
-00:08:55,187 --> 00:09:00,287
-AI Craftmanship Februar: Fokus auf praktische MCP-Server-Entwicklung.
+111
+00:07:59,787 --> 00:08:04,175
+AI Craftsmanship Februar: Fokus auf Agent-Orchestrierung.
 
-119
-00:09:00,287 --> 00:09:03,962
+112
+00:08:04,175 --> 00:08:07,850
 Dieser Newsletter wurde mit AI-Unterstützung erstellt.
 
-120
-00:09:03,962 --> 00:09:07,700
+113
+00:08:07,850 --> 00:08:11,587
 Alle Fakten wurden gegen Originalquellen verifiziert.
 
-121
-00:09:07,700 --> 00:09:10,762
+114
+00:08:11,587 --> 00:08:14,650
 Newsletter abonnieren  ·  Feedback geben
 
