@@ -1,392 +1,380 @@
 1
-00:00:00,100 --> 00:00:02,975
-## TL;DR
+00:00:00,100 --> 00:00:02,287
+TL;DR.
 
 2
-00:00:02,925 --> 00:00:05,600
+00:00:02,237 --> 00:00:04,912
 Diese Woche in 30 Sekunden:.
 
 3
-00:00:05,600 --> 00:00:12,225
-DeepSeek-Dilemma: Chinas AI-Lab zeigt Effizienz-Breakthrough – aber mit erheblichen Sicherheitsbedenken
+00:00:04,912 --> 00:00:11,537
+DeepSeek-Dilemma: Chinas AI-Lab zeigt Effizienz-Breakthrough – aber mit erheblichen Sicherheitsbedenken.
 
 4
-00:00:12,225 --> 00:00:20,762
-CES 2026: Roboter, Smart Glasses und AI-Hardware dominieren – Jensen Huang und Lisa Su keynoten
+00:00:11,537 --> 00:00:20,075
+CES 2026: Roboter, Smart Glasses und AI-Hardware dominieren – Jensen Huang und Lisa Su keynoten.
 
 5
-00:00:20,762 --> 00:00:29,100
-IPO-Fieber: OpenAI plant $1-Billionen-Börsengang, Anthropic und SpaceX folgen – Analysten warnen vor Bubble
+00:00:20,075 --> 00:00:28,412
+IPO-Fieber: OpenAI plant $1-Billionen-Börsengang, Anthropic und SpaceX folgen – Analysten warnen vor Bubble.
 
 6
-00:00:29,100 --> 00:00:35,687
-Claude Code: Beeindruckende Benchmarks, aber Realität ist nuancierter als virale Anekdoten
+00:00:28,412 --> 00:00:35,000
+Claude Code: Beeindruckende Benchmarks, aber Realität ist nuancierter als virale Anekdoten.
 
 7
-00:00:35,687 --> 00:00:38,262
-## Audio-Version
+00:00:35,000 --> 00:00:36,975
+Die Story der Woche.
 
 8
-00:00:38,262 --> 00:00:41,537
-Dein Browser unterstützt kein Audio-Element.
+00:00:36,975 --> 00:00:41,150
+DeepSeek: Effizienz-Breakthrough mit Sicherheits-Fragezeichen.
 
 9
-00:00:41,537 --> 00:00:47,400
-Vorgelesen mit  edge-tts  (Microsoft Azure Neural Voice: de-DE-ConradNeural).
-
-10
-00:00:47,400 --> 00:00:50,112
-## Die Story der Woche
-
-11
-00:00:50,112 --> 00:00:55,350
-### DeepSeek: Effizienz-Breakthrough mit Sicherheits-Fragezeichen
-
-12
-00:00:55,350 --> 00:01:04,912
+00:00:41,150 --> 00:00:50,712
 Das chinesische AI-Startup DeepSeek hat das Jahr 2026 mit einem technischen Paper eröffnet, das die Grundlagen des AI-Trainings neu denkt .
 
-13
-00:01:04,912 --> 00:01:12,500
+10
+00:00:50,712 --> 00:00:58,300
 Die Methode namens Manifold-Constrained Hyper-Connections (mHC) verspricht stabileres Training bei geringeren Kosten.
 
-14
-00:01:12,500 --> 00:01:23,512
+11
+00:00:58,300 --> 00:01:09,312
 Die Zahlen sind beeindruckend: Das 19-köpfige Forscherteam unter Führung von Zhenda Xie testete mHC an Modellen mit 3, 9 und 27 Milliarden Parametern.
 
-15
-00:01:23,512 --> 00:01:31,850
+12
+00:01:09,312 --> 00:01:17,650
 Das Ergebnis: "Effektiv stabiles Large-Scale-Training mit überlegener Skalierbarkeit" bei "vernachlässigbarem Computational Overhead" .
 
-16
-00:01:31,850 --> 00:01:36,350
+13
+00:01:17,650 --> 00:01:22,150
 Analysten bezeichnen den Ansatz als "Breakthrough für die Skalierung" .
 
-17
-00:01:36,350 --> 00:01:43,625
+14
+00:01:22,150 --> 00:01:29,425
 Die andere Seite: Was der Effizienz-Hype verschweigt – CSIS und NIST haben erhebliche Sicherheitsbedenken dokumentiert :.
 
-18
-00:01:43,625 --> 00:01:51,375
-DeepSeek-R1 blockiert 0% der Jailbreak-Prompts (vs. GPT-4o: 86%)
+15
+00:01:29,425 --> 00:01:37,150
+DeepSeek-R1 blockiert 0% der Jailbreak-Prompts (vs. GPT-4o: 86%).
 
-19
-00:01:51,375 --> 00:01:55,637
+16
+00:01:37,150 --> 00:01:41,412
 11x wahrscheinlicher für schädliche Outputs als US-Modelle
 
-20
-00:01:55,637 --> 00:02:01,125
-Alle Daten werden in China gespeichert – mit bekannten Links zu staatlichen Entitäten
+17
+00:01:41,412 --> 00:01:46,900
+Alle Daten werden in China gespeichert – mit bekannten Links zu staatlichen Entitäten .
 
-21
-00:02:01,125 --> 00:02:12,512
+18
+00:01:46,900 --> 00:01:58,287
 Geopolitischer Kontext: Während OpenAI und Microsoft Billionen in Compute investieren, zeigt DeepSeek, dass clevere Architektur Hardware-Nachteile teilweise kompensieren kann.
 
-22
-00:02:12,512 --> 00:02:20,625
+19
+00:01:58,287 --> 00:02:06,400
 Jedoch: Die USA behalten einen 21-49x Compute-Vorteil (wenn Export-Controls halten) .
 
-23
-00:02:20,625 --> 00:02:25,662
+20
+00:02:06,400 --> 00:02:11,437
 Pentagon und Capitol Hill haben DeepSeek bereits für offizielle Nutzung gesperrt.
 
-24
-00:02:25,662 --> 00:02:31,825
+21
+00:02:11,437 --> 00:02:17,600
 Was kommt: Analysten erwarten vor dem chinesischen Neujahrsfest den Launch von DeepSeek R2 .
 
-25
-00:02:31,825 --> 00:02:40,012
+22
+00:02:17,600 --> 00:02:25,787
 Bottom Line: DeepSeek beweist Software-Innovation, aber Sicherheitsrisiken machen Enterprise-Einsatz in kritischen Systemen problematisch.
 
-26
-00:02:40,012 --> 00:02:44,887
+23
+00:02:25,787 --> 00:02:30,662
 Der wahre Test: Kann Effizienz den Chip-Gap langfristig kompensieren?
 
-27
-00:02:44,887 --> 00:02:47,737
-## Weitere Top-Stories
+24
+00:02:30,662 --> 00:02:32,837
+Weitere Top-Stories.
 
-28
-00:02:47,737 --> 00:02:54,175
-### CES 2026: Die AI-Hardware-Revolution beginnt
+25
+00:02:32,837 --> 00:02:38,237
+CES 2026: Die AI-Hardware-Revolution beginnt.
 
-29
-00:02:54,175 --> 00:03:00,337
+26
+00:02:38,237 --> 00:02:44,400
 Die Consumer Electronics Show öffnet am 6. Januar in Las Vegas – und AI ist überall .
 
-30
-00:03:00,337 --> 00:03:08,662
+27
+00:02:44,400 --> 00:02:52,725
 Nvidia-CEO Jensen Huang und AMD-CEO Lisa Su halten Keynotes, während über 4.000 Aussteller AI-Hardware zeigen.
 
-31
-00:03:08,662 --> 00:03:10,275
+28
+00:02:52,725 --> 00:02:54,337
 Die Highlights:.
 
+29
+00:02:54,337 --> 00:03:02,525
+Robotics Explosion: LG's "CLOiD" Haushaltsroboter, SwitchBot's "Onero H1", Narwal's AI-Staubsauger .
+
+30
+00:03:02,525 --> 00:03:09,687
+Smart Glasses: Google kündigt zwei Gemini-Brillen für 2026 an – mit und ohne Display .
+
+31
+00:03:09,687 --> 00:03:18,087
+On-Device AI: Intel's Panther Lake Chips mit 18A-Technologie, LG's "world's lightest 17-inch RTX laptop" .
+
 32
-00:03:10,275 --> 00:03:18,462
-Robotics Explosion: LG's "CLOiD" Haushaltsroboter, SwitchBot's "Onero H1", Narwal's AI-Staubsauger
-
-33
-00:03:18,462 --> 00:03:25,625
-Smart Glasses: Google kündigt zwei Gemini-Brillen für 2026 an – mit und ohne Display
-
-34
-00:03:25,625 --> 00:03:34,025
-On-Device AI: Intel's Panther Lake Chips mit 18A-Technologie, LG's "world's lightest 17-inch RTX laptop"
-
-35
-00:03:34,025 --> 00:03:41,487
+00:03:18,087 --> 00:03:25,550
 Reality Check: Analysten warnen vor Overhype – viele Produkte werden "AI-Features overpromisen und underdeliver" .
 
-36
-00:03:41,487 --> 00:03:47,887
+33
+00:03:25,550 --> 00:03:31,950
 Die echten Fortschritte liegen bei On-Device AI und Robotik (1000+ Units bereits deployed).
 
-37
-00:03:47,887 --> 00:03:52,250
-### Das Jahr der Billionen-IPOs – mit Warnzeichen
+34
+00:03:31,950 --> 00:03:35,350
+Das Jahr der Billionen-IPOs – mit Warnzeichen.
 
-38
-00:03:52,250 --> 00:03:57,575
+35
+00:03:35,350 --> 00:03:40,675
 2026 könnte das größte Tech-IPO-Jahr der Geschichte werden .
 
-39
-00:03:57,575 --> 00:03:59,112
+36
+00:03:40,675 --> 00:03:42,212
 Die Zahlen:
 
-40
-00:03:59,112 --> 00:04:02,175
+37
+00:03:42,212 --> 00:03:45,275
 Unternehmen  Geplante Bewertung  Timeline
 
-41
-00:04:02,175 --> 00:04:07,025
+38
+00:03:45,275 --> 00:03:50,125
 OpenAI  bis zu $1 Billion  Ende 2026
 
-42
-00:04:07,025 --> 00:04:12,162
+39
+00:03:50,125 --> 00:03:55,262
 SpaceX  $30+ Milliarden  Juni 2026
 
-43
-00:04:12,162 --> 00:04:15,125
+40
+00:03:55,262 --> 00:03:58,225
 Anthropic  TBD  Vorbereitung läuft
 
-44
-00:04:15,125 --> 00:04:19,675
+41
+00:03:58,225 --> 00:04:02,775
 Sam Altman bezeichnete einen Börsengang als "wahrscheinlichsten Weg" .
 
-45
-00:04:19,675 --> 00:04:23,750
+42
+00:04:02,775 --> 00:04:06,850
 Anthropic beauftragte Wilson Sonsini zur Vorbereitung .
 
-46
-00:04:23,750 --> 00:04:28,550
+43
+00:04:06,850 --> 00:04:11,650
 Die Warnung: Weder OpenAI noch Anthropic sind finanziell transparent.
 
-47
-00:04:28,550 --> 00:04:36,987
+44
+00:04:11,650 --> 00:04:20,087
 Wir kennen erwartete Umsätze (OpenAI: $30 Mrd. 2026), aber nicht die Profitabilität .
 
-48
-00:04:36,987 --> 00:04:47,412
+45
+00:04:20,087 --> 00:04:30,512
 Historische Parallele: Nvidia überlebte die Dot-Com-Blase 1999 – aber erst 2025 erreichte es $5 Billionen Bewertung.
 
-49
-00:04:47,412 --> 00:04:50,437
+46
+00:04:30,512 --> 00:04:33,537
 Der Weg dauerte 26 Jahre .
 
-50
-00:04:50,437 --> 00:04:52,712
-## Quick Hits
+47
+00:04:33,537 --> 00:04:35,075
+Quick Hits.
 
-51
-00:04:52,712 --> 00:04:54,450
+48
+00:04:35,075 --> 00:04:36,812
 Kurz notiert:.
 
+49
+00:04:36,812 --> 00:04:45,150
+Gemini 3 @-Menu: Google's neue Model-Switcher erlaubt schnelles Wechseln zwischen @Fast, @Thinking und @Pro via Tastatur .
+
+50
+00:04:45,150 --> 00:04:54,325
+MCP wird Standard: OpenAI, Microsoft und Google adoptieren Anthropic's Model Context Protocol – Linux Foundation übernimmt Governance .
+
+51
+00:04:54,325 --> 00:05:03,025
+Chip Rally: ASML +9%, Micron +10% zum Jahresstart – AI-Nachfrage treibt Semiconductor-Aktien .
+
 52
-00:04:54,450 --> 00:05:02,787
-Gemini 3 @-Menu: Google's neue Model-Switcher erlaubt schnelles Wechseln zwischen @Fast, @Thinking und @Pro via Tastatur
-
-53
-00:05:03,762 --> 00:05:12,937
-MCP wird Standard: OpenAI, Microsoft und Google adoptieren Anthropic's Model Context Protocol – Linux Foundation übernimmt Governance
-
-54
-00:05:12,887 --> 00:05:21,587
-Chip Rally: ASML +9%, Micron +10% zum Jahresstart – AI-Nachfrage treibt Semiconductor-Aktien
-
-55
-00:05:21,587 --> 00:05:23,312
+00:05:04,000 --> 00:05:05,725
 End of Scaling?
 
+53
+00:05:05,675 --> 00:05:11,425
+Yann LeCun und Ilya Sutskever argumentieren, dass aktuelle Scaling Laws plateauieren .
+
+54
+00:05:11,425 --> 00:05:19,187
+World Models: Google DeepMind's Genie, World Labs' Marble und Runway's GWM-1 treiben neuen Research-Fokus .
+
+55
+00:05:19,187 --> 00:05:20,987
+Tool der Woche.
+
 56
-00:05:23,312 --> 00:05:29,062
-Yann LeCun und Ilya Sutskever argumentieren, dass aktuelle Scaling Laws plateauieren
-
-57
-00:05:29,062 --> 00:05:36,825
-World Models: Google DeepMind's Genie, World Labs' Marble und Runway's GWM-1 treiben neuen Research-Fokus
-
-58
-00:05:36,825 --> 00:05:39,337
-## Tool der Woche
-
-59
-00:05:39,337 --> 00:05:43,162
+00:05:20,987 --> 00:05:24,812
 Claude Code - Produktivitäts-Boost mit Nuancen.
 
-60
-00:05:43,162 --> 00:05:56,812
+57
+00:05:24,812 --> 00:05:38,462
 Jaana Dogan, Principal Engineer bei Google (Gemini API Team), teilte auf X: Sie gab Claude Code eine Problembeschreibung und erhielt in einer Stunde ein funktionierendes System, an dem ihr Team seit einem Jahr arbeitet .
 
-61
-00:05:56,812 --> 00:06:05,400
+58
+00:05:38,462 --> 00:05:47,050
 Die Benchmark-Realität: Claude Code erreicht 80.9% auf dem SWE-bench – ein legitimer Benchmark für Code-Generierung.
 
-62
-00:06:05,400 --> 00:06:12,787
+59
+00:05:47,050 --> 00:05:54,437
 Typische Produktivitätsgewinne liegen bei 50-75% Fehlerreduktion für repetitive Tasks .
 
-63
-00:06:12,787 --> 00:06:21,637
+60
+00:05:54,437 --> 00:06:03,287
 Aber: Eine randomisierte Studie zeigte: Erfahrene Entwickler brauchten mit AI-Tools auf ihrem eigenen Code teilweise 19% länger.
 
-64
-00:06:21,637 --> 00:06:24,650
+61
+00:06:03,287 --> 00:06:06,300
 Der Effekt hängt stark vom Use-Case ab .
 
-65
-00:06:24,650 --> 00:06:38,212
+62
+00:06:06,300 --> 00:06:19,862
 Boris Cherry vom Claude Code Team: 259 Pull Requests in 30 Tagen – 497 Commits, 40.000 Zeilen hinzugefügt – "jede Zeile von Claude Code + Opus 4.5" .
 
-66
-00:06:38,212 --> 00:06:40,137
+63
+00:06:19,862 --> 00:06:21,787
 Claude Code Docs
 
-67
-00:06:40,137 --> 00:06:42,625
-## Fail der Woche
+64
+00:06:21,787 --> 00:06:23,612
+Fail der Woche.
 
-68
-00:06:42,625 --> 00:06:45,862
+65
+00:06:23,612 --> 00:06:26,850
 Die Sicherheitslücke, die keiner sehen will"
 
-69
-00:06:45,862 --> 00:06:51,700
+66
+00:06:26,850 --> 00:06:32,687
 Während DeepSeek für Effizienz gefeiert wird, zeigen NIST-Evaluierungen ein anderes Bild :.
 
-70
-00:06:51,700 --> 00:06:56,825
+67
+00:06:32,687 --> 00:06:37,812
 Das Problem: DeepSeek-R1 blockiert 0% der Jailbreak-Prompts.
 
-71
-00:06:56,825 --> 00:07:03,950
+68
+00:06:37,812 --> 00:06:44,937
 Zum Vergleich: GPT-4o blockiert 86%, Gemini 64% .
 
-72
-00:07:03,950 --> 00:07:12,925
+69
+00:06:44,937 --> 00:06:53,912
 Root Cause: Fehlende oder unzureichende Safety-Guardrails bei schnellem Scale-Up – ein Problem, das bei chinesischen AI-Labs systematisch auftritt .
 
-73
-00:07:12,925 --> 00:07:18,850
+70
+00:06:53,912 --> 00:06:59,837
 Was wir lernen: Effizienz ohne Safety ist keine Innovation – es ist ein Risiko.
 
-74
-00:07:18,850 --> 00:07:22,425
+71
+00:06:59,837 --> 00:07:03,412
 Pentagon und Capitol Hill haben bereits reagiert.
 
-75
-00:07:22,425 --> 00:07:24,925
-## Zahl der Woche
+72
+00:07:03,412 --> 00:07:05,237
+Zahl der Woche.
 
-76
-00:07:24,925 --> 00:07:28,562
+73
+00:07:05,237 --> 00:07:08,875
 37% vs. 14%
 
-77
-00:07:28,562 --> 00:07:36,262
+74
+00:07:08,875 --> 00:07:16,575
 37% der US-Unternehmen planen, bis Ende 2026 Jobs durch AI zu ersetzen .
 
-78
-00:07:36,262 --> 00:07:38,450
+75
+00:07:16,575 --> 00:07:18,762
 Aber die Realität?
 
-79
-00:07:38,450 --> 00:07:42,262
+76
+00:07:18,762 --> 00:07:22,575
 Nur 14% haben tatsächlich Stellen ersetzt .
 
-80
-00:07:42,262 --> 00:07:47,962
+77
+00:07:22,575 --> 00:07:28,275
 Dieser Expectations-Reality-Gap zeigt: Viele Ankündigungen, weniger Umsetzung.
 
-81
-00:07:47,962 --> 00:07:51,787
+78
+00:07:28,275 --> 00:07:32,100
 Die am stärksten gefährdeten Gruppen laut Goldman Sachs:.
 
+79
+00:07:32,100 --> 00:07:35,337
+High-Salary Employees ohne AI-Skills.
+
+80
+00:07:35,337 --> 00:07:38,100
+Kürzlich eingestellte Mitarbeiter.
+
+81
+00:07:38,100 --> 00:07:40,425
+Entry-Level Positionen .
+
 82
-00:07:51,787 --> 00:07:55,025
-High-Salary Employees ohne AI-Skills
-
-83
-00:07:55,025 --> 00:07:57,787
-Kürzlich eingestellte Mitarbeiter
-
-84
-00:07:57,787 --> 00:08:00,112
-Entry-Level Positionen
-
-85
-00:08:00,112 --> 00:08:10,337
+00:07:40,425 --> 00:07:50,650
 Kontext: 2025 wurden 55.000 US-Jobs direkt auf AI zurückgeführt – bei insgesamt 1,17 Millionen Entlassungen .
 
-86
-00:08:10,337 --> 00:08:12,687
-## Leseliste
+83
+00:07:50,650 --> 00:07:52,362
+Leseliste.
 
-87
-00:08:12,687 --> 00:08:14,637
+84
+00:07:52,362 --> 00:07:54,312
 Für's Wochenende:.
 
-88
-00:08:14,637 --> 00:08:26,437
+85
+00:07:54,312 --> 00:08:06,112
 1.  In 2026, AI will move from hype to pragmatism  - TechCrunch's Deep-Dive in die Trends: Small Language Models, World Models, MCP-Adoption (8 min)
 
-89
-00:08:26,437 --> 00:08:34,675
+86
+00:08:06,112 --> 00:08:14,350
 2.  CSIS: Delving into the Dangers of DeepSeek  - Die Sicherheitsanalyse, die jeder CTO lesen sollte (10 min)
 
-90
-00:08:34,675 --> 00:08:42,387
+87
+00:08:14,350 --> 00:08:22,062
 3.  DeepSeek Paper: Manifold-Constrained Hyper-Connections  - Technische Analyse des Effizienz-Breakthrough (5 min)
 
-91
-00:08:42,387 --> 00:08:44,612
-## Next Week
+88
+00:08:22,062 --> 00:08:23,587
+Next Week.
 
-92
-00:08:44,612 --> 00:08:46,162
+89
+00:08:23,587 --> 00:08:25,137
 Was kommt:.
 
-93
-00:08:46,162 --> 00:08:55,762
-CES 2026 (6.-9. Januar) - Nvidia, AMD, Intel Keynotes – erwarte Chip-Announcements und Robotics-Demos
+90
+00:08:25,137 --> 00:08:34,737
+CES 2026 (6.-9. Januar) - Nvidia, AMD, Intel Keynotes – erwarte Chip-Announcements und Robotics-Demos.
 
-94
-00:08:55,762 --> 00:09:01,237
-Anthropic Briefing (12. Januar) - AI in Healthcare, San Francisco
+91
+00:08:34,737 --> 00:08:40,212
+Anthropic Briefing (12. Januar) - AI in Healthcare, San Francisco.
 
-95
-00:09:01,237 --> 00:09:03,137
+92
+00:08:40,212 --> 00:08:42,112
 DeepSeek R2?
 
-96
-00:09:03,137 --> 00:09:07,100
-Möglicher Launch vor dem chinesischen Neujahr (Februar)
+93
+00:08:42,112 --> 00:08:46,062
+Möglicher Launch vor dem chinesischen Neujahr (Februar).
 
-97
-00:09:07,100 --> 00:09:11,675
+94
+00:08:46,062 --> 00:08:50,637
 Dieser Newsletter wurde mit AI-Unterstützung recherchiert und geschrieben.
 
-98
-00:09:11,675 --> 00:09:14,987
+95
+00:08:50,637 --> 00:08:53,950
 Bilder generiert mit  Pollinations.ai .
 
