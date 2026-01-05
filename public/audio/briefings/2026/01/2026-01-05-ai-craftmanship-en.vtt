@@ -7,478 +7,450 @@ TL;DR.
 This week in 30 seconds:.
 
 3
-00:00:03,087 --> 00:00:12,800
-MCP Revolution: Anthropic donates the Model Context Protocol to the Linux Foundation - OpenAI, Google and Microsoft are on board.
+00:00:03,087 --> 00:00:10,900
+Context Engineering: Anthropic defines the new skill - it's no longer about prompts, but about token configuration.
 
 4
-00:00:12,800 --> 00:00:21,237
-Claude Code 2.0: Background Agents, LSP support and Chrome integration make it the most powerful CLI tool.
+00:00:10,900 --> 00:00:19,537
+Devin's Review: 67% PR merge rate, 4x faster - but only 15% success rate on complex tasks.
 
 5
-00:00:21,237 --> 00:00:29,112
-Reality Check: AI code produces 1.7x more bugs and makes experienced developers 19% slower.
+00:00:19,537 --> 00:00:25,762
+Microsoft Acquisition: Copilot has lost market share - coding startup acquisition expected.
 
 6
-00:00:29,112 --> 00:00:30,362
-Story of the Week.
+00:00:25,762 --> 00:00:27,837
+🎯 Technique of the Week
 
 7
-00:00:30,362 --> 00:00:34,012
-MCP becomes the global standard for AI agents.
+00:00:27,837 --> 00:00:30,950
+Context Engineering Replaces Prompt Engineering.
 
 8
-00:00:34,012 --> 00:00:43,750
-On December 9, 2025, Anthropic took a historic step: The Model Context Protocol (MCP) was donated to the Linux Foundation .
+00:00:30,950 --> 00:00:35,225
+Anthropic has published a new guide that's changing the developer landscape .
 
 9
-00:00:43,750 --> 00:00:48,237
-This transforms an Anthropic project into a true industry standard.
+00:00:35,225 --> 00:00:36,650
+The central thesis:.
 
 10
-00:00:48,237 --> 00:00:53,275
-The new Agentic AI Foundation (AAIF) unites the biggest names:.
+00:00:36,650 --> 00:00:48,700
+"Building with language models is becoming less about finding the right words for your prompts, and more about answering: what configuration of context is most likely to generate our model's desired behavior?"
 
 11
-00:00:53,275 --> 00:00:56,925
-Founding members: Anthropic, Block, OpenAI.
+00:00:48,700 --> 00:00:50,450
+What is Context Engineering?
 
 12
-00:00:56,925 --> 00:01:02,637
-Supporters: Google, Microsoft, AWS, Cloudflare, Bloomberg.
+00:00:50,450 --> 00:01:03,837
+Gartner defines it as : "Designing and structuring the relevant data, workflows and environment so AI systems can understand intent, make better decisions and deliver contextual, enterprise-aligned outcomes.".
 
 13
-00:01:02,637 --> 00:01:04,562
-The numbers speak for themselves:.
+00:01:03,837 --> 00:01:05,075
+Why this matters:.
 
 14
-00:01:04,562 --> 00:01:09,125
-10,000+ active public MCP servers
+00:01:05,075 --> 00:01:07,675
+Prompt Engineering  Context Engineering
 
 15
-00:01:09,125 --> 00:01:14,175
-97 million monthly SDK downloads (Python + TypeScript)
+00:01:07,675 --> 00:01:10,525
+Focus on HOW to ask  Focus on WHAT to provide
 
 16
-00:01:14,175 --> 00:01:17,887
-75+ official connectors in Claude's Directory
+00:01:10,525 --> 00:01:12,687
+Single interaction  System design
 
 17
-00:01:17,887 --> 00:01:24,887
-"Since its introduction, we have been committed to keeping MCP open-source, community-driven and vendor-neutral."
+00:01:12,687 --> 00:01:14,037
+Static  Dynamic
 
 18
-00:01:24,887 --> 00:01:26,762
-What does this mean for developers?
+00:01:14,037 --> 00:01:16,537
+Anthropic's Three Core Principles:.
 
 19
-00:01:26,762 --> 00:01:35,662
-MCP is now the "USB-C for AI" - a universal standard that allows AI agents to access external tools and data.
+00:01:16,537 --> 00:01:20,925
+1. Finite Attention Budget - Every token consumes attention.
 
 20
-00:01:35,662 --> 00:01:41,937
-ChatGPT, Cursor, Gemini, Microsoft Copilot and VS Code already support it .
+00:01:20,925 --> 00:01:26,725
+With n² pairwise relationships, precision decreases as context grows
 
 21
-00:01:41,937 --> 00:01:52,012
-Next milestone: In April 2026, W3C begins formal discussions on "MCP-Identity" - digital passports for AI agents.
+00:01:26,725 --> 00:01:33,475
+2. Just-In-Time Retrieval - Don't preload everything; store identifiers and fetch dynamically
 
 22
-00:01:52,012 --> 00:01:58,675
-Bottom Line: Anyone building MCP servers today is building for the entire AI ecosystem.
+00:01:33,475 --> 00:01:40,287
+3. Goldilocks Zone - System prompts specific enough for guidance, flexible enough for heuristics
 
 23
-00:01:58,675 --> 00:02:01,787
-The fragmentation of the tool landscape is over.
+00:01:40,287 --> 00:01:45,050
+Gartner's Recommendation: Companies should appoint a "Context Engineering Lead" .
 
 24
-00:02:01,787 --> 00:02:02,937
-Top Stories.
+00:01:45,050 --> 00:01:53,012
+Bottom Line: Anyone working with AI agents in 2026 needs to master Context Engineering - not Prompt Engineering.
 
 25
-00:02:02,937 --> 00:02:06,912
-Claude Code 2.0: The most important new features.
+00:01:53,012 --> 00:01:54,487
+🔥 Top Stories
 
 26
-00:02:06,912 --> 00:02:10,475
-Claude Code has received massive updates in recent weeks .
+00:01:54,487 --> 00:01:57,437
+Devin's Performance Review: The Real Numbers.
 
 27
-00:02:10,475 --> 00:02:11,537
-The highlights:.
+00:01:57,437 --> 00:02:00,987
+Cognition has published Devin's 2025 review .
 
 28
-00:02:11,537 --> 00:02:15,387
-Background Agents (v2.0.60).
+00:02:00,987 --> 00:02:03,875
+The numbers are impressive - but with nuances:.
 
 29
-00:02:15,387 --> 00:02:18,812
-Agents now run in the background while you continue working.
+00:02:03,875 --> 00:02:05,100
+The Improvements:.
 
 30
-00:02:18,812 --> 00:02:21,050
-No more blocking on long tasks.
+00:02:05,100 --> 00:02:07,362
+4x faster at problem-solving
 
 31
-00:02:21,050 --> 00:02:25,325
-LSP Support (v2.0.74).
+00:02:07,362 --> 00:02:10,025
+2x more efficient at resource consumption
 
 32
-00:02:25,325 --> 00:02:30,812
-Real code intelligence: Go-to-Definition, Find References, Hover documentation.
+00:02:10,025 --> 00:02:15,075
+67% PR merge rate (vs. 34% last year)
 
 33
-00:02:30,812 --> 00:02:33,850
-Claude now understands your code at compiler level.
+00:02:15,075 --> 00:02:20,287
+20x faster at security fixes (1.5 min vs. 30 min)
 
 34
-00:02:33,850 --> 00:02:37,975
-Chrome Integration (v2.0.72).
+00:02:20,287 --> 00:02:22,100
+Real-World Case Studies:.
 
 35
-00:02:37,975 --> 00:02:40,825
-Browser automation directly from Claude Code.
+00:02:22,100 --> 00:02:23,350
+Customer  Result
 
 36
-00:02:40,825 --> 00:02:47,112
-Install the Chrome Extension and let Claude analyze web pages, fill out forms or take screenshots.
+00:02:23,350 --> 00:02:26,662
+Major Bank  5-10% developer time saved
 
 37
-00:02:47,112 --> 00:02:48,312
-Named Sessions.
+00:02:26,662 --> 00:02:31,937
+Nubank  8-12x faster migration, 20x cost reduction
 
 38
-00:02:48,312 --> 00:02:49,137
-bash
+00:02:31,937 --> 00:02:37,662
+Litera  40% more test coverage, 93% faster regression cycles
 
 39
-00:02:49,137 --> 00:02:50,962
-/rename my-feature
+00:02:37,662 --> 00:02:40,712
+EightSleep  3x more data features shipped
 
 40
-00:02:50,962 --> 00:02:52,950
-claude --resume my-feature
+00:02:40,712 --> 00:02:48,800
+The Other Side: Answer.AI tested Devin for a month - result: only 15% success rate on 20 tasks .
 
 41
-00:02:52,950 --> 00:02:55,687
-Session management like tmux - finally!
+00:02:48,800 --> 00:02:52,437
+The Pattern: Devin is a specialist, not a generalist.
 
 42
-00:02:55,687 --> 00:02:57,312
-MCP Wildcards.
+00:02:52,437 --> 00:02:58,425
+Best at repetitive tasks like migrations and refactoring - not creative product development .
 
 43
-00:02:57,312 --> 00:03:03,487
-mcp__server__*  # Allow all tools from a server
+00:02:58,425 --> 00:03:00,537
+Microsoft Will Buy a Coding Startup.
 
 44
-00:03:03,487 --> 00:03:06,337
-Granular permissions without individual listing.
+00:03:00,537 --> 00:03:06,475
+The Information predicts : Microsoft will acquire an AI coding startup in 2026.
 
 45
-00:03:06,337 --> 00:03:08,225
-Opus 4.5 for Pro.
+00:03:06,475 --> 00:03:10,537
+The Reason: GitHub Copilot has lost significant market share.
 
 46
-00:03:08,225 --> 00:03:15,950
-Pro users now have access to Opus 4.5 with Extended Thinking - the strongest model for complex coding tasks.
+00:03:10,537 --> 00:03:11,900
+Current distribution:.
 
 47
-00:03:15,950 --> 00:03:20,900
-Cursor 2.0 vs. Copilot: The IDE war escalates.
+00:03:11,900 --> 00:03:13,112
+Tool  Market Share
 
 48
-00:03:20,900 --> 00:03:24,100
-The two biggest AI coding assistants have upgraded :.
+00:03:13,112 --> 00:03:15,712
+GitHub Copilot  ~25%
 
 49
-00:03:24,100 --> 00:03:25,812
-Cursor 2.0:.
+00:03:15,712 --> 00:03:17,612
+Cursor  ~25%
 
 50
-00:03:25,812 --> 00:03:30,262
-Parallel agent execution with up to 8 agents simultaneously.
+00:03:17,612 --> 00:03:19,812
+Claude Code  ~25%
 
 51
-00:03:30,262 --> 00:03:33,075
-New Plan mode for complex refactorings.
+00:03:19,812 --> 00:03:21,687
+Others  ~25%
 
 52
-00:03:33,075 --> 00:03:35,937
-AI Code Review directly in the editor.
+00:03:21,687 --> 00:03:22,950
+Why Acquisition?
 
 53
-00:03:35,937 --> 00:03:40,925
-Multi-model support (OpenAI, Anthropic, Gemini, xAI).
+00:03:22,950 --> 00:03:29,075
+Microsoft's Inflection deal ($650M) showed how to navigate antitrust .
 
 54
-00:03:40,925 --> 00:03:42,250
-GitHub Copilot:.
+00:03:29,075 --> 00:03:34,100
+OpenAI already bought Windsurf (ex-Codeium) for $3B .
 
 55
-00:03:42,250 --> 00:03:44,637
-Agent Mode for multi-file changes.
+00:03:34,100 --> 00:03:38,625
+For developers who switched, an acquisition is the only path back .
 
 56
-00:03:44,637 --> 00:03:48,350
-Next Edit Suggestions - AI predicts what you'll edit next.
+00:03:38,625 --> 00:03:44,050
+Possible Targets: Cursor, Replit, or a smaller startup with strong technology.
 
 57
-00:03:48,350 --> 00:03:52,300
-Project Padawan: Assign issues directly to Copilot.
+00:03:44,050 --> 00:03:45,600
+⚡ Quick Hits
 
 58
-00:03:52,300 --> 00:03:59,200
-The verdict: Copilot is lower friction (install and go), Cursor has the higher ceiling for productivity.
+00:03:45,600 --> 00:03:51,300
+"Show Me The Money": Menlo Ventures calls 2026 the year of ROI proof
 
 59
-00:03:59,200 --> 00:04:07,087
-For large projects, some teams report significant time savings - actual productivity depends heavily on the use case .
+00:03:51,300 --> 00:03:58,512
+105,000 Software Jobs: Contrary to fears, positions are rising - AI drives demand
 
 60
-00:04:07,087 --> 00:04:08,037
-Quick Hits.
+00:03:58,512 --> 00:04:05,137
+Stack Overflow Trust Drops: For the first time, positive AI sentiments are declining significantly .
 
 61
-00:04:08,037 --> 00:04:16,325
-SmolAgents: Hugging Face's minimalist agent framework uses a CodeAgent approach - the model writes Python instead of JSON .
+00:04:05,137 --> 00:04:09,712
+Super Agents: IBM predicts multi-agent dashboards as standard .
 
 62
-00:04:16,325 --> 00:04:25,187
-Vibe Coding Trend: Describe UI/UX in natural language, the IDE generates scaffolding, styling and state management .
+00:04:09,712 --> 00:04:16,062
+Vibe → OVP: Software practice evolves from "Vibe Coding" to "Objective-Validation Protocol" .
 
 63
-00:04:25,187 --> 00:04:35,537
-84% Adoption: According to Stack Overflow, 84% of developers already use AI tools, 46% of code is AI-generated
+00:04:16,062 --> 00:04:18,012
+🛠️ Tool of the Week
 
 64
-00:04:35,537 --> 00:04:41,312
-Tabby: Self-hosted AI coding assistant for teams who don't want to send their code to the cloud .
+00:04:18,012 --> 00:04:20,037
+Context Engineering Checklist.
 
 65
-00:04:41,312 --> 00:04:51,837
-LangGraph Dominance: With 22,900+ GitHub Stars and 4.2M monthly downloads, LangGraph is the most-used agent framework .
+00:04:20,037 --> 00:04:23,300
+Based on Anthropic's Guide  - the key techniques:.
 
 66
-00:04:51,837 --> 00:04:52,962
-Tool of the Week.
+00:04:23,300 --> 00:04:25,375
+1. System Prompt Design
 
 67
-00:04:52,962 --> 00:04:55,062
-SmolAgents: Less is more.
+00:04:25,375 --> 00:04:27,900
+❌ Too vague: "Be helpful"
 
 68
-00:04:55,062 --> 00:04:59,037
-Hugging Face has taken a radically different approach with SmolAgents :.
+00:04:27,900 --> 00:04:31,887
+❌ Too rigid: "If X then Y, else Z"
 
 69
-00:04:59,037 --> 00:05:04,950
-The problem: Most agent frameworks force LLMs to output complex JSON structures.
+00:04:31,887 --> 00:04:35,375
+✅ Goldilocks: "You are a code reviewer.
 
 70
-00:05:04,950 --> 00:05:07,462
-This is error-prone and hard to debug.
+00:04:35,375 --> 00:04:37,800
+Focus on security and performance.
 
 71
-00:05:08,387 --> 00:05:12,387
-The solution: SmolAgents uses a "CodeAgent" architecture.
+00:04:37,800 --> 00:04:40,325
+Ask for clarification when unclear."
 
 72
-00:05:12,387 --> 00:05:15,562
-The model writes and executes standard Python code.
+00:04:40,325 --> 00:04:41,875
+2. Tool Design
 
 73
-00:05:15,562 --> 00:05:19,525
-No JSON schemas, no tool definitions - just code.
+00:04:41,875 --> 00:04:44,425
+Minimal, focused, clearly named .
 
 74
-00:05:19,525 --> 00:05:20,750
-Why this is clever:.
+00:04:44,425 --> 00:04:49,687
+Rule of thumb: If a human wouldn't be sure which tool to use, it's too complex.
 
 75
-00:05:20,750 --> 00:05:23,887
-LLMs are better at code than structured JSON.
+00:04:49,687 --> 00:04:51,575
+3. Memory Management
 
 76
-00:05:23,887 --> 00:05:27,825
-Python errors are easier to debug than JSON parsing errors.
+00:04:51,575 --> 00:04:54,675
+Compaction: Summarize conversation history .
 
 77
-00:05:27,825 --> 00:05:30,912
-Seamless integration with existing Python code.
+00:04:55,600 --> 00:05:00,225
+Structured Notes: Persistent memory files outside the context window .
 
 78
-00:05:30,912 --> 00:05:32,062
-Installation:.
+00:05:00,225 --> 00:05:03,825
+Sub-Agents: Specialized agents for focused tasks .
 
 79
-00:05:32,062 --> 00:05:32,887
-bash
+00:05:03,825 --> 00:05:10,362
+The Mantra: "The smallest set of high-signal tokens that maximize the likelihood of some desired outcome." .
 
 80
-00:05:32,887 --> 00:05:34,700
-pip install smolagents
+00:05:10,362 --> 00:05:12,087
+💥 Fail of the Week
 
 81
-00:05:34,700 --> 00:05:40,362
-For whom: Developers who prefer a "code-first" approach and don't need enterprise features.
+00:05:12,087 --> 00:05:14,787
+The 19% Slowdown Returns.
 
 82
-00:05:40,362 --> 00:05:41,512
-Fail of the Week.
+00:05:14,787 --> 00:05:19,975
+The METR study from 2025 has been confirmed in new analyses :.
 
 83
-00:05:41,512 --> 00:05:44,787
-AI code produces 1.7x more bugs.
+00:05:19,975 --> 00:05:28,800
+The Problem: Experienced developers are 19% slower with AI tools on their own code - even though they believe they're 20% faster.
 
 84
-00:05:44,787 --> 00:05:48,237
-A new study from CodeRabbit delivered sobering numbers :.
+00:05:28,800 --> 00:05:35,237
+2026 Update: Stack Overflow's survey shows declining positive AI sentiments for the first time.
 
 85
-00:05:48,237 --> 00:05:50,437
-Metric  AI Code  Human Code
+00:05:35,237 --> 00:05:36,962
+The hype backlash is real .
 
 86
-00:05:50,437 --> 00:05:54,400
-Issues per PR  10.83  6.45
+00:05:36,962 --> 00:05:38,287
+Possible Reasons:.
 
 87
-00:05:54,400 --> 00:05:57,387
-Ratio  1.7x more  Baseline
+00:05:38,287 --> 00:05:40,100
+Context-switching overhead.
 
 88
-00:05:57,387 --> 00:06:00,475
-Analyzed: 470 Pull Requests.
+00:05:40,100 --> 00:05:42,462
+Overconfidence leads to less review.
 
 89
-00:06:00,475 --> 00:06:01,650
-Main problems:.
+00:05:42,462 --> 00:05:46,225
+AI tools optimized for demos, not real codebases.
 
 90
-00:06:01,650 --> 00:06:05,162
-Logic and correctness errors (most common category).
+00:05:46,225 --> 00:05:52,575
+The Lesson: "Show me the money" applies to developer productivity too - not just enterprise ROI .
 
 91
-00:06:05,162 --> 00:06:08,787
-Code quality and readability (leads to technical debt).
+00:05:52,575 --> 00:05:54,262
+📊 Number of the Week
 
 92
-00:06:08,787 --> 00:06:11,950
-Security risks (insecure password handling).
+00:05:54,262 --> 00:05:55,950
+105,000
 
 93
-00:06:11,950 --> 00:06:15,962
-The only bright spot: AI makes fewer typos than humans.
+00:05:55,950 --> 00:06:00,725
+Open software engineering positions worldwide in January 2026 .
 
 94
-00:06:15,962 --> 00:06:19,925
-The lesson: AI code needs more review, not less.
+00:06:00,725 --> 00:06:06,537
+The Context: Despite AI fears and layoffs at tech giants, demand is rising.
 
 95
-00:06:19,925 --> 00:06:24,100
-Treat AI like a junior developer who is fast but unreliable.
+00:06:06,537 --> 00:06:11,800
+The driver: AI, ML and cloud require more engineers, not fewer .
 
 96
-00:06:24,100 --> 00:06:25,237
-Number of the Week.
+00:06:11,800 --> 00:06:13,475
+Most In-Demand Skills:.
 
 97
-00:06:25,237 --> 00:06:27,450
-19% slower with AI
+00:06:13,475 --> 00:06:15,550
+AI/ML Integration.
 
 98
-00:06:27,450 --> 00:06:35,400
-The METR study tested 16 experienced open-source developers  (small sample size, but methodologically sound):.
+00:06:15,550 --> 00:06:17,175
+Cloud-native Development.
 
 99
-00:06:35,400 --> 00:06:36,275
-Setup:.
+00:06:17,175 --> 00:06:18,487
+Cybersecurity.
 
 100
-00:06:36,275 --> 00:06:43,550
-246 issues from real projects (averaging 22,000+ GitHub Stars)
+00:06:18,487 --> 00:06:20,287
+Context Engineering (new!) .
 
 101
-00:06:43,550 --> 00:06:50,500
-Randomized: With or without AI (Cursor Pro + Claude 3.5/3.7).
+00:06:20,287 --> 00:06:23,437
+The Warning: Entry-level positions are shrinking.
 
 102
-00:06:50,500 --> 00:06:53,087
-Average task duration: 2 hours.
+00:06:23,437 --> 00:06:25,725
+AI is taking over junior tasks.
 
 103
-00:06:53,087 --> 00:06:53,937
-Result:.
+00:06:25,725 --> 00:06:28,662
+Mid-level with AI skills is the sweet spot .
 
 104
-00:06:53,937 --> 00:06:59,950
-"When developers are allowed to use AI tools, they take 19% longer to complete issues."
+00:06:28,662 --> 00:06:29,962
+📚 Reading List
 
 105
-00:06:59,950 --> 00:07:04,750
-The twist: The developers still believed AI made them 20% faster.
+00:06:29,962 --> 00:06:36,000
+1.  Anthropic: Effective Context Engineering  - The definitive guide (20 min)
 
 106
-00:07:04,750 --> 00:07:06,500
-Possible explanations:.
+00:06:36,000 --> 00:06:42,725
+2.  Devin's 2025 Performance Review  - All metrics and case studies (15 min)
 
 107
-00:07:06,500 --> 00:07:11,375
-AI tools have a learning curve (teams need ~11 weeks for full productivity).
+00:06:42,725 --> 00:06:47,962
+3.  Gartner: Context Engineering  - Enterprise perspective (10 min)
 
 108
-00:07:11,375 --> 00:07:15,200
-Benchmark tasks ≠ real-world complexity.
+00:06:47,962 --> 00:06:49,400
+📅 Next Week
 
 109
-00:07:15,200 --> 00:07:18,475
-Experienced developers benefit less than beginners.
+00:06:49,400 --> 00:06:55,275
+CES 2026 Recap: What the AI hardware announcements mean for developers.
 
 110
-00:07:18,475 --> 00:07:23,250
-The warning: Critically question productivity claims from AI tool vendors.
+00:06:55,275 --> 00:06:59,287
+Context Engineering Deep Dive: Practical implementation.
 
 111
-00:07:23,250 --> 00:07:24,350
-Reading List.
+00:06:59,287 --> 00:07:03,275
+AI Craftsmanship February: Focus on agent orchestration.
 
 112
-00:07:24,350 --> 00:07:32,825
-1.  Prompt Engineering in 2026  - From prompts to context engineering: The evolution of the field (15 min)
-
-113
-00:07:32,825 --> 00:07:41,425
-2.  METR Study: Full Report  - Methodology and all data from the controversial productivity study (25 min)
-
-114
-00:07:41,425 --> 00:07:47,712
-3.  Claude Code Changelog  - All features from recent releases in detail (10 min)
-
-115
-00:07:47,712 --> 00:07:48,687
-Next Week.
-
-116
-00:07:48,687 --> 00:07:54,887
-W3C Meeting: First discussions on MCP-Identity (agent authentication).
-
-117
-00:07:54,887 --> 00:07:58,987
-Cursor 2.1: Expected release with improved Plan mode.
-
-118
-00:07:58,987 --> 00:08:04,100
-AI Craftmanship February: Focus on practical MCP server development.
-
-119
-00:08:04,100 --> 00:08:07,225
+00:07:03,275 --> 00:07:06,400
 This newsletter was created with AI assistance.
 
-120
-00:08:07,225 --> 00:08:10,287
+113
+00:07:06,400 --> 00:07:09,462
 All facts were verified against original sources.
 
-121
-00:08:10,287 --> 00:08:12,887
+114
+00:07:09,462 --> 00:07:12,062
 Subscribe to newsletter  ·  Give feedback
 
