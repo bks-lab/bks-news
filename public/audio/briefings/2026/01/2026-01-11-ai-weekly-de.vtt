@@ -1,0 +1,308 @@
+1
+00:00:00,100 --> 00:00:02,287
+TL;DR.
+
+2
+00:00:02,237 --> 00:00:04,912
+Diese Woche in 30 Sekunden:.
+
+3
+00:00:04,912 --> 00:00:14,937
+Health-AI: OpenAI launcht ChatGPT Health mit Zugriff auf medizinische Daten – 230 Millionen User fragen bereits wöchentlich nach Gesundheitsthemen.
+
+4
+00:00:14,937 --> 00:00:22,050
+Hardware-Offensive: Nvidia präsentiert Rubin-Plattform bei CES mit 10x günstigeren Inferenz-Kosten.
+
+5
+00:00:22,050 --> 00:00:29,162
+Enterprise-Push: Anthropic holt Allianz als Partner und peilt $350 Milliarden Bewertung an.
+
+6
+00:00:29,162 --> 00:00:37,337
+AI in Allem: Google bringt Gemini in Gmail, Microsoft in den Einzelhandel, während CES zeigt wohin die Reise geht.
+
+7
+00:00:37,337 --> 00:00:40,187
+🌟 Die Story der Woche
+
+8
+00:00:40,187 --> 00:00:43,750
+OpenAI bringt AI in die Gesundheitsversorgung.
+
+9
+00:00:43,750 --> 00:00:54,600
+Am 7. Januar 2026 kündigte OpenAI ChatGPT Health an – eine dedizierte AI-Umgebung für Gesundheitsfragen mit Integration medizinischer Daten .
+
+10
+00:00:54,600 --> 00:01:02,375
+Die Zahlen zeigen den Bedarf: Über 230 Millionen User stellen bereits wöchentlich Gesundheitsfragen auf der Plattform .
+
+11
+00:01:02,375 --> 00:01:10,750
+Das neue Feature erlaubt die Verbindung mit Apple Health, MyFitnessPal, Function Labs und weiteren Gesundheits-Apps über den Partner b.well .
+
+12
+00:01:10,750 --> 00:01:16,262
+Gespräche bleiben in einer isolierten Umgebung und werden nicht zum Modell-Training verwendet .
+
+13
+00:01:16,262 --> 00:01:25,125
+ChatGPT Health addresses healthcare system challenges including cost and access barriers, overbooked doctors, and a lack of continuity in care.
+
+14
+00:01:25,125 --> 00:01:29,325
+Fidji Simo, CEO of Applications bei OpenAI
+
+15
+00:01:29,325 --> 00:01:36,850
+Kritische Stimmen: OpenAIs eigene Terms of Service betonen, dass das Tool "nicht für Diagnose oder Behandlung gedacht ist" .
+
+16
+00:01:36,850 --> 00:01:42,575
+Large Language Models neigen zu Halluzinationen – in der Medizin potenziell gefährlich.
+
+17
+00:01:42,575 --> 00:01:51,575
+Regulatorische Fragen bleiben offen: Eine FDA-Zulassung wurde nicht erwähnt, ebenso wenig Haftungsfragen bei fehlerhaften AI-Empfehlungen.
+
+18
+00:01:51,575 --> 00:01:59,637
+Datenschützer dürften Fragen zur langfristigen Speicherung von Gesundheitsdaten stellen – trotz HIPAA-Compliance bei der Enterprise-Version.
+
+19
+00:01:59,637 --> 00:02:07,837
+Parallel kündigte OpenAI "OpenAI for Healthcare" für Organisationen an – mit HIPAA-Compliance und speziellen Enterprise-Features.
+
+20
+00:02:07,837 --> 00:02:10,950
+Der Rollout startet in den kommenden Wochen .
+
+21
+00:02:10,950 --> 00:02:19,125
+Bottom Line: OpenAI macht den ersten großen Move in den Healthcare-Markt, aber die regulatorischen und ethischen Hürden sind enorm.
+
+22
+00:02:19,125 --> 00:02:23,862
+Wer hier medizinische Entscheidungen trifft, sollte vorsichtig bleiben.
+
+23
+00:02:23,862 --> 00:02:26,337
+🔥 Weitere Top-Stories
+
+24
+00:02:26,337 --> 00:02:30,600
+1. Nvidia zeigt Zukunft der AI-Hardware bei CES
+
+25
+00:02:30,600 --> 00:02:38,900
+Nvidia präsentierte am 5. Januar die Rubin-Plattform – sechs integrierte Chips für die nächste Generation von AI-Supercomputern .
+
+26
+00:02:38,900 --> 00:02:52,012
+Das System kombiniert den Vera CPU mit 88 Olympus-Cores, die Rubin GPU mit 50 Petaflops NVFP4-Rechenleistung, und vier weitere Komponenten zu einem integrierten Superchip .
+
+27
+00:02:52,012 --> 00:03:02,900
+Die Performance-Sprünge sind beachtlich: 10x niedrigere Inferenz-Token-Kosten und 4x weniger GPUs für das Training von Mixture-of-Experts-Modellen im Vergleich zu Blackwell .
+
+28
+00:03:02,900 --> 00:03:09,987
+Rubin ist bereits in Produktion, Systeme kommen in der zweiten Jahreshälfte 2026 .
+
+29
+00:03:09,987 --> 00:03:18,762
+Die großen Cloud-Anbieter sind an Bord: AWS, Google Cloud, Microsoft, Oracle sowie Anthropic und OpenAI als erste Kunden .
+
+30
+00:03:18,762 --> 00:03:22,187
+2. Google macht Gmail zur AI-Zentrale
+
+31
+00:03:22,187 --> 00:03:27,575
+Am 8. Januar kündigte Google die Integration von Gemini 3 in Gmail an .
+
+32
+00:03:27,575 --> 00:03:36,612
+Die neuen Features umfassen AI Overviews für Thread-Zusammenfassungen, "Help Me Write" zum Verfassen von E-Mails, und kontextbasierte Smart Replies .
+
+33
+00:03:36,612 --> 00:03:47,637
+Besonders interessant: Gmail kann jetzt Fragen wie "Wer war der Klempner, der mir letztes Jahr ein Angebot gemacht hat?" beantworten, indem es den gesamten E-Mail-Verlauf durchsucht .
+
+34
+00:03:47,637 --> 00:03:55,050
+Thread-Zusammenfassungen sind kostenlos für alle, erweiterte Features erfordern Google AI Pro oder Ultra Subscriptions .
+
+35
+00:03:55,050 --> 00:04:03,825
+Parallel zeigte Google bei CES neue Gemini-Features für Google TV – mit Voice-Control für Settings und Integration von Google Photos .
+
+36
+00:04:03,825 --> 00:04:06,912
+3. Anthropic auf Enterprise-Mission
+
+37
+00:04:06,912 --> 00:04:16,487
+Anthropic startete 2026 mit einem Paukenschlag: Am 9. Januar wurde die Partnerschaft mit dem Versicherungsriesen Allianz bekannt gegeben .
+
+38
+00:04:16,487 --> 00:04:25,212
+Claude Code wird für alle Allianz-Mitarbeiter ausgerollt, zusätzlich entwickeln beide Firmen gemeinsam Custom AI Agents für Versicherungs-Workflows .
+
+39
+00:04:26,187 --> 00:04:37,750
+Laut einer Menlo Ventures Umfrage vom Dezember hält Anthropic bereits 40% Enterprise-Marktanteil – ein Anstieg von 32% im Juli 2025 .
+
+40
+00:04:37,700 --> 00:04:47,087
+Parallel kursieren Berichte über eine $10 Milliarden Funding-Runde, die Anthropic auf eine Bewertung von $350 Milliarden heben würde .
+
+41
+00:04:47,087 --> 00:04:55,787
+Lead-Investoren sollen Singapores Staatsfonds GIC und Coatue Management sein, mit Microsoft und Nvidia als bestehende Investoren .
+
+42
+00:04:55,787 --> 00:04:58,812
+⚡ Quick Hits
+
+43
+00:04:58,812 --> 00:05:00,550
+Kurz notiert:.
+
+44
+00:05:00,550 --> 00:05:09,350
+Meta Nuclear: Meta sicherte sich 6+ Gigawatt Atomstrom von Oklo, TerraPower und Vistra zur Versorgung der AI-Infrastruktur .
+
+45
+00:05:09,350 --> 00:05:15,462
+Grok-Bann: Indonesien blockierte xAI's Grok wegen nicht-konsensuellen sexualisierten Deepfakes .
+
+46
+00:05:15,462 --> 00:05:24,725
+Microsoft Retail: Microsoft kündigte Copilot Checkout an – AI-Shopping mit PayPal, Shopify und Stripe Integration, verfügbar in den USA .
+
+47
+00:05:24,725 --> 00:05:31,350
+Audio-First: OpenAI bereitet ein Audio-First Personal Device vor, erwartet in etwa einem Jahr .
+
+48
+00:05:31,350 --> 00:05:41,800
+OpenAI Grove: Neues Accelerator-Programm für Early-Stage Founders läuft vom 22. Januar bis 27. Februar 2026.
+
+49
+00:05:41,800 --> 00:05:44,725
+🛠 Tool der Woche
+
+50
+00:05:44,725 --> 00:05:51,225
+Claude Code v2.1.0 - AI Coding Agent mit verbessertem Agent Lifecycle Control.
+
+51
+00:05:51,225 --> 00:05:56,925
+Anthropics Coding-Agent bekam ein Major-Update mit 1.096 Commits .
+
+52
+00:05:56,925 --> 00:06:04,962
+Neue Features: Bessere Session-Portabilität, Skills Development, multilinguale Outputs und verfeinertes Agent-Management .
+
+53
+00:06:04,962 --> 00:06:12,800
+Laut VentureBeat sagen Entwickler, Claude Code übertrifft Cursor, GitHub Copilot und sogar Gemini 3 Pro beim Coding.
+
+54
+00:06:12,800 --> 00:06:15,037
+Claude Code auf GitHub
+
+55
+00:06:15,037 --> 00:06:17,762
+💥 Fail der Woche
+
+56
+00:06:17,762 --> 00:06:21,000
+Grok generiert nicht-konsensuelle Deepfakes"
+
+57
+00:06:21,000 --> 00:06:31,900
+Indonesiens Behörden blockierten xAI's Grok Chatbot temporär, nachdem bekannt wurde, dass die Plattform sexualisierte Deepfakes ohne Zustimmung der abgebildeten Personen erstellen kann .
+
+58
+00:06:31,900 --> 00:06:43,862
+Root Cause: Fehlende Content-Moderation und Safety-Guardrails bei Bild-Generierung – ein Problem, das viele AI-Bildgeneratoren betrifft, aber bei einem öffentlichen Chatbot besonders kritisch ist.
+
+59
+00:06:43,862 --> 00:06:51,525
+Was wir lernen: Safety kann nicht nachträglich aufgesetzt werden – Guardrails müssen von Tag 1 Teil der Architektur sein.
+
+60
+00:06:51,525 --> 00:06:54,087
+📊 Zahl der Woche
+
+61
+00:06:54,087 --> 00:06:56,887
+$350 Milliarden
+
+62
+00:06:56,887 --> 00:07:01,550
+Die angestrebte Bewertung von Anthropic in der aktuellen Funding-Runde .
+
+63
+00:07:01,550 --> 00:07:11,812
+Zum Vergleich: Das wäre mehr als die Marktkapitalisierung von Intel ($200B) und würde Anthropic zu einem der wertvollsten privaten Tech-Unternehmen machen.
+
+64
+00:07:11,812 --> 00:07:18,825
+Die $10 Milliarden Investition würde hauptsächlich in Compute-Infrastruktur und Modell-Training fließen.
+
+65
+00:07:18,825 --> 00:07:21,137
+📚 Leseliste
+
+66
+00:07:21,137 --> 00:07:23,087
+Für's Wochenende:.
+
+67
+00:07:23,087 --> 00:07:33,100
+1.  In 2026, AI will move from hype to pragmatism  - TechCrunch über den Shift zu kleineren, task-fokussierten Modellen (8 min)
+
+68
+00:07:33,100 --> 00:07:42,237
+2.  NVIDIA CES 2026 Special Presentation  - Jensen Huangs komplette Keynote zum Rubin Platform (15 min)
+
+69
+00:07:42,237 --> 00:07:49,612
+3.  The creator of Claude Code just revealed his workflow  - Einblick in die Entwicklung von Claude Code (10 min)
+
+70
+00:07:49,612 --> 00:07:51,712
+🔮 Next Week
+
+71
+00:07:51,712 --> 00:07:53,262
+Was kommt:.
+
+72
+00:07:53,262 --> 00:07:57,900
+OpenAI Grove Accelerator startet am 22. Januar.
+
+73
+00:07:57,900 --> 00:08:04,337
+Rubin-basierte Cloud-Instanzen werden für Q3/Q4 2026 erwartet.
+
+74
+00:08:04,337 --> 00:08:08,025
+ChatGPT Health Rollout in den kommenden Wochen.
+
+75
+00:08:08,025 --> 00:08:13,275
+Weitere CES-Nachbeben: Hands-On Reviews der angekündigten AI-Hardware.
+
+76
+00:08:13,275 --> 00:08:17,850
+Dieser Newsletter wurde mit AI-Unterstützung recherchiert und geschrieben.
+
+77
+00:08:17,850 --> 00:08:21,162
+Bilder generiert mit  Pollinations.ai .
+
