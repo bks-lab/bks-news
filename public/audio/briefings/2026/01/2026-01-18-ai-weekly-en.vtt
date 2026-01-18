@@ -1,0 +1,320 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:11,162
+OpenAI monetizes: ChatGPT introduces personalized advertising , new $8/month "Go" tier launched.
+
+4
+00:00:11,162 --> 00:00:18,800
+Anthropic desktop agent: Cowork grants Claude direct file access  and was reportedly built in under 2 weeks.
+
+5
+00:00:18,800 --> 00:00:28,250
+$134 billion lawsuit: Elon Musk escalates OpenAI lawsuit massively  - the largest AI legal battle ever
+
+6
+00:00:28,250 --> 00:00:37,450
+Google Personal Intelligence: Gemini learns to think proactively across Gmail, Photos, and YouTube , Apple integrates Gemini into Siri .
+
+7
+00:00:37,450 --> 00:00:39,362
+🌟 Story of the Week
+
+8
+00:00:39,362 --> 00:00:45,425
+OpenAI Introduces Advertising in ChatGPT - The End of Ad-Free AI Era.
+
+9
+00:00:45,425 --> 00:00:54,925
+On January 16, 2026, OpenAI announced a fundamental strategic shift: ChatGPT will receive personalized advertising .
+
+10
+00:00:54,925 --> 00:01:04,850
+Ads will initially roll out to free users and the new "Go" tier, while premium subscribers (Plus, Pro, Business, Enterprise) remain ad-free.
+
+11
+00:01:04,850 --> 00:01:11,875
+The new "Go" tier costs $8 monthly and positions itself between the free offering and premium options .
+
+12
+00:01:11,875 --> 00:01:19,837
+OpenAI justifies the move by arguing it maintains free access while monetizing users who aren't willing to pay for subscriptions .
+
+13
+00:01:19,837 --> 00:01:24,425
+The company emphasizes that affected users will have some control over the ads .
+
+14
+00:01:24,425 --> 00:01:29,587
+However, details about the exact implementation of ad controls remain vague.
+
+15
+00:01:29,587 --> 00:01:37,887
+Context: OpenAI is currently valued at $500 billion  but faces increasing pressure to demonstrate profitability.
+
+16
+00:01:37,887 --> 00:01:48,100
+The move to advertising marks a turning point - away from the "AI for all without ads" narrative toward classic monetization models established by Google and Meta.
+
+17
+00:01:48,100 --> 00:02:01,400
+Privacy concerns: Critics warn that personalized AI advertising could be significantly more invasive than classic display ads - ChatGPT has access to complete conversation history including sensitive data.
+
+18
+00:02:01,400 --> 00:02:06,500
+The question remains whether OpenAI will implement ads without full user tracking.
+
+19
+00:02:06,500 --> 00:02:14,087
+Bottom line: OpenAI follows the Silicon Valley playbook - first bind users with free service, then monetize.
+
+20
+00:02:14,087 --> 00:02:21,800
+The question is whether AI advertising will be accepted or if users will switch to ad-free alternatives like Claude or Gemini.
+
+21
+00:02:21,800 --> 00:02:23,412
+🔥 More Top Stories
+
+22
+00:02:23,412 --> 00:02:27,350
+Anthropic Launches Cowork - Claude Becomes Desktop Agent.
+
+23
+00:02:27,350 --> 00:02:35,887
+Anthropic released Cowork as a "research preview" on January 12 - a desktop agent that can read, edit, and create files .
+
+24
+00:02:35,887 --> 00:02:44,525
+Users grant Claude access to a selected folder and the agent can then autonomously plan and execute tasks while keeping the user informed.
+
+25
+00:02:44,525 --> 00:02:52,212
+The remarkable part: According to VentureBeat, Cowork was allegedly built in under two weeks using their own Claude Code tool .
+
+26
+00:02:52,212 --> 00:02:59,512
+The tool is currently exclusive to Max subscribers  but was made available to Claude Pro users on January 16 .
+
+27
+00:02:59,512 --> 00:03:10,300
+Cowork positions itself as a desktop agent for general productivity tasks - while Claude Code targets developers, Cowork addresses document management and data analysis .
+
+28
+00:03:10,300 --> 00:03:18,175
+Security considerations: An agent with filesystem access poses significant security risks if not perfectly sandboxed.
+
+29
+00:03:18,175 --> 00:03:24,800
+As a research preview, Cowork has limited testing - early users should consider this with sensitive data.
+
+30
+00:03:24,800 --> 00:03:29,750
+Elon Musk Demands Up to $134 Billion from OpenAI.
+
+31
+00:03:29,750 --> 00:03:42,487
+Elon Musk's legal dispute with OpenAI reaches a new dimension: His financial expert C. Paul Wazzan quantifies the demanded damages at $79-134 billion .
+
+32
+00:03:42,487 --> 00:03:54,650
+The lawsuit is based on the allegation that OpenAI betrayed its original non-profit mission, and Musk argues he deserves significantly higher returns as an early startup investor than his initial investment .
+
+33
+00:03:54,650 --> 00:04:02,162
+The irony: Despite Musk's own fortune of approximately $700 billion, he continues to pursue the lawsuit .
+
+34
+00:04:02,162 --> 00:04:09,612
+A federal judge previously rejected dismissal requests from OpenAI and Microsoft, so the case will definitely go to court.
+
+35
+00:04:09,612 --> 00:04:17,812
+The proceedings are considered "Silicon Valley's messiest breakup" and could set precedents for AI governance and corporate transformations.
+
+36
+00:04:17,812 --> 00:04:27,137
+However, legal experts point out that the contractual relationship between Musk and OpenAI may be too weakly documented for damages of this magnitude.
+
+37
+00:04:27,137 --> 00:04:32,512
+Google Gemini Receives Personal Intelligence - Proactive AI Becomes Reality.
+
+38
+00:04:33,437 --> 00:04:39,425
+Google introduced a new beta feature for Gemini on January 14: Personal Intelligence .
+
+39
+00:04:39,425 --> 00:04:51,900
+Unlike previous features, Gemini can now think proactively about data from Gmail, Google Photos, Search, and YouTube and make connections - for example linking an email thread with a watched video.
+
+40
+00:04:51,900 --> 00:04:58,700
+The feature is disabled by default and users must explicitly choose which Google apps they want to connect with Gemini .
+
+41
+00:04:58,700 --> 00:05:06,225
+Currently, Personal Intelligence is only available for Google AI Pro and AI Ultra subscribers in the US.
+
+42
+00:05:06,225 --> 00:05:19,362
+The development positions Gemini as direct competition to Apple Intelligence and shows Google's strategy: leverage the existing data volume from the Google ecosystem to create more context-aware AI assistants.
+
+43
+00:05:19,362 --> 00:05:31,987
+In parallel, Apple announced it will use Google's Gemini for a major Siri upgrade this year  - a multi-year partnership based on Gemini and Google's cloud technology for future Apple foundation models.
+
+44
+00:05:31,987 --> 00:05:33,537
+⚡ Quick Hits
+
+45
+00:05:33,537 --> 00:05:34,612
+Briefly noted:.
+
+46
+00:05:34,612 --> 00:05:44,700
+Runpod growth: The AI cloud startup reached $120M ARR after starting with a Reddit post  - an example of how developer-first marketing works.
+
+47
+00:05:44,700 --> 00:05:54,037
+Apple ♥️ Google AI: Apple integrates Gemini into Siri for a major AI upgrade in 2026, multi-year partnership announced .
+
+48
+00:05:54,037 --> 00:06:04,450
+Wikimedia AI deals: Amazon, Meta, Microsoft, and Perplexity secured partnerships for large-scale access to Wikipedia content for AI applications .
+
+49
+00:06:04,450 --> 00:06:13,412
+Taiwan chip offensive: Taiwan invests $250 billion in US semiconductor production as part of trade negotiations .
+
+50
+00:06:13,412 --> 00:06:20,737
+xAI deepfake problem: California AG sent cease-and-desist to Musk's xAI for sexualized deepfakes
+
+51
+00:06:20,737 --> 00:06:22,675
+🛠️ Tool of the Week
+
+52
+00:06:22,675 --> 00:06:26,175
+Claude Cowork - Desktop Agent for File Management.
+
+53
+00:06:26,175 --> 00:06:32,875
+Anthropic's newest agent grants Claude access to a selected folder to read, edit, and create files .
+
+54
+00:06:32,875 --> 00:06:42,050
+Particularly useful for knowledge workers who want to automate repetitive document tasks - from data analysis to report generation to file organization.
+
+55
+00:06:42,050 --> 00:06:50,700
+Currently still as research preview only for Claude Pro/Max users, but shows the direction where desktop integration of AI is heading.
+
+56
+00:06:50,700 --> 00:06:52,075
+More about Cowork
+
+57
+00:06:52,075 --> 00:06:53,800
+💥 Fail of the Week
+
+58
+00:06:53,800 --> 00:06:56,175
+"xAI's Deepfake Debacle"
+
+59
+00:06:56,175 --> 00:07:04,262
+Elon Musk's xAI received a cease-and-desist order from the California Attorney General for sexualized AI-generated deepfakes .
+
+60
+00:07:04,262 --> 00:07:09,975
+The flood of AI-generated sexual images has alarmed both state and congressional officials.
+
+61
+00:07:09,975 --> 00:07:17,875
+Root cause: Insufficient guardrails in AI image generation systems combined with lacking proactive content moderation.
+
+62
+00:07:17,875 --> 00:07:25,250
+What we learn: AI companies must build safety features from day 1, not improve after regulatory interventions.
+
+63
+00:07:25,250 --> 00:07:26,937
+📊 Number of the Week
+
+64
+00:07:26,937 --> 00:07:29,600
+$134 Billion
+
+65
+00:07:29,600 --> 00:07:34,562
+That's the sum Elon Musk demands from OpenAI and Microsoft in his lawsuit .
+
+66
+00:07:34,562 --> 00:07:43,162
+For comparison: That would be more than the current valuation of many tech unicorns and would represent the largest damage payment in tech history.
+
+67
+00:07:43,162 --> 00:07:47,825
+The lawsuit is based on alleged fraud through abandonment of the non-profit mission.
+
+68
+00:07:47,825 --> 00:07:49,125
+📚 Reading List
+
+69
+00:07:49,125 --> 00:07:50,125
+For the weekend:.
+
+70
+00:07:50,125 --> 00:07:59,212
+1.  How scientists are using Claude to accelerate research  - Anthropic shows how researchers use Claude for scientific discovery (8 min)
+
+71
+00:07:59,212 --> 00:08:09,000
+2.  In 2026, AI will move from hype to pragmatism  - TechCrunch on the shift from "flashy demos" to real deployments (12 min)
+
+72
+00:08:09,000 --> 00:08:17,387
+3.  What's next for AI in 2026  - MIT Technology Review's outlook on the "show me the money" year (15 min)
+
+73
+00:08:17,387 --> 00:08:18,912
+🔮 Next Week
+
+74
+00:08:18,912 --> 00:08:19,800
+What's coming:.
+
+75
+00:08:19,800 --> 00:08:24,300
+Further details on OpenAI's ad implementation and user controls.
+
+76
+00:08:24,300 --> 00:08:29,437
+CES 2026 follow-ups on Physical AI and hardware announcements.
+
+77
+00:08:29,437 --> 00:08:33,475
+Possible further developments in Musk vs OpenAI case.
+
+78
+00:08:33,475 --> 00:08:37,200
+Anthropic's international expansion (Bengaluru office).
+
+79
+00:08:37,200 --> 00:08:41,312
+This newsletter was researched and written with AI assistance.
+
+80
+00:08:41,312 --> 00:08:44,187
+Images generated with  Pollinations.ai .
+
