@@ -1,0 +1,476 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:06,200
+Anthropic announced this week: Claude navigated a Mars rover in late December.
+
+3
+00:00:06,200 --> 00:00:11,175
+Meta doubles its AI budget to up to $135 billion.
+
+4
+00:00:11,175 --> 00:00:17,775
+OpenAI seeks $60 billion in fresh capital and deletes old ChatGPT models.
+
+5
+00:00:17,775 --> 00:00:21,525
+Google launches Project Genie for AI-generated worlds.
+
+6
+00:00:21,525 --> 00:00:25,112
+Music publishers sue Anthropic for $3 billion.
+
+7
+00:00:25,112 --> 00:00:27,025
+🌟 Story of the Week
+
+8
+00:00:27,025 --> 00:00:32,312
+Claude on Mars: Anthropic Announces First AI-Assisted Rover Navigation.
+
+9
+00:00:32,312 --> 00:00:45,750
+This week, Anthropic made a historic announcement : In late December 2025, Claude planned the route for NASA's Perseverance rover on Mars - the first time an AI has written commands for exploring another planet.
+
+10
+00:00:45,750 --> 00:00:56,162
+What happened: On December 8 and 10, 2025, Claude navigated the rover approximately 400 meters through a rocky Martian field in Jezero Crater .
+
+11
+00:00:56,162 --> 00:01:01,600
+The challenge: 20 minutes of signal delay in each direction between Earth and Mars.
+
+12
+00:01:01,600 --> 00:01:05,725
+JPL engineers used Claude Code to delegate waypoint planning .
+
+13
+00:01:05,725 --> 00:01:12,537
+The process: Claude analyzed overhead images and wrote commands in Rover Markup Language (XML-based) .
+
+14
+00:01:12,537 --> 00:01:18,975
+The AI created 10-meter segments, iterated to refine waypoints, and critiqued its own work .
+
+15
+00:01:18,975 --> 00:01:27,162
+Engineers ran Claude's plans through simulations with over 500,000 variables to check rover positioning and predict hazards.
+
+16
+00:01:27,162 --> 00:01:30,337
+Only minimal adjustments were needed due to sand ripples .
+
+17
+00:01:30,337 --> 00:01:33,725
+Why this matters: Route planning now takes half the time .
+
+18
+00:01:33,725 --> 00:01:38,812
+This enables more frequent rover drives and more intensive scientific analysis.
+
+19
+00:01:38,812 --> 00:01:48,262
+More importantly: It demonstrates AI's potential for future lunar missions (Artemis) and deep space expeditions to targets like Europa and Titan .
+
+20
+00:01:48,262 --> 00:01:53,912
+"Autonomous AI systems could help probes explore ever more distant parts of the solar system."
+
+21
+00:01:53,912 --> 00:01:54,112
+>
+
+22
+00:01:54,112 --> 00:01:56,362
+— Anthropic & NASA JPL
+
+23
+00:01:56,362 --> 00:02:01,762
+Critical assessment: It's important to emphasize: Claude worked under human supervision.
+
+24
+00:02:01,762 --> 00:02:05,987
+Engineers reviewed all plans through extensive simulations .
+
+25
+00:02:05,987 --> 00:02:14,737
+This is AI-assisted planning, not fully autonomous control - but still a significant milestone for AI in space exploration.
+
+26
+00:02:14,737 --> 00:02:16,350
+🔥 More Top Stories
+
+27
+00:02:16,350 --> 00:02:20,912
+1. Meta's $135 Billion AI Offensive
+
+28
+00:02:20,912 --> 00:02:32,787
+Meta doubles its AI budget, projecting capital expenditures of up to $135 billion for 2026  - nearly double the $72 billion from 2025 .
+
+29
+00:02:32,787 --> 00:02:49,537
+Financial performance: Meta exceeded Q4 expectations with $59.89 billion in revenue (vs. $58.41B expected) and $8.88 EPS (vs. $8.19 expected) .
+
+30
+00:02:49,537 --> 00:02:58,275
+Strategic rationale: Zuckerberg admitted that Meta is catching up after falling behind Google, OpenAI, and Anthropic in 2025 .
+
+31
+00:02:58,275 --> 00:03:02,925
+He announced a "major AI acceleration" with new model releases .
+
+32
+00:03:02,925 --> 00:03:12,637
+Personal superintelligence vision: Zuckerberg's core goal: AI that understands individual context, history, interests, and relationships .
+
+33
+00:03:12,637 --> 00:03:18,925
+Meta plans to merge LLMs with recommendation systems across Facebook, Instagram, and Threads .
+
+34
+00:03:18,925 --> 00:03:23,475
+Market reaction: Meta stock jumped 10% after the earnings news .
+
+35
+00:03:23,475 --> 00:03:36,262
+While Microsoft lost $440 billion in market value the same day over OpenAI concerns , Meta proved that aggressive AI investments can win investor confidence - when execution is right.
+
+36
+00:03:36,262 --> 00:03:43,662
+Skeptical perspective: Critics ask: Can compute power alone close the technological gap to OpenAI and Google?
+
+37
+00:03:43,662 --> 00:03:49,337
+Meta was behind in 2025 not just in infrastructure, but also in model innovation.
+
+38
+00:03:49,337 --> 00:03:56,825
+Whether spending $135 billion without corresponding algorithmic breakthroughs is sufficient remains to be seen.
+
+39
+00:03:56,825 --> 00:04:02,687
+2. OpenAI's Turbulent Week: $60B Funding + Model Purge
+
+40
+00:04:02,687 --> 00:04:08,200
+OpenAI seeks $60 billion in fresh capital from Nvidia and Amazon .
+
+41
+00:04:08,200 --> 00:04:14,237
+At the same time, the company is deleting old ChatGPT models with just two weeks' notice .
+
+42
+00:04:14,237 --> 00:04:20,887
+Funding details: The investment package could value OpenAI at over $500 billion .
+
+43
+00:04:20,887 --> 00:04:29,200
+Amazon is in negotiations for a $50 billion stake  - even though the e-commerce giant is already invested in Anthropic .
+
+44
+00:04:29,200 --> 00:04:33,100
+Amazon is hedging its bets across multiple AI competitors.
+
+45
+00:04:33,100 --> 00:04:50,162
+Model deprecations: On January 29, OpenAI announced it would delete GPT-4o, GPT-4.1, GPT-4.1 mini, o4-mini, and GPT-5 (Instant/Thinking) on February 13 .
+
+46
+00:04:50,162 --> 00:04:52,525
+API access remains unaffected .
+
+47
+00:04:53,450 --> 00:05:03,637
+The rationale: "Most usage is now on GPT-5.2, with only 0.1 percent of users choosing GPT-4o each day" .
+
+48
+00:05:03,637 --> 00:05:09,962
+OpenAI said, "Changes like this take time to adjust to... and we didn't make this decision lightly" .
+
+49
+00:05:09,962 --> 00:05:12,637
+Community reaction: Surprisingly muted.
+
+50
+00:05:12,637 --> 00:05:22,950
+Some users complain that GPT-4o had a distinct personality , but the minimal adoption (0.1%) shows: most have already switched.
+
+51
+00:05:22,950 --> 00:05:29,887
+What this means: OpenAI is consolidating its model portfolio and forcing users onto newer versions.
+
+52
+00:05:29,887 --> 00:05:39,012
+The rapid deprecation timeline signals urgency - presumably to free up compute resources for GPT-5.2 and future models.
+
+53
+00:05:39,012 --> 00:05:43,750
+3. Google Project Genie: AI-Generated Worlds to Play With
+
+54
+00:05:43,750 --> 00:05:51,087
+Google DeepMind launched Project Genie, an AI world generator that creates interactive digital environments .
+
+55
+00:05:51,087 --> 00:05:55,025
+Technical architecture: Three AI components work together :.
+
+56
+00:05:55,025 --> 00:05:59,475
+Genie 3: Google's latest World Model for environment generation.
+
+57
+00:05:59,475 --> 00:06:04,112
+Nano Banana Pro: Image generation model for visual representation.
+
+58
+00:06:04,112 --> 00:06:07,425
+Gemini: Language model for interactive elements.
+
+59
+00:06:07,425 --> 00:06:13,850
+How it works: Users input prompts, the system creates playable environments that respond to input .
+
+60
+00:06:13,850 --> 00:06:21,550
+The article's author demonstrated this with "building marshmallow castles"  - users have significant freedom in designing their worlds.
+
+61
+00:06:21,550 --> 00:06:29,437
+Availability: Since January 30, Google AI Ultra subscribers in the US can experiment with Project Genie .
+
+62
+00:06:29,437 --> 00:06:33,987
+The subscription paywall and geographic restriction initially limit reach.
+
+63
+00:06:33,987 --> 00:06:37,312
+Why this matters: World Models are the next frontier.
+
+64
+00:06:37,312 --> 00:06:46,325
+While LLMs generate text and diffusion models create images, World Models generate complete, consistent, interactive environments.
+
+65
+00:06:46,325 --> 00:06:51,962
+Applications range from game design to simulations and training environments for robots.
+
+66
+00:06:51,962 --> 00:06:53,512
+⚡ Quick Hits
+
+67
+00:06:53,512 --> 00:07:04,537
+Music publishers sue Anthropic for $3 billion over "flagrant piracy" of 20,000 copyrighted works  - a massive escalation from the original 500 works .
+
+68
+00:07:04,537 --> 00:07:10,800
+Anthropic disputes the claims; the lawsuit could be precedent-setting for AI copyright questions.
+
+69
+00:07:10,800 --> 00:07:18,362
+Anthropic partners with ServiceNow to improve customer applications and internal productivity across the enterprise platform .
+
+70
+00:07:18,362 --> 00:07:27,962
+AI Agents & MCP Apps: Google launched Universal Commerce Protocol, enabling AI agents to automatically shop across retailers .
+
+71
+00:07:27,962 --> 00:07:34,237
+MCP Apps from Anthropic bring interactive UI components directly into conversations .
+
+72
+00:07:34,237 --> 00:07:46,075
+Gartner forecast: 40% of all enterprise applications will be integrated with task-specific AI agents by the end of 2026  - up from under 5% in 2025 .
+
+73
+00:07:46,075 --> 00:07:57,212
+Security warning: AI agents could become the leading cause of data breaches in 2026 , replacing human error as an insider threat, warns Palo Alto Networks.
+
+74
+00:07:57,212 --> 00:07:59,150
+🛠️ Tool of the Week
+
+75
+00:07:59,150 --> 00:08:00,650
+Google Project Genie .
+
+76
+00:08:00,650 --> 00:08:06,362
+An AI world generator that creates interactive, playable environments from text prompts.
+
+77
+00:08:06,362 --> 00:08:15,225
+Combines Genie 3 (World Model), Nano Banana Pro (Image Gen), and Gemini (Interactivity) into a creative playground.
+
+78
+00:08:15,225 --> 00:08:22,375
+Perfect for: Game designers, creatives, educators, researchers who want to quickly prototype environments.
+
+79
+00:08:22,375 --> 00:08:30,350
+Availability: Google AI Ultra subscription required, US only, since January 30, 2026.
+
+80
+00:08:30,350 --> 00:08:36,337
+Pros: Rapid iteration, interactive worlds, powered by state-of-the-art World Models.
+
+81
+00:08:36,337 --> 00:08:41,275
+Cons: Subscription paywall, geographic restriction, still experimental.
+
+82
+00:08:41,275 --> 00:08:43,000
+💥 Fail of the Week
+
+83
+00:08:43,000 --> 00:08:46,425
+OpenAI's Model Deprecation with 2 Weeks' Notice.
+
+84
+00:08:46,425 --> 00:08:53,412
+On January 29, OpenAI announced it would delete six ChatGPT models on February 13 .
+
+85
+00:08:53,412 --> 00:08:57,575
+The problem: Only two weeks' notice for users and developers.
+
+86
+00:08:57,575 --> 00:09:08,662
+Why this is problematic: While 99.9% of users have already switched to GPT-5.2 , there are use cases that depend on specific model characteristics.
+
+87
+00:09:08,662 --> 00:09:12,825
+Two weeks is tight for enterprise teams that need to adjust workflows.
+
+88
+00:09:12,825 --> 00:09:16,650
+OpenAI's defense: "We didn't make this decision lightly" .
+
+89
+00:09:16,650 --> 00:09:22,837
+But compared to the usual 3-6 month deprecation windows in the industry, this seems hasty.
+
+90
+00:09:22,837 --> 00:09:23,875
+Hidden agenda?
+
+91
+00:09:23,875 --> 00:09:37,187
+Critics suspect: The short timeline might be intentional to force enterprise customers onto more expensive GPT-5.2 tiers, while the 0.1% consumer users serve as justification.
+
+92
+00:09:38,112 --> 00:09:42,750
+The lesson: AI providers are increasing the speed of breaking changes.
+
+93
+00:09:42,750 --> 00:09:48,212
+Users must prepare for shorter deprecation cycles and build more flexible systems.
+
+94
+00:09:48,212 --> 00:09:50,150
+🔢 Number of the Week
+
+95
+00:09:50,150 --> 00:09:56,300
+$135 billion - Meta's AI infrastructure budget for 2026
+
+96
+00:09:56,300 --> 00:09:57,112
+That is:.
+
+97
+00:09:57,112 --> 00:10:01,925
+Nearly double the amount from 2025 ($72B) .
+
+98
+00:10:01,925 --> 00:10:03,700
+More than Kenya's GDP .
+
+99
+00:10:03,700 --> 00:10:07,037
+The largest single AI investment in history.
+
+100
+00:10:07,037 --> 00:10:10,537
+Meta is betting all-in on "personal superintelligence" .
+
+101
+00:10:10,537 --> 00:10:20,012
+Zuckerberg admits falling behind OpenAI, Google, and Anthropic in 2025  - and wants to catch up in 2026 with raw compute power.
+
+102
+00:10:20,012 --> 00:10:23,625
+What this means: The AI arms race is escalating.
+
+103
+00:10:23,625 --> 00:10:30,075
+If Meta spends $135B, Google, Microsoft, and Amazon must follow.
+
+104
+00:10:30,075 --> 00:10:37,400
+This cements the position of hyperscalers and makes it even harder for startups to compete without massive funding rounds.
+
+105
+00:10:37,400 --> 00:10:38,700
+📚 Reading List
+
+106
+00:10:38,700 --> 00:10:45,787
+Anthropic: Claude on Mars  - Detailed technical deep-dive on how Claude navigated the Perseverance rover.
+
+107
+00:10:45,787 --> 00:10:52,562
+Meta Q4 Earnings Call Transcript  - Zuckerberg's vision for "personal superintelligence" in the original.
+
+108
+00:10:52,562 --> 00:11:00,987
+AI Agents 2026 Trends (Axios)  - Overview of MCP, Universal Commerce Protocol, and the agent boom.
+
+109
+00:11:00,987 --> 00:11:02,512
+🔮 Next Week
+
+110
+00:11:02,512 --> 00:11:08,912
+Meta's AI model releases: Zuckerberg announced new models that will demonstrate the "rapid trajectory" .
+
+111
+00:11:08,912 --> 00:11:14,000
+Expect benchmarks competing with GPT-5.2 and Gemini 3.
+
+112
+00:11:14,000 --> 00:11:21,725
+OpenAI model deprecation deadline: February 13 - last day for GPT-4o and co. .
+
+113
+00:11:21,725 --> 00:11:25,037
+Watch for community reactions and possible delays.
+
+114
+00:11:25,037 --> 00:11:36,700
+MCP Apps expansion: After the late January launch , expect integration from more partners (Amplitude, Asana, Box, Canva, Clay, Figma, Slack).
+
+115
+00:11:36,700 --> 00:11:45,325
+Anthropic lawsuit updates: The $3B lawsuit from music publishers  could become precedent-setting for AI copyright cases.
+
+116
+00:11:45,325 --> 00:11:49,137
+Created with AI assistance from  Claude Sonnet 4.5 .
+
+117
+00:11:49,137 --> 00:11:50,112
+Found an error?
+
+118
+00:11:50,112 --> 00:11:51,012
+Feedback?
+
+119
+00:11:51,012 --> 00:11:52,537
+Create a GitHub issue .
+
