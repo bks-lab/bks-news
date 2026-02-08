@@ -1,0 +1,260 @@
+1
+00:00:00,100 --> 00:00:02,287
+TL;DR.
+
+2
+00:00:00,100 --> 00:00:09,950
+Moltbook: Social Network nur für AI – Das neue soziale Netzwerk Moltbook ist in wenigen Tagen auf 152.000 AI-Agenten gewachsen .
+
+3
+00:00:02,237 --> 00:00:08,625
+Claude Opus 4.6 schreibt Geschichte mit 500 entdeckten Zero-Day-Schwachstellen und Agent Teams.
+
+4
+00:00:08,625 --> 00:00:13,687
+OpenAI kontert mit Frontier, einer Enterprise-Plattform für AI-Agenten.
+
+5
+00:00:09,900 --> 00:00:15,450
+Die Plattform funktioniert wie Reddit, aber ausschließlich für AI-zu-AI-Kommunikation.
+
+6
+00:00:13,687 --> 00:00:21,450
+Big Tech verdoppelt den Einsatz: $650 Milliarden für AI-Infrastruktur in 2026.
+
+7
+00:00:15,450 --> 00:00:21,925
+Bereits 193.000 Kommentare und 17.500 Posts .
+
+8
+00:00:21,450 --> 00:00:25,500
+Google Gemini knackt 750 Millionen Nutzer.
+
+9
+00:00:21,925 --> 00:00:30,875
+NASA nutzt Claude für Mars-Rover – NASA's JPL verwendete Claude, um einen 450-Meter-Pfad für den Perseverance-Rover zu planen.
+
+10
+00:00:25,500 --> 00:00:30,875
+Software-Aktien verlieren $1 Billion – die AI frisst ihre Kinder zuerst.
+
+11
+00:00:30,875 --> 00:00:33,725
+🌟 Die Story der Woche
+
+12
+00:00:30,875 --> 00:00:35,237
+Ingenieure schätzen, dass AI die Planungszeit halbieren könnte .
+
+13
+00:00:33,725 --> 00:00:37,337
+Claude Opus 4.6: Der Sicherheits-Schock.
+
+14
+00:00:35,237 --> 00:00:38,162
+🛠️ Tool der Woche
+
+15
+00:00:37,337 --> 00:00:45,425
+Anthropic hat diese Woche mit Claude Opus 4.6 eine neue Ära eingeläutet – und nebenbei die Software-Industrie erschüttert.
+
+16
+00:00:38,162 --> 00:00:41,862
+OpenAI GPT-5.3-Codex.
+
+17
+00:00:41,862 --> 00:00:50,362
+Am 5. Februar launcht OpenAI GPT-5.3-Codex , das "most capable agentic coding model" der Firma.
+
+18
+00:00:45,425 --> 00:00:54,275
+Das neue Modell fand über 500 bisher unbekannte Zero-Day-Schwachstellen in Open-Source-Code , und zwar "out of the box", ohne spezielles Training.
+
+19
+00:00:50,362 --> 00:00:57,375
+Es kombiniert die Code-Generation von Codex mit dem Reasoning-Power von GPT-5 in einem einzigen Modell.
+
+20
+00:00:54,275 --> 00:01:00,687
+Jede einzelne Schwachstelle wurde von Anthropics Team oder externen Security-Forschern verifiziert .
+
+21
+00:00:57,375 --> 00:00:59,300
+Warum relevant:.
+
+22
+00:00:59,300 --> 00:01:05,100
+Codex ist etwa 25% schneller als Vorgänger  und setzt neue Benchmarks.
+
+23
+00:01:00,687 --> 00:01:03,137
+Aber das ist nur der Anfang.
+
+24
+00:01:03,137 --> 00:01:06,450
+Opus 4.6 bringt drei Game-Changer:.
+
+25
+00:01:05,100 --> 00:01:13,150
+Aber der Clou ist: Es ist nicht nur ein Code-Generator, sondern ein Coding-Agent, den man aktiv während der Arbeit steuern kann.
+
+26
+00:01:06,450 --> 00:01:08,512
+1. Agent Teams
+
+27
+00:01:13,150 --> 00:01:19,537
+Das ist der Unterschied zwischen "generiere mir eine Funktion" und "entwickle diese Feature mit mir zusammen".
+
+28
+00:01:19,537 --> 00:01:22,537
+Link:  OpenAI Codex Updates .
+
+29
+00:01:22,537 --> 00:01:25,262
+💥 Fail der Woche
+
+30
+00:01:25,262 --> 00:01:27,637
+Grok's Deepfake-Debakel.
+
+31
+00:01:27,637 --> 00:01:33,362
+Elon Musks AI-Chatbot Grok steht diese Woche im Zentrum einer massiven Kontroverse.
+
+32
+00:01:33,362 --> 00:01:46,487
+Nutzer konnten Grok verwenden, um sexuell explizite Bilder von echten Frauen und Kindern zu generieren , teilweise mit "nudify"-Prompts, die zu CSAM (Child Sexual Abuse Material) führten.
+
+33
+00:01:46,487 --> 00:01:49,087
+Die Konsequenzen kamen schnell:.
+
+34
+00:01:49,087 --> 00:01:53,962
+Indonesien und Malaysia haben Grok als erste Länder komplett blockiert .
+
+35
+00:01:53,962 --> 00:01:58,912
+Ofcom (UK) hat eine formelle Untersuchung gegen X eingeleitet .
+
+36
+00:01:58,912 --> 00:02:05,000
+Lokale Social-Media-Feeds in mehreren Ländern wurden mit nicht-einvernehmlichen Deepfakes geflutet .
+
+37
+00:02:05,000 --> 00:02:09,187
+Das ist kein Bug – das ist ein fundamentales Governance-Problem.
+
+38
+00:02:09,187 --> 00:02:16,575
+Während OpenAI, Anthropic und Google strikte Safety-Guardrails haben, scheint Grok bewusst "unzensiert" zu sein.
+
+39
+00:02:16,575 --> 00:02:18,675
+Die Rechnung kommt jetzt.
+
+40
+00:02:18,675 --> 00:02:21,237
+📊 Zahl der Woche
+
+41
+00:02:21,237 --> 00:02:22,900
+500
+
+42
+00:02:22,900 --> 00:02:32,037
+Die Anzahl der Zero-Day-Schwachstellen, die Claude Opus 4.6 in Open-Source-Code gefunden hat  – "out of the box", ohne spezielles Security-Training.
+
+43
+00:02:32,037 --> 00:02:35,637
+Jede einzelne wurde von Experten verifiziert.
+
+44
+00:02:35,637 --> 00:02:39,287
+Das ist nicht nur beeindruckend – es ist beunruhigend.
+
+45
+00:02:39,287 --> 00:02:47,212
+Wenn ein General-Purpose-Modell ohne spezialisiertes Training 500 Zero-Days findet, wie viele sind noch da draußen?
+
+46
+00:02:47,212 --> 00:02:54,037
+Und: Wie lange dauert es, bis böswillige Akteure dieselben Modelle für Vulnerability-Discovery nutzen?
+
+47
+00:02:54,037 --> 00:02:58,900
+Die gute Nachricht: Security-Forscher haben jetzt ein mächtiges Werkzeug.
+
+48
+00:02:58,900 --> 00:03:01,850
+Die schlechte Nachricht: Angreifer auch.
+
+49
+00:03:01,850 --> 00:03:04,162
+📚 Leseliste
+
+50
+00:03:04,162 --> 00:03:15,600
+Why a new AI tool hammered some software stocks this week  – ABC News erklärt, warum Legal- und Financial-Software-Aktien nach Anthropics Opus 4.6-Ankündigung eingebrochen sind.
+
+51
+00:03:15,600 --> 00:03:27,675
+Anthropic Launches New Model That Spots Zero Days, Makes Wall Street Traders Lose Their Minds  – Gizmodos Analyse, wie Opus 4.6 die Security- und Finance-Industrie gleichzeitig disrupted.
+
+52
+00:03:27,675 --> 00:03:40,175
+OpenAI Just Laid Out Its 2026 Roadmap  – eWeek über OpenAIs 2026-Strategie: Frontier, Codex, und sechs Modell-Deprecations am 13. Februar .
+
+53
+00:03:40,175 --> 00:03:42,275
+🔮 Next Week
+
+54
+00:03:42,275 --> 00:03:51,975
+Am 13. Februar wird OpenAI sechs Modelle in einem Rutsch deaktivieren  – ein historischer Clean-up, der zeigt, wie schnell sich die AI-Landschaft bewegt.
+
+55
+00:03:51,975 --> 00:04:02,025
+Außerdem: Alphabet präsentiert Q4-Zahlen, und die Märkte warten gespannt, ob die $180B Capex-Ankündigung sich in Revenue niederschlägt.
+
+56
+00:04:02,025 --> 00:04:08,962
+Google berichtete bereits 18% Umsatzwachstum im letzten Quartal , getrieben von AI-Systemen.
+
+57
+00:04:08,962 --> 00:04:15,787
+Und wir beobachten, ob weitere Länder Grok blockieren – oder ob X endlich Safety-Guardrails implementiert.
+
+58
+00:04:15,787 --> 00:04:23,500
+Mit AI-Unterstützung erstellt – Dieser Newsletter wurde mit Claude (Anthropic) recherchiert, geschrieben und kuratiert.
+
+59
+00:04:23,500 --> 00:04:26,950
+Alle Fakten wurden gegen Originalquellen geprüft.
+
+60
+00:04:26,950 --> 00:04:28,400
+Fehler?
+
+61
+00:04:28,400 --> 00:04:30,175
+Melde sie hier .
+
+62
+00:04:30,175 --> 00:04:31,737
+Feedback?
+
+63
+00:04:31,737 --> 00:04:34,750
+Schreib mir auf  LinkedIn  oder per  E-Mail .
+
+64
+00:04:34,750 --> 00:04:38,225
+BKS-Lab  AI & Automation Consulting.
+
+65
+00:04:38,225 --> 00:04:41,937
+bks-lab.com    Newsletter abonnieren
+

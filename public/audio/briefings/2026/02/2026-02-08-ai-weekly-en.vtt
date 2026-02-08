@@ -1,0 +1,396 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:08,087
+Claude Opus 4.6 makes history with 500 discovered zero-day vulnerabilities and Agent Teams.
+
+3
+00:00:08,087 --> 00:00:13,075
+OpenAI counters with Frontier, an enterprise platform for AI agents.
+
+4
+00:00:13,075 --> 00:00:19,875
+Big Tech doubles down: $650 billion for AI infrastructure in 2026.
+
+5
+00:00:19,875 --> 00:00:23,425
+Google Gemini hits 750 million users.
+
+6
+00:00:23,425 --> 00:00:28,487
+Software stocks lose $1 trillion – AI eats its children first.
+
+7
+00:00:28,487 --> 00:00:30,400
+🌟 Story of the Week
+
+8
+00:00:30,400 --> 00:00:33,712
+Claude Opus 4.6: The Security Shock.
+
+9
+00:00:33,712 --> 00:00:40,912
+Anthropic ushered in a new era this week with Claude Opus 4.6 – and shook the software industry along the way.
+
+10
+00:00:40,912 --> 00:00:49,925
+The new model found over 500 previously unknown zero-day vulnerabilities in open-source code , "out of the box," without special training.
+
+11
+00:00:49,925 --> 00:00:55,787
+Every single vulnerability was verified by Anthropic's team or external security researchers .
+
+12
+00:00:55,787 --> 00:00:57,300
+But that's just the beginning.
+
+13
+00:00:57,300 --> 00:01:00,362
+Opus 4.6 brings three game-changers:.
+
+14
+00:01:00,362 --> 00:01:02,050
+1. Agent Teams
+
+15
+00:01:02,050 --> 00:01:10,362
+The model can now break down complex tasks into subtasks and distribute them across multiple agents that coordinate directly with each other .
+
+16
+00:01:10,362 --> 00:01:17,350
+Instead of a single AI assistant, you get an entire crew working together – perfect for enterprise workflows.
+
+17
+00:01:17,350 --> 00:01:20,287
+2. 1 Million Token Context Window
+
+18
+00:01:20,287 --> 00:01:25,887
+Anthropic expanded the context window from 200,000 to 1 million tokens .
+
+19
+00:01:25,887 --> 00:01:30,600
+That's about 750,000 words or 2,000 pages of text.
+
+20
+00:01:30,600 --> 00:01:36,012
+Regulatory filings, annual reports, complete codebases – everything fits.
+
+21
+00:01:36,012 --> 00:01:38,850
+3. Financial Analysis Superpowers
+
+22
+00:01:38,850 --> 00:01:44,100
+Goldman Sachs is already using Claude to automate trade accounting and client onboarding .
+
+23
+00:01:44,100 --> 00:01:53,675
+Opus 4.6 can analyze company data, regulations, and market information to create detailed financial analyses that would take a human days .
+
+24
+00:01:53,675 --> 00:01:59,162
+The market reaction was brutal: Legal and financial analysis software stocks crashed .
+
+25
+00:01:59,162 --> 00:02:04,412
+The WisdomTree Cloud Computing Fund lost 20% in 2026 already .
+
+26
+00:02:04,412 --> 00:02:11,175
+The message is clear: AI isn't just coming for blue-collar jobs – it's eating high-margin SaaS first.
+
+27
+00:02:11,175 --> 00:02:12,787
+🔥 More Top Stories
+
+28
+00:02:12,787 --> 00:02:17,250
+1. OpenAI Frontier: Enterprise Agents for Everyone
+
+29
+00:02:17,250 --> 00:02:24,625
+OpenAI strikes back with Frontier , a new platform that allows companies to treat AI agents like human employees.
+
+30
+00:02:24,625 --> 00:02:34,112
+Frontier connects different data sources across enterprise applications and allows agents to take actions: edit files, use tools, execute code .
+
+31
+00:02:34,112 --> 00:02:42,562
+The first customers are impressive: HP, Intuit, Oracle, State Farm, Thermo Fisher, and Uber are already onboard .
+
+32
+00:02:42,562 --> 00:02:46,687
+BBVA, Cisco, and T-Mobile have piloted the platform .
+
+33
+00:02:46,687 --> 00:03:01,537
+Together with GPT-5.3-Codex , which combines code generation with GPT-5 reasoning and is 25% faster than predecessors, OpenAI is building a complete enterprise AI ecosystem.
+
+34
+00:03:01,537 --> 00:03:05,925
+2. Big Tech's $650B AI Bet
+
+35
+00:03:05,925 --> 00:03:17,850
+The four largest US tech giants – Alphabet, Amazon, Meta, and Microsoft – will invest about $650 billion in AI infrastructure together in 2026 .
+
+36
+00:03:17,850 --> 00:03:31,112
+Alphabet alone announced capex of $175-185 billion , almost double 2025 and far exceeding Wall Street expectations of $120 billion .
+
+37
+00:03:31,112 --> 00:03:35,037
+This isn't hype anymore – this is an infrastructure arms race.
+
+38
+00:03:35,037 --> 00:03:39,325
+Data centers, GPUs, cooling systems, power supply.
+
+39
+00:03:39,325 --> 00:03:44,025
+The message: whoever doesn't invest now loses the connection forever.
+
+40
+00:03:44,025 --> 00:03:45,575
+⚡ Quick Hits
+
+41
+00:03:45,575 --> 00:03:54,950
+Google Gemini reaches 750M users – Gemini hit the 750 million MAU mark , up from 650M last quarter.
+
+42
+00:03:54,950 --> 00:03:58,475
+Gemini 3, recently launched, drives growth.
+
+43
+00:03:58,475 --> 00:04:04,362
+ChatGPT still leads with an estimated 810M MAUs , but the gap is shrinking.
+
+44
+00:04:04,362 --> 00:04:14,575
+Software stocks lose $1 trillion – The realization that AI cannibalizes traditional software companies first wiped about $1 billion off the market .
+
+45
+00:04:14,575 --> 00:04:19,850
+The WisdomTree Cloud Computing Fund is down 20% in 2026 already .
+
+46
+00:04:19,850 --> 00:04:28,275
+Grok deepfake crisis – Elon Musk's Grok is under fire for allowing sexually explicit images of real women and children .
+
+47
+00:04:28,275 --> 00:04:32,187
+Indonesia and Malaysia blocked Grok as the first countries.
+
+48
+00:04:32,187 --> 00:04:35,587
+Ofcom launched a formal investigation against X .
+
+49
+00:04:35,587 --> 00:04:44,425
+Moltbook: Social network for AI only – The new social network Moltbook grew to 152,000 AI agents in days .
+
+50
+00:04:44,425 --> 00:04:49,350
+The platform works like Reddit, but exclusively for AI-to-AI communication.
+
+51
+00:04:49,350 --> 00:04:54,850
+Already 193,000 comments and 17,500 posts .
+
+52
+00:04:54,850 --> 00:05:03,200
+NASA uses Claude for Mars rover – NASA's JPL used Claude to plan a 450-meter path for the Perseverance rover.
+
+53
+00:05:03,200 --> 00:05:06,937
+Engineers estimate AI could cut planning time in half .
+
+54
+00:05:07,862 --> 00:05:09,750
+🛠️ Tool of the Week
+
+55
+00:05:09,750 --> 00:05:13,525
+OpenAI GPT-5.3-Codex.
+
+56
+00:05:13,525 --> 00:05:22,812
+On February 5, OpenAI launched GPT-5.3-Codex , the company's "most capable agentic coding model."
+
+57
+00:05:22,812 --> 00:05:28,750
+It combines Codex code generation with GPT-5 reasoning power in a single model.
+
+58
+00:05:28,750 --> 00:05:29,800
+Why relevant:.
+
+59
+00:05:29,800 --> 00:05:35,275
+Codex is about 25% faster than predecessors  and sets new benchmarks.
+
+60
+00:05:35,275 --> 00:05:41,362
+But the key is: It's not just a code generator, but a coding agent you can actively steer while it works.
+
+61
+00:05:41,362 --> 00:05:46,375
+That's the difference between "generate me a function" and "develop this feature with me.".
+
+62
+00:05:46,375 --> 00:05:48,987
+Link:  OpenAI Codex Updates .
+
+63
+00:05:48,987 --> 00:05:50,712
+💥 Fail of the Week
+
+64
+00:05:50,712 --> 00:05:52,575
+Grok's Deepfake Debacle.
+
+65
+00:05:52,575 --> 00:05:57,937
+Elon Musk's AI chatbot Grok is at the center of a massive controversy this week.
+
+66
+00:05:57,937 --> 00:06:09,012
+Users could use Grok to generate sexually explicit images of real women and children , partly with "nudify" prompts that led to CSAM (Child Sexual Abuse Material).
+
+67
+00:06:09,012 --> 00:06:10,875
+The consequences came quickly:.
+
+68
+00:06:10,875 --> 00:06:15,475
+Indonesia and Malaysia completely blocked Grok as the first countries .
+
+69
+00:06:15,475 --> 00:06:19,775
+Ofcom (UK) launched a formal investigation against X .
+
+70
+00:06:19,775 --> 00:06:25,150
+Local social media feeds in several countries were flooded with non-consensual deepfakes .
+
+71
+00:06:25,150 --> 00:06:28,400
+This isn't a bug – it's a fundamental governance problem.
+
+72
+00:06:28,400 --> 00:06:35,462
+While OpenAI, Anthropic, and Google have strict safety guardrails, Grok seems deliberately "uncensored."
+
+73
+00:06:35,462 --> 00:06:36,912
+The bill is coming now.
+
+74
+00:06:36,912 --> 00:06:38,600
+📊 Number of the Week
+
+75
+00:06:38,600 --> 00:06:39,625
+500
+
+76
+00:06:39,625 --> 00:06:48,737
+The number of zero-day vulnerabilities Claude Opus 4.6 found in open-source code  – "out of the box," without specialized security training.
+
+77
+00:06:48,737 --> 00:06:51,025
+Each one was verified by experts.
+
+78
+00:06:51,025 --> 00:06:53,662
+This isn't just impressive – it's concerning.
+
+79
+00:06:53,662 --> 00:07:00,100
+If a general-purpose model without specialized training finds 500 zero-days, how many are still out there?
+
+80
+00:07:00,100 --> 00:07:05,200
+And: How long until malicious actors use the same models for vulnerability discovery?
+
+81
+00:07:05,200 --> 00:07:09,025
+The good news: Security researchers now have a powerful tool.
+
+82
+00:07:09,025 --> 00:07:11,425
+The bad news: So do attackers.
+
+83
+00:07:11,425 --> 00:07:12,725
+📚 Reading List
+
+84
+00:07:12,725 --> 00:07:23,775
+Why a new AI tool hammered some software stocks this week  – ABC News explains why legal and financial software stocks crashed after Anthropic's Opus 4.6 announcement.
+
+85
+00:07:23,775 --> 00:07:37,000
+Anthropic Launches New Model That Spots Zero Days, Makes Wall Street Traders Lose Their Minds  – Gizmodo's analysis of how Opus 4.6 disrupts the security and finance industry simultaneously.
+
+86
+00:07:37,000 --> 00:07:48,512
+OpenAI Just Laid Out Its 2026 Roadmap  – eWeek on OpenAI's 2026 strategy: Frontier, Codex, and six model deprecations on February 13 .
+
+87
+00:07:48,512 --> 00:07:50,037
+🔮 Next Week
+
+88
+00:07:50,037 --> 00:07:59,062
+On February 13, OpenAI will deprecate six models at once  – a historic cleanup showing how fast the AI landscape moves.
+
+89
+00:07:59,062 --> 00:08:08,362
+Also: Alphabet presents Q4 numbers, and markets are waiting to see if the $180B capex announcement translates to revenue.
+
+90
+00:08:08,362 --> 00:08:14,387
+Google already reported 18% revenue growth last quarter , driven by AI systems.
+
+91
+00:08:14,387 --> 00:08:20,437
+And we're watching whether more countries block Grok – or whether X finally implements safety guardrails.
+
+92
+00:08:20,437 --> 00:08:27,087
+AI-assisted creation – This newsletter was researched, written, and curated with Claude (Anthropic).
+
+93
+00:08:27,087 --> 00:08:30,150
+All facts were verified against original sources.
+
+94
+00:08:30,150 --> 00:08:31,037
+Errors?
+
+95
+00:08:31,037 --> 00:08:32,137
+Report them here .
+
+96
+00:08:32,137 --> 00:08:33,037
+Feedback?
+
+97
+00:08:33,037 --> 00:08:35,562
+Message me on  LinkedIn  or via  email .
+
+98
+00:08:35,562 --> 00:08:38,912
+BKS-Lab  AI & Automation Consulting.
+
+99
+00:08:38,912 --> 00:08:42,312
+bks-lab.com    Subscribe to newsletter
+
