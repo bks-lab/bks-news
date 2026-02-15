@@ -26,3 +26,6 @@ npm-debug.log*
 
 # Local docs (not committed)
 SCHEDULER.local.md
+
+# Newsletter staging (temp drafts between sessions)
+.staging/

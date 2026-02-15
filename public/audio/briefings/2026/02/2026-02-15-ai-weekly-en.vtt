@@ -1,0 +1,604 @@
+1
+00:00:00,050 --> 00:00:04,600
+# AI Weekly #7/2026
+
+2
+00:00:04,600 --> 00:00:07,850
+February 15, 2026  Week 7.
+
+3
+00:00:07,850 --> 00:00:08,812
+TL;DR.
+
+4
+00:00:08,812 --> 00:00:17,750
+$380 Billion: Anthropic closes $30B Series G – second-largest private tech funding of all time
+
+5
+00:00:17,750 --> 00:00:26,212
+AI Geopolitics Escalate: OpenAI officially accuses DeepSeek before US lawmakers of systematic model distillation .
+
+6
+00:00:26,212 --> 00:00:36,237
+Healthcare AI Crisis: ECRI declares chatbot misuse the #1 patient safety risk for 2026 – just as FDA loosens requirements .
+
+7
+00:00:36,237 --> 00:00:45,837
+Chinese Offensive: DeepSeek V4, Alibaba Qwen 3.5, ByteDance, and Zhipu prepare coordinated launches during Lunar New Year .
+
+8
+00:00:45,837 --> 00:00:54,112
+Story of the Week: Anthropic Raises $30B at $380B Valuation – While Software Stocks Crash.
+
+9
+00:00:54,112 --> 00:01:00,412
+Since its founding in 2021, Anthropic is now valued at $380 billion.
+
+10
+00:01:00,412 --> 00:01:10,437
+The Series G funding round brought in $30 billion in fresh capital – the second-largest private tech financing in history, surpassed only by OpenAI .
+
+11
+00:01:10,437 --> 00:01:19,400
+For perspective: This valuation exceeds BMW, Airbus, and Siemens combined – for a company primarily selling a chat model.
+
+12
+00:01:19,400 --> 00:01:24,525
+Yet while foundation model labs raise billions, the stock market tells a different story.
+
+13
+00:01:24,525 --> 00:01:33,175
+In the same week, software stocks fell sharply – not just tech, but also financials, office real estate, trucking, and logistics .
+
+14
+00:01:33,175 --> 00:01:39,037
+The reason: Investors fear that AI agents will make traditional enterprise software obsolete.
+
+15
+00:01:39,037 --> 00:01:43,912
+This paradox reveals the fundamental capital redistribution currently underway.
+
+16
+00:01:43,912 --> 00:01:49,400
+Money is flowing away from companies that use software toward those that build foundation models.
+
+17
+00:01:49,400 --> 00:01:56,400
+Markets aren't just pricing in that AI is disruptive – they're already evaluating who the winners and losers will be.
+
+18
+00:01:56,400 --> 00:01:59,475
+What will Anthropic do with $30 billion?
+
+19
+00:01:59,475 --> 00:02:12,962
+The company remains silent on details, but the timing signals are clear: While OpenAI pushes GPT-5.x and DeepSeek V4 launches next week, Claude needs massive capital for the compute race.
+
+20
+00:02:12,962 --> 00:02:19,725
+Foundation models have become a capital-intensive industry – those who can't burn billions no longer compete.
+
+21
+00:02:19,725 --> 00:02:31,587
+The $380B valuation isn't an assessment of Anthropic's current profitability – it's a bet that Claude will be one of the few survivors in the foundation model consolidation process.
+
+22
+00:02:31,587 --> 00:02:39,175
+In a world with 5-7 Tier-1 labs, $380B is the price for a seat at the table.
+
+23
+00:02:39,175 --> 00:02:40,600
+Further Top Stories.
+
+24
+00:02:40,600 --> 00:02:47,312
+Google DeepMind: Gemini Deep Think Achieves IMO Gold Standard and Solves Open Erdős Problems.
+
+25
+00:02:47,312 --> 00:02:57,050
+Google DeepMind has introduced Gemini Deep Think – a reasoning model that achieves the gold medal standard of the International Mathematics Olympiad (IMO) .
+
+26
+00:02:57,050 --> 00:03:08,650
+Even more remarkable: The new "Aletheia" research agent feature solved four open problems from the Erdős Conjectures Database – a collection of mathematical conjectures, some decades old.
+
+27
+00:03:08,650 --> 00:03:10,575
+This is more than a benchmark win.
+
+28
+00:03:10,575 --> 00:03:18,850
+DeepMind explicitly positions Gemini Deep Think not as a "tool for mathematicians" but as an active scientific research partner.
+
+29
+00:03:18,850 --> 00:03:32,787
+The model also achieved competition-level performance in the ICPC (International Collegiate Programming Contest), demonstrating that the capability applies not only to formal mathematics but also to algorithmic problem-solving.
+
+30
+00:03:32,787 --> 00:03:36,325
+The four solved Erdős problems are historically significant.
+
+31
+00:03:36,325 --> 00:03:47,262
+Paul Erdős was one of the most prolific mathematicians of the 20th century – his "Conjectures Database" contains hundreds of open conjectures that mathematicians worldwide work on.
+
+32
+00:03:47,262 --> 00:03:55,662
+That an AI system now independently finds solutions could mark a turning point: AI is evolving from assistant to co-researcher.
+
+33
+00:03:55,662 --> 00:03:59,200
+For Scientific AI, this represents a narrative shift.
+
+34
+00:03:59,200 --> 00:04:04,712
+Previous systems (AlphaFold, AlphaProof) solved specific scientific problems.
+
+35
+00:04:04,712 --> 00:04:14,425
+Gemini Deep Think demonstrates generalized reasoning capability across multiple domains – mathematics, programming, scientific hypotheses.
+
+36
+00:04:14,425 --> 00:04:20,887
+This is the foundation for AI as a "general scientific discoverer," not just a specialized tool.
+
+37
+00:04:20,887 --> 00:04:27,162
+OpenAI Officially Accuses DeepSeek of Model Distillation – AI Becomes Geopolitical.
+
+38
+00:04:28,087 --> 00:04:36,950
+OpenAI has officially warned US lawmakers about DeepSeek, accusing the Chinese lab of "unfair and increasingly sophisticated methods" .
+
+39
+00:04:36,950 --> 00:04:51,062
+The specific accusation: DeepSeek systematically extracts output from US models (GPT-4, Claude, Gemini) to train the R1 successor DeepSeek V4 – a process called "model distillation.".
+
+40
+00:04:51,062 --> 00:04:57,225
+This is the first direct IP accusation between Tier-1 labs across national borders.
+
+41
+00:04:57,225 --> 00:05:10,850
+Distillation is technically legal (it's only inference, not weight theft), but OpenAI argues: If DeepSeek systematically uses billions of API calls to train a competing model, it's unfair competition.
+
+42
+00:05:10,850 --> 00:05:12,525
+The timing is strategic.
+
+43
+00:05:12,525 --> 00:05:22,137
+According to Bloomberg, DeepSeek V4 is expected next week during Lunar New Year  – exactly like a year ago when DeepSeek-R1 caused a stir.
+
+44
+00:05:22,137 --> 00:05:26,875
+OpenAI is proactively trying to build political pressure before the launch occurs.
+
+45
+00:05:26,875 --> 00:05:29,250
+The geopolitical dimension is new.
+
+46
+00:05:29,250 --> 00:05:35,387
+Previous AI competition operated at the benchmark level – now it's becoming a matter for lawmakers.
+
+47
+00:05:35,387 --> 00:05:42,812
+OpenAI frames DeepSeek not just as a competitor but as a state-backed actor systematically exploiting US IP.
+
+48
+00:05:42,812 --> 00:05:47,987
+This is classic geopolitics: Technical competition becomes state competition.
+
+49
+00:05:47,987 --> 00:05:53,387
+For the industry, this means: Model distillation will become a regulatory issue.
+
+50
+00:05:53,387 --> 00:06:05,075
+If US labs successfully argue that Chinese distillation is unfair, API restrictions could follow – which in turn forces Chinese labs toward more autarky (their own infrastructure).
+
+51
+00:06:05,075 --> 00:06:07,775
+The AI race is fragmenting regionally.
+
+52
+00:06:07,775 --> 00:06:16,025
+Healthcare AI Crisis: Chatbot Misuse Becomes #1 Patient Safety Risk – Just as FDA Loosens Requirements.
+
+53
+00:06:16,025 --> 00:06:25,362
+ECRI, a leading nonprofit patient safety organization, has declared AI chatbot misuse the #1 health tech hazard for 2026 .
+
+54
+00:06:25,362 --> 00:06:39,287
+The problem: ChatGPT, Gemini, and Microsoft Copilot are being deployed in healthcare settings without clinical oversight – doctors and nurses use them for diagnoses, medication recommendations, and patient counseling.
+
+55
+00:06:39,287 --> 00:06:41,000
+The timing is problematic.
+
+56
+00:06:41,000 --> 00:06:47,450
+In January 2026, the FDA loosened device requirements for Clinical Decision Support Tools.
+
+57
+00:06:47,450 --> 00:06:52,225
+Result: AI tools can now be deployed in clinics without FDA vetting.
+
+58
+00:06:52,225 --> 00:06:55,887
+At exactly this moment, ECRI warns of the risks.
+
+59
+00:06:55,887 --> 00:06:58,250
+The core problems according to ECRI:.
+
+60
+00:06:58,250 --> 00:07:03,575
+Hallucinations: ChatGPT invents medical "facts" that sound plausible.
+
+61
+00:07:03,575 --> 00:07:10,475
+No clinical validation: GPT-4 is not a medical device – it was never tested for healthcare use.
+
+62
+00:07:10,475 --> 00:07:15,962
+Lack of liability: If a patient is harmed by AI misadvice – who is responsible?
+
+63
+00:07:15,962 --> 00:07:17,912
+This isn't a theoretical risk.
+
+64
+00:07:17,912 --> 00:07:25,287
+Healthcare professionals already report cases where colleagues adopted ChatGPT output verbatim – without fact-checking.
+
+65
+00:07:25,287 --> 00:07:33,287
+The FDA loosening exacerbates the problem: Tools previously considered "experimental" are now deemed "acceptable.".
+
+66
+00:07:33,287 --> 00:07:44,300
+At the same time, there are positive examples of AI in healthcare: Radiology assistants helping doctors with diagnoses, or administrative copilots reducing documentation burden.
+
+67
+00:07:44,300 --> 00:07:53,637
+The difference lies in validation and supervision – clinically tested tools with human oversight work, general-purpose chatbots without oversight are risky.
+
+68
+00:07:53,637 --> 00:07:59,237
+This shows the central trade-off: Not slowing innovation vs. ensuring patient safety.
+
+69
+00:07:59,237 --> 00:08:06,625
+The FDA tries to balance both, but the current approach – loose requirements for AI tools – may have come too early.
+
+70
+00:08:06,625 --> 00:08:14,712
+Healthcare is the first safety-critical use case where general-purpose AI is being mass-deployed – without domain-specific safeguards.
+
+71
+00:08:14,712 --> 00:08:15,662
+Quick Hits.
+
+72
+00:08:15,662 --> 00:08:24,175
+OpenAI Tests Ads in ChatGPT Free Tier  – Despite billion-dollar fundings, all labs need sustainable revenue streams.
+
+73
+00:08:24,175 --> 00:08:29,212
+ChatGPT Free gets advertising, partners pay premium rates for placement.
+
+74
+00:08:29,212 --> 00:08:43,612
+OpenAI Retired GPT-4o, GPT-4.1, and o4-mini from ChatGPT  – Aggressive model lifecycle: GPT-4o removed from ChatGPT after less than a year.
+
+75
+00:08:43,612 --> 00:08:49,687
+API remains, but ChatGPT pushes users to GPT-5.x series.
+
+76
+00:08:49,687 --> 00:08:54,387
+Signal: OpenAI wants to force rapid adoption of newest models.
+
+77
+00:08:55,312 --> 00:09:05,425
+Software Stocks Fall Due to AI Agent Disruption Fears  – Global software stocks (financials, office real estate, trucking, logistics) fall sharply.
+
+78
+00:09:05,425 --> 00:09:10,200
+Investors fear: AI agents replace traditional enterprise software.
+
+79
+00:09:10,200 --> 00:09:13,712
+Same week Anthropic receives $30B.
+
+80
+00:09:13,712 --> 00:09:20,875
+Tool of the Week: Mistral Voxtral Transcribe 2 – On-Device Speech-to-Text for 1/5 of Cloud Costs.
+
+81
+00:09:20,875 --> 00:09:29,812
+Mistral AI has launched Voxtral Transcribe 2 – an open-weights speech-to-text model that's more practical and cheaper than all cloud alternatives .
+
+82
+00:09:29,812 --> 00:09:30,987
+Two Variants:.
+
+83
+00:09:30,987 --> 00:09:43,562
+Voxtral Mini: 13 languages, speaker diarization, $0.003/min (vs. GPT-4o mini: ~$0.015/min).
+
+84
+00:09:43,562 --> 00:09:48,912
+Voxtral Realtime: Sub-200ms latency for live transcription.
+
+85
+00:09:48,912 --> 00:09:50,262
+What Makes It Special:.
+
+86
+00:09:50,262 --> 00:09:55,675
+Open-Weights: Apache 2.0 License – can run on-device (privacy!).
+
+87
+00:09:55,675 --> 00:10:01,000
+Performance: Outperforms GPT-4o mini at 1/5 the cost.
+
+88
+00:10:01,000 --> 00:10:06,150
+Practical: Not just a benchmark win – real cost savings for production use.
+
+89
+00:10:06,150 --> 00:10:07,212
+Why Relevant:.
+
+90
+00:10:07,212 --> 00:10:10,087
+This is the counter-trend to cloud-only AI.
+
+91
+00:10:10,087 --> 00:10:17,700
+While OpenAI and Anthropic burn billions for larger models, Mistral shows: Open source can lead with practical tools.
+
+92
+00:10:17,700 --> 00:10:28,687
+On-device processing is privacy-first (GDPR-compliant without cloud), cheaper (no API costs after deployment), and low-latency (no network round-trip).
+
+93
+00:10:28,687 --> 00:10:35,150
+Voxtral Transcribe 2 isn't a research project – it's a production-ready tool that companies can deploy today.
+
+94
+00:10:35,150 --> 00:10:42,050
+This is the AI story lost beneath the funding hype: Practical open-source tools solving real problems.
+
+95
+00:10:42,050 --> 00:10:49,487
+Fail of the Week: FDA Loosens Clinical AI Requirements Just as ECRI Warns of Chatbot Misuse.
+
+96
+00:10:49,487 --> 00:10:55,937
+In January 2026, the FDA loosened device requirements for Clinical Decision Support Tools.
+
+97
+00:10:55,937 --> 00:11:02,125
+In the same month, ECRI warns of AI chatbot misuse as the #1 health tech hazard .
+
+98
+00:11:02,125 --> 00:11:03,462
+Timing Paradox:.
+
+99
+00:11:03,462 --> 00:11:06,637
+FDA says: "AI tools need less vetting".
+
+100
+00:11:06,637 --> 00:11:11,787
+ECRI says: "AI tools without vetting are the greatest patient safety threat".
+
+101
+00:11:11,787 --> 00:11:17,412
+Result: ChatGPT/Gemini deployed in clinics without FDA check.
+
+102
+00:11:17,412 --> 00:11:21,550
+This shows the disconnect between regulation and safety reality.
+
+103
+00:11:21,550 --> 00:11:27,775
+Policy-makers want to "not slow innovation," while patient safety organizations warn of the risks.
+
+104
+00:11:27,775 --> 00:11:37,187
+The result is tension: AI tools can be used in healthcare without comprehensive validation – with potential for liability and oversight problems.
+
+105
+00:11:37,187 --> 00:11:46,825
+The central trade-off: Too strict regulation slows innovation and prevents positive use cases (diagnostic assistants, administrative copilots).
+
+106
+00:11:46,825 --> 00:11:51,687
+Too loose regulation enables risky deployments without clinical validation.
+
+107
+00:11:51,687 --> 00:11:58,312
+The FDA tries to find balance – but the current approach may be too permissive for safety-critical settings.
+
+108
+00:11:58,312 --> 00:12:01,775
+Number of the Week: $380 Billion.
+
+109
+00:12:01,775 --> 00:12:06,625
+Anthropic's post-money valuation after $30B Series G .
+
+110
+00:12:06,625 --> 00:12:07,687
+Why Relevant:.
+
+111
+00:12:07,687 --> 00:12:11,450
+Second-largest private tech valuation after OpenAI.
+
+112
+00:12:11,450 --> 00:12:15,025
+More than BMW, Airbus, Siemens combined.
+
+113
+00:12:15,025 --> 00:12:17,825
+For a company primarily selling a chat model.
+
+114
+00:12:17,825 --> 00:12:19,000
+The Contrast:.
+
+115
+00:12:19,000 --> 00:12:26,150
+Same week Anthropic is worth $380B, software stocks fall from fear of AI disruption .
+
+116
+00:12:26,150 --> 00:12:32,012
+Shows capital redistribution: Away from traditional software, toward foundation model labs.
+
+117
+00:12:32,012 --> 00:12:40,325
+$380B isn't a valuation of profit – it's the price for a seat in the Tier-1 AI lab oligopoly.
+
+118
+00:12:40,325 --> 00:12:41,425
+Reading List.
+
+119
+00:12:41,425 --> 00:12:51,387
+📖  Gemini Deep Think: Mathematical Discovery  – Google DeepMind explains how Aletheia Research Agent solved open Erdős problems  8 min
+
+120
+00:12:51,387 --> 00:13:02,925
+📖  OpenAI vs DeepSeek: Model Distillation Accusations  – Bloomberg reports on the first geopolitical IP accusation between AI labs  6 min
+
+121
+00:13:02,925 --> 00:13:11,100
+📖  ECRI Health Tech Hazard Report 2026  – Why AI chatbots are the biggest patient safety risk  5 min
+
+122
+00:13:11,100 --> 00:13:15,100
+Next Week: Chinese AI Launches & DeepSeek V4.
+
+123
+00:13:15,100 --> 00:13:20,937
+Next week begins Lunar New Year – and with it the coordinated offensive of Chinese AI labs.
+
+124
+00:13:20,937 --> 00:13:28,225
+According to the South China Morning Post (SCMP), a Hong Kong-based newspaper, several major launches are expected :.
+
+125
+00:13:28,225 --> 00:13:35,325
+DeepSeek V4: Successor to R1, context window 128K → 1M tokens.
+
+126
+00:13:35,325 --> 00:13:39,075
+Alibaba Qwen 3.5: Flagship update.
+
+127
+00:13:39,075 --> 00:13:43,762
+ByteDance & Zhipu GLM-5: Further major launches.
+
+128
+00:13:44,687 --> 00:13:46,275
+This is no coincidence.
+
+129
+00:13:46,275 --> 00:13:54,612
+A year after DeepSeek's first breakthrough, Lunar New Year becomes the "AI launch window" – similar to Apple's September events.
+
+130
+00:13:54,612 --> 00:13:58,675
+Shows professionalism and coordination in the Chinese AI sector.
+
+131
+00:13:58,675 --> 00:14:01,662
+We're tracking the launches and reporting next week.
+
+132
+00:14:01,662 --> 00:14:02,425
+Footer.
+
+133
+00:14:02,425 --> 00:14:05,162
+AI Weekly is produced by  BKS-Lab .
+
+134
+00:14:05,162 --> 00:14:10,162
+Subscribe to newsletter:  bks-lab.com/newsletter .
+
+135
+00:14:10,162 --> 00:14:13,575
+Contact:  ai@bks-lab.com .
+
+136
+00:14:13,575 --> 00:14:14,850
+Legal Notices:.
+
+137
+00:14:14,850 --> 00:14:17,850
+This newsletter is for informational purposes only.
+
+138
+00:14:17,850 --> 00:14:21,762
+No financial, investment, legal, or health advice.
+
+139
+00:14:21,762 --> 00:14:27,775
+All information without guarantee, as of: 2026-02-15.
+
+140
+00:14:27,775 --> 00:14:30,225
+Sources are indicated by hyperlinks.
+
+141
+00:14:30,225 --> 00:14:31,175
+Sources:.
+
+142
+00:14:31,175 --> 00:14:38,087
+[1]  Anthropic raises $30 billion in Series G  (2026-02-12)
+
+143
+00:14:38,087 --> 00:14:46,162
+[2]  Accelerating mathematical and scientific discovery with Gemini Deep Think  (2026-02-11)
+
+144
+00:14:46,162 --> 00:14:54,300
+[3]  OpenAI Accuses DeepSeek of Distilling US Models to Gain an Edge  (2026-02-12)
+
+145
+00:14:54,300 --> 00:15:02,775
+[4]  Misuse of AI Chatbots in Health Care Tops 2026 Health Tech Hazard Report  (2026-02-12)
+
+146
+00:15:02,775 --> 00:15:11,150
+[5]  China's AI arms race sees sector brace for major flagship model launch week  (2026-02-12)
+
+147
+00:15:11,150 --> 00:15:16,712
+[6]  Testing ads in ChatGPT  (2026-02-12)
+
+148
+00:15:16,712 --> 00:15:23,787
+[7]  Retiring GPT-4o and older models  (2026-02-13)
+
+149
+00:15:23,787 --> 00:15:30,675
+[8]  AI disruption fears slam new corners of the market  (2026-02-12)
+
+150
+00:15:30,675 --> 00:15:36,037
+[9]  Mistral Voxtral Transcribe 2  (2026-02-04)
+
+151
+00:15:36,037 --> 00:15:40,762
+Created with AI assistance  All facts verified through primary sources.
+
