@@ -1,0 +1,536 @@
+1
+00:00:00,050 --> 00:00:04,587
+# AI Weekly #11/2026
+
+2
+00:00:04,587 --> 00:00:07,462
+March 9, 2026  Week 11.
+
+3
+00:00:07,462 --> 00:00:08,425
+TL;DR.
+
+4
+00:00:08,425 --> 00:00:18,925
+Anthropic vs. Pentagon: The US Department of Defense classified Anthropic as a "supply chain risk" — because Claude refuses to support autonomous weapons systems.
+
+5
+00:00:18,925 --> 00:00:24,787
+Market response: #1 App Store in over 15 countries, 1M signups daily.
+
+6
+00:00:24,787 --> 00:00:26,950
+Anthropic filed a lawsuit today  .
+
+7
+00:00:26,950 --> 00:00:39,225
+22 Firefox bugs in 14 days: Claude Opus 4.6 analyzed 6,000 C++ files and found 14 high-severity vulnerabilities — better at finding than exploiting.
+
+8
+00:00:39,225 --> 00:00:41,150
+Clear advantage for defenders
+
+9
+00:00:41,150 --> 00:00:57,125
+GPT-5.4: 1-million-token context, native computer use, 75% on OSWorld (human level: 72.4%) — and 33% fewer hallucinations than GPT-5.2 .
+
+10
+00:00:57,125 --> 00:01:12,662
+4,000+ jobs at Block: Jack Dorsey explicitly names AI as the reason — one of the first publicly traded companies to attribute mass layoffs directly and without PR spin to AI (AI causality partly disputed)
+
+11
+00:01:12,662 --> 00:01:19,950
+Story of the Week: Pentagon Labels Claude a "Supply Chain Risk" — Users Respond with 1 Million Signups Daily.
+
+12
+00:01:19,950 --> 00:01:23,900
+It started as a government decree and ended today with a lawsuit.
+
+13
+00:01:23,900 --> 00:01:38,625
+On March 5, 2026, the US Department of Defense officially classified Anthropic as a "supply chain risk"  — the concrete trigger: Anthropic refused to make Claude available for autonomous weapons systems and mass surveillance.
+
+14
+00:01:38,625 --> 00:01:46,650
+Defense Secretary Hegseth chose the wording precisely: not "unreliable," not "hostile," but supply chain risk.
+
+15
+00:01:46,650 --> 00:02:03,050
+A classification with concrete consequences for all federal agencies using Claude directly or through third-party providers — and one that from a compliance perspective initially represents primarily an operational problem for those agencies, not just a statement about Anthropic.
+
+16
+00:02:03,050 --> 00:02:06,437
+What happened next, no one had anticipated at this scale  .
+
+17
+00:02:06,437 --> 00:02:11,537
+Claude climbed to #1 on the Apple App Store in over 15 countries.
+
+18
+00:02:11,537 --> 00:02:17,737
+Over one million new signups daily — a trust dividend no marketing campaign could have bought.
+
+19
+00:02:17,737 --> 00:02:32,725
+Analysts like Bruce Schneier and Nathan Sanders see this as more than spontaneous solidarity: the refusal to trade principles for contracts has become the strongest form of brand differentiation in a market where model performance is converging .
+
+20
+00:02:32,725 --> 00:02:41,575
+When all models can compute, write and code at roughly the same level, the question "Who do I trust?" becomes the actual purchasing decision.
+
+21
+00:02:41,575 --> 00:02:46,112
+The strategic calculus behind Anthropic's stance is not pure idealism .
+
+22
+00:02:46,112 --> 00:02:58,887
+Enterprise customers in Europe, finance, insurance and pharmaceuticals are asking the same question that 15+ App Stores are now answering: For what purposes is this company unwilling to deploy its technology?
+
+23
+00:02:58,887 --> 00:03:05,725
+Anthropic has drawn a line that may prove more valuable to these customer segments than any benchmark improvement.
+
+24
+00:03:05,725 --> 00:03:14,962
+Today, March 9, 2026, the conflict escalated to the legal arena: Anthropic filed a lawsuit against the Trump administration .
+
+25
+00:03:14,962 --> 00:03:27,537
+This opens a question that will work its way through the courts for months: Can a government legally compel a private company to make its technology available for specific state purposes — even against its own terms of service?
+
+26
+00:03:27,537 --> 00:03:29,975
+The answer will affect more than Anthropic.
+
+27
+00:03:29,975 --> 00:03:42,687
+It will set a precedent for the entire industry: whether AI labs can enforce their terms of service as a genuine protective line against government pressure — or whether they will be systematically eroded under market pressure  .
+
+28
+00:03:42,687 --> 00:03:44,025
+More Top Stories.
+
+29
+00:03:44,025 --> 00:03:50,937
+Claude Finds 22 Firefox Security Vulnerabilities in 14 Days — and Gives Defenders the Advantage.
+
+30
+00:03:50,937 --> 00:04:00,537
+In a partnership between Anthropic and Mozilla, Claude Opus 4.6 analyzed nearly 6,000 C++ files of the Firefox browser .
+
+31
+00:04:00,537 --> 00:04:07,475
+The result after two weeks: 22 security vulnerabilities identified, 14 of them high-severity.
+
+32
+00:04:07,475 --> 00:04:12,650
+112 reports were submitted, most of them patched in Firefox 148.
+
+33
+00:04:12,650 --> 00:04:17,237
+Claude found the first use-after-free vulnerability within 20 minutes.
+
+34
+00:04:18,162 --> 00:04:23,837
+The number 14 high-severity vulnerabilities sounds abstract — until you put it in perspective .
+
+35
+00:04:23,837 --> 00:04:31,487
+That amounts to nearly one-fifth of all high-severity Firefox vulnerabilities patched during the entire year 2025.
+
+36
+00:04:31,487 --> 00:04:32,650
+In two weeks.
+
+37
+00:04:32,650 --> 00:04:35,550
+For $4,000 in API costs.
+
+38
+00:04:35,550 --> 00:04:41,512
+That is the true benchmark for this story: not speed alone, but the ratio of effort to outcome.
+
+39
+00:04:41,512 --> 00:04:47,100
+Traditional security audits for a codebase of this size take months and six-figure sums.
+
+40
+00:04:47,100 --> 00:04:56,762
+One caveat: independent verification of the findings by Mozilla is still pending, and the proportion of previously known vulnerabilities was not fully disclosed.
+
+41
+00:04:56,762 --> 00:05:04,025
+What security experts find most notable: Claude was significantly better at finding the vulnerabilities than exploiting them .
+
+42
+00:05:04,025 --> 00:05:09,650
+The project results are explicitly interpreted as: "This gives defenders the advantage."
+
+43
+00:05:09,650 --> 00:05:11,450
+That is not a trivial detail.
+
+44
+00:05:11,450 --> 00:05:22,287
+It means that the same tool that could theoretically help attackers works asymmetrically in favor of defense in practice — because finding is easier than exploiting, and Claude excels at finding.
+
+45
+00:05:22,287 --> 00:05:31,087
+For security teams that must secure vast codebases with limited resources, this fundamentally changes the economics of defensive security.
+
+46
+00:05:31,087 --> 00:05:38,912
+OpenAI GPT-5.4: 1M Context, Computer Use, 75% on OSWorld.
+
+47
+00:05:38,912 --> 00:05:46,250
+OpenAI released GPT-5.4 this week in three variants: Standard, Thinking and Pro .
+
+48
+00:05:46,250 --> 00:05:54,850
+The technical highlight is the 1-million-token context window as standard — not as a special feature for enterprise customers, but as the default.
+
+49
+00:05:54,850 --> 00:06:02,450
+That corresponds to roughly 750,000 words or a stack of several hundred average novels in a single context.
+
+50
+00:06:02,450 --> 00:06:12,212
+The OSWorld benchmark figure is the most discussed detail of the week: 75% success rate versus a human benchmark of 72.4% .
+
+51
+00:06:12,212 --> 00:06:21,500
+OSWorld tests whether a model can independently execute computer-based tasks — opening windows, filling out forms, switching between applications.
+
+52
+00:06:21,500 --> 00:06:27,300
+GPT-5.4 thus marginally exceeds the measured human level for the first time.
+
+53
+00:06:27,300 --> 00:06:38,137
+For context: comparable benchmarks for Anthropic's Claude Sonnet 4.6 on OSWorld have not yet been fully published, which limits direct model comparisons on this basis.
+
+54
+00:06:38,137 --> 00:06:48,425
+This matters for enterprise trust-building: a model that outperforms the average user in standardized computer-use tests changes the risk calculus for automated workflows.
+
+55
+00:06:48,425 --> 00:06:55,887
+The 33% reduction in hallucinations compared to GPT-5.2 is the second important figure  .
+
+56
+00:06:55,887 --> 00:07:08,525
+OpenAI is marketing GPT-5.4 as "its most factually accurate model to date" — a positioning aimed squarely at the enterprise segment, where reliability matters more than creativity.
+
+57
+00:07:08,525 --> 00:07:19,237
+The combination of large context, computer use and reduced errors makes GPT-5.4 the most compelling argument yet for agent-based automation from OpenAI.
+
+58
+00:07:19,237 --> 00:07:28,537
+The real question for organizations is not whether the model is good — but whether it is good enough to hand over processes that previously required human oversight.
+
+59
+00:07:28,537 --> 00:07:29,487
+Quick Hits.
+
+60
+00:07:29,487 --> 00:07:42,762
+Microsoft Copilot Cowork with Claude under the hood  — Microsoft launches Copilot Cowork as a Research Preview: an autonomous agent that plans and executes tasks across all M365 apps.
+
+61
+00:07:42,762 --> 00:07:55,837
+Particularly noteworthy: Microsoft 365 Copilot Wave 3 integrates Anthropic's Claude directly into Copilot Chat — Microsoft's own models and Anthropic working within the same interface.
+
+62
+00:07:55,837 --> 00:07:59,562
+Broad availability through the Frontier Program from late March.
+
+63
+00:07:59,562 --> 00:08:13,062
+Gemini 3.1 Flash-Lite: Thinking at one-eighth the price  — $0.25/M input tokens, $1.50/M output — approximately one-eighth the price of Gemini 3.1 Pro.
+
+64
+00:08:13,062 --> 00:08:17,212
+Four configurable thinking levels for adjustable compute intensity.
+
+65
+00:08:17,212 --> 00:08:19,037
+Strong at image generation.
+
+66
+00:08:19,037 --> 00:08:29,887
+For teams looking to integrate reasoning capabilities into production workflows without paying frontier model prices, this is the most affordable option with genuine reasoning budget to date.
+
+67
+00:08:30,812 --> 00:08:48,575
+Qwen leadership crisis: Strong models, shaky leadership  — Alibaba's AI division releases Qwen 3.5 (0.8B–397B parameters, open-weight) — and simultaneously loses lead researcher Junyang Lin along with several key personnel.
+
+68
+00:08:48,575 --> 00:08:57,537
+Technically strong, organizationally fragile: the combination raises serious questions about the long-term stability of the open-source heavyweight.
+
+69
+00:08:57,537 --> 00:09:04,925
+Tool of the Week: AutoResearch — Karpathy Democratizes AI Research in 630 Lines of Python.
+
+70
+00:09:04,925 --> 00:09:16,887
+Andrej Karpathy open-sourced AutoResearch this week : a 630-line Python tool that lets AI agents run fully autonomous ML experiments on a single consumer GPU.
+
+71
+00:09:16,887 --> 00:09:27,787
+No multi-GPU cluster, no expensive cloud infrastructure — AutoResearch makes possible what research teams previously needed significant resources to accomplish.
+
+72
+00:09:27,787 --> 00:09:45,137
+The validation example speaks for itself : According to MarkTechPost, Shopify CEO Tobi Lütke adopted AutoResearch internally and achieved a 19% improvement in validation score — using the same 630-line framework Karpathy made publicly available.
+
+73
+00:09:45,137 --> 00:09:46,962
+This is not an academic demo.
+
+74
+00:09:46,962 --> 00:09:51,650
+This is a production result from one of the world's largest e-commerce companies.
+
+75
+00:09:51,650 --> 00:09:56,800
+What makes AutoResearch strategically interesting is its minimal-footprint philosophy .
+
+76
+00:09:56,800 --> 00:10:08,662
+630 lines means: fully readable, fully adaptable, fully understandable — without framework overhead, without abstraction layers that obscure the actual experiment.
+
+77
+00:10:08,662 --> 00:10:15,837
+For teams looking to systematize ML experiments with limited resources, this is an immediately usable building block.
+
+78
+00:10:15,837 --> 00:10:28,100
+For the industry as a whole, Karpathy is sending a signal: the next wave of AI research will not emerge from labs with thousands of GPUs, but from developers running AutoResearch on their own machines.
+
+79
+00:10:28,100 --> 00:10:34,225
+Fail of the Week: Clinejection — Prompt Injection → Cache Poisoning → NPM Secret Stolen.
+
+80
+00:10:34,225 --> 00:10:38,525
+This week's story is a textbook example of multi-stage AI attacks .
+
+81
+00:10:38,525 --> 00:10:45,937
+Starting point: Cline's automated GitHub issue triage bot, which processes incoming issues using Claude Code.
+
+82
+00:10:45,937 --> 00:10:53,937
+The attack chain begins with a manipulated issue title — crafted precisely to function as a prompt injection when Claude Code reads it.
+
+83
+00:10:53,937 --> 00:11:00,125
+The sequence in four steps : A maliciously worded issue title injects a prompt into Claude Code.
+
+84
+00:11:00,125 --> 00:11:03,600
+Claude Code then executes  with a manipulated package ().
+
+85
+00:11:03,600 --> 00:11:17,825
+The package injects approximately 11 GB of junk data into the GitHub Actions cache according to Willison's analysis — precisely enough to trigger the 10 GB auto-eviction threshold and introduce poisoned cache entries.
+
+86
+00:11:17,825 --> 00:11:23,812
+The nightly build workflow loads the poisoned entries, exposing the NPM publishing secret.
+
+87
+00:11:23,812 --> 00:11:28,625
+Result: An unauthorized  was published to npm and had to be retracted.
+
+88
+00:11:28,625 --> 00:11:31,425
+The failure is structural, not individual .
+
+89
+00:11:31,425 --> 00:11:42,400
+First, it demonstrates that automated AI bots processing user-generated input without sandbox isolation represent an active attack surface, not a theoretical one.
+
+90
+00:11:42,400 --> 00:11:51,337
+Second: the attackers knew the GitHub Actions eviction threshold to the byte — this is not an opportunistic attack, it is targeted reconnaissance.
+
+91
+00:11:51,337 --> 00:12:01,687
+Third, the damage extends beyond Cline: every unauthorized npm publication potentially endangers every project using that package as a dependency.
+
+92
+00:12:01,687 --> 00:12:10,550
+The question for all teams running AI bots with write access to production systems: Where is the line between what a bot may read and what it may execute?
+
+93
+00:12:10,550 --> 00:12:14,300
+Number of the Week: 4,000+.
+
+94
+00:12:14,300 --> 00:12:18,037
+Source: Block/Square, neuralbuddies.com .
+
+95
+00:12:18,037 --> 00:12:26,925
+That is how many positions Block CEO Jack Dorsey is cutting — citing AI automation in engineering and operations as the explicit reason.
+
+96
+00:12:26,925 --> 00:12:29,825
+This is not a new number, but a new context .
+
+97
+00:12:29,825 --> 00:12:44,087
+Block is thus one of the first publicly traded companies to attribute mass layoffs directly and publicly to AI — without restructuring-speak, without market conditions as the explanation, without a strategic pivot as framing.
+
+98
+00:12:44,087 --> 00:12:46,100
+Just: "AI does that now."
+
+99
+00:12:46,100 --> 00:12:58,412
+Several observers note, however, that the AI attribution can also be read as "AI washing" — a post-hoc rationalization for job cuts that were already planned for other economic reasons.
+
+100
+00:12:59,337 --> 00:13:04,212
+What Dorsey normalizes with this is at least as significant as the number itself .
+
+101
+00:13:04,212 --> 00:13:17,225
+When executives of publicly traded companies communicate AI-driven headcount reductions as direct business logic — not as a regrettable exception, but as a calculated step — societal expectations shift.
+
+102
+00:13:17,225 --> 00:13:21,575
+Every company that cuts positions in the coming months can cite this precedent.
+
+103
+00:13:21,575 --> 00:13:24,550
+The real question is not whether others will follow.
+
+104
+00:13:24,550 --> 00:13:31,875
+The question is which industries, which job profiles and which qualification levels will be next to enter this calculation.
+
+105
+00:13:31,875 --> 00:13:32,975
+Reading List.
+
+106
+00:13:32,975 --> 00:13:49,112
+📖  Anthropic Trump Claude AI Supply Chain Risk — Lawsuit  — CNBC with full details on today's lawsuit, the supply chain risk classification and the strategic assessment from Schneier/Sanders — the article that defines this week  8 min
+
+107
+00:13:49,112 --> 00:14:07,362
+📖  Anthropic and Mozilla: Finding Firefox Security Vulnerabilities with AI  — Anthropic's own deep dive into the Firefox partnership: methodology, results, cost breakdown and why Claude is better at finding than exploiting — required reading for all security teams  12 min
+
+108
+00:14:07,362 --> 00:14:22,800
+📖  Clinejection: Prompt Injection to Cache Poisoning  — Simon Willison's technical analysis of the full attack chain: from manipulated issue titles to the npm secret leak — for everyone running AI bots with production access  6 min
+
+109
+00:14:22,800 --> 00:14:28,675
+Next Week: Anthropic Lawsuit and the First Wave of GPT-5.4 User Data.
+
+110
+00:14:28,675 --> 00:14:32,600
+The coming days will bring several ongoing developments into focus:.
+
+111
+00:14:32,600 --> 00:14:40,287
+Anthropic lawsuit proceedings: First legal assessments of the constitutionality of the supply chain risk decree are expected.
+
+112
+00:14:40,287 --> 00:14:51,237
+Whether other tech companies will file as amicus curiae — as seen recently with Google and OpenAI employees acting in solidarity — is one of the interesting side questions.
+
+113
+00:14:51,237 --> 00:15:08,762
+GPT-5.4 in practice: First real-world user experiences with the 1M context and computer use will reveal whether the OSWorld benchmark numbers hold in productive workflows — or whether the known latency and cost challenges at maximum context limit adoption.
+
+114
+00:15:08,762 --> 00:15:16,262
+Firefox 148 patch notes: Mozilla will document the vulnerabilities found by Claude in the release notes.
+
+115
+00:15:16,262 --> 00:15:25,462
+How many of the 14 high-severity bugs were exploitable in the wild will retrospectively assess the true urgency of the Mozilla-Anthropic project.
+
+116
+00:15:25,462 --> 00:15:41,362
+Copilot Cowork feedback: First reports from the Frontier Program will show whether Microsoft Wave 3 with Claude under the hood represents a genuine workflow revolution — or whether the integration still stumbles on the known M365 inertia problems.
+
+117
+00:15:41,362 --> 00:15:42,125
+Footer.
+
+118
+00:15:42,125 --> 00:15:44,862
+AI Weekly is produced by  BKS-Lab .
+
+119
+00:15:44,862 --> 00:15:50,050
+Subscribe to the newsletter:  bks-lab.com/newsletter .
+
+120
+00:15:50,050 --> 00:15:53,462
+Contact:  ai@bks-lab.com .
+
+121
+00:15:53,462 --> 00:15:54,412
+Sources:.
+
+122
+00:15:54,412 --> 00:16:00,725
+[1]  Anthropic Pentagon AI Claude Iran  (CNBC, 2026-03-05)
+
+123
+00:16:00,725 --> 00:16:08,737
+[2]  Anthropic Trump Claude AI Supply Chain Risk — Lawsuit  (CNBC, 2026-03-09)
+
+124
+00:16:08,737 --> 00:16:16,625
+[3]  Pentagon Labels AI Company Anthropic a Supply Chain Risk  (NPR, 2026-03-06)
+
+125
+00:16:16,625 --> 00:16:25,725
+[4]  Anthropic and Mozilla: Finding Firefox Security Vulnerabilities with AI  (Anthropic, 2026-03-06)
+
+126
+00:16:25,725 --> 00:16:35,000
+[5]  OpenAI launches GPT-5.4 with Pro and Thinking versions  (TechCrunch, 2026-03-05)
+
+127
+00:16:35,000 --> 00:16:44,287
+[6]  OpenAI new model GPT-5.4 enterprise agentic Anthropic  (Fortune, 2026-03-05)
+
+128
+00:16:44,287 --> 00:16:51,500
+[7]  Copilot Cowork: A New Way of Getting Work Done  (Microsoft, 2026-03-09)
+
+129
+00:16:51,500 --> 00:16:58,587
+[8]  Gemini 3.1 Flash-Lite  (simonwillison.net, 2026-03-03)
+
+130
+00:16:58,587 --> 00:17:04,787
+[9]  Qwen leadership crisis  (simonwillison.net, 2026-03-04)
+
+131
+00:17:04,787 --> 00:17:14,075
+[10]  Andrej Karpathy open-sources AutoResearch — 630-line Python tool  (MarkTechPost, 2026-03-08)
+
+132
+00:17:14,075 --> 00:17:22,187
+[11]  Clinejection: Prompt Injection to Cache Poisoning  (simonwillison.net, 2026-03-06)
+
+133
+00:17:22,187 --> 00:17:31,275
+[12]  AI News Recap March 6, 2026 — Block layoffs  (NeuralBuddies, 2026-03-06)
+
+134
+00:17:31,275 --> 00:17:34,487
+AI-assisted  Facts supported by cited sources.
+

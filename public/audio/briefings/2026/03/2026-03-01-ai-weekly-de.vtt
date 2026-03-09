@@ -1,0 +1,560 @@
+1
+00:00:00,100 --> 00:00:05,037
+# AI Weekly #09/2026
+
+2
+00:00:04,987 --> 00:00:08,762
+1. März 2026  Woche 9
+
+3
+00:00:08,762 --> 00:00:10,950
+TL;DR.
+
+4
+00:00:10,950 --> 00:00:21,912
+Anthropic-Bann: Trump ordnete an, alle Bundesbehörden dürfen Claude nicht mehr nutzen — weil Anthropic sich weigerte, autonome Waffensysteme und Massenüberwachung zu unterstützen.
+
+5
+00:00:21,912 --> 00:00:25,962
+OpenAI schloss unmittelbar danach den Pentagon-Vertrag ab .
+
+6
+00:00:25,962 --> 00:00:39,250
+Block-Massenentlassung: Jack Dorsey streicht 40 % der Belegschaft (~4.000 Stellen) und nennt KI offen als Grund — Ökonomen streiten, ob das echter KI-Jobabbau oder „AI-Washing" ist .
+
+7
+00:00:39,250 --> 00:00:51,275
+Microsoft Copilot Tasks: KI geht vom Antworten zum Handeln — E-Mails, Wohnungssuche, Flugbuchungen, Jobbewerbungen — seit 26. Februar als Research Preview verfügbar .
+
+8
+00:00:51,275 --> 00:01:04,012
+IBM: 72 Minuten: Angreifer brauchen heute nur noch 72 Minuten vom ersten Systemzugang bis zum vollständigen Angriff — KI-gestützte Schwachstellenausnutzung als zentraler Treiber .
+
+9
+00:01:04,012 --> 00:01:09,587
+Story der Woche: Trump blacklists Anthropic — OpenAI übernimmt Pentagon-Vertrag.
+
+10
+00:01:09,587 --> 00:01:17,575
+Zum ersten Mal in der Geschichte der KI-Industrie wurde ein führendes Unternehmen durch ein Regierungsdekret aus dem Bundesmarkt ausgesperrt .
+
+11
+00:01:17,575 --> 00:01:34,087
+Präsident Trump ordnete an, alle US-Bundesbehörden sollen Anthropic-Technologie nicht mehr nutzen — eine direkte Konsequenz der Weigerung Anthropics, Claude für „alle gesetzlichen Zwecke" freizugeben, einschließlich autonomer Waffensysteme und Massenüberwachung von US-Bürgern.
+
+12
+00:01:34,087 --> 00:01:45,825
+Verteidigungsminister Hegseth war in seiner Sprache präzise und politisch wirksam: Medienberichten zufolge soll er Anthropic als „Supply-Chain-Risiko" für das US-Militär bezeichnet haben .
+
+13
+00:01:45,825 --> 00:01:58,662
+Diese Klassifizierung ist keine bloße Rhetorik — sie hat konkrete Konsequenzen für alle Bundesbehörden, die Claude über Drittanbieter wie Palantir nutzen, und sendet ein Signal an internationale Regierungskunden.
+
+14
+00:01:58,662 --> 00:02:06,887
+Wer im US-Regierungsmarkt als Supply-Chain-Risiko gilt, hat es weltweit schwerer, in sensiblen öffentlichen Ausschreibungen zu bestehen.
+
+15
+00:02:06,887 --> 00:02:24,125
+Aus Regierungsperspektive ist eine solche Einschätzung jedoch nicht ohne Grundlage: Staaten haben legitime Sicherheitsinteressen bei kritischer Infrastruktur und Militärtechnologie — und das Recht, die Bedingungen für den Einsatz von KI-Systemen in sensiblen Bereichen eigenständig festzulegen.
+
+16
+00:02:24,125 --> 00:02:33,237
+Die Frage, die sich die Branche stellen muss, ist nicht ob Regierungen diese Kontrolle ausüben dürfen, sondern nach welchen Kriterien und Verfahren sie das tun.
+
+17
+00:02:33,237 --> 00:02:36,862
+Die Reaktion der Branche war dennoch bemerkenswert.
+
+18
+00:02:36,862 --> 00:02:46,287
+Mitarbeiter von Google und OpenAI — also direkten Konkurrenten Anthropics — unterzeichneten einen offenen Brief in Solidarität mit dem gebannten Unternehmen .
+
+19
+00:02:46,287 --> 00:02:57,625
+Ein branchenübergreifendes Zeichen, das kaum übersehen werden kann: Wenn sich Mitarbeitende konkurrierender Unternehmen gemeinsam gegen staatliche Einmischung positionieren, verschieben sich die Fronten.
+
+20
+00:02:57,625 --> 00:03:07,225
+Es geht nicht mehr nur um Marktanteile, sondern um die Grundfrage, wer über die ethischen Grenzen von KI-Systemen entscheidet — private Labs oder Regierungen.
+
+21
+00:03:07,225 --> 00:03:11,737
+OpenAI schloss kurz nach dem Anthropic-Bann den Pentagon-Vertrag ab .
+
+22
+00:03:11,737 --> 00:03:15,262
+Das ist das eigentliche Paradoxon dieser Geschichte.
+
+23
+00:03:15,262 --> 00:03:25,775
+OpenAI, das öffentlich als Kontrahent zu Anthropics „Safety-First"-Ansatz wahrgenommen wird, erhält nun genau den Vertrag, den Anthropic durch seine Weigerung verloren hat.
+
+24
+00:03:25,775 --> 00:03:35,612
+Ob OpenAI dabei schlicht besser zu den Pentagon-Anforderungen passt oder ob es von der Situation profitiert hat, lässt sich von außen nicht abschließend beurteilen.
+
+25
+00:03:35,612 --> 00:03:48,262
+Der Markt honoriert kurzfristig Verfügbarkeit — ob OpenAI damit langfristig das Vertrauen von Entwicklern und Unternehmenskunden riskiert, die Anthropic wegen seiner Safety-Reputation bevorzugten, wird sich zeigen.
+
+26
+00:03:49,237 --> 00:03:56,512
+Anthropics Gegenangriff ist juristisch: Das Unternehmen nannte den Bann „rechtlich unhaltbar" und drohte mit Klagen .
+
+27
+00:03:56,462 --> 00:04:00,487
+Das eröffnet eine neue Front im KI-Governance-Diskurs.
+
+28
+00:04:00,487 --> 00:04:14,325
+Wenn ein privates Unternehmen seine Nutzungsbedingungen als Verteidigungslinie gegen Regierungsdruck nutzt, stellt sich die Verfassungsfrage: Kann eine Regierung vorschreiben, für welche Zwecke ein privates KI-Modell eingesetzt werden muss?
+
+29
+00:04:14,325 --> 00:04:20,387
+Die Antwort dürfte Monate oder Jahre durch die Gerichte wandern — und die gesamte Branche beobachtet.
+
+30
+00:04:20,387 --> 00:04:34,225
+Was bleibt, ist ein Präzedenzfall mit globaler Strahlkraft: Das erste Mal, dass eine Regierung ein führendes KI-Unternehmen nicht reguliert, sondern aus dem eigenen Markt verbannt — weil es seine ethischen Prinzipien nicht aufgegeben hat .
+
+31
+00:04:34,225 --> 00:04:45,687
+Ob das als Schutz staatlicher Sicherheitsinteressen oder als gefährliche Normalisierung politischer KI-Kontrolle in die Geschichte eingeht, hängt davon ab, wer dieses Narrativ in den nächsten Wochen besetzt.
+
+32
+00:04:45,687 --> 00:04:47,862
+Weitere Top-Stories.
+
+33
+00:04:47,862 --> 00:04:52,900
+Block entlässt 40 % — Jack Dorsey sagt offen: Es ist die KI.
+
+34
+00:04:52,900 --> 00:05:01,912
+Block, das Fintech-Unternehmen hinter Square und CashApp, strich diese Woche rund 4.000 Stellen — von 10.000 auf 6.000 Mitarbeitende .
+
+35
+00:05:01,912 --> 00:05:10,600
+Was diesen Fall von anderen Massenentlassungen unterscheidet: CEO Jack Dorsey ließ laut Medienberichten keine Interpretationsspielräume.
+
+36
+00:05:10,600 --> 00:05:21,350
+Die gestiegene KI-Produktivität mache diese Stellen überflüssig — und er soll prognostiziert haben, dass „die meisten Unternehmen diesen Schritt in naher Zukunft ebenfalls vollziehen werden" .
+
+37
+00:05:21,350 --> 00:05:26,887
+Keine Rede von Marktbedingungen, Restrukturierung oder strategischer Neuausrichtung.
+
+38
+00:05:26,887 --> 00:05:28,462
+Nur KI.
+
+39
+00:05:28,462 --> 00:05:31,812
+Die Reaktion der Ökonomen ist gespalten .
+
+40
+00:05:31,812 --> 00:05:40,375
+Eine Seite sieht in Block den Auftakt eines systemischen KI-Jobabbaus — endlich ein Unternehmen, das offen sagt, was andere verschleiern.
+
+41
+00:05:40,375 --> 00:05:51,662
+Die andere Seite warnt vor „AI-Washing": Entlassungen, die aus finanziellen oder strategischen Gründen bereits geplant waren und nachträglich mit KI-Produktivitätssteigerungen begründet werden.
+
+42
+00:05:51,662 --> 00:06:09,612
+Eine Forrester-Analyse dieser Woche gibt dem ersten Lager Substanz: 40 % aller befragten Arbeitgeber planen laut Forrester KI-bedingte Stellenreduktionen in den kommenden 18 Monaten  — eine andere Messgröße als Blocks eigene Entlassungsquote, aber ein ergänzender Datenpunkt zur Breite des Trends.
+
+43
+00:06:09,612 --> 00:06:17,712
+Das eigentliche Signal ist nicht die Zahl — 40 % Stellenabbau ist schmerzhaft, aber in Restrukturierungen nicht ungewöhnlich.
+
+44
+00:06:17,712 --> 00:06:20,062
+Das Signal ist die Offenheit.
+
+45
+00:06:20,062 --> 00:06:26,687
+Dorsey normalisiert mit seiner Kommunikation einen Diskurs, der bislang in PR-Sprache verpackt wurde.
+
+46
+00:06:26,687 --> 00:06:38,525
+Wenn CEOs beginnen, KI-getriebene Personalreduktionen als unvermeidliche Business-Logik zu vermarkten — nicht als außergewöhnliche Maßnahme —, verschiebt sich der gesellschaftliche Erwartungshorizont.
+
+47
+00:06:38,525 --> 00:06:45,025
+Jedes Unternehmen, das als nächstes Stellen abbaut, kann sich nun auf diesen Präzedenzfall berufen .
+
+48
+00:06:45,025 --> 00:06:50,212
+Microsoft Copilot Tasks: Die To-Do-Liste, die sich selbst erledigt.
+
+49
+00:06:50,212 --> 00:07:04,287
+Microsoft startete am 26. Februar 2026 „Copilot Tasks" als Research Preview  — und das zugehörige Framing könnte kaum ambitionierter sein: „AI that doesn't just talk to you, but works for you.
+
+50
+00:07:04,287 --> 00:07:11,500
+Die Idee: Nutzer beschreiben Aufgaben in natürlicher Sprache, der Copilot plant und führt sie eigenständig aus.
+
+51
+00:07:11,500 --> 00:07:15,062
+Eine To-Do-Liste, die sich selbst abarbeitet.
+
+52
+00:07:15,062 --> 00:07:26,400
+Die Bandbreite der demonstrierten Anwendungsfälle ist beeindruckend: E-Mail-Management, Dokumentenerstellung, Wohnungssuche, Flugkoordination, Preisüberwachung, Jobbewerbungen .
+
+53
+00:07:26,400 --> 00:07:40,687
+Was das von früheren Agentenankündigungen unterscheidet, ist das Sicherheitskonzept: Copilot fragt nach menschlicher Bestätigung, bevor er Aktionen mit finanziellem oder kommunikativem Gewicht ausführt — Geldausgaben, Nachrichten senden.
+
+54
+00:07:40,687 --> 00:07:45,725
+Microsofts eigene Formulierung: kein Autopilot, sondern Copilot .
+
+55
+00:07:45,725 --> 00:07:47,812
+Das ist kein Zufall.
+
+56
+00:07:47,812 --> 00:07:55,875
+Nach Monaten öffentlicher Diskussion über unkontrollierte AI-Agenten wählt Microsoft bewusst ein konservativeres Vertrauensmodell.
+
+57
+00:07:56,850 --> 00:08:10,375
+Die strategische Bedeutung liegt in der Zielgruppe: Copilot Tasks ist nicht für Entwickler oder Enterprise-Power-User konzipiert — es ist ein Consumer-Produkt für Millionen Windows- und Microsoft-365-Nutzer .
+
+58
+00:08:10,325 --> 00:08:19,000
+Damit bringt Microsoft agentenbasierte KI in den Mainstream, lange bevor die meisten Menschen wissen, was ein „AI Agent" überhaupt ist.
+
+59
+00:08:19,000 --> 00:08:34,425
+Das ist Googles Gemini-for-Android-Strategie gespiegelt auf Microsoft-Ebene (siehe Quick Hits): Beide Tech-Giganten wetten darauf, dass KI-Agenten das nächste Interface-Paradigma sind — und wollen die Gewohnheiten von hunderten Millionen Nutzern prägen, bevor ein Dritter es tut.
+
+60
+00:08:34,425 --> 00:08:35,962
+Quick Hits.
+
+61
+00:08:35,962 --> 00:08:50,375
+KI-Cyberangriffe +44 %  — IBM X-Force Threat Index 2026: Angriffe auf öffentlich zugängliche Systeme stiegen um 44 %, angetrieben durch KI-gestützte Schwachstellenerkennung.
+
+62
+00:08:50,375 --> 00:08:56,837
+Grundlegende Sicherheitslücken bleiben das größte Problem — KI macht sie nur dramatisch schneller ausnutzbar.
+
+63
+00:08:56,837 --> 00:09:03,887
+Die Angriffs-Geschwindigkeit hat sich strukturell verändert: Was früher Stunden dauerte, passiert heute in Minuten.
+
+64
+00:09:03,887 --> 00:09:16,600
+DeepSeek V4 im Anflug — Nasdaq in Alarmbereitschaft  — Analysten warnen vor Marktturbulenzen ähnlich dem DeepSeek-V3-Schock 2025, als US-KI-Aktien massiv einbrachen.
+
+65
+00:09:16,600 --> 00:09:28,262
+Ein weiteres leistungsstarkes, günstiges chinesisches Modell könnte erneut den KI-Investitionshype in Frage stellen — und die Frage, ob westliche Frontier-Labs ihre Preispunkte halten können.
+
+66
+00:09:28,262 --> 00:09:43,487
+Gemini auf Android: KI bestellt Essen und erkennt Betrug  — Google erweitert Gemini auf Android mit eigenständiger App-Navigation durch Uber, DoorDash, Instacart und Starbucks sowie Echtzeit-Betrugserkennungsfunktionen für Anrufe und Textnachrichten.
+
+67
+00:09:43,487 --> 00:09:49,975
+Zunächst auf Pixel 10 und Samsung Galaxy S26 in USA und Korea verfügbar.
+
+68
+00:09:49,975 --> 00:09:53,712
+KI-Agenten kommen auf dem Smartphone an — für alle.
+
+69
+00:09:53,712 --> 00:09:59,137
+Tool der Woche: Wolfram Language — Computation-Augmented Generation (CAG).
+
+70
+00:09:59,137 --> 00:10:07,000
+Stephen Wolfram adressiert diese Woche die fundamentale Schwäche von LLMs: „LLMs don't — and can't — do everything.
+
+71
+00:10:07,000 --> 00:10:11,225
+Sie können überzeugend schreiben, aber nicht präzise rechnen.
+
+72
+00:10:11,225 --> 00:10:19,025
+Seine Lösung ist Computation-Augmented Generation (CAG) — eine strukturelle Ergänzung zum bekannten RAG-Konzept.
+
+73
+00:10:19,025 --> 00:10:27,175
+Statt statischer Dokumente werden dynamisch berechnete Inhalte aus der Wolfram Language direkt in den LLM-Content-Stream injiziert.
+
+74
+00:10:27,175 --> 00:10:36,812
+Das Ergebnis: Ein LLM, das auf 40 Jahre präzise mathematische Berechnung zurückgreifen kann — on demand, transparent, verifizierbar.
+
+75
+00:10:36,812 --> 00:10:47,287
+Wolfram stellt drei konkrete Integrationsmethoden vor : Der MCP Service ermöglicht direkten Aufruf in MCP-kompatiblen Systemen wie Claude oder ChatGPT.
+
+76
+00:10:47,287 --> 00:10:58,325
+Die Agent One API ist ein Drop-in-Ersatz für Standard-LLM-APIs, bei dem Wolfram-Berechnung transparent integriert wird — ohne dass die API-Konsumenten ihre Architektur ändern müssen.
+
+77
+00:10:58,325 --> 00:11:05,650
+Die CAG Component APIs bieten granulare Kontrolle für Custom-Integrationen und eigene KI-Pipelines.
+
+78
+00:11:05,650 --> 00:11:21,675
+Warum das wichtig ist: CAG löst nicht das Halluzinationsproblem — aber es gibt LLMs eine sichere, überprüfbare Basis für alle Aufgaben, die präzise Berechnung erfordern: Mathematik, Statistik, Physik-Simulationen, Datenbankabfragen .
+
+79
+00:11:21,675 --> 00:11:30,800
+Wolfram formuliert das Potenzial so: „The tighter the integration between LLMs and Wolfram's foundation tool, the more powerful the combination becomes.
+
+80
+00:11:30,800 --> 00:11:46,962
+Für Teams, die zuverlässige KI-Systeme für numerisch-kritische Anwendungen bauen, ist CAG die fehlende Brücke zwischen LLM-Intuition und mathematischer Gewissheit — und einer der wenigen architektonischen Fortschritte dieser Woche, der über Produkt-Announcements hinausgeht.
+
+81
+00:11:46,962 --> 00:11:55,975
+Fail der Woche: 24.000 Fake-Konten, 16 Millionen Konversationen — wie drei chinesische Firmen Claude ausgeraubt haben sollen.
+
+82
+00:11:56,950 --> 00:12:16,400
+Anthropic erhebt schwere Vorwürfe gegen drei chinesische KI-Unternehmen: DeepSeek, Minimax und Moonshot AI sollen systematisch 24.000 betrügerische Accounts erstellt und über 16 Millionen Konversationen mit Claude abgerufen haben  — mit dem einzigen Ziel, ihre eigenen Modelle durch „Destillation" zu trainieren.
+
+83
+00:12:16,400 --> 00:12:26,125
+Destillation bedeutet: Das eigene Modell lernt von den Ausgaben eines fremden Modells, ohne direkten Zugang zu dessen Gewichten oder Trainingsdaten zu benötigen.
+
+84
+00:12:26,125 --> 00:12:37,837
+Hinweis: Die Vorwürfe basieren auf einem CNN-Bericht vom 24. Februar 2026 , der aufgrund einer Paywall nicht vollständig verifiziert werden konnte.
+
+85
+00:12:37,837 --> 00:12:45,750
+Es handelt sich um Anschuldigungen Anthropics — eine öffentliche Stellungnahme der genannten Unternehmen ist nach aktuellem Stand nicht bekannt.
+
+86
+00:12:45,750 --> 00:12:48,412
+Der Vorfall ist mehrdimensional .
+
+87
+00:12:48,412 --> 00:12:55,637
+Erstens: Laut den Berichten soll Anthropic keine Möglichkeit gehabt haben, diesen Prozess in Echtzeit zu erkennen.
+
+88
+00:12:55,637 --> 00:13:05,550
+Angeblich 24.000 gefälschte Konten, 16 Millionen Anfragen — und offenbar keine automatische Erkennung, die das Muster rechtzeitig gestoppt hätte.
+
+89
+00:13:05,550 --> 00:13:13,450
+Sollte sich das bestätigen, wäre das kein Einzelversagen, sondern ein strukturelles Sicherheitsproblem jedes API-Anbieters.
+
+90
+00:13:13,450 --> 00:13:24,537
+Zweitens: Der Zeitpunkt ist für Anthropic denkbar ungünstig — zeitgleich mit dem Regierungsbann, mitten in der öffentlichen Diskussion über das Unternehmen als zuverlässigem KI-Partner.
+
+91
+00:13:24,537 --> 00:13:34,712
+Das eigentliche Problem geht weit über Anthropic hinaus : Jedes Unternehmen, das Zugang zu einem leistungsstarken Modell verkauft, ist potenziell dasselbe Angriffsziel.
+
+92
+00:13:34,712 --> 00:13:41,562
+OpenAI, Google, Mistral — alle bieten APIs an, alle tragen dasselbe strukturelle Risiko.
+
+93
+00:13:41,562 --> 00:13:47,925
+Industriell organisierte Destillation in diesem Ausmaß wäre ein Warnsignal für die gesamte Branche.
+
+94
+00:13:47,925 --> 00:14:02,600
+Die Frage, die die Industrie jetzt beantworten muss: Wie erkennt man, wann eine API nicht mehr als Nutzungs-Interface, sondern als Trainings-Pipeline missbraucht wird — und was sind die technischen und rechtlichen Konsequenzen, wenn man es zu spät erkennt?
+
+95
+00:14:02,600 --> 00:14:06,100
+Zahl der Woche: 72 Minuten.
+
+96
+00:14:06,100 --> 00:14:11,137
+Quelle: IBM X-Force Threat Index 2026 .
+
+97
+00:14:11,137 --> 00:14:17,300
+So lange brauchen Angreifer heute im Schnitt vom ersten Systemzugang bis zum vollständigen Angriff.
+
+98
+00:14:17,300 --> 00:14:22,375
+2023 waren es noch mehrere Stunden — häufig Tage.
+
+99
+00:14:22,375 --> 00:14:27,787
+KI-gestützte Automatisierung hat die Angriffs-Geschwindigkeit strukturell verschoben.
+
+100
+00:14:27,787 --> 00:14:32,850
+72 Minuten sind keine Zeit für eine manuelle Incident-Response .
+
+101
+00:14:32,850 --> 00:14:42,725
+Ein Security-Team, das einen Alert erhält, braucht allein für Triage, Validierung und erste Eskalation typischerweise 30 bis 90 Minuten.
+
+102
+00:14:42,725 --> 00:14:56,150
+Wer KI nicht auch in der Verteidigung einsetzt — für automatisches Alert-Filtering, Anomalie-Erkennung und initiale Response — ist strukturell im Nachteil gegenüber Angreifern, die dieselbe Technologie bereits seit Monaten nutzen.
+
+103
+00:14:56,150 --> 00:15:03,475
+Das X-Force-Fazit ist nüchtern: Grundlegende Sicherheitslücken bleiben das größte Problem — nicht die KI der Angreifer .
+
+104
+00:15:03,475 --> 00:15:11,550
+Ungepatchte Systeme, schwache Authentifizierung, ungesicherte APIs — KI beschleunigt nur, was schon immer gefährlich war.
+
+105
+00:15:11,550 --> 00:15:14,462
+Die Gleichung ändert sich nicht durch KI.
+
+106
+00:15:14,462 --> 00:15:19,512
+Aber das Zeitfenster zur Reaktion schrumpft dramatisch — und das ändert alles.
+
+107
+00:15:19,512 --> 00:15:21,225
+Leseliste.
+
+108
+00:15:21,225 --> 00:15:37,912
+📖  Trump blacklists Anthropic from federal use, OpenAI wins Pentagon contract  — CNBC mit allen Details zum Regierungsbann, Hegseths Supply-Chain-Risiko-Einordnung und OpenAIs unmittelbarer Vertragsübernahme — der Artikel, der diese Woche definiert  8 min
+
+109
+00:15:37,912 --> 00:15:56,275
+📖  Making Wolfram Tech Available as a Foundation Tool for LLM Systems  — Stephen Wolframs eigener Deep-Dive in CAG, alle drei Integrationsmethoden und die Architektur-Logik dahinter — Pflichtlektüre für alle, die zuverlässige KI-Systeme für numerische Anwendungen bauen  15 min
+
+110
+00:15:56,275 --> 00:16:01,712
+📖  Are Dorsey's giant job cuts the start of an AI jobs apocalypse?
+
+111
+00:16:01,712 --> 00:16:08,337
+CNBC versammelt Ökonomen auf beiden Seiten der Debatte: echter Strukturwandel oder AI-Washing?
+
+112
+00:16:08,337 --> 00:16:13,125
+Mit Forrester-Daten und Prognosen für 2026  7 min
+
+113
+00:16:13,125 --> 00:16:17,350
+Next Week: Rechtliche Eskalation und DeepSeek V4.
+
+114
+00:16:17,350 --> 00:16:21,725
+Die nächsten Tage werden mehrere laufende Entwicklungen konkretisieren:.
+
+115
+00:16:22,700 --> 00:16:32,350
+Anthropic vs. Regierung: Die angedrohten rechtlichen Schritte gegen den Bundesbann werden konkreter — erste Klagen oder außergerichtliche Einigungen sind möglich.
+
+116
+00:16:32,300 --> 00:16:38,325
+Juristische Einschätzungen zur Verfassungsmäßigkeit des Dekrets werden die Diskussion dominieren.
+
+117
+00:16:38,325 --> 00:16:43,787
+DeepSeek V4-Release: Analysten erwarten den Release in den kommenden Wochen.
+
+118
+00:16:43,787 --> 00:16:53,712
+Die Frage ist nicht ob, sondern wie stark der Markteinbruch bei US-KI-Aktien sein wird — und ob das Modell tatsächlich mit westlichen Frontier-Modellen konkurrieren kann.
+
+119
+00:16:53,712 --> 00:17:08,237
+Microsoft Copilot Tasks Nutzererfahrungen: Erste echte Berichte aus der Research Preview werden zeigen, ob das „To-Do-Liste, die sich selbst erledigt"-Versprechen in der Praxis hält — oder ob die Safety-Bestätigungen den Flow zu stark unterbrechen.
+
+120
+00:17:08,237 --> 00:17:20,537
+Block-Nachahmer?: Ob andere CEOs Dorseys offene KI-Jobabbau-Kommunikation adaptieren, wird ein früher Indikator dafür sein, ob sich diese Offenheit als neue Norm oder als Ausreißer etabliert.
+
+121
+00:17:20,537 --> 00:17:22,012
+Footer.
+
+122
+00:17:22,012 --> 00:17:25,500
+AI Weekly wird von  BKS-Lab  produziert.
+
+123
+00:17:25,500 --> 00:17:29,687
+Newsletter abonnieren:  bks-lab.com/newsletter .
+
+124
+00:17:29,687 --> 00:17:33,412
+Kontakt:  ai@bks-lab.com .
+
+125
+00:17:33,412 --> 00:17:38,137
+Bildrechte: Hero Image ist eine KI-generierte Illustration.
+
+126
+00:17:38,137 --> 00:17:43,525
+Erstellt mit einer lizenzierten KI-Bildplattform gemäß BKS-Lab-Medienpolitik.
+
+127
+00:17:43,525 --> 00:17:47,862
+Bei Lizenzfragen:  ai@bks-lab.com .
+
+128
+00:17:47,862 --> 00:17:49,412
+Sources:.
+
+129
+00:17:49,412 --> 00:17:59,200
+1]  Trump blacklists Anthropic from federal use, OpenAI wins Pentagon contract  (CNBC, 2026-02-27)
+
+130
+00:17:59,200 --> 00:18:08,312
+2]  Google and OpenAI employees sign open letter in solidarity with Anthropic  (Engadget, 2026-02-27)
+
+131
+00:18:08,312 --> 00:18:15,050
+3]  Block layoffs AI Jack Dorsey  (CNN, 2026-02-26)
+
+132
+00:18:15,050 --> 00:18:20,025
+4]  Are Dorsey's giant job cuts the start of an AI jobs apocalypse?
+
+133
+00:18:20,025 --> 00:18:24,750
+CNBC, 2026-02-27)
+
+134
+00:18:24,750 --> 00:18:31,800
+5]  Anthropic Chinese AI distillation  (CNN, 2026-02-24)
+
+135
+00:18:31,800 --> 00:18:39,450
+6]  Copilot Tasks: From Answers to Actions  (Microsoft, 2026-02-26)
+
+136
+00:18:39,450 --> 00:18:49,712
+7]  IBM 2026 X-Force Threat Index: AI-Driven Attacks Are Escalating  (IBM, 2026-02-25)
+
+137
+00:18:49,712 --> 00:18:59,337
+8]  DeepSeek to release new AI model — a rough period for Nasdaq stocks could follow  (CNBC, 2026-02-23)
+
+138
+00:18:59,337 --> 00:19:09,087
+9]  Google expands Gemini AI on Android with task automation, scam detection  (TheAIInsider, 2026-02-26)
+
+139
+00:19:09,087 --> 00:19:17,825
+10]  Making Wolfram Tech Available as a Foundation Tool for LLM Systems  (Wolfram, 2026-02-23)
+
+140
+00:19:17,825 --> 00:19:23,037
+Generiert mit Claude Sonnet 4.6  Alle Fakten durch primäre Quellen belegt.
+
