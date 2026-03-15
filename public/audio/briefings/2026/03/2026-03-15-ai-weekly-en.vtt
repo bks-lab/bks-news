@@ -1,0 +1,640 @@
+1
+00:00:00,050 --> 00:00:04,562
+# AI Weekly #12/2026
+
+2
+00:00:04,562 --> 00:00:07,612
+March 15, 2026  Week 12.
+
+3
+00:00:07,612 --> 00:00:08,575
+TL;DR.
+
+4
+00:00:08,575 --> 00:00:18,700
+Meta eyes 14,000 layoffs: Up to 20% of the workforce could potentially be cut — officially to fund aggressive AI infrastructure investments.
+
+5
+00:00:18,700 --> 00:00:21,637
+Not yet confirmed, but the signals are clear .
+
+6
+00:00:21,637 --> 00:00:38,150
+Anthropic: 1M tokens at no extra cost: Claude Opus 4.6 and Sonnet 4.6 get a 1-million-token context window at standard pricing — cheaper than Gemini from 200K and GPT-5.4 from 272K .
+
+7
+00:00:38,150 --> 00:00:52,062
+ChatGPT as app hub: DoorDash, Spotify, Uber, Canva, Figma, Expedia now directly in chat — OpenAI's strategy is ChatGPT as the digital operating system for everyday life .
+
+8
+00:00:52,062 --> 00:01:07,300
+"AI as grounds for layoffs" becomes industry standard: Atlassian (1,600 positions, 10%), Block (reportedly 4,000+) and now Meta — the PR playbook is set, and it has a name
+
+9
+00:01:07,300 --> 00:01:13,475
+Story of the Week: Meta Eyes Mass Layoffs — Up to 20% of Workforce for AI Spending.
+
+10
+00:01:13,475 --> 00:01:16,337
+The pattern was familiar, but the scale is new.
+
+11
+00:01:16,337 --> 00:01:25,462
+On March 14, 2026, TechCrunch reported that Meta is considering layoffs that could affect up to 20% of its total workforce .
+
+12
+00:01:25,462 --> 00:01:34,950
+With roughly 70,000 employees, that would potentially mean 14,000 positions — a number that dwarfs every preceding tech layoff of the year.
+
+13
+00:01:34,950 --> 00:01:37,012
+Nothing has been officially confirmed.
+
+14
+00:01:37,012 --> 00:01:49,562
+But the internal mood is reportedly heavily strained, and the stated rationale is by now familiar: funding aggressive AI infrastructure investments as well as AI-related acquisitions and hiring.
+
+15
+00:01:49,562 --> 00:02:04,162
+The most important statement in the TechCrunch report is simultaneously the most sober : "These layoffs could help Facebook's parent company offset its aggressive spending on AI infrastructure, as well as AI-related acquisitions and hiring."
+
+16
+00:02:04,162 --> 00:02:08,375
+That's not regret, not an apology, not strategic pivot-speak.
+
+17
+00:02:08,375 --> 00:02:09,550
+It's an equation.
+
+18
+00:02:09,550 --> 00:02:11,050
+Jobs out, AI in.
+
+19
+00:02:11,050 --> 00:02:15,612
+What stands out this week: nobody is trying to obscure this trade-off anymore.
+
+20
+00:02:15,612 --> 00:02:17,925
+The directness is part of the message.
+
+21
+00:02:17,925 --> 00:02:22,737
+What makes the Meta case a tipping point is its embeddedness in an established trend  .
+
+22
+00:02:22,737 --> 00:02:31,050
+Atlassian cut 1,600 positions (10%) this week, explicitly following the example set by Block.
+
+23
+00:02:31,050 --> 00:02:48,037
+Block had, according to consistent media reports from March, reduced 4,000+ positions and cited AI directly as the rationale — one of the first publicly listed companies ever to attribute mass layoffs to AI without restructuring language.
+
+24
+00:02:48,037 --> 00:02:49,337
+That was the precedent.
+
+25
+00:02:49,337 --> 00:02:50,887
+Atlassian cited it.
+
+26
+00:02:50,887 --> 00:02:56,400
+And now Meta stands as the next station in a series that is systematically growing larger.
+
+27
+00:02:56,400 --> 00:03:01,662
+The actual phenomenon of this week is the communication norm, not the layoff itself .
+
+28
+00:03:01,662 --> 00:03:08,875
+TechCrunch headlined for Atlassian: "Atlassian follows Block's footsteps and cuts staff in the name of AI."
+
+29
+00:03:08,875 --> 00:03:14,787
+"In the name of AI" — this framing has established itself as an industry standard within weeks.
+
+30
+00:03:14,787 --> 00:03:28,250
+Companies that previously would have communicated "strategic realignment" or "changed market conditions" are now reaching for the same narrative: AI as justification, AI as liberation, AI as a growth promise.
+
+31
+00:03:28,250 --> 00:03:33,950
+Whether that's causation or rationalization isn't always distinguishable from the outside.
+
+32
+00:03:33,950 --> 00:03:40,537
+For the industry, this raises a question that will not get quieter in the coming months : What comes after the layoffs?
+
+33
+00:03:40,537 --> 00:03:44,912
+Meta, Atlassian, and Block all promise more AI investment.
+
+34
+00:03:44,912 --> 00:03:52,650
+But the positions being cut disappear immediately — while the AI-driven gains in productivity and quality remain to be seen.
+
+35
+00:03:52,650 --> 00:04:07,412
+Labor market researchers and trade unions urge caution: the promised productivity gains from AI do not, in their assessment, justify such accelerated workforce reductions as long as reskilling for those affected is not factored in.
+
+36
+00:04:07,412 --> 00:04:09,550
+The bet being placed here is large.
+
+37
+00:04:09,550 --> 00:04:11,300
+And it is being made in public.
+
+38
+00:04:11,300 --> 00:04:12,637
+More Top Stories.
+
+39
+00:04:12,637 --> 00:04:19,525
+Claude: 1M Context Window at No Extra Cost — Price Leadership in the Long-Context Segment.
+
+40
+00:04:19,525 --> 00:04:22,100
+Anthropic has quietly dropped a bombshell .
+
+41
+00:04:22,100 --> 00:04:29,600
+Claude Opus 4.6 and Sonnet 4.6 receive a 1-million-token context window — at standard pricing.
+
+42
+00:04:29,600 --> 00:04:36,100
+No long-context premium, no separate pricing tier, no restrictions beyond a certain threshold.
+
+43
+00:04:36,100 --> 00:04:40,887
+Uniform pricing applies across the entire 1M window for both models.
+
+44
+00:04:41,812 --> 00:04:46,637
+The strategic impact of this decision can be measured directly against competitors .
+
+45
+00:04:46,637 --> 00:04:52,312
+Google's Gemini 3.1 Pro charges a price premium from 200,000 tokens.
+
+46
+00:04:52,312 --> 00:04:57,700
+OpenAI's GPT-5.4 from 272,000 tokens.
+
+47
+00:04:57,700 --> 00:05:01,337
+Claude remains cheaper than both up to 1 million tokens.
+
+48
+00:05:01,337 --> 00:05:12,812
+That's not a marginal advantage — it's a segment that is decisive for enterprise customers with large document corpora, code reviews across complete repositories, or batch-processing workloads.
+
+49
+00:05:12,812 --> 00:05:17,850
+Anyone scaling these workloads will now pay less with Claude than with the competition.
+
+50
+00:05:17,850 --> 00:05:28,437
+What the number 1 million means is worth concretizing : that corresponds to roughly 750,000 words or 7 to 8 average novels in a single prompt.
+
+51
+00:05:28,437 --> 00:05:37,887
+For practical applications: complete mid-sized codebases, multi-document legal document sets, a company's full quarterly data in a single context.
+
+52
+00:05:37,887 --> 00:05:42,200
+This doesn't change the model's capabilities — it changes the economics.
+
+53
+00:05:42,200 --> 00:05:49,125
+Anyone who previously used long-context sparingly because costs rose can now scale without price shock.
+
+54
+00:05:49,125 --> 00:05:58,437
+For the RAG debate of the next 12 months — how much context is necessary, how much is too expensive — Anthropic has just set a new baseline.
+
+55
+00:05:58,437 --> 00:06:03,750
+ChatGPT Becomes a Digital Operating System: Six App Integrations Live.
+
+56
+00:06:03,750 --> 00:06:07,662
+OpenAI has fundamentally extended ChatGPT this week .
+
+57
+00:06:07,662 --> 00:06:20,112
+As of now, DoorDash, Spotify, Uber, Canva, Figma, and Expedia are directly integrated into the chat — without app switching, without separate logins, without media breaks.
+
+58
+00:06:20,112 --> 00:06:27,287
+Order food, play music, call a cab, create a design, book a flight: all from a single input field.
+
+59
+00:06:27,287 --> 00:06:32,000
+The technical implementation is less interesting than the strategic implication .
+
+60
+00:06:32,000 --> 00:06:42,775
+OpenAI is no longer positioning ChatGPT as a language model or assistant, but as an agent hub — as the interface through which users interact with digital services.
+
+61
+00:06:42,775 --> 00:06:53,525
+That's a direct challenge to the app paradigm of the past 15 years: no longer ten different apps for ten different tasks, but a central agent that coordinates the apps in the background.
+
+62
+00:06:53,525 --> 00:07:00,412
+Apple, Google, and all app store ecosystems will be watching very closely how quickly users make this switch.
+
+63
+00:07:00,412 --> 00:07:04,387
+What the selection of the six launch partners reveals is the intent .
+
+64
+00:07:04,387 --> 00:07:08,312
+DoorDash and Uber address physical everyday actions.
+
+65
+00:07:08,312 --> 00:07:10,825
+Spotify supplements content consumption.
+
+66
+00:07:10,825 --> 00:07:14,200
+Canva and Figma serve the creative and work space.
+
+67
+00:07:14,200 --> 00:07:15,875
+Expedia adds travel.
+
+68
+00:07:15,875 --> 00:07:18,562
+That's not coincidence — it's a coverage model.
+
+69
+00:07:18,562 --> 00:07:30,262
+OpenAI deliberately covers as many everyday categories as possible, signaling to potential follow-on partners: those not integrated risk being excluded from the primary user interface.
+
+70
+00:07:30,262 --> 00:07:37,975
+Atlassian Cuts 1,600 Positions — "AI Transformation" as Official Justification Framework.
+
+71
+00:07:37,975 --> 00:07:44,387
+Atlassian cut 1,600 positions this week — 10% of the total workforce .
+
+72
+00:07:44,387 --> 00:07:51,100
+The rationale follows the now-familiar pattern: reallocation of personnel costs toward AI development.
+
+73
+00:07:51,100 --> 00:07:55,150
+Anyone familiar with Jack Dorsey and Block knows the playbook.
+
+74
+00:07:55,150 --> 00:07:59,125
+Atlassian didn't invent it, but has replicated it precisely.
+
+75
+00:07:59,125 --> 00:08:03,575
+What's remarkable is not the number, but the normalization of the format .
+
+76
+00:08:03,575 --> 00:08:13,287
+TechCrunch explicitly headlined the connection to Block — "Atlassian follows Block's footsteps" — thereby documenting that the framing now counts as a reference point.
+
+77
+00:08:13,287 --> 00:08:19,425
+Companies cutting positions cite other companies that cut positions and cited AI as justification.
+
+78
+00:08:19,425 --> 00:08:21,575
+A chain of references is forming.
+
+79
+00:08:21,575 --> 00:08:26,150
+What was controversial for the first company becomes industry norm by the fourth.
+
+80
+00:08:26,150 --> 00:08:35,725
+For Atlassian's products — Jira, Confluence, Trello — the question now is how the AI investments will concretely flow into product improvements .
+
+81
+00:08:35,725 --> 00:08:37,187
+The layoffs are public.
+
+82
+00:08:37,187 --> 00:08:39,562
+The outcome for users still has to be.
+
+83
+00:08:39,562 --> 00:08:53,537
+That's the test all these companies must pass in the next 12 to 18 months: whether the AI bet pays off — or whether the promised productivity gains fail to materialize and the narrative collapses under the weight of expectations.
+
+84
+00:08:53,537 --> 00:08:54,487
+Quick Hits.
+
+85
+00:08:55,412 --> 00:09:02,275
+Anthropic Institute founded  — Anthropic launches the Anthropic Institute under Jack Clark (co-founder).
+
+86
+00:09:02,275 --> 00:09:09,475
+Three research teams: Frontier Red Team (AI stress-testing), Societal Impacts, and Economic Research.
+
+87
+00:09:09,475 --> 00:09:18,925
+New senior hires: Matt Botvinick (ex Google DeepMind), Anton Korinek (Uni Virginia), Zoë Hitzig (ex OpenAI).
+
+88
+00:09:18,925 --> 00:09:22,787
+In parallel: first DC policy office opening in spring.
+
+89
+00:09:22,787 --> 00:09:28,300
+Clark warned: "extremely powerful AI...is coming far sooner than many think."
+
+90
+00:09:28,300 --> 00:09:36,037
+The institute is the structural response to this assessment — societal impact research as core competency, not an afterthought.
+
+91
+00:09:36,037 --> 00:09:54,287
+AI chatbots and psychosis: lawyer warns of "mass casualty" risks  — A lawyer specializing in AI psychosis cases warns in a TechCrunch exclusive: chatbots (ChatGPT, Gemini) are appearing not only in individual suicides but in potential mass harm scenarios.
+
+92
+00:09:54,287 --> 00:09:58,612
+Safety mechanisms are systematically lagging behind model development.
+
+93
+00:09:58,612 --> 00:10:03,387
+Primarily affected are vulnerable user groups with intense human-AI bonds.
+
+94
+00:10:03,387 --> 00:10:12,000
+The legal perspective: liability questions for psychological harm through AI interaction remain entirely unresolved — that will change.
+
+95
+00:10:12,000 --> 00:10:23,587
+Note: These warnings come from the legal perspective of a plaintiff's attorney — scientific peer-reviewed data on causality between AI interaction and psychological harm is not yet available.
+
+96
+00:10:23,587 --> 00:10:33,662
+Anthropic invests $100M in Claude Partner Network  — Anthropic launches the Claude Partner Network with an initial $100M investment.
+
+97
+00:10:33,662 --> 00:10:37,950
+Partners: Accenture, Deloitte, Cognizant, Infosys.
+
+98
+00:10:37,950 --> 00:10:43,225
+The goal is scaling Claude in enterprise environments via established system integrators.
+
+99
+00:10:43,225 --> 00:10:53,762
+The strategic subtext: Anthropic alone cannot scale enterprise sales — with four of the world's largest IT consultancies in the network, that changes fundamentally.
+
+100
+00:10:53,762 --> 00:11:00,150
+For companies evaluating Claude, this means: named implementation partners now stand behind it.
+
+101
+00:11:00,150 --> 00:11:05,375
+Tool of the Week: NanoClaw — 6 Weeks, One Developer, One Docker Deal.
+
+102
+00:11:05,375 --> 00:11:09,737
+Gavriel Cohen built an AI coding tool in six weeks.
+
+103
+00:11:09,737 --> 00:11:11,287
+Then Docker acquired him .
+
+104
+00:11:11,287 --> 00:11:20,825
+That's the story of NanoClaw — and in its compactness it's the most concise illustration of what AI tools have done to the economics of software development.
+
+105
+00:11:20,825 --> 00:11:31,362
+What Cohen delivered in six weeks was a focused coding tool good enough to move Docker — one of the most significant infrastructure companies in the developer world — to an enterprise deal .
+
+106
+00:11:31,362 --> 00:11:33,912
+Not a seed investment, not a partnership.
+
+107
+00:11:33,912 --> 00:11:34,762
+A deal.
+
+108
+00:11:34,762 --> 00:11:41,737
+That's market validation at enterprise level, achieved in a development timeframe shorter than a typical hiring process.
+
+109
+00:11:41,737 --> 00:11:51,550
+The actual message of NanoClaw is structural in nature : in the AI era, the decisive resource is no longer team size but sharpness of focus.
+
+110
+00:11:51,550 --> 00:11:58,787
+A single developer with the right tools and a clearly defined problem can today deliver enterprise-ready in six weeks.
+
+111
+00:11:58,787 --> 00:12:08,500
+What this means for the decisions of VCs, product teams, and hiring managers is something the industry is currently working through — the answer is not yet complete.
+
+112
+00:12:08,500 --> 00:12:10,825
+NanoClaw is an early data point.
+
+113
+00:12:10,825 --> 00:12:17,187
+Fail of the Week: xAI Restarts Coding Tool "Again, Again" — After Repeated Failure.
+
+114
+00:12:17,187 --> 00:12:20,750
+xAI is rebuilding its AI coding tool from scratch.
+
+115
+00:12:20,750 --> 00:12:21,950
+For the second time .
+
+116
+00:12:21,950 --> 00:12:29,187
+The TechCrunch headline puts it plainly: "Not built right the first time: Musk's xAI is starting over again, again."
+
+117
+00:12:29,187 --> 00:12:31,437
+The double "again" is not a typo.
+
+118
+00:12:31,437 --> 00:12:39,512
+To lead the restart, xAI brought in two senior executives from Cursor — currently the dominant AI coding tool on the market .
+
+119
+00:12:39,512 --> 00:12:43,987
+The logic: if you want to build better, hire the people who built the best.
+
+120
+00:12:43,987 --> 00:12:53,187
+The question that imposes itself: why didn't the previous attempts work, and why should a third attempt with acquired expertise fix what is obviously a deeper problem?
+
+121
+00:12:53,187 --> 00:12:57,700
+The market in which xAI is competing shows no mercy for restarts .
+
+122
+00:12:57,700 --> 00:13:06,962
+Cursor, GitHub Copilot, Anthropic Claude Code — all three have built user relationships and trust that cannot be overtaken with a PR announcement.
+
+123
+00:13:06,962 --> 00:13:14,800
+Whether a restart under Cursor executives is sufficient to close the accumulated gap will be shown by the next product announcements.
+
+124
+00:13:14,800 --> 00:13:16,925
+Number of the Week: 1,000,000.
+
+125
+00:13:17,850 --> 00:13:20,987
+Source: simonwillison.net, Anthropic .
+
+126
+00:13:20,987 --> 00:13:29,400
+That's how many tokens Claude Opus 4.6 and Sonnet 4.6 now process at standard pricing — with no long-context surcharge.
+
+127
+00:13:29,400 --> 00:13:38,737
+For perspective: 1 million tokens correspond to roughly 750,000 words or 7–8 average novels in a single prompt .
+
+128
+00:13:38,737 --> 00:13:52,500
+Competitors Gemini 3.1 Pro and GPT-5.4 charge premiums from 200,000 and 272,000 tokens respectively — Claude is cheaper across the entire range above those thresholds.
+
+129
+00:13:52,500 --> 00:14:00,400
+That's the domain where enterprise batch processing, large code reviews, and RAG architectures with complete data corpora operate.
+
+130
+00:14:00,400 --> 00:14:06,037
+Why this is decisive: pricing determines enterprise adoption, not benchmark results .
+
+131
+00:14:06,037 --> 00:14:13,400
+Offering 1M tokens at standard pricing wins the batch-processing and long-context workloads of the next 12 months.
+
+132
+00:14:13,400 --> 00:14:20,950
+And in a market where model performance is converging, "cheapest for the biggest jobs" is a serious differentiation strategy.
+
+133
+00:14:20,950 --> 00:14:22,050
+Reading List.
+
+134
+00:14:22,050 --> 00:14:39,237
+📖  Meta reportedly considering layoffs that could affect 20% of the company  — TechCrunch with the full analysis: why Meta now, what this means for internal morale, and how the layoffs fit into the AI investment strategy — the story that set the tone this week  6 min
+
+135
+00:14:39,237 --> 00:14:56,837
+📖  The Anthropic Institute  — Anthropic's own introduction of the new research institute: who leads the teams, what questions they're asking, and why the DC policy office is opening in parallel — essential reading for anyone tracking AI governance as a competitive factor  8 min
+
+136
+00:14:56,837 --> 00:15:16,700
+📖  The wild six weeks for NanoClaw's creator that led to a deal with Docker  — TechCrunch on Gavriel Cohen's path from zero to enterprise deal in 42 days: methodology, tools, decisions — for every indie developer and every team currently weighing whether a project really needs a full team  5 min
+
+137
+00:15:16,700 --> 00:15:22,375
+Next Week: Official Meta Confirmation and First ChatGPT Integration Data.
+
+138
+00:15:22,375 --> 00:15:26,312
+The coming days will clarify several open questions from this issue:.
+
+139
+00:15:26,312 --> 00:15:30,612
+Meta confirmation or denial: No official statement so far.
+
+140
+00:15:30,612 --> 00:15:36,450
+Either a confirmation with concrete numbers arrives this week — or Meta contradicts the report.
+
+141
+00:15:36,450 --> 00:15:41,487
+Both scenarios will shape the discussion around AI-driven workforce reductions.
+
+142
+00:15:41,487 --> 00:15:54,050
+ChatGPT integration usage: First user data on DoorDash, Spotify, and others will show whether users actually adopt the agent approach or whether the familiar app paradigm is stronger than expected.
+
+143
+00:15:54,050 --> 00:16:05,450
+Anthropic Institute first publications: The newly founded institute has announced research agendas — first public outputs on Frontier Red Team and Societal Impacts are expected.
+
+144
+00:16:05,450 --> 00:16:13,550
+xAI coding tool roadmap: After the announced restart under Cursor executives, first product information is expected.
+
+145
+00:16:13,550 --> 00:16:18,487
+The comparison with the current state of Cursor and Claude Code will be drawn immediately.
+
+146
+00:16:18,487 --> 00:16:19,250
+Footer.
+
+147
+00:16:19,250 --> 00:16:21,987
+AI Weekly is produced by  BKS-Lab .
+
+148
+00:16:21,987 --> 00:16:27,175
+Subscribe to the newsletter:  bks-lab.com/newsletter .
+
+149
+00:16:27,175 --> 00:16:30,587
+Contact:  ai@bks-lab.com .
+
+150
+00:16:30,587 --> 00:16:31,537
+Sources:.
+
+151
+00:16:31,537 --> 00:16:40,025
+[1]  Meta reportedly considering layoffs that could affect 20% of the company  (TechCrunch, 2026-03-14)
+
+152
+00:16:40,025 --> 00:16:49,650
+[2]  1M context: Simon Willison on Claude 1M Context Window  (simonwillison.net, 2026-03-13)
+
+153
+00:16:49,650 --> 00:16:58,250
+[3]  Atlassian follows Block's footsteps and cuts staff in the name of AI  (TechCrunch, 2026-03-12)
+
+154
+00:16:58,250 --> 00:17:08,787
+[4]  How to use the new ChatGPT app integrations including DoorDash, Spotify, Uber and others  (TechCrunch, 2026-03-14)
+
+155
+00:17:08,787 --> 00:17:14,325
+[5]  The Anthropic Institute  (Anthropic, 2026-03-11)
+
+156
+00:17:14,325 --> 00:17:22,562
+[6]  Lawyer behind AI psychosis cases warns of mass casualty risks  (TechCrunch, 2026-03-13)
+
+157
+00:17:22,562 --> 00:17:28,062
+[7]  Claude Partner Network  (Anthropic, 2026-03-12)
+
+158
+00:17:28,062 --> 00:17:36,500
+[8]  The wild six weeks for NanoClaw's creator that led to a deal with Docker  (TechCrunch, 2026-03-13)
+
+159
+00:17:36,500 --> 00:17:45,712
+[9]  Not built right the first time: Musk's xAI is starting over again, again  (TechCrunch, 2026-03-13)
+
+160
+00:17:45,712 --> 00:17:48,925
+AI-assisted  Facts supported by cited sources.
+
