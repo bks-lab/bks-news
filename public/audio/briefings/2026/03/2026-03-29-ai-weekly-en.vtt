@@ -1,0 +1,408 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:13,062
+OpenAI Sora: Video app discontinued after less than a year, $1B Disney deal dissolved — AI profitability beats product experiments.
+
+4
+00:00:13,062 --> 00:00:22,412
+Anthropic vs. Pentagon: Federal court lifts DoD blacklisting — first successful First Amendment ruling in the AI context in the US.
+
+5
+00:00:22,412 --> 00:00:33,162
+Apple opens Siri: iOS 27 brings Extensions API — Claude and Gemini as Siri backend on one billion devices, planned for fall 2026.
+
+6
+00:00:33,162 --> 00:00:42,250
+LiteLLM hack: Supply chain attack activates on installation — over 47,000 users of affected versions potentially exposed.
+
+7
+00:00:42,250 --> 00:00:43,500
+Story of the Week.
+
+8
+00:00:43,500 --> 00:00:49,075
+Sora Is Dead — And That Says Everything About OpenAI in 2026.
+
+9
+00:00:49,075 --> 00:01:02,575
+On a single Tuesday in the last week of March, OpenAI axed the Sora video app, dissolved the billion-dollar Disney deal, reassigned a manager — and simultaneously announced a fresh $10B funding tranche .
+
+10
+00:01:02,575 --> 00:01:12,387
+The message was clearer than any press release: when you have $120B in investor capital behind you , you need to deliver, not experiment.
+
+11
+00:01:12,387 --> 00:01:16,050
+Sora had a structural problem after its spectacular launch.
+
+12
+00:01:16,050 --> 00:01:25,337
+Runway, Pika, and Chinese competitor Kling caught up significantly within months and were considered competitive with OpenAI's solution in many respects .
+
+13
+00:01:25,337 --> 00:01:30,337
+Internally, the app was deemed not competitive enough for a standalone market presence.
+
+14
+00:01:30,337 --> 00:01:41,937
+Rather than continuing to invest, the leadership team decided to redirect resources toward enterprise products and B2B revenue — the only viable course ahead of a potential IPO.
+
+15
+00:01:41,937 --> 00:01:46,687
+The numbers are stark: A Disney deal worth $1B was dissolved .
+
+16
+00:01:46,687 --> 00:01:57,162
+SoftBank is financing its $30B share in OpenAI's round through a 12-month, unsecured loan of $40B from JPMorgan and Goldman Sachs .
+
+17
+00:01:57,162 --> 00:02:09,587
+Private equity investors receive a guaranteed minimum return of 17.5%  — unusual for a startup and a strong signal that analysts interpret as preparation for an imminent public offering.
+
+18
+00:02:09,587 --> 00:02:15,762
+For developers and users, this means: The OpenAI portfolio is shrinking strategically.
+
+19
+00:02:15,762 --> 00:02:27,362
+Anyone who bet on Sora integration needs to replan — Runway Gen-3, Pika 2.0, and Kling are mature alternatives without OpenAI's valuation pressure.
+
+20
+00:02:27,362 --> 00:02:35,525
+For enterprise customers, the pivot signals that OpenAI is focusing more heavily on API products and B2B offerings.
+
+21
+00:02:35,525 --> 00:02:40,737
+Open questions: The decision raises questions about the "how," not the "what."
+
+22
+00:02:40,737 --> 00:02:45,862
+External developers who had built on the Sora API learned about its end from the press .
+
+23
+00:02:45,862 --> 00:02:52,462
+That's not a good sign for platform trust in a pre-IPO year when OpenAI is counting on enterprise credibility.
+
+24
+00:02:52,462 --> 00:03:07,975
+Bottom line: OpenAI is cleaning house — not because Sora was bad, but because $120B in investor capital demands a different focus than a consumer video experiment that China can copy faster than OpenAI can scale.
+
+25
+00:03:07,975 --> 00:03:09,312
+More Top Stories.
+
+26
+00:03:09,312 --> 00:03:15,175
+Anthropic vs. Pentagon: Federal Court Sets Precedent for AI and Free Speech.
+
+27
+00:03:15,175 --> 00:03:20,337
+A federal judge has preliminarily lifted the Pentagon's blacklisting of Anthropic .
+
+28
+00:03:20,337 --> 00:03:31,212
+The DoD had classified Anthropic as a "supply chain risk" — citing security concerns around Anthropic's major investors (including Google, Amazon, and Saudi PIF).
+
+29
+00:03:31,212 --> 00:03:43,725
+The court, however, also saw potential retaliation against the company's critical press coverage of the DoD procurement process and deemed the classification a potential violation of the First Amendment .
+
+30
+00:03:43,725 --> 00:03:48,362
+The case was confirmed by TechCrunch, CNBC, and WSJ .
+
+31
+00:03:48,362 --> 00:03:57,562
+The ruling is historic: it is the first time an AI organization has successfully won a First Amendment lawsuit against a US federal agency.
+
+32
+00:03:57,562 --> 00:04:05,825
+The blacklisting would have effectively excluded Anthropic from the government procurement market — one of the highest-volume AI markets globally .
+
+33
+00:04:05,825 --> 00:04:15,512
+Bloomberg also reports that Anthropic is weighing an IPO as early as October 2026  — the company is visibly fighting from a position of strength.
+
+34
+00:04:15,512 --> 00:04:16,337
+So what?
+
+35
+00:04:16,337 --> 00:04:26,287
+For the entire AI industry, this is a relevant signal: regulatory arbitrariness through government classifications now has a proven legal counterweight.
+
+36
+00:04:26,287 --> 00:04:32,087
+Future administrations will think twice before restricting AI companies for political reasons.
+
+37
+00:04:32,087 --> 00:04:38,162
+iOS 27 Opens Siri to Claude, Gemini & Co. — Apple's Quiet Revolution
+
+38
+00:04:39,087 --> 00:04:48,112
+According to Bloomberg reporter Mark Gurman , iOS 27 will bring a new extensions system allowing third-party chatbots as a Siri backend.
+
+39
+00:04:48,112 --> 00:04:57,587
+Users will be able to set Claude, Gemini, or other AI assistants as the default intelligence for Siri requests — analogous to choosing a default browser .
+
+40
+00:04:57,587 --> 00:05:03,500
+Apple plans to announce at WWDC; launch is scheduled for fall 2026.
+
+41
+00:05:03,500 --> 00:05:14,375
+The strategic dimension is significant: Apple is opening access to approximately one billion active devices  to Anthropic, Google, and potential additional providers.
+
+42
+00:05:14,375 --> 00:05:21,037
+The backdrop includes both competitive pressure and regulatory requirements under the EU Digital Markets Act.
+
+43
+00:05:21,037 --> 00:05:28,475
+For Anthropic, this represents a direct distribution channel that would otherwise require years of independent app development.
+
+44
+00:05:28,475 --> 00:05:29,300
+So what?
+
+45
+00:05:29,300 --> 00:05:33,775
+Apple loses little — Siri was never a differentiator against Android.
+
+46
+00:05:33,775 --> 00:05:42,112
+The AI assistant market gains a distribution surface that could fundamentally break up the duopoly between ChatGPT and Google Assistant.
+
+47
+00:05:42,112 --> 00:05:45,512
+Whoever builds the better API experience wins.
+
+48
+00:05:45,512 --> 00:05:46,462
+Quick Hits.
+
+49
+00:05:46,462 --> 00:05:47,450
+In brief:.
+
+50
+00:05:47,450 --> 00:05:57,925
+David Sacks: Trump's AI and crypto czar leaves the White House after 130 days — the statutory maximum for Special Government Employees (SGEs).
+
+51
+00:05:57,925 --> 00:06:01,675
+A successor for the US AI agenda has not yet been named .
+
+52
+00:06:01,675 --> 00:06:16,650
+ARC-AGI-3: New benchmark tests "agentic intelligence" in interactive environments — humans solve 100% of tasks on first contact, frontier models collectively under 1% at time of publication .
+
+53
+00:06:16,650 --> 00:06:20,562
+25 tasks are publicly playable at arcprize.org.
+
+54
+00:06:20,562 --> 00:06:31,725
+IPO race 2026: Bloomberg reports Anthropic is weighing an IPO as early as October 2026  — in parallel with OpenAI's SoftBank loan signal.
+
+55
+00:06:31,725 --> 00:06:38,462
+Analysts consider it possible that both leading AI labs could go public before the end of 2026.
+
+56
+00:06:38,462 --> 00:06:57,000
+LiteLLM patch: Users of versions 1.82.7 and 1.82.8 should update immediately and treat all credentials as compromised — SSH keys, AWS credentials, Kubernetes configs, and ~30 other file types were within the attack scope .
+
+57
+00:06:57,000 --> 00:06:58,125
+Tool of the Week.
+
+58
+00:06:58,125 --> 00:07:03,075
+Claude Auto Mode — Autonomous Action with Built-in Classifier Protection.
+
+59
+00:07:03,075 --> 00:07:07,525
+Disclosure: This newsletter is generated using Claude (Anthropic).
+
+60
+00:07:07,525 --> 00:07:14,575
+The following tool is from the same provider — we recommend it because it is technically relevant, but disclose this connection.
+
+61
+00:07:14,575 --> 00:07:20,025
+Claude Code has a new "middle path" between full permission dialogs and the risky  flag .
+
+62
+00:07:20,025 --> 00:07:33,387
+Auto Mode allows longer, autonomous tasks — an integrated classifier checks every action before execution and automatically blocks: mass file deletion, credential exfiltration, and suspicious code.
+
+63
+00:07:33,387 --> 00:07:39,275
+"It's a middle path that lets you run longer tasks with fewer interruptions while introducing less risk."
+
+64
+00:07:39,275 --> 00:07:46,462
+Available immediately for Team Plan users (Research Preview), Enterprise and API to follow in the coming days.
+
+65
+00:07:46,462 --> 00:07:50,850
+Compatible with Claude Sonnet 4.6 and Opus 4.6 .
+
+66
+00:07:50,850 --> 00:07:57,575
+Particularly useful for teams that want to automate complex multi-step tasks without giving up security controls.
+
+67
+00:07:57,575 --> 00:07:59,812
+Learn more about Claude Auto Mode
+
+68
+00:07:59,812 --> 00:08:00,962
+Fail of the Week.
+
+69
+00:08:00,962 --> 00:08:04,800
+"We're Building Our Own Model" — Cursor's Kimi Surprise
+
+70
+00:08:04,800 --> 00:08:16,137
+Cursor presented "Composer 2" as an in-house AI coding model — and forgot to mention that it is built on Kimi 2.5 from Moonshot AI, an Alibaba-backed Chinese company .
+
+71
+00:08:16,137 --> 00:08:22,512
+This wasn't discovered through an audit, but by an X user named Fynn who found code hints and made them public.
+
+72
+00:08:22,512 --> 00:08:24,512
+Cursor subsequently confirmed.
+
+73
+00:08:24,512 --> 00:08:29,037
+Root Cause: Not a technical bug — a deliberate communication failure.
+
+74
+00:08:29,037 --> 00:08:32,725
+Cursor chose not to proactively disclose the model's origin.
+
+75
+00:08:32,725 --> 00:08:42,300
+In the geopolitical climate of 2026, where Chinese AI models are a sensitive topic, this was a calculated non-disclosure that has come back to bite them .
+
+76
+00:08:42,300 --> 00:08:51,262
+What we learn: Anyone building an AI product must disclose the model's origin — especially when the base model raises geopolitical questions.
+
+77
+00:08:51,262 --> 00:09:00,087
+"Nobody asked" is not an acceptable communication strategy in 2026 for a highly valued tool with a broad developer user base.
+
+78
+00:09:00,087 --> 00:09:01,225
+Number of the Week.
+
+79
+00:09:01,225 --> 00:09:03,387
+$120,000,000,000
+
+80
+00:09:04,312 --> 00:09:11,025
+OpenAI's total funding after the latest $10B tranche, confirmed by CFO Sarah Friar .
+
+81
+00:09:11,025 --> 00:09:22,987
+For comparison: the entire European AI investment landscape was under $50B in 2025 — OpenAI alone exceeds the European annual volume by more than double.
+
+82
+00:09:22,987 --> 00:09:33,850
+Particularly revealing is the financing structure: SoftBank is covering its $30B share through an unsecured 12-month loan from JPMorgan and Goldman Sachs .
+
+83
+00:09:33,850 --> 00:09:39,512
+Private equity investors receive a guaranteed minimum return of 17.5% .
+
+84
+00:09:39,512 --> 00:09:47,225
+Such structures don't emerge for companies going public in three years — but for those that analysts say could be there in 12 months.
+
+85
+00:09:47,225 --> 00:09:48,512
+The clock is ticking.
+
+86
+00:09:48,512 --> 00:09:49,612
+Reading List.
+
+87
+00:09:49,612 --> 00:09:50,612
+For the weekend:.
+
+88
+00:09:50,612 --> 00:10:03,812
+1.  The Malicious LiteLLM Package  — Simon Willison walks through step by step how a supply chain attack abuses CI/CD credentials and activates on installation — without ever executing .
+
+89
+00:10:03,812 --> 00:10:08,800
+Required reading for anyone using PyPI packages in production environments.
+
+90
+00:10:08,800 --> 00:10:09,837
+(8 min)
+
+91
+00:10:09,837 --> 00:10:28,362
+2.  ARC-AGI-3 Thread  — The researchers behind ARC-AGI explain why the new benchmark is intentionally unsolvable through memorization — and why <1% frontier performance against 100% human performance remains the most honest AGI distance measurement tool.
+
+92
+00:10:28,362 --> 00:10:31,087
+25 tasks are directly playable.
+
+93
+00:10:31,087 --> 00:10:32,212
+(5 min)
+
+94
+00:10:32,212 --> 00:10:51,212
+3.  Why SoftBank's $40B Loan Points to a 2026 OpenAI IPO  — TechCrunch explains the financing structure behind OpenAI's $120B round and why a 12-month unsecured loan is a more precise IPO timing statement than any official announcement.
+
+95
+00:10:51,212 --> 00:10:52,312
+(6 min)
+
+96
+00:10:52,312 --> 00:10:53,287
+Next Week.
+
+97
+00:10:53,287 --> 00:10:54,175
+What's coming:.
+
+98
+00:10:54,175 --> 00:11:07,137
+Apple WWDC lead-up (CW 14): Following the iOS 27 Siri Extensions leak, analysts expect first official comments or denials from Apple — speculation cycle begins.
+
+99
+00:11:07,137 --> 00:11:17,575
+Anthropic vs. DoD: The preliminary injunction has been granted, the main hearing is still pending — further movement in this precedent-setting case is expected.
+
+100
+00:11:17,575 --> 00:11:29,650
+OpenAI IPO signals: Following the SoftBank loan structure, coverage of a potential 2026 IPO is likely to intensify — Bloomberg and WSJ are watching closely.
+
+101
+00:11:29,650 --> 00:11:33,025
+This newsletter was researched and written AI-assisted.
+
+102
+00:11:33,025 --> 00:11:35,900
+Images generated with  Pollinations.ai .
+
