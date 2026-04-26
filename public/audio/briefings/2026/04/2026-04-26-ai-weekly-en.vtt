@@ -1,0 +1,392 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:15,787
+Claude Mythos: Anthropic's secret frontier model found 271 Firefox zero-days – and will therefore not be released; only 6 tech giants receive exclusive access for pre-patch purposes.
+
+4
+00:00:15,787 --> 00:00:29,650
+Compute War: Google secures Anthropic with a $40B deal at a $350B valuation – combined with Amazon's $25B, Anthropic now has access to 10 gigawatts of compute.
+
+5
+00:00:29,650 --> 00:00:41,137
+Sovereign AI: Cohere acquires Aleph Alpha for $20B, financed by Lidl parent Schwarz Group – Europe's most concrete alternative to US AI hyperscalers yet.
+
+6
+00:00:41,137 --> 00:00:53,525
+DeepSeek: V4-Pro with 1.6 trillion parameters on Huawei chips launches as the world's largest open-weight model – at $0.14/million tokens for V4-Flash.
+
+7
+00:00:53,525 --> 00:00:54,775
+Story of the Week.
+
+8
+00:00:54,775 --> 00:00:58,237
+The World's Most Dangerous Model – That You'll Never Use.
+
+9
+00:00:58,237 --> 00:01:02,575
+271 zero-day vulnerabilities in Firefox alone .
+
+10
+00:01:02,575 --> 00:01:18,850
+Anthropic's new frontier model "Claude Mythos" is so capable at finding and exploiting security vulnerabilities that its creator isn't even planning a public release – and has instead built an exclusive patching program for six of the world's most powerful tech companies.
+
+11
+00:01:18,850 --> 00:01:31,762
+Foreign Policy reported exclusively on April 20 about "Project Glasswing": Amazon, Apple, Google, JPMorganChase, Microsoft, and Nvidia receive privileged access to Mythos .
+
+12
+00:01:31,762 --> 00:01:39,675
+The purpose is defensive – the companies are meant to patch their own systems before a malicious actor could use the same model to attack them.
+
+13
+00:01:39,675 --> 00:01:51,100
+Mozilla CTO Eric Rescorla publicly confirmed that Mythos identified 271 vulnerabilities in Firefox alone – a browser used by more than two billion people daily.
+
+14
+00:01:51,100 --> 00:01:58,700
+Anthropic describes Mythos as "the most powerful model to date" with cybersecurity as its primary application.
+
+15
+00:01:58,700 --> 00:02:10,475
+The model can autonomously plan and execute multi-stage cyberattacks – a capability level that apparently crosses even Anthropic's threshold between "safe release" and "not justifiable."
+
+16
+00:02:10,475 --> 00:02:13,112
+No public API access is planned.
+
+17
+00:02:13,112 --> 00:02:15,237
+"The most powerful model to date."
+
+18
+00:02:15,237 --> 00:02:17,887
+— Anthropic, quoted via Foreign Policy
+
+19
+00:02:17,887 --> 00:02:23,275
+Why this matters: For security teams, this marks the transition into a new era.
+
+20
+00:02:23,275 --> 00:02:36,100
+If an AI model can find 271 Firefox bugs in a short time, attackers with similar or stolen systems can do the same – classic patch cycles that take weeks to months are no longer sufficient.
+
+21
+00:02:36,100 --> 00:02:44,100
+"Project Glasswing" is effectively a private early-warning system for six select partners, while the rest of the industry waits.
+
+22
+00:02:44,100 --> 00:02:56,612
+Critical voices: It remains unclear by what criteria the six partners were selected – and why operators of critical infrastructure (utilities, hospitals, government agencies) receive no access.
+
+23
+00:02:56,612 --> 00:02:59,187
+Who decides whose systems get patched first?
+
+24
+00:02:59,187 --> 00:03:10,575
+Bottom line: The world's most powerful offensive AI model is currently securing the systems of a handpicked tech elite – everyone else has to hope that nobody else replicates it first.
+
+25
+00:03:10,575 --> 00:03:11,912
+More Top Stories.
+
+26
+00:03:11,912 --> 00:03:17,512
+Google Doubles Down: $40 Billion for Anthropic – and 5 Gigawatts of Compute.
+
+27
+00:03:17,512 --> 00:03:25,887
+The largest single investment in AI history is official: Alphabet is committing up to $40B to Anthropic .
+
+28
+00:03:25,887 --> 00:03:34,537
+$10B flows immediately at a $350B valuation, with another $30B tied to performance targets.
+
+29
+00:03:34,537 --> 00:03:41,462
+Additionally, Google Cloud is providing 5 gigawatts of TPU-based compute capacity over five years .
+
+30
+00:03:41,462 --> 00:03:55,200
+Combined with Amazon's existing $25B deal and its own 5 GW compute package, Anthropic now has access to up to 10 gigawatts of compute  – a reserve that would make even hyperscalers envious.
+
+31
+00:03:55,200 --> 00:04:04,837
+Anthropic's annual revenue surpassed the $30B mark in April 2026, making the valuation appear less absurd despite its size.
+
+32
+00:04:04,837 --> 00:04:15,312
+For enterprise customers and developers, this means stability: Anthropic can keep pace in the infrastructure arms race against OpenAI, Google DeepMind, and Meta.
+
+33
+00:04:15,312 --> 00:04:23,837
+The flip side: with Google and Amazon as primary financiers, Anthropic's "independence" is increasingly a matter of definition.
+
+34
+00:04:23,837 --> 00:04:29,487
+Cohere + Aleph Alpha: Europe's Only $20 Billion AI Alliance.
+
+35
+00:04:30,412 --> 00:04:45,487
+The first transatlantic sovereign AI champion is taking shape: Canadian AI company Cohere is acquiring German startup Aleph Alpha, financed through a €500M investment from Schwarz Group (owner of Lidl and Kaufland) .
+
+36
+00:04:45,487 --> 00:04:52,575
+The combined valuation stands at around $20B, compared to $6.8B for Cohere alone.
+
+37
+00:04:52,575 --> 00:05:00,962
+Aleph Alpha's 250 employees bring specialized expertise in small language models, European languages, and tokenizers .
+
+38
+00:05:00,962 --> 00:05:07,575
+"Their focus on small language models, European languages and tokenizers is a really complementary one."
+
+39
+00:05:07,575 --> 00:05:09,987
+— Aidan Gomez, CEO Cohere
+
+40
+00:05:09,987 --> 00:05:25,050
+The strategic goal: a sovereign alternative for governments and regulated industries (defense, energy, finance, healthcare, public sector) that distrust US hyperscalers – backed by both the Canadian and German governments .
+
+41
+00:05:25,050 --> 00:05:33,112
+Aleph Alpha's existing customer relationships in Europe – from federal agencies to DAX corporations – are the real asset here.
+
+42
+00:05:33,112 --> 00:05:40,737
+For European companies and government bodies, this is the most concrete sovereign AI option that has ever existed at this level.
+
+43
+00:05:40,737 --> 00:05:54,050
+A $20B valuation is still far from Anthropic's $350B – but sovereign AI doesn't compete primarily on capability, but on trust, data privacy, and regulatory compliance.
+
+44
+00:05:54,050 --> 00:05:59,137
+On that terrain, the Cohere–Aleph Alpha combination has genuine strengths.
+
+45
+00:05:59,137 --> 00:06:05,562
+DeepSeek V4: 1.6 Trillion Parameters on Huawei Chips – at Fraction-of-Cost Pricing.
+
+46
+00:06:05,562 --> 00:06:20,450
+DeepSeek has released V4-Flash and V4-Pro as a preview, both as Mixture-of-Experts architectures with a 1-million-token context window – developed entirely on Huawei hardware, without Nvidia GPUs .
+
+47
+00:06:20,450 --> 00:06:34,812
+V4-Pro brings 1.6 trillion total parameters (49B active), making it the world's largest available open-weight model – more than twice the size of V3.2 with 671B parameters .
+
+48
+00:06:34,812 --> 00:06:41,012
+"Closed the gap with current leading models, both open and closed, on reasoning benchmarks."
+
+49
+00:06:41,012 --> 00:06:41,975
+— DeepSeek
+
+50
+00:06:41,975 --> 00:06:50,800
+The price: $0.14 per million input tokens for V4-Flash  – V4-Pro pricing will follow with the full release.
+
+51
+00:06:50,800 --> 00:06:58,562
+The knowledge cutoff is still roughly 3–6 months behind absolute frontier models – but the benchmark catch-up curve is steep.
+
+52
+00:06:58,562 --> 00:07:06,487
+For teams looking to minimize costs without sacrificing strong reasoning capabilities, DeepSeek V4 is a serious contender.
+
+53
+00:07:06,487 --> 00:07:15,037
+Politically, the question remains open whether Western companies will be permitted or willing to use Chinese open-weight models for sensitive workloads.
+
+54
+00:07:15,037 --> 00:07:15,987
+Quick Hits.
+
+55
+00:07:15,987 --> 00:07:17,062
+Briefly noted:.
+
+56
+00:07:17,062 --> 00:07:34,862
+GPT-5.5: OpenAI unifies Codex and the main model – 82.7% on Terminal-Bench 2.0, immediately available for all paid tiers (Plus, Pro, Business, Enterprise) in ChatGPT and the Codex API .
+
+57
+00:07:34,862 --> 00:07:56,275
+Agent Economy: Anthropic employees sent AI agents as buyers and sellers into a real test marketplace – 186 completed deals, over $4,000 in total revenue; stronger models achieved objectively better outcomes for their "owners," defining "Agent Quality Gaps" as a new risk for users of weaker agents .
+
+58
+00:07:56,275 --> 00:08:17,700
+ChatGPT Images 2.0: OpenAI launches gpt-image-2 with up to 4K resolution, ~99% text accuracy, and support for Japanese, Korean, Hindi, and Bengali – DALL-E 2 and DALL-E 3 will be shut down on May 12, 2026; developers must migrate .
+
+59
+00:08:17,700 --> 00:08:18,825
+Tool of the Week.
+
+60
+00:08:18,825 --> 00:08:23,875
+ComfyUI  – Node-based AI media workstation for creators who want control
+
+61
+00:08:23,875 --> 00:08:33,212
+ComfyUI has raised $30M in Series B funding at a $500M valuation – with Craft Ventures as lead investor .
+
+62
+00:08:33,212 --> 00:08:49,762
+With over 4 million users, the node-based workflow interface for AI-generated images, videos, and audio has established itself as the de facto standard for creators who want to extract more than 60–80% target quality from prompt-based tools .
+
+63
+00:08:49,762 --> 00:08:56,787
+"In the world where AI slop is going to be everywhere, the Comfy version of human-in-the-loop approach is going to win out."
+
+64
+00:08:56,787 --> 00:08:59,250
+— Yoland Yan, CEO ComfyUI
+
+65
+00:09:00,175 --> 00:09:11,237
+Particularly useful for VFX artists, animators, advertising professionals, and industrial designers who need repeatable, controlled workflows rather than random prompt results.
+
+66
+00:09:11,237 --> 00:09:18,075
+"ComfyUI artist/engineer" is developing into an independent job title according to the CEO .
+
+67
+00:09:18,075 --> 00:09:25,100
+Open source, locally runnable, with a massive community plugin library for virtually every media use case.
+
+68
+00:09:25,100 --> 00:09:26,250
+Fail of the Week.
+
+69
+00:09:26,250 --> 00:09:29,812
+"We silently test-raise your prices – then walk it back"
+
+70
+00:09:29,812 --> 00:09:39,525
+Anthropic restricted Claude Code without announcement to $100+/month Max plans – instead of the previous $20/month (Pro) .
+
+71
+00:09:39,525 --> 00:09:45,925
+Only the pricing page was updated; support documentation and community channels remained untouched.
+
+72
+00:09:45,925 --> 00:09:59,850
+The result: confusion, public backlash on X and Hacker News, and Simon Willison – one of the most influential AI bloggers and educators – publicly signaled a switch to OpenAI Codex for his teaching materials .
+
+73
+00:09:59,850 --> 00:10:02,537
+Within hours, Anthropic walked it back.
+
+74
+00:10:02,537 --> 00:10:06,012
+Head of Growth Amol Avasare explained after the fact:.
+
+75
+00:10:06,012 --> 00:10:10,900
+"For clarity, we're running a small test on ~2% of new prosumer signups.
+
+76
+00:10:10,900 --> 00:10:14,450
+Existing Pro and Max subscribers aren't affected."
+
+77
+00:10:14,450 --> 00:10:26,400
+OpenAI seized the moment for its own positioning: Thibault Sottiaux publicly posted that Codex would remain available on the Free and Plus tier ($20) (via simonwillison.net ).
+
+78
+00:10:26,400 --> 00:10:32,175
+That's also marketing – but in this case, targeted precisely at a community that was just frustrated.
+
+79
+00:10:32,175 --> 00:10:44,650
+Root cause: An A/B pricing test was rolled out without any communication – in a developer community that depends on predictability and trust, since entire workflows are built on pricing assumptions.
+
+80
+00:10:44,650 --> 00:10:48,037
+What we learn: If you're testing prices, communicate it.
+
+81
+00:10:48,037 --> 00:10:53,975
+Developer communities penalize opacity faster and more durably than any other user group.
+
+82
+00:10:53,975 --> 00:10:55,112
+Number of the Week.
+
+83
+00:10:55,112 --> 00:10:58,250
+271 Zero-Day Vulnerabilities
+
+84
+00:10:58,250 --> 00:11:09,275
+Exactly 271 security vulnerabilities were found by Claude Mythos in Firefox alone – confirmed by Mozilla's CTO following participation in "Project Glasswing" .
+
+85
+00:11:09,275 --> 00:11:20,625
+The number makes tangible why Anthropic has no plans for a public release: an attacker with access to Mythos would have a ready catalog of exploitable vulnerabilities before patches exist.
+
+86
+00:11:20,625 --> 00:11:26,437
+And that's just Firefox – not Windows, not macOS, not Chrome, not Android.
+
+87
+00:11:26,437 --> 00:11:27,537
+Reading List.
+
+88
+00:11:27,537 --> 00:11:28,537
+For the weekend:.
+
+89
+00:11:28,537 --> 00:11:44,650
+1.  Claude Mythos: The Powerful New AI Model That Can Find Zero Days  – The full original Foreign Policy article on Project Glasswing; essential reading for anyone wanting to understand the security and policy implications of frontier AI (12 min)
+
+90
+00:11:44,650 --> 00:11:56,000
+2.  Why Cohere is Merging with Aleph Alpha  – Explains the strategic logic behind the merger and why sovereign AI as a market position is more than just marketing (8 min)
+
+91
+00:11:56,000 --> 00:12:10,412
+3.  Claude Code confusion  – Simon Willison's measured analysis of Anthropic's pricing fail; shows precisely how developer communities respond to breaches of trust – and why it escalates faster than with consumer products (5 min)
+
+92
+00:12:10,412 --> 00:12:11,387
+Next Week.
+
+93
+00:12:11,387 --> 00:12:12,275
+What's coming:.
+
+94
+00:12:12,275 --> 00:12:25,237
+May 12, 2026: DALL-E 2 and DALL-E 3 will be shut down – developers still relying on OpenAI's older image models must migrate to gpt-image-2 by then .
+
+95
+00:12:25,237 --> 00:12:37,900
+Project Glasswing Follow-up: After Mozilla's public confirmation of the 271 Firefox bugs, more Glasswing partners are expected to issue statements – or may stay silent for exactly that reason.
+
+96
+00:12:37,900 --> 00:12:51,325
+DeepSeek V4 Full Release: The model is still in preview – we're watching for when V4-Pro appears fully on Hugging Face and the API, and how independent benchmark comparisons with frontier models turn out.
+
+97
+00:12:51,325 --> 00:12:54,700
+This newsletter was researched and written AI-assisted.
+
+98
+00:12:54,700 --> 00:12:57,575
+Images generated with  Pollinations.ai .
+
