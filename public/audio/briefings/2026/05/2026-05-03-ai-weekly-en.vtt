@@ -1,0 +1,456 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:18,937
+Microsoft × OpenAI: The exclusivity ends – OpenAI may now offer its models on AWS and Google Cloud, and the AGI clause (which would have terminated Microsoft's access upon an AGI declaration) has been removed entirely.
+
+4
+00:00:18,937 --> 00:00:22,062
+Microsoft retains access, loses control.
+
+5
+00:00:22,062 --> 00:00:34,212
+AI Arms Race: The Pentagon has signed AI contracts with Nvidia, Microsoft, AWS, Google, OpenAI, and SpaceX – for classified networks up to Top Secret.
+
+6
+00:00:34,212 --> 00:00:39,000
+Anthropic was left out after insisting on guardrails against autonomous weapons.
+
+7
+00:00:39,000 --> 00:00:53,362
+Anthropic Valuation: The likely final private funding round before IPO: $50B in fresh capital, targeting ~$900B valuation – surpassing OpenAI's $852B.
+
+8
+00:00:53,362 --> 00:01:00,212
+A doubling in three months from $380B (Feb. 2026, per TechCrunch).
+
+9
+00:01:00,212 --> 00:01:12,512
+Infrastructure Race: Alphabet, Amazon, Meta, and Microsoft will collectively spend $700B on AI infrastructure in 2026 – up 71% from 2024.
+
+10
+00:01:12,512 --> 00:01:16,250
+Q1 alone: $130B combined.
+
+11
+00:01:16,250 --> 00:01:17,500
+Story of the Week.
+
+12
+00:01:17,500 --> 00:01:22,312
+The End of OpenAI Exclusivity – and What the AGI Clause Really Meant.
+
+13
+00:01:22,312 --> 00:01:45,200
+Since 2019, the partnership between Microsoft and OpenAI has been a quiet power arrangement: Microsoft pours in billions, receives exclusive cloud access in return, and – in one of the most remarkable contract clauses in corporate history – the right to automatically take over OpenAI's technologies the moment OpenAI internally declared AGI .
+
+14
+00:01:45,200 --> 00:01:46,750
+That clause is now gone.
+
+15
+00:01:46,750 --> 00:01:48,050
+Without replacement.
+
+16
+00:01:48,050 --> 00:01:56,850
+The renegotiated partnership, officially announced last week, fundamentally transforms the relationship: Microsoft loses exclusivity .
+
+17
+00:01:56,850 --> 00:02:07,525
+OpenAI may now distribute its products on any cloud provider – AWS, Google Cloud, Oracle Cloud Infrastructure, or directly via its own infrastructure.
+
+18
+00:02:07,525 --> 00:02:17,187
+The $13B+ investment Microsoft put into the partnership  still buys access to the technology, but no longer control over its distribution.
+
+19
+00:02:17,187 --> 00:02:19,875
+The AGI clause is the real signal.
+
+20
+00:02:19,875 --> 00:02:27,750
+For years it was the invisible governance problem lurking in the background: Who at OpenAI decides that AGI has been reached?
+
+21
+00:02:27,750 --> 00:02:35,350
+And what happens to the board, the non-profit structure, the employees – when suddenly Microsoft holds first right to everything?
+
+22
+00:02:35,350 --> 00:02:47,062
+The clause structurally constrained OpenAI's strategic freedom, because every step toward genuine AGI capability simultaneously brought the "emergency exit" for Microsoft closer .
+
+23
+00:02:47,062 --> 00:02:54,962
+With its removal, the question arises anew: Who now defines AGI, and with what consequences for governance and regulation?
+
+24
+00:02:54,962 --> 00:03:00,725
+"OpenAI will now be able to distribute its products and models to additional cloud providers."
+
+25
+00:03:00,725 --> 00:03:11,350
+The renegotiation gives OpenAI the strategic freedom it needs for a multi-cloud strategy – and removes a fundamental conflict of interest around what AGI even means.
+
+26
+00:03:11,350 --> 00:03:19,937
+For Microsoft, operationally little changes: Access to OpenAI models for Azure remains, Azure stays preferred cloud partner.
+
+27
+00:03:19,937 --> 00:03:22,012
+But the balance of power has shifted.
+
+28
+00:03:22,012 --> 00:03:38,962
+For enterprises and developers, this means in the medium term: OpenAI products will be available on more infrastructures, price negotiations with a no-longer-exclusive provider will look different, and competition between cloud providers for OpenAI workloads can begin.
+
+29
+00:03:38,962 --> 00:03:48,337
+The quiet winners: AWS and Google Cloud – both can now compete for OpenAI workloads that previously had only one infrastructure option.
+
+30
+00:03:48,337 --> 00:03:55,887
+Bottom Line: Microsoft invested $13B+ and still gets preferred access – but no longer control.
+
+31
+00:03:55,887 --> 00:03:58,400
+OpenAI has shed its golden handcuffs.
+
+32
+00:03:58,400 --> 00:04:04,150
+The real question is whether this resolves AGI governance problems or merely relocates them.
+
+33
+00:04:04,150 --> 00:04:05,487
+More Top Stories.
+
+34
+00:04:05,487 --> 00:04:10,350
+Pentagon Arms Up: AI on Classified Networks – Anthropic Left Out.
+
+35
+00:04:10,350 --> 00:04:22,762
+The US Department of Defense signed agreements last week with eight tech companies: Nvidia, Microsoft, AWS, Google, OpenAI, SpaceX, Reflection AI, and others .
+
+36
+00:04:22,762 --> 00:04:35,637
+The goal is deploying AI on classified networks at IL-6 (Secret) and IL-7 (Top Secret) levels – the highest available security classification for cloud infrastructure.
+
+37
+00:04:35,637 --> 00:04:42,750
+The Pentagon states its objective explicitly: "United States military as an AI-first fighting force" .
+
+38
+00:04:43,675 --> 00:04:46,350
+Notable for who is absent: Anthropic.
+
+39
+00:04:46,350 --> 00:04:53,812
+The company insisted on guardrails that would exclude use of the technology "for domestic mass surveillance and autonomous weapons" .
+
+40
+00:04:53,812 --> 00:04:56,512
+The Pentagon did not accept these conditions.
+
+41
+00:04:56,512 --> 00:05:03,900
+The contrast with OpenAI and Google is striking: both joined the Pentagon deals without comparable public conditions.
+
+42
+00:05:03,900 --> 00:05:17,637
+Whether Anthropic's position is primarily ethical or strategic in motivation cannot be definitively assessed from the outside – in effect, it means short-term exclusion from one of the largest military AI programs in the world.
+
+43
+00:05:17,637 --> 00:05:32,437
+For enterprise decision-makers and compliance teams, this is relevant: Anthropic is positioning itself with publicly communicated use restrictions, which in regulated and security-critical environments can be both a differentiator and an obstacle.
+
+44
+00:05:32,437 --> 00:05:37,637
+Anthropic on Track for a $900 Billion Valuation – Before the IPO.
+
+45
+00:05:37,637 --> 00:05:45,462
+Anthropic is expected to close a funding round of approximately $50B in fresh capital within two weeks .
+
+46
+00:05:45,462 --> 00:05:52,162
+The targeted post-money valuation is ~$900B – and could be exceeded due to high investor demand.
+
+47
+00:05:52,162 --> 00:05:59,650
+For comparison: as recently as February 2026, Anthropic was valued at $380B .
+
+48
+00:05:59,650 --> 00:06:04,450
+In three months, the valuation has risen 137% .
+
+49
+00:06:04,450 --> 00:06:16,537
+This would put Anthropic ahead of OpenAI, which is currently valued at $852B post-money after its own $122B round earlier in 2026 .
+
+50
+00:06:16,537 --> 00:06:21,487
+The 48-hour allocation window for investors signals how hot the demand is.
+
+51
+00:06:21,487 --> 00:06:30,987
+Some early 2024 investors are pausing and waiting for IPO liquidity – the round is considered the likely last before a 2026 IPO .
+
+52
+00:06:30,987 --> 00:06:44,150
+The number feels abstract until you put it in context: on paper, Anthropic is worth more than BMW, Deutsche Telekom, or BASF combined, without owning any hardware or physical infrastructure.
+
+53
+00:06:44,150 --> 00:06:47,425
+The capital is meant to cover massive computing costs.
+
+54
+00:06:47,425 --> 00:06:59,150
+The central question for 2026 and 2027 remains whether revenue growth from API, subscriptions, and enterprise licenses can justify the valuation over the medium term.
+
+55
+00:06:59,150 --> 00:07:05,837
+$700 Billion for AI Infrastructure – the Largest Investment Program in Corporate History
+
+56
+00:07:05,837 --> 00:07:14,600
+Alphabet, Amazon, Meta, and Microsoft will collectively spend nearly $700B on AI infrastructure in 2026 .
+
+57
+00:07:14,600 --> 00:07:23,362
+That is an increase of 71% over 2024 ($410B) – and the end of this growth curve is not in sight.
+
+58
+00:07:23,362 --> 00:07:29,100
+In Q1 2026 alone, over $130B was spent combined .
+
+59
+00:07:29,100 --> 00:07:37,912
+The numbers behind the numbers: Meta's Hyperion data center in Louisiana costs $27B and will house millions of GPUs .
+
+60
+00:07:37,912 --> 00:07:44,487
+A single Nvidia GPU costs up to $40,000 – and demand continues to outpace supply .
+
+61
+00:07:44,487 --> 00:07:54,337
+Investor reactions are mixed: Meta's stock fell after Q1 earnings despite strong AI investment, while Alphabet and Amazon rose on cloud growth.
+
+62
+00:07:54,337 --> 00:08:01,150
+The paradox: the four companies are simultaneously building infrastructure for their own models and for competitors.
+
+63
+00:08:01,150 --> 00:08:10,787
+AWS and Google Cloud sell compute capacity to Anthropic and OpenAI – the very companies that could potentially replace their own AI services.
+
+64
+00:08:10,787 --> 00:08:17,400
+This is structurally unstable terrain, but for now infrastructure build-out buys time and market position.
+
+65
+00:08:17,400 --> 00:08:18,350
+Quick Hits.
+
+66
+00:08:18,350 --> 00:08:19,425
+Briefly noted:.
+
+67
+00:08:19,425 --> 00:08:33,500
+Musk vs. OpenAI – a revealing admission: Elon Musk acknowledged in court testimony that xAI performed "distillation" on OpenAI models – meaning Grok was partly trained on outputs from GPT models .
+
+68
+00:08:33,500 --> 00:08:45,362
+More telling: Musk ranked Anthropic as the strongest AI provider (#1), ahead of OpenAI and Google – and described xAI as "a much smaller company with a few hundred employees" .
+
+69
+00:08:45,362 --> 00:08:50,950
+The man suing OpenAI for billions trained his own model on OpenAI outputs.
+
+70
+00:08:50,950 --> 00:09:05,612
+Oscars Without AI Performances: The Academy has adopted binding rules for the 99th Oscars (2027): performances must be delivered by real actors (with their consent), screenplays must be demonstrably human-authored .
+
+71
+00:09:05,612 --> 00:09:11,437
+AI tools may still be used in a supportive capacity – but creative authorship must be human.
+
+72
+00:09:11,437 --> 00:09:14,987
+The Academy can request disclosures about AI usage .
+
+73
+00:09:15,912 --> 00:09:30,625
+Claude Connectors for Creative Software: Anthropic launches direct integrations for Blender, Autodesk Fusion, Adobe Creative Cloud (50+ tools), Ableton, Splice, SketchUp, Affinity by Canva, and Resolume Arena .
+
+74
+00:09:30,625 --> 00:09:38,487
+Claude can act as an on-demand tutor for complex software, write scripts, automate batch tasks, and translate formats.
+
+75
+00:09:38,487 --> 00:09:43,562
+Educational partnerships with RISD, Ringling College, and Goldsmiths .
+
+76
+00:09:43,562 --> 00:09:44,687
+Tool of the Week.
+
+77
+00:09:44,687 --> 00:09:50,100
+Stripe Link for AI Agents  – Payment infrastructure for the agentic commerce era
+
+78
+00:09:50,100 --> 00:09:58,875
+Stripe has opened its Link wallet to autonomous AI agents: agents can process purchases, bookings, and tickets on behalf of users .
+
+79
+00:09:58,875 --> 00:10:08,525
+The permission model is well-designed – users authorize the agent via OAuth, the agent creates a purchase request, the user approves before payment.
+
+80
+00:10:08,525 --> 00:10:17,300
+Agents never see raw payment data; instead, virtual cards with real-time authorization via "Issuing for agents" are provided .
+
+81
+00:10:17,300 --> 00:10:24,937
+For developers who want to equip agents with real purchasing capabilities, this is the most serious infrastructure solution to date.
+
+82
+00:10:24,937 --> 00:10:33,150
+90-day purchase protection with select merchants, configurable spending limits coming in the future, and stablecoin support in development .
+
+83
+00:10:33,150 --> 00:10:39,300
+Stripe is positioning itself as the payment rail for the agentic economy, before demand explodes.
+
+84
+00:10:39,300 --> 00:10:52,075
+Particularly relevant for teams building booking, shopping, or service agents: Stripe Link solves the "who pays and how?" problem with a framework that already accounts for users, liability, and compliance.
+
+85
+00:10:52,075 --> 00:10:53,225
+Fail of the Week.
+
+86
+00:10:53,225 --> 00:10:59,512
+Sam Altman Criticizes Anthropic's Cyber Restrictions – Then Introduces Exactly the Same Thing.
+
+87
+00:10:59,512 --> 00:11:16,762
+A few weeks after Sam Altman called Anthropic's decision not to publicly release its cybersecurity model Mythos "fear-based marketing," OpenAI introduced exactly the same model for GPT-5.5: restricted access via "Trusted Access for Cyber (TAC)" .
+
+88
+00:11:16,762 --> 00:11:27,312
+Users must submit credentials and intended use before gaining access to penetration testing, vulnerability exploitation, and malware reverse engineering features.
+
+89
+00:11:27,312 --> 00:11:32,762
+OpenAI is working with the US government to identify legitimate cyber defenders .
+
+90
+00:11:32,762 --> 00:11:42,850
+The wording of Altman's original criticism of Anthropic – "fear-based marketing" – now hangs in the air while OpenAI applies the same decision logic he had criticized.
+
+91
+00:11:42,850 --> 00:11:46,900
+Anthropic has surely noticed the screenshot potential of this moment.
+
+92
+00:11:46,900 --> 00:11:58,075
+What we learn: Once a company understands what powerful cybersecurity models can actually do, everyone reaches the same conclusion – no matter how loudly they previously said the opposite.
+
+93
+00:11:58,075 --> 00:12:00,750
+The restriction is substantively justified.
+
+94
+00:12:00,750 --> 00:12:03,400
+The communication strategy before it was not.
+
+95
+00:12:03,400 --> 00:12:04,537
+Number of the Week.
+
+96
+00:12:04,537 --> 00:12:10,412
+$700 Billion – Big Tech's AI Infrastructure Budget for 2026
+
+97
+00:12:10,412 --> 00:12:19,912
+Four companies – Alphabet, Amazon, Meta, Microsoft – are investing nearly $700B in AI infrastructure in a single year .
+
+98
+00:12:19,912 --> 00:12:25,412
+That is +71% compared to $410B in 2024.
+
+99
+00:12:25,412 --> 00:12:30,562
+Q1 2026 alone: over $130B combined.
+
+100
+00:12:30,562 --> 00:12:43,375
+For reference: the German federal budget for 2026 amounts to roughly $380B – four US tech giants are spending nearly twice as much on a single technology, in a single year.
+
+101
+00:12:43,375 --> 00:12:45,500
+And no one knows where the curve ends.
+
+102
+00:12:45,500 --> 00:12:46,600
+Reading List.
+
+103
+00:12:46,600 --> 00:12:47,600
+For the weekend:.
+
+104
+00:12:47,600 --> 00:13:00,662
+1.  The Next Phase of Our Partnership with Microsoft  – OpenAI's official statement on the renegotiation; worth reading for what is not said – about the AGI clause and what its removal means (6 min)
+
+105
+00:13:00,662 --> 00:13:18,850
+2.  Pentagon Inks Deals with Nvidia, Microsoft and AWS to Deploy AI on Classified Networks  – The full TechCrunch article on the Pentagon deal; essential for anyone who wants to understand Anthropic's positioning and the implications for military AI governance (7 min)
+
+106
+00:13:18,850 --> 00:13:34,575
+3.  Big Tech Hyperscalers Will Spend $700 Billion on AI Infrastructure This Year  – Fortune analyzes why investors are reacting with mixed signals despite $700B CapEx, and what that means for cloud margins (9 min)
+
+107
+00:13:34,575 --> 00:13:35,550
+Next Week.
+
+108
+00:13:35,550 --> 00:13:36,437
+What's coming:.
+
+109
+00:13:36,437 --> 00:13:42,875
+Anthropic Round: The ~$900B funding round is reportedly set to close within two weeks .
+
+110
+00:13:42,875 --> 00:13:49,612
+If the valuation actually surpasses OpenAI's, it will shift the entire industry's valuation discourse.
+
+111
+00:13:50,537 --> 00:14:05,237
+Pentagon AI in Practice: Following the signed framework agreements, first concrete deployment details at IL-6/IL-7 level are expected to emerge – and Anthropic's response to its exclusion will become clearer.
+
+112
+00:14:05,237 --> 00:14:19,175
+OpenAI TAC Program: How the "Trusted Access for Cyber" verification program works in practice, and whether it can genuinely distinguish legitimate cyber defenders from attackers, will become apparent in the coming weeks.
+
+113
+00:14:19,175 --> 00:14:22,550
+This newsletter was researched and written AI-assisted.
+
+114
+00:14:22,550 --> 00:14:25,425
+Images generated with  Pollinations.ai .
+
