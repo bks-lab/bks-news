@@ -1,0 +1,512 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:15,425
+Cloudflare + AI Layoffs: 1,100 employees (20% of the workforce) are being laid off — officially not due to cost pressure, but due to AI productivity gains.
+
+4
+00:00:15,425 --> 00:00:21,462
+At the same time: record quarter with $639.8M in revenue.
+
+5
+00:00:21,462 --> 00:00:35,462
+Anthropic Enterprise Venture: Together with Blackstone, Goldman Sachs, and five other financial investors, Anthropic is founding a new company to bring Claude to mid-market enterprises — with embedded AI engineers on-site.
+
+6
+00:00:35,462 --> 00:00:49,050
+Mythos finds 423 Firefox bugs: Anthropic's security model helped Mozilla fix 423 vulnerabilities in April alone — including a 15-year-old HTML parser flaw.
+
+7
+00:00:49,050 --> 00:00:51,487
+The same month a year ago: 31.
+
+8
+00:00:51,487 --> 00:01:04,312
+Nvidia invests $40B: In the first months of 2026 alone, Nvidia has committed $40B in AI equity deals — $30B of that in OpenAI.
+
+9
+00:01:04,312 --> 00:01:07,350
+Analysts are warning of circular capital flows.
+
+10
+00:01:07,350 --> 00:01:08,600
+Story of the Week.
+
+11
+00:01:08,600 --> 00:01:13,337
+"Getting Fitter" as Grounds for Dismissal – Cloudflare's AI Paradox
+
+12
+00:01:13,337 --> 00:01:22,150
+On May 8, 2026, Cloudflare reported a record quarter — and simultaneously laid off 20 percent of its workforce .
+
+13
+00:01:22,150 --> 00:01:25,525
+1,100 employees are losing their jobs.
+
+14
+00:01:25,525 --> 00:01:33,587
+And the company says it openly: not losses, not market downturns — AI productivity gains made these positions obsolete.
+
+15
+00:01:33,587 --> 00:01:39,862
+CEO Matthew Prince put it internally like this: "Just because you're fit doesn't mean you can't get fitter" .
+
+16
+00:01:39,862 --> 00:01:44,112
+No euphemism, no restructuring label — a direct admission.
+
+17
+00:01:44,112 --> 00:01:55,012
+Since November 2025, Prince has been describing internally a "tipping point" at which teams suddenly became "two, ten, even a hundred times more productive" .
+
+18
+00:01:55,012 --> 00:02:02,137
+Internal AI usage rose 600% in three months — and that didn't leave headcount decisions unaffected.
+
+19
+00:02:02,137 --> 00:02:12,112
+The numbers speak for themselves: Q1 2026 brought $639.8M in revenue, up 34% year-over-year .
+
+20
+00:02:12,112 --> 00:02:14,937
+It's the strongest quarter in the company's history.
+
+21
+00:02:14,937 --> 00:02:27,625
+At the same time, the net loss rose from $53.2M to $62M — a sign that the layoffs are driven primarily by strategic repositioning rather than cost-cutting pressure .
+
+22
+00:02:27,625 --> 00:02:32,887
+All areas except sales with directly measurable revenue accountability are affected.
+
+23
+00:02:32,887 --> 00:02:34,462
+What comes after the layoff?
+
+24
+00:02:34,462 --> 00:02:45,625
+Prince announced that Cloudflare will have more employees in 2027 than in 2026  — both a CEO promise and a PR signal, verifiable only in 18 months.
+
+25
+00:02:45,625 --> 00:02:51,300
+That's the stated rhythm: first efficiency through AI, then growth into new areas.
+
+26
+00:02:51,300 --> 00:02:58,612
+Not permanent headcount reduction — but a recalibration that first lays off, then rehires, for different roles.
+
+27
+00:02:58,612 --> 00:03:12,412
+Why this matters for us: This is one of the most prominent and direct public acknowledgments that a profitable tech company is explicitly and unambiguously naming AI efficiency as the primary driver of a mass layoff .
+
+28
+00:03:12,412 --> 00:03:22,825
+Earlier cases like IBM (2023) or Amazon (2024) cited AI as one of several factors — Cloudflare makes it the central narrative.
+
+29
+00:03:22,825 --> 00:03:26,450
+Not recession, not industry crisis — technology.
+
+30
+00:03:26,450 --> 00:03:34,300
+The narrative from many companies that AI creates more jobs than it destroys now has a concrete, high-profile counterexample.
+
+31
+00:03:34,300 --> 00:03:42,225
+For IT professionals, knowledge workers, and everyone in support-adjacent roles, this is a signal that should be taken seriously.
+
+32
+00:03:42,225 --> 00:03:53,862
+Coincidentally: The US IT sector lost 13,000 jobs in April 2026, and the IT unemployment rate rose from 3.6% to 3.8% .
+
+33
+00:03:53,862 --> 00:04:05,050
+A single month is not a statistically valid basis for a trend conclusion — monthly fluctuations of ±5,000–8,000 IT positions are historically normal.
+
+34
+00:04:05,050 --> 00:04:11,850
+As a data point, however, it shows that AI-driven restructuring is measurably arriving in the industry.
+
+35
+00:04:11,850 --> 00:04:16,475
+Bottom Line: The question is no longer whether AI displaces jobs.
+
+36
+00:04:16,475 --> 00:04:27,375
+The question is at what pace, in which areas — and whether companies communicate as transparently as Cloudflare, or hide the same decisions behind restructuring euphemisms.
+
+37
+00:04:27,375 --> 00:04:28,712
+More Top Stories.
+
+38
+00:04:28,712 --> 00:04:33,250
+Anthropic + Blackstone + Goldman: Claude for the Mid-Market.
+
+39
+00:04:33,250 --> 00:04:44,962
+Anthropic is founding a new, yet-to-be-named company together with Blackstone, Hellman & Friedman, Goldman Sachs, General Atlantic, Apollo, GIC, and Sequoia Capital .
+
+40
+00:04:44,962 --> 00:04:53,762
+The goal: bringing Claude to companies that have so far fallen through the cracks — community banks, manufacturing businesses, regional hospitals.
+
+41
+00:04:54,687 --> 00:05:02,325
+The model is interesting: not pure software licensing, but embedded "Applied AI Engineers" on-site with the customer .
+
+42
+00:05:02,325 --> 00:05:10,887
+Anthropic is positioning itself between large consultancies like Accenture and Deloitte on one side and self-service API access on the other.
+
+43
+00:05:10,887 --> 00:05:18,912
+CFO Krishna Rao puts it precisely: "Enterprise demand for Claude is significantly outpacing any single delivery model" .
+
+44
+00:05:18,912 --> 00:05:26,012
+The new company explicitly targets firms that don't have the internal resources to deploy frontier AI independently .
+
+45
+00:05:26,012 --> 00:05:37,962
+For the BKS Lab context, this means: the market for AI implementation services is growing massively right now — and Anthropic itself is becoming a competitor in the consulting segment.
+
+46
+00:05:37,962 --> 00:05:44,900
+Anthropic Mythos: AI Finds 423 Firefox Bugs – Including One 15 Years Old.
+
+47
+00:05:44,900 --> 00:05:52,525
+Anthropic's security model Mythos helped Mozilla fix 423 bugs in April 2026 alone .
+
+48
+00:05:52,525 --> 00:06:00,325
+In April 2025 it was 31 — an increase of 1,265% in twelve months.
+
+49
+00:06:00,325 --> 00:06:09,650
+Among them: a 15-year-old vulnerability in the HTML parser and critical sandbox vulnerabilities with bug bounties of up to $20,000 .
+
+50
+00:06:09,650 --> 00:06:19,887
+Mythos creates compromised code patches and uses them to automatically test its own security boundaries — a self-referential approach with no human equivalent to date .
+
+51
+00:06:19,887 --> 00:06:26,775
+Mozilla engineers still write all the actual patches; automation of patching itself is not yet possible.
+
+52
+00:06:26,775 --> 00:06:33,687
+Brian Grinstead, Distinguished Engineer at Mozilla, sums it up: "These things are actually just suddenly very good" .
+
+53
+00:06:33,687 --> 00:06:38,162
+The caveat: the same tool that finds bugs could also benefit attackers .
+
+54
+00:06:38,162 --> 00:06:42,350
+Mythos is a dual-use tool — Mozilla uses it defensively.
+
+55
+00:06:42,350 --> 00:06:46,712
+Anyone deploying it offensively finds the same vulnerabilities.
+
+56
+00:06:46,712 --> 00:06:59,250
+The 12 documented flaws are now public — a deliberate step toward transparency, but one that simultaneously shows what potential AI security models would have for attackers before patches are available.
+
+57
+00:06:59,250 --> 00:07:05,187
+GPT-5.5 Instant: OpenAI Sets New ChatGPT Standard.
+
+58
+00:07:05,187 --> 00:07:12,775
+OpenAI has rolled out GPT-5.5 Instant as the new default model for all ChatGPT users .
+
+59
+00:07:12,775 --> 00:07:19,750
+The predecessor GPT-5.3 Instant remains available to paying users for three more months.
+
+60
+00:07:19,750 --> 00:07:22,412
+API access runs via the alias  .
+
+61
+00:07:22,412 --> 00:07:43,625
+The benchmarks are solid: hallucination reduction in sensitive areas by 52.5%, AIME 2025 Math Benchmark at 81.2 (vs. 65.4 for the predecessor, +24%), MMMU-Pro Multimodal Reasoning at 76 (vs. 69.2, +10%) .
+
+62
+00:07:43,625 --> 00:07:53,937
+Particularly relevant: the new memory system draws on past conversations, files, and Gmail — with explicit display of sources and deletion options for users .
+
+63
+00:07:53,937 --> 00:08:05,587
+The context behind this is revealing: OpenAI faced massive user backlash when retiring GPT-4o — many users publicly described the model as their "best friend" .
+
+64
+00:08:05,587 --> 00:08:09,212
+The new rollout is communicated correspondingly more carefully.
+
+65
+00:08:09,212 --> 00:08:18,012
+The memory system is a strategic move: anyone who has their ChatGPT history and files integrated doesn't simply switch to an alternative.
+
+66
+00:08:18,012 --> 00:08:18,962
+Quick Hits.
+
+67
+00:08:18,962 --> 00:08:20,037
+Briefly noted:.
+
+68
+00:08:20,037 --> 00:08:32,687
+Claude Code: Limits doubled, SpaceX deal: Anthropic has doubled rate limits for Claude Code across all plans (Pro, Max, Team, Enterprise) and lifted peak-hour restrictions .
+
+69
+00:08:32,687 --> 00:08:44,362
+Additionally, the Colossus-1 deal with SpaceX: 220,000+ NVIDIA GPUs, 300+ megawatts of compute — available "within the month."
+
+70
+00:08:44,362 --> 00:08:56,837
+This brings Anthropic's total compute commitments to Amazon (5 GW), Google/Broadcom (5 GW), Microsoft/NVIDIA ($30B), and now SpaceX .
+
+71
+00:08:56,837 --> 00:09:11,400
+OpenAI Ads Manager: ChatGPT officially opens to advertisers — self-serve beta for US businesses with CPC/CPM bidding, Dentsu, Omnicom, WPP, and Adobe as launch partners .
+
+72
+00:09:11,400 --> 00:09:19,287
+Goal: $2.5B in ad revenue in 2026, long-term $100B by 2030.
+
+73
+00:09:19,287 --> 00:09:28,887
+The era of ad-free AI assistants is ending — and with it, new questions about the commercial use of user data for targeting and personalization.
+
+74
+00:09:28,887 --> 00:09:40,362
+IT Unemployment April 2026: The US IT sector lost 13,000 positions in April, with the rate rising from 3.6% to 3.8% .
+
+75
+00:09:40,362 --> 00:09:51,125
+The Cloudflare layoffs fall in a month where AI-driven restructuring is becoming measurable — one month alone doesn't prove a structural trend, but the pattern is accumulating.
+
+76
+00:09:51,125 --> 00:09:52,250
+Tool of the Week.
+
+77
+00:09:52,250 --> 00:09:57,475
+Anthropic Finance Agents — 10 Production-Ready Templates for Financial Services.
+
+78
+00:09:58,400 --> 00:10:04,275
+Anthropic has released ten directly deployable Claude agent templates for the financial sector .
+
+79
+00:10:04,275 --> 00:10:05,950
+Split into two areas:.
+
+80
+00:10:05,950 --> 00:10:13,425
+Research & Client Coverage: Pitch Builder, Meeting Preparer, Earnings Reviewer, Model Builder, Market Researcher.
+
+81
+00:10:13,425 --> 00:10:22,425
+Finance & Operations: Valuation Reviewer, General Ledger Reconciler, Month-End Closer, Statement Auditor, KYC Screener.
+
+82
+00:10:22,425 --> 00:10:31,875
+Particularly relevant: the integration of Moody's MCP delivers credit ratings and data on 600+ million companies directly into Claude .
+
+83
+00:10:31,875 --> 00:10:39,875
+Microsoft 365 is now GA — Claude works natively in Excel, PowerPoint, and Word, with Outlook to follow.
+
+84
+00:10:39,875 --> 00:10:50,600
+Claude Opus 4.7 reaches 64.37% on the Vals AI Finance Agent Benchmark, currently the industry leader according to Anthropic .
+
+85
+00:10:50,600 --> 00:10:59,275
+The practical value: instead of investing weeks in prompt engineering for finance use cases, there are production-ready templates as a starting point.
+
+86
+00:10:59,275 --> 00:11:03,637
+Anyone looking to deploy in financial services saves significant time.
+
+87
+00:11:03,637 --> 00:11:05,462
+Explore Finance Agents
+
+88
+00:11:05,462 --> 00:11:06,612
+Fail of the Week.
+
+89
+00:11:06,612 --> 00:11:12,450
+$400M Snap-Perplexity: Announced, Never Delivered, Quietly Buried
+
+90
+00:11:12,450 --> 00:11:26,012
+In November 2025, a $400M partnership between Snap and Perplexity was announced with fanfare: AI search directly into the Snapchat chat interface, cash plus equity over one year .
+
+91
+00:11:26,012 --> 00:11:34,500
+In Q1 2026, the collaboration ended according to Snap's own statement "amicably" — before any broad rollout occurred.
+
+92
+00:11:34,500 --> 00:11:39,575
+A limited live test ran, but agreement on the broader rollout was never reached .
+
+93
+00:11:39,575 --> 00:11:49,212
+The official wording from Snap's quarterly report: "amicably ended the relationship in Q1 – sales guidance assumes no contribution from Perplexity" .
+
+94
+00:11:49,212 --> 00:11:52,912
+No statement on the reasons, no explanation for the failure.
+
+95
+00:11:52,912 --> 00:12:00,300
+$400M announced, press releases generated, expectations raised — and then: silence.
+
+96
+00:12:00,300 --> 00:12:06,100
+Why this is a fail: Not the failure of the partnership itself, but the communication around it.
+
+97
+00:12:06,100 --> 00:12:08,537
+Tech partnerships fail — that's normal.
+
+98
+00:12:08,537 --> 00:12:16,487
+But a $400M announcement with no subsequent transparency about why it ended damages trust in both companies.
+
+99
+00:12:16,487 --> 00:12:20,887
+Investor relations learns about it as a footnote in the quarterly report.
+
+100
+00:12:20,887 --> 00:12:25,000
+In 2026, that's not acceptable communication practice.
+
+101
+00:12:25,000 --> 00:12:26,137
+Number of the Week.
+
+102
+00:12:26,137 --> 00:12:27,712
+$40,000,000,000
+
+103
+00:12:27,712 --> 00:12:32,787
+Nvidia's AI equity investments in the first months of 2026 alone .
+
+104
+00:12:32,787 --> 00:12:48,825
+The breakdown: including $30B in OpenAI, $3.2B in Corning (fiber optics for data centers), $2.1B in IREN (data center operator) — the remainder distributed across two dozen other startups .
+
+105
+00:12:48,825 --> 00:12:56,087
+Nvidia is no longer merely a chip seller — it's a strategic financial investor financing its own ecosystem.
+
+106
+00:12:56,087 --> 00:13:08,162
+Analysts like Matthew Bryson of Wedbush Securities warn of what they call "circular capital flows" : Nvidia invests in GPU customers, who use the capital to purchase more Nvidia GPUs.
+
+107
+00:13:08,162 --> 00:13:21,912
+The counterargument is legitimate: strategic investments in one's own ecosystem are established practice among tech giants — comparable to Apple's or Microsoft's venture programs running alongside massive R&D spending.
+
+108
+00:13:21,912 --> 00:13:29,112
+The question is not whether this strategy is legitimate, but whether the feedback loop will one day sustain the valuations.
+
+109
+00:13:29,112 --> 00:13:31,875
+A self-reinforcing loop — until it isn't.
+
+110
+00:13:31,875 --> 00:13:32,975
+Reading List.
+
+111
+00:13:32,975 --> 00:13:33,975
+For the weekend:.
+
+112
+00:13:33,975 --> 00:13:50,362
+1.  Cloudflare says AI made 1,100 jobs obsolete  — TechCrunch's analysis of Cloudflare's quarter is the most precise account of the AI layoff paradox: why a record quarter and mass layoffs are not a contradiction, but the new normal.
+
+113
+00:13:50,362 --> 00:13:54,175
+Required reading for anyone engaged in workforce discussions.
+
+114
+00:13:54,175 --> 00:13:55,325
+(7 min)
+
+115
+00:13:55,325 --> 00:14:10,150
+2.  How Anthropic's Mythos rewrote Firefox's cybersecurity approach  — Mozilla engineers explain concretely how an AI security model finds 15-year-old bugs — and why the same technology is also of interest to attackers.
+
+116
+00:14:10,150 --> 00:14:13,612
+Rarely such an honest assessment of a dual-use tool.
+
+117
+00:14:13,612 --> 00:14:14,650
+(8 min)
+
+118
+00:14:14,650 --> 00:14:31,912
+3.  Nvidia has already committed $40B to equity AI deals this year  — TechCrunch explains the investment strategy behind Nvidia's $40B equity offensive and why analysts use the word "circular" when discussing Jensen Huang's capital deployment.
+
+119
+00:14:31,912 --> 00:14:33,037
+(5 min)
+
+120
+00:14:33,037 --> 00:14:34,012
+Next Week.
+
+121
+00:14:34,012 --> 00:14:34,900
+What's coming:.
+
+122
+00:14:35,825 --> 00:14:45,700
+Cloudflare Wave: Following the public acknowledgment of AI-driven layoffs, more companies are likely to follow — either with similar openness or with more euphemism.
+
+123
+00:14:45,700 --> 00:14:48,912
+Coverage of AI workforce impacts will intensify.
+
+124
+00:14:48,912 --> 00:14:59,037
+OpenAI Ads Beta Expansion: The self-serve ad platform is in beta for US customers — first results and reactions from the advertising industry are expected.
+
+125
+00:14:59,037 --> 00:15:09,600
+Anthropic Enterprise Venture: Following the announcement of the new company with Blackstone & Co., names, operational details, and initial customer discussions are expected.
+
+126
+00:15:09,600 --> 00:15:12,200
+The race for the SMB market begins.
+
+127
+00:15:12,200 --> 00:15:16,325
+This newsletter was researched and written with AI-assisted support.
+
+128
+00:15:16,325 --> 00:15:19,200
+Images generated with  Pollinations.ai .
+
