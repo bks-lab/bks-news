@@ -1,0 +1,544 @@
+1
+00:00:00,050 --> 00:00:04,562
+# AI Weekly #20/2026
+
+2
+00:00:04,562 --> 00:00:07,687
+May 17, 2026  Week 20.
+
+3
+00:00:07,687 --> 00:00:08,650
+TL;DR.
+
+4
+00:00:08,650 --> 00:00:25,250
+$67B Market Cap on Day One: Cerebras debuts on Nasdaq, stock opens +108%, closes up +68% – the biggest tech IPO of 2026 confirms: AI infrastructure is the new gold
+
+5
+00:00:25,250 --> 00:00:40,237
+Bank Accounts Inside ChatGPT: OpenAI connects its current ChatGPT model to 12,000+ financial institutions via Plaid – 200 million monthly finance questions now get real-time data .
+
+6
+00:00:40,237 --> 00:00:50,775
+arXiv's Nuclear Option: A one-year ban for fully AI-written papers – the first major platform backlash against uncritical LLM use in academia
+
+7
+00:00:50,775 --> 00:01:05,437
+OpenAI vs. Apple in Court: After a disappointing iOS integration, OpenAI is reportedly preparing legal action against Apple – the partnership announced at WWDC in June 2024 lies in ruins .
+
+8
+00:01:05,437 --> 00:01:15,200
+Story of the Week: Cerebras IPO – $5.5B Raised, Stock Opens +108%, Closes +68%.
+
+9
+00:01:15,200 --> 00:01:19,600
+"A year ago, it looked like this day would never happen for Cerebras."
+
+10
+00:01:19,600 --> 00:01:25,175
+– this TechCrunch line captures the story behind the most spectacular market debut of the year .
+
+11
+00:01:25,175 --> 00:01:35,962
+On May 14, 2026, Cerebras Systems debuted on Nasdaq, raising $5.55 billion – the largest tech IPO of the current season.
+
+12
+00:01:35,962 --> 00:01:46,087
+The offering price was set at $185 per share, well above the originally targeted range of $115 to $125.
+
+13
+00:01:46,087 --> 00:01:53,837
+At the open, the stock traded at $385 – a gain of over 108% over the offering price.
+
+14
+00:01:53,837 --> 00:02:02,862
+By the close at $311, the day's gain stood at +68% with a market cap of approximately $67 billion .
+
+15
+00:02:02,862 --> 00:02:04,112
+What's behind the hype?
+
+16
+00:02:04,112 --> 00:02:13,100
+Cerebras is not another generic AI startup, but a chip company with a radically different architecture: the Wafer-Scale Engine (WSE).
+
+17
+00:02:13,100 --> 00:02:25,712
+While NVIDIA produces GPUs as small squares on a silicon wafer, Cerebras uses the entire wafer as a single chip – with 2.6 trillion transistors and 40 GB of on-chip memory.
+
+18
+00:02:25,712 --> 00:02:31,962
+This eliminates the most expensive bottleneck in AI inference: shuttling data between chips .
+
+19
+00:02:31,962 --> 00:02:47,487
+The financials confirm this isn't just hot air: in 2025, Cerebras generated $510 million in revenue – 76% growth year-over-year – and recorded a net profit of $237.8 million .
+
+20
+00:02:47,487 --> 00:02:57,800
+Founder Andrew Feldman holds personal wealth of approximately $1.9 billion after the IPO, with co-founder Sean Lie at around $1 billion.
+
+21
+00:02:57,800 --> 00:03:01,600
+For the industry, this IPO is more than a success story.
+
+22
+00:03:01,600 --> 00:03:12,175
+It signals that the market believes inference hardware – not just training infrastructure – will become the next major bottleneck as AI usage spreads across billions of products.
+
+23
+00:03:12,175 --> 00:03:18,125
+Whoever delivers the fastest and cheapest inference controls a critical layer of the AI stack.
+
+24
+00:03:18,125 --> 00:03:25,225
+Cerebras is betting exactly on that – and the market validates the bet at a $67 billion valuation.
+
+25
+00:03:25,225 --> 00:03:34,687
+That the IPO came after a lengthy regulatory run-up (Saudi investors had caused delays at an earlier stage ) makes the outcome all the more impressive.
+
+26
+00:03:34,687 --> 00:03:42,500
+It's a sign that 2026 could go down in history as the year of AI IPOs – and Cerebras fired the starting gun.
+
+27
+00:03:42,500 --> 00:03:52,037
+One caveat worth noting: typical post-IPO dynamics such as lock-up expirations and profit-taking could pressure the valuation in the coming months.
+
+28
+00:03:52,037 --> 00:03:53,375
+More Top Stories.
+
+29
+00:03:53,375 --> 00:03:59,175
+ChatGPT Reaches Into Your Bank Accounts – OpenAI Launches Personal Finance Tools.
+
+30
+00:03:59,175 --> 00:04:04,575
+OpenAI has begun transforming ChatGPT into a personal finance platform.
+
+31
+00:04:04,575 --> 00:04:21,262
+Pro subscribers in the US can now connect their bank and investment accounts directly to ChatGPT – through Plaid integration, more than 12,000 financial institutions are accessible, including Charles Schwab, Fidelity, JPMorgan Chase, and American Express .
+
+32
+00:04:21,262 --> 00:04:29,425
+The result is a dashboard showing portfolio performance, spending trends, active subscriptions, and upcoming payments at a glance.
+
+33
+00:04:29,425 --> 00:04:34,500
+ChatGPT can then answer questions like: "Have I been spending more than usual lately?
+
+34
+00:04:34,500 --> 00:04:35,450
+What's changed?"
+
+35
+00:04:35,450 --> 00:04:39,350
+– drawing on actual account data, not hypothetical scenarios .
+
+36
+00:04:39,350 --> 00:04:44,937
+The model behind the feature is, according to OpenAI, the current ChatGPT model.
+
+37
+00:04:44,937 --> 00:04:51,425
+OpenAI acquired the fintech startup Hiro, which provided the technological foundation for this integration.
+
+38
+00:04:51,425 --> 00:04:57,287
+On privacy, account data is set to be fully deleted 30 days after disconnecting the account.
+
+39
+00:04:57,287 --> 00:05:02,612
+OpenAI's next planned step is an Intuit integration for direct tax simulations .
+
+40
+00:05:03,537 --> 00:05:10,900
+The context makes the scale clear: 200 million users ask ChatGPT about financial topics each month .
+
+41
+00:05:10,900 --> 00:05:15,987
+Until now, those users were entering account numbers manually or estimating.
+
+42
+00:05:15,987 --> 00:05:17,812
+Now real data flows in.
+
+43
+00:05:17,812 --> 00:05:31,575
+This is the closest integration yet of a general-purpose LLM with critical financial infrastructure – and it opens a debate about privacy, liability, and whether a chat model should really serve as a financial advisor.
+
+44
+00:05:31,575 --> 00:05:37,475
+arXiv Issues One-Year Bans for AI Ghostwriters – Academia Draws a Line
+
+45
+00:05:37,475 --> 00:05:51,437
+arXiv, the world's most important preprint repository, has drawn a clear red line: anyone demonstrably submitting papers generated entirely by LLMs without critical review will face a one-year ban .
+
+46
+00:05:51,437 --> 00:06:00,237
+The new "one-strike" rule is not aimed at AI assistance in general – writing aid, grammar correction, and structural feedback remain permitted.
+
+47
+00:06:00,237 --> 00:06:05,937
+The line is drawn where authors pass through language model outputs without substantive review.
+
+48
+00:06:05,937 --> 00:06:22,750
+Thomas Dietterich, chair of arXiv's computer science section, states the core issue plainly: "If a submission contains incontrovertible evidence that the authors did not check the results of LLM generation, this means we can't trust anything in the paper." .
+
+49
+00:06:22,750 --> 00:06:37,625
+Concrete indicators of a policy violation include fabricated citations, hallucinations in factual claims, and unfiltered LLM boilerplate – often recognizable by characteristic phrases or systematically incorrect references.
+
+50
+00:06:37,625 --> 00:06:44,362
+After serving the ban, authors can only return if their work has been accepted by established peer-reviewed publishers .
+
+51
+00:06:44,362 --> 00:06:46,700
+The decision doesn't come in a vacuum.
+
+52
+00:06:46,700 --> 00:06:53,262
+Since 2023, arXiv has seen a flood of submissions with a recognizable AI fingerprint.
+
+53
+00:06:53,262 --> 00:07:03,787
+For the academic community, this is the first high-profile institutional signal: AI use is not banned outright, but scientific accountability cannot be delegated.
+
+54
+00:07:03,787 --> 00:07:08,850
+OpenAI Prepares Legal Action Against Apple – Failed Partnership Heads to Court.
+
+55
+00:07:08,850 --> 00:07:19,362
+The ChatGPT integration into iOS, announced with much fanfare at WWDC in June 2024, is turning into an expensive legal dispute.
+
+56
+00:07:19,362 --> 00:07:26,312
+According to consistent reports, OpenAI has engaged outside counsel to explore legal action against Apple .
+
+57
+00:07:26,312 --> 00:07:32,787
+The crux of the conflict: OpenAI alleges that Apple actively undermined the ChatGPT integration.
+
+58
+00:07:32,787 --> 00:07:44,612
+Features were "buried," visibility within the iOS ecosystem fell far short of expectations, and the resulting subscription numbers came in massively below internal projections.
+
+59
+00:07:44,612 --> 00:07:55,062
+An OpenAI executive put it bluntly, as quoted by TechCrunch  (orig. Bloomberg): "They basically said, 'OpenAI needs to take a leap of faith and trust us.'
+
+60
+00:07:55,062 --> 00:07:56,550
+It didn't work out well.".
+
+61
+00:07:56,550 --> 00:08:09,075
+A number comparison illustrates the contrast: Apple reportedly pays Google approximately $1 billion annually for the Gemini integration – an amount that shows what Apple is willing to invest when it wants to .
+
+62
+00:08:09,075 --> 00:08:13,375
+OpenAI instead received an integration with half-hearted placement.
+
+63
+00:08:13,375 --> 00:08:15,050
+Apple sees things differently.
+
+64
+00:08:15,050 --> 00:08:26,525
+Internally, the company is said to have raised substantial privacy concerns – a perspective that, given Apple's years-long privacy positioning, cannot be easily dismissed as a pretext.
+
+65
+00:08:26,525 --> 00:08:33,950
+Tensions also arose around OpenAI's hardware ambitions (its own devices, potential competition with the iPhone).
+
+66
+00:08:33,950 --> 00:08:46,650
+Regardless of the legal outcome, the conflict demonstrates: the negotiating position of AI labs against platform gatekeepers like Apple and Google is more complicated than the initial partnership euphoria suggested.
+
+67
+00:08:46,650 --> 00:08:47,600
+Quick Hits.
+
+68
+00:08:47,600 --> 00:08:59,337
+Malta: First Government with ChatGPT Plus for All Citizens  – OpenAI and Malta have sealed a partnership providing all Maltese citizens with free ChatGPT Plus access.
+
+69
+00:08:59,337 --> 00:09:05,187
+Malta is thereby the first government worldwide with state-funded universal AI access.
+
+70
+00:09:05,187 --> 00:09:15,325
+A precedent with signal value for European AI strategies – though critics point to the resulting state dependency on a US company and open data privacy questions.
+
+71
+00:09:16,250 --> 00:09:37,050
+Open-Source Boom: Gemma 4, DeepSeek V4, Kimi K2.6, and More  – Nathan Lambert of Interconnects describes an "eventful month" for open-weight models: Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, and GLM-5.1 appeared in rapid succession.
+
+72
+00:09:37,050 --> 00:09:47,587
+The gap to proprietary models continues to shrink – though open-weight models carry their own risks, including lack of quality control in fine-tuning and potential for misuse.
+
+73
+00:09:47,587 --> 00:10:01,325
+Anthropic + Gates Foundation: $200M for Global Health and Education  – Over four years, $200 million will flow into a program targeting 4.6 billion people in low-income countries.
+
+74
+00:10:01,325 --> 00:10:06,712
+Claude-powered tutoring tools for Sub-Saharan Africa and India are concretely planned.
+
+75
+00:10:06,712 --> 00:10:12,612
+The program focuses on expanding global access to AI tools in underserved regions.
+
+76
+00:10:12,612 --> 00:10:19,837
+Tool of the Week: NVIDIA SANA-WM – Open-Source World Model for 1-Minute Video in 720p.
+
+77
+00:10:19,837 --> 00:10:27,162
+NVIDIA Labs has released SANA-WM, an open-source world model that takes video generation to a new level .
+
+78
+00:10:27,162 --> 00:10:28,200
+What it does:.
+
+79
+00:10:28,200 --> 00:10:32,475
+Generates up to 60 seconds of video in 720p quality.
+
+80
+00:10:32,475 --> 00:10:38,950
+2.6 billion parameters – large enough for high-quality outputs, small enough for broader deployment
+
+81
+00:10:38,950 --> 00:10:44,262
+Direct competition to proprietary video generation models like Sora or Veo .
+
+82
+00:10:44,262 --> 00:10:45,600
+What makes it special:.
+
+83
+00:10:45,600 --> 00:10:57,025
+The model operates as a true "world model" – it doesn't just understand pixels, but models physical relationships and temporal consistency across the entire video sequence.
+
+84
+00:10:57,025 --> 00:11:03,337
+This distinguishes it from frame-by-frame approaches that often become inconsistent over longer clips.
+
+85
+00:11:03,337 --> 00:11:04,512
+Why it matters:.
+
+86
+00:11:04,512 --> 00:11:10,250
+Open-source video generation was until recently limited to short, low-resolution clips.
+
+87
+00:11:10,250 --> 00:11:12,850
+SANA-WM breaks through that barrier.
+
+88
+00:11:12,850 --> 00:11:26,025
+For content creators, developers, and researchers, this means: high-quality AI video generation without proprietary API dependency, without per-minute billing, and with the freedom for further development.
+
+89
+00:11:26,025 --> 00:11:32,950
+NVIDIA demonstrates that open source is catching up in the video segment just as fast as it did with language models.
+
+90
+00:11:32,950 --> 00:11:39,750
+Fail of the Week: Cisco Lays Off 4,000 Employees During Record Quarter – "To Invest in AI".
+
+91
+00:11:39,750 --> 00:11:46,562
+Cisco has announced it will cut approximately 4,000 positions – about 5% of its total workforce .
+
+92
+00:11:46,562 --> 00:11:51,775
+At the same time, the company reported record quarterly revenue and double-digit growth.
+
+93
+00:11:51,775 --> 00:12:02,350
+CEO Chuck Robbins cited the need to free up capital for AI investments, while simultaneously announcing investment in "employees' use of AI across the company" .
+
+94
+00:12:02,350 --> 00:12:12,612
+The irony could hardly be sharper: employees are being laid off so AI can take over their work – and the remaining employees are then expected to use AI themselves.
+
+95
+00:12:12,612 --> 00:12:14,125
+Cisco is not alone.
+
+96
+00:12:14,125 --> 00:12:21,837
+Cloudflare and General Motors have offered similar justifications for job cuts amid strong financial results in recent weeks.
+
+97
+00:12:21,837 --> 00:12:35,912
+What's emerging here is a new corporate playbook: "AI pivot" as justification for cost reductions – regardless of whether actual AI productivity gains are replacing jobs or whether the goal is simply to optimize margins.
+
+98
+00:12:35,912 --> 00:12:43,212
+A footnote worth mentioning: CEO Robbins' planned compensation for 2025 is $52 million .
+
+99
+00:12:43,212 --> 00:12:46,950
+Number of the Week: $134 Billion.
+
+100
+00:12:46,950 --> 00:12:53,562
+Elon Musk is seeking $134 billion in damages from OpenAI and Sam Altman .
+
+101
+00:12:53,562 --> 00:12:59,762
+Closing arguments in the Musk vs. OpenAI/Altman trial were completed this week.
+
+102
+00:12:59,762 --> 00:13:06,537
+Judge Yvonne Gonzalez Rogers will make the final decision – the jury serves only in an advisory capacity.
+
+103
+00:13:06,537 --> 00:13:09,112
+Deliberation began early in the week.
+
+104
+00:13:09,112 --> 00:13:10,287
+Why it matters:.
+
+105
+00:13:10,287 --> 00:13:17,275
+$134 billion is less than half of OpenAI's current valuation (~$300B).
+
+106
+00:13:17,275 --> 00:13:24,187
+Musk is demanding damages of historic magnitude – plus the removal of Sam Altman and the other founders.
+
+107
+00:13:24,187 --> 00:13:34,187
+Regardless of the verdict, this trial is the first judicial examination of the question of whether nonprofit-to-for-profit conversions at AI companies are legitimate.
+
+108
+00:13:34,187 --> 00:13:38,162
+The ruling will set precedent – for OpenAI and well beyond.
+
+109
+00:13:38,162 --> 00:13:39,262
+Reading List.
+
+110
+00:13:39,262 --> 00:13:51,000
+📖  Cerebras IPO: The Biggest Tech Market Debut of 2026  – TechCrunch explains why wafer-scale chips could be the next bottleneck in the AI stack  7 min
+
+111
+00:13:51,925 --> 00:14:05,712
+>📖  OpenAI vs. Apple: When AI Partnerships Fail  – An analysis of why the 2024 WWDC partnership became the 2026 lawsuit – and what it means for other platform-AI deals  6 mi
+
+112
+00:14:05,712 --> 00:14:16,237
+📖  arXiv's New Rules Against AI Ghostwriters  – What the "one-strike" rule means in practice and how arXiv plans to prove violations  5 mi
+
+113
+00:14:16,237 --> 00:14:20,762
+Next Week: Musk Verdict and ChatGPT Finance Rollout
+
+114
+00:14:20,762 --> 00:14:23,637
+Next week will be dominated by two developments:
+
+115
+00:14:23,637 --> 00:14:32,050
+Verdict in the Musk vs. OpenAI Trial: Judge Gonzalez Rogers could announce her decision as early as early next week
+
+116
+00:14:32,050 --> 00:14:41,150
+ A ruling in Musk's favor would call OpenAI's entire corporate structure into question – with immediate consequences for its planned IPO preparations 
+
+117
+00:14:41,150 --> 00:14:47,887
+ChatGPT Finance Expansion: The personal finance tools are currently limited to US Pro subscribers 
+
+118
+00:14:47,887 --> 00:14:54,612
+ OpenAI has signaled that a broader rollout will follow – both geographically and to other subscription tiers
+
+119
+00:14:54,612 --> 00:15:00,725
+ Initial user reports will show whether the approach works or whether privacy concerns slow adoption
+
+120
+00:15:00,725 --> 00:15:10,212
+Also: With the open-source boom of recent weeks, the first systematic benchmarks comparing Gemma 4 and DeepSeek V4 head-to-head are expected 
+
+121
+00:15:10,212 --> 00:15:10,975
+Footer
+
+122
+00:15:10,975 --> 00:15:13,712
+AI Weekly is produced by  BKS-Lab 
+
+123
+00:15:13,712 --> 00:15:18,900
+Subscribe to the newsletter:  bks-lab.com/newsletter 
+
+124
+00:15:18,900 --> 00:15:22,312
+Contact:  ai@bks-lab.com 
+
+125
+00:15:22,312 --> 00:15:23,262
+Sources:
+
+126
+00:15:23,262 --> 00:15:33,437
+[1]  Cerebras raises $5.5B, kicking off 2026's IPO season with a bang  (2026-05-14
+
+127
+00:15:33,437 --> 00:15:41,950
+[2]  OpenAI launches ChatGPT for personal finance, will let you connect bank accounts  (2026-05-15
+
+128
+00:15:41,950 --> 00:15:51,300
+[3]  Research repository arXiv will ban authors for a year if they let AI do all the work  (2026-05-16
+
+129
+00:15:51,300 --> 00:15:58,500
+[4]  OpenAI is reportedly preparing legal action against Apple  (2026-05-14
+
+130
+00:15:58,500 --> 00:16:04,287
+[5]  Malta ChatGPT Plus Partnership  (2026-05-16
+
+131
+00:16:04,287 --> 00:16:11,362
+[6]  Latest Open Artifacts #21: Open Model Boom  (2026-05-16
+
+132
+00:16:11,362 --> 00:16:16,762
+[7]  Anthropic and Gates Foundation Partnership  (2026-05-14
+
+133
+00:16:16,762 --> 00:16:23,350
+[8]  NVIDIA SANA-WM: Open-Source World Model  (2026-05-16
+
+134
+00:16:23,350 --> 00:16:32,625
+[9]  Cisco cuts nearly 4,000 jobs to spend more on AI, reports record quarterly revenue  (2026-05-14
+
+135
+00:16:32,625 --> 00:16:41,137
+[10]  Closing arguments complete in Musk vs. OpenAI/Altman trial  (2026-05-14
+
+136
+00:16:41,137 --> 00:16:50,700
+AI-assisted with Claude Sonnet 4.6  Hero image: AI-generated (Pollinations.ai)  All facts verified against primary sources
+

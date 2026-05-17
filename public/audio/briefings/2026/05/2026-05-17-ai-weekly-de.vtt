@@ -1,0 +1,544 @@
+1
+00:00:00,100 --> 00:00:05,037
+# AI Weekly #20/2026
+
+2
+00:00:04,987 --> 00:00:09,237
+17. Mai 2026  Woche 20
+
+3
+00:00:09,237 --> 00:00:11,425
+TL;DR.
+
+4
+00:00:11,425 --> 00:00:29,100
+$67 Mrd. Market Cap am ersten Tag: Cerebras debütiert an der Nasdaq, Aktie eröffnet +108%, schließt mit +68% im Plus – der größte Tech-IPO 2026 zeigt: AI-Infrastruktur ist das neue Gold
+
+5
+00:00:29,100 --> 00:00:41,687
+Bankkonten in ChatGPT: OpenAI verbindet sein aktuelles ChatGPT-Modell mit 12.000+ Finanzinstituten via Plaid – 200 Mio. monatliche Finanzfragen bekommen nun Echtzeitdaten .
+
+6
+00:00:41,687 --> 00:00:51,825
+arXiv's Nuclear Option: Ein Jahr Sperre für vollständig KI-geschriebene Paper – erster großer Plattform-Backlash gegen unkritische LLM-Nutzung in der Wissenschaft
+
+7
+00:00:51,825 --> 00:01:03,787
+OpenAI vs. Apple vor Gericht: Nach enttäuschender iOS-Integration bereitet OpenAI Klage gegen Apple vor – die Partnerschaft vom Juni 2024 WWDC liegt in Trümmern .
+
+8
+00:01:03,787 --> 00:01:14,487
+Story der Woche: Cerebras IPO – $5,5 Mrd. eingesammelt, Aktie eröffnet +108%, schließt +68%.
+
+9
+00:01:14,487 --> 00:01:18,775
+A year ago, it looked like this day would never happen for Cerebras.
+
+10
+00:01:18,775 --> 00:01:24,837
+dieser Satz von TechCrunch fasst die Geschichte hinter dem spektakulärsten Börsengang des Jahres zusammen .
+
+11
+00:01:24,837 --> 00:01:35,650
+Am 14. Mai 2026 debütierte Cerebras Systems an der Nasdaq und sammelte $5,55 Milliarden ein – der größte Tech-IPO der laufenden Saison.
+
+12
+00:01:35,650 --> 00:01:46,312
+Der Ausgabepreis lag bei $185 pro Aktie, weit über der ursprünglich angesetzten Spanne von $115 bis $125.
+
+13
+00:01:46,312 --> 00:01:54,787
+Zur Eröffnung notierte die Aktie bei $385 – ein Plus von über 108% gegenüber dem Ausgabepreis.
+
+14
+00:01:54,787 --> 00:02:04,125
+Zum Schlusskurs bei $311 lag das Tagesplus bei +68% und die Market Cap bei rund $67 Milliarden .
+
+15
+00:02:04,125 --> 00:02:06,425
+Was steckt hinter dem Hype?
+
+16
+00:02:06,425 --> 00:02:16,237
+Cerebras ist kein weiteres generisches AI-Startup, sondern ein Chip-Unternehmen mit einer radikal anderen Architektur: der Wafer-Scale Engine (WSE).
+
+17
+00:02:16,237 --> 00:02:29,937
+Während NVIDIA GPUs als kleine Quadrate auf einem Silizium-Wafer produziert, nutzt Cerebras den gesamten Wafer als einen einzigen Chip – mit 2,6 Billionen Transistoren und 40 GB on-chip Speicher.
+
+18
+00:02:29,937 --> 00:02:36,425
+Das eliminiert den teuersten Flaschenhals bei AI-Inference: das Hin-und-Herschicken von Daten zwischen Chips .
+
+19
+00:02:36,425 --> 00:02:54,950
+Die Finanzzahlen unterstreichen, dass es sich nicht um heiße Luft handelt: 2025 erwirtschaftete Cerebras $510 Millionen Umsatz – ein Wachstum von 76% gegenüber dem Vorjahr – und verbuchte einen Nettogewinn von $237,8 Millionen .
+
+20
+00:02:54,950 --> 00:03:04,537
+Gründer Andrew Feldman hält nach dem IPO persönliches Vermögen von rund $1,9 Milliarden, Co-Gründer Sean Lie kommt auf etwa $1 Milliarde.
+
+21
+00:03:04,537 --> 00:03:08,700
+Für die Branche ist dieser IPO mehr als eine Erfolgsstory.
+
+22
+00:03:08,700 --> 00:03:19,387
+Er signalisiert: Der Markt glaubt, dass Inference-Hardware – nicht nur Trainings-Infrastruktur – zum nächsten großen Engpass wird, wenn AI-Nutzung in Milliarden von Produkten einzieht.
+
+23
+00:03:19,387 --> 00:03:25,475
+Wer die schnellste und günstigste Inferenz liefert, kontrolliert einen kritischen Layer des AI-Stacks.
+
+24
+00:03:25,475 --> 00:03:32,512
+Cerebras wettet genau darauf – und der Markt setzt diese Wette mit $67 Milliarden Valuation.
+
+25
+00:03:32,512 --> 00:03:42,375
+Dass der IPO mit einem langen regulatorischen Vorlauf kam (Saudi-Investoren hatten zwischenzeitlich für Verzögerungen gesorgt ), macht den Erfolg noch eindrucksvoller.
+
+26
+00:03:42,375 --> 00:03:51,100
+Es ist ein Zeichen, dass 2026 als AI-IPO-Jahr in die Geschichte eingehen könnte – Cerebras hat den Startschuss gegeben.
+
+27
+00:03:51,100 --> 00:04:00,450
+Einschränkend sei angemerkt: Typische Post-IPO-Dynamiken wie Lock-up-Ablauf und Gewinnmitnahmen könnten die Bewertung in den nächsten Monaten unter Druck setzen.
+
+28
+00:04:00,450 --> 00:04:02,625
+Weitere Top-Stories.
+
+29
+00:04:02,625 --> 00:04:08,062
+ChatGPT greift in deine Bankkonten – OpenAI launcht persönliche Finanztools.
+
+30
+00:04:08,062 --> 00:04:13,912
+OpenAI hat begonnen, ChatGPT in eine persönliche Finanzplattform zu verwandeln.
+
+31
+00:04:13,912 --> 00:04:30,250
+Pro-Abonnenten in den USA können ab sofort ihre Bank- und Investmentkonten direkt mit ChatGPT verbinden – über die Plaid-Integration sind mehr als 12.000 Finanzinstitute erreichbar, darunter Charles Schwab, Fidelity, JPMorgan Chase und American Express .
+
+32
+00:04:30,250 --> 00:04:39,412
+Das Ergebnis ist ein Dashboard, das Portfolio-Performance, Ausgabentrends, aktive Abonnements und anstehende Zahlungen auf einen Blick zeigt.
+
+33
+00:04:39,412 --> 00:04:46,012
+ChatGPT kann dann Fragen beantworten wie: "Habe ich in letzter Zeit mehr ausgegeben als üblich?
+
+34
+00:04:46,012 --> 00:04:48,250
+Was hat sich verändert?
+
+35
+00:04:48,250 --> 00:04:53,475
+und dabei auf echte Kontodaten zurückgreifen, nicht auf hypothetische Szenarien .
+
+36
+00:04:54,450 --> 00:04:59,400
+Das Modell hinter dem Feature ist laut OpenAI das aktuelle ChatGPT-Modell.
+
+37
+00:04:59,350 --> 00:05:06,125
+OpenAI erwarb das Fintech-Startup Hiro, was den technologischen Grundstein für diese Integration legte.
+
+38
+00:05:06,125 --> 00:05:12,325
+Datenschutztechnisch sollen Kontodaten 30 Tage nach Trennung des Accounts vollständig gelöscht werden.
+
+39
+00:05:12,325 --> 00:05:18,325
+Als nächsten Schritt plant OpenAI eine Intuit-Integration für direkte Steuersimulationen .
+
+40
+00:05:18,325 --> 00:05:25,562
+Der Kontext macht die Dimension klar: 200 Millionen Nutzer fragen ChatGPT monatlich zu Finanzthemen .
+
+41
+00:05:25,562 --> 00:05:30,137
+Bisher gaben diese Nutzer ihre Kontonummern händisch ein oder schätzten.
+
+42
+00:05:30,137 --> 00:05:32,712
+Jetzt fließen Realdaten.
+
+43
+00:05:32,712 --> 00:05:46,125
+Das ist die bisher engste Verzahnung eines General-Purpose-LLM mit kritischer Finanzinfrastruktur – und öffnet eine Debatte über Datenschutz, Haftung und die Frage, ob ein Chat-Modell wirklich als Finanzberater fungieren sollte.
+
+44
+00:05:46,125 --> 00:05:51,712
+arXiv verhängt Ein-Jahres-Sperren für KI-Geisterschreiber – Wissenschaft zieht Grenze
+
+45
+00:05:51,712 --> 00:06:05,375
+Das weltweit wichtigste Preprint-Repository arXiv hat eine klare rote Linie gezogen: Wer nachweislich vollständige Paper unkritisch von LLMs generieren lässt und als eigene Arbeit einreicht, wird für ein Jahr gesperrt .
+
+46
+00:06:05,375 --> 00:06:14,612
+Die neue "One-Strike"-Regel richtet sich nicht gegen KI-Assistenz – Formulierungshilfe, Grammatikkorrektur und strukturelles Feedback bleiben erlaubt.
+
+47
+00:06:14,612 --> 00:06:20,837
+Die Grenze liegt dort, wo Autoren die Outputs von Sprachmodellen ohne inhaltliche Prüfung übernehmen.
+
+48
+00:06:20,837 --> 00:06:36,462
+Thomas Dietterich, Vorsitzender des arXiv-Informatik-Sektors, erklärt den Kern des Problems unmissverständlich: "If a submission contains incontrovertible evidence that the authors did not check the results of LLM generation, this means we can't trust anything in the paper.
+
+49
+00:06:36,462 --> 00:06:51,212
+Konkrete Indikatoren für eine Verletzung der Richtlinie sind erfundene Quellenangaben, Halluzinationen in Faktenclaims und ungefilterte LLM-Textbausteine – oft erkennbar an charakteristischen Phrasen oder systematisch falschen Zitierungen.
+
+50
+00:06:51,212 --> 00:06:58,787
+Nach Verbüßung der Sperre können Autoren nur zurückkehren, wenn ihre Arbeit durch etablierte Peer-Review-Verlage akzeptiert wurde .
+
+51
+00:06:58,787 --> 00:07:01,750
+Die Entscheidung kommt nicht im Vakuum.
+
+52
+00:07:01,750 --> 00:07:09,087
+arXiv verzeichnet seit 2023 eine Flut von Einreichungen mit erkennbarem KI-Fingerabdruck.
+
+53
+00:07:09,087 --> 00:07:20,200
+Für die Wissenschaftsgemeinschaft ist dies das erste hochkarätige institutionelle Signal: KI-Nutzung wird nicht pauschal verboten, aber wissenschaftliche Verantwortung ist nicht delegierbar.
+
+54
+00:07:20,200 --> 00:07:25,600
+OpenAI bereitet Klage gegen Apple vor – gescheiterte Partnerschaft vor dem Anwalt.
+
+55
+00:07:25,600 --> 00:07:35,375
+Die auf dem WWDC im Juni 2024 mit großem Tamtam verkündete ChatGPT-Integration in iOS entwickelt sich zum teuren Rechtsstreit.
+
+56
+00:07:35,375 --> 00:07:42,875
+Laut übereinstimmenden Berichten hat OpenAI externe Anwälte engagiert, um rechtliche Schritte gegen Apple zu prüfen .
+
+57
+00:07:42,875 --> 00:07:49,637
+Der Kern des Konflikts: OpenAI wirft Apple vor, die ChatGPT-Integration aktiv untergraben zu haben.
+
+58
+00:07:49,637 --> 00:08:01,287
+Features wurden "begraben", die Sichtbarkeit im iOS-Ökosystem blieb weit hinter den Erwartungen zurück, und die daraus resultierenden Abonnement-Zahlen lagen massiv unter den internen Projektionen.
+
+59
+00:08:01,287 --> 00:08:10,875
+Ein OpenAI-Executive formulierte es laut TechCrunch  (orig. Bloomberg) unverblümt: "They basically said, 'OpenAI needs to take a leap of faith and trust us.
+
+60
+00:08:10,875 --> 00:08:12,950
+It didn't work out well.
+
+61
+00:08:12,950 --> 00:08:26,275
+Den Kontrast macht ein Zahlenvergleich deutlich: Apple zahlt Google Berichten zufolge jährlich rund $1 Milliarde für die Gemini-Integration – ein Betrag, der zeigt, was Apple bereit ist zu investieren, wenn es das will .
+
+62
+00:08:26,275 --> 00:08:31,162
+OpenAI bekam stattdessen eine Integration mit halbherziger Platzierung.
+
+63
+00:08:31,162 --> 00:08:33,450
+Apple sieht die Sache anders.
+
+64
+00:08:33,450 --> 00:08:45,912
+Intern soll das Unternehmen substantielle Datenschutzbedenken geäußert haben – eine Perspektive, die angesichts von Apples jahrelanger Datenschutz-Positionierung nicht ohne weiteres als Vorwand abgetan werden kann.
+
+65
+00:08:45,912 --> 00:08:53,212
+Hinzu kamen Spannungen rund auf OpenAIs Hardware-Ambitionen (eigene Geräte, potenzielle Konkurrenz zum iPhone).
+
+66
+00:08:53,212 --> 00:09:05,625
+Unabhängig vom Ausgang des Rechtsstreits zeigt der Konflikt: Die Verhandlungsposition von AI-Labs gegenüber Platform-Gatekeepern wie Apple und Google ist komplizierter als es der erste Partnerschafts-Jubel vermuten ließ.
+
+67
+00:09:05,625 --> 00:09:07,162
+Quick Hits.
+
+68
+00:09:08,137 --> 00:09:20,225
+Malta: Erste Regierung mit ChatGPT Plus für alle Bürger  – OpenAI und Malta haben eine Partnerschaft besiegelt, die alle maltesischen Staatsbürger mit kostenlosem ChatGPT-Plus-Zugang ausstattet.
+
+69
+00:09:20,175 --> 00:09:26,462
+Malta ist damit die erste Regierung weltweit mit einem staatlich finanzierten AI-Universalzugang.
+
+70
+00:09:26,462 --> 00:09:38,850
+Ein Präzedenzfall mit Signalwirkung für europäische AI-Strategien – wenngleich Kritiker auf die entstehende staatliche Abhängigkeit von einem US-amerikanischen Unternehmen sowie offene Datenschutzfragen hinweisen.
+
+71
+00:09:38,850 --> 00:09:59,162
+Open-Source-Boom: Gemma 4, DeepSeek V4, Kimi K2.6 und mehr  – Nathan Lambert von Interconnects beschreibt einen "ereignisreichen Monat" (sinngemäß) für Open-Weight-Modelle: Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5 und GLM-5.1 erschienen in rascher Folge.
+
+72
+00:09:59,162 --> 00:10:10,762
+Die Lücke zu proprietären Modellen schrumpft weiter – allerdings bringen Open-Weight-Modelle eigene Risiken mit sich, darunter fehlende Qualitätskontrolle bei Fine-Tuning und potenzielle Missbrauchsmöglichkeiten.
+
+73
+00:10:10,762 --> 00:10:24,937
+Anthropic + Gates Foundation: $200 Mio. für globale Gesundheit und Bildung  – Über vier Jahre fließen $200 Millionen in ein Programm, das 4,6 Milliarden Menschen in einkommensschwachen Ländern zugutekommen soll.
+
+74
+00:10:24,937 --> 00:10:30,675
+Claude-powered Tutoring-Tools für Sub-Sahara-Afrika und Indien sind konkret geplant.
+
+75
+00:10:30,675 --> 00:10:36,812
+Das Programm setzt einen Fokus auf den globalen Zugang zu AI-Tools in unterversorgten Regionen.
+
+76
+00:10:36,812 --> 00:10:43,750
+Tool der Woche: NVIDIA SANA-WM – Open-Source-Weltmodell für 1-Minuten-Video in 720p.
+
+77
+00:10:43,750 --> 00:10:51,462
+NVIDIA Labs hat mit SANA-WM ein Open-Source-Weltmodell veröffentlicht, das Video-Generierung auf ein neues Niveau hebt .
+
+78
+00:10:51,462 --> 00:10:53,137
+Was es kann:.
+
+79
+00:10:53,137 --> 00:10:58,487
+Generiert bis zu 60 Sekunden Video in 720p-Qualität.
+
+80
+00:10:58,487 --> 00:11:06,187
+2,6 Milliarden Parameter – groß genug für qualitativ hochwertige Outputs, klein genug für breiteren Einsatz
+
+81
+00:11:06,187 --> 00:11:11,325
+Direkte Konkurrenz zu proprietären Videogenerierungsmodellen wie Sora oder Veo .
+
+82
+00:11:11,325 --> 00:11:13,512
+Was es besonders macht:.
+
+83
+00:11:13,512 --> 00:11:23,862
+Das Modell arbeitet als echtes "Weltmodell" – es versteht nicht nur Pixel, sondern modelliert physikalische Zusammenhänge und zeitliche Konsistenz über die gesamte Videosequenz.
+
+84
+00:11:23,862 --> 00:11:29,900
+Das unterscheidet es von Frame-by-Frame-Ansätzen, die oft bei längeren Clips inkonsistent werden.
+
+85
+00:11:29,900 --> 00:11:32,100
+Warum es relevant ist:.
+
+86
+00:11:32,100 --> 00:11:38,450
+Open-Source-Videogeneration war bis vor Kurzem auf kurze, niedrig aufgelöste Clips beschränkt.
+
+87
+00:11:38,450 --> 00:11:41,387
+SANA-WM durchbricht diese Grenze.
+
+88
+00:11:41,387 --> 00:11:53,887
+Für Content-Creator, Entwickler und Forscher bedeutet das: Hochwertige KI-Videogeneration ohne proprietäre API-Abhängigkeit, ohne per-Minute-Abrechnung, und mit der Freiheit zur eigenen Weiterentwicklung.
+
+89
+00:11:53,887 --> 00:12:00,487
+NVIDIA zeigt damit, dass Open-Source im Video-Segment genauso schnell aufholt wie bei Sprachmodellen.
+
+90
+00:12:00,487 --> 00:12:07,237
+Fail der Woche: Cisco entlässt 4.000 Mitarbeiter bei Rekordquartal – "Um in AI zu investieren".
+
+91
+00:12:07,237 --> 00:12:13,900
+Cisco hat angekündigt, rund 4.000 Stellen abzubauen – etwa 5% der gesamten Belegschaft .
+
+92
+00:12:13,900 --> 00:12:20,062
+Zur gleichen Zeit meldete das Unternehmen einen Rekordquartalsumsatz und zweistelliges Wachstum.
+
+93
+00:12:20,062 --> 00:12:33,450
+CEO Chuck Robbins begründete den Stellenabbau mit der Notwendigkeit, Kapital für AI-Investitionen freizusetzen, und kündigte gleichzeitig an, in "employees' use of AI across the company" zu investieren .
+
+94
+00:12:33,450 --> 00:12:43,287
+Die Ironie könnte kaum schärfer sein: Mitarbeiter werden entlassen, damit AI ihre Arbeit übernimmt – und die verbleibenden Mitarbeiter sollen dann selbst AI nutzen.
+
+95
+00:12:43,287 --> 00:12:45,825
+Cisco ist damit nicht allein.
+
+96
+00:12:45,825 --> 00:12:54,100
+Cloudflare und General Motors haben in den vergangenen Wochen ähnliche Begründungen für Stellenkürzungen bei guten Finanzergebnissen geliefert.
+
+97
+00:12:54,100 --> 00:13:07,912
+Was sich hier abzeichnet, ist ein neues Corporate Playbook: "AI-Pivot" als Rechtfertigung für Kostensenkungen – unabhängig davon, ob tatsächlich AI-Produktivitätsgewinne die Jobs ersetzen oder einfach Margen optimiert werden sollen.
+
+98
+00:13:07,912 --> 00:13:16,250
+Die Nebennotiz: CEO Robbins' geplante Vergütung für 2025 beträgt $52 Millionen .
+
+99
+00:13:16,250 --> 00:13:20,387
+Zahl der Woche: $134 Milliarden.
+
+100
+00:13:20,387 --> 00:13:26,950
+Elon Musk fordert $134 Milliarden Schadenersatz von OpenAI und Sam Altman .
+
+101
+00:13:27,925 --> 00:13:33,887
+Die Schlussplädoyers im Prozess Musk vs. OpenAI/Altman wurden diese Woche abgeschlossen.
+
+102
+00:13:33,837 --> 00:13:41,037
+Richterin Yvonne Gonzalez Rogers trifft die abschließende Entscheidung – die Jury ist nur in beratender Funktion tätig.
+
+103
+00:13:41,037 --> 00:13:44,000
+Deliberation begann Anfang der Woche.
+
+104
+00:13:44,000 --> 00:13:45,925
+Warum relevant:.
+
+105
+00:13:45,925 --> 00:13:54,900
+$134 Milliarden entsprechen weniger als der Hälfte der aktuellen Valuation von OpenAI (~$300 Mrd.).
+
+106
+00:13:54,900 --> 00:14:02,712
+Musk fordert damit eine Schadenssumme in historischer Größenordnung – plus die Abberufung von Sam Altman und der anderen Gründer.
+
+107
+00:14:02,712 --> 00:14:12,862
+Unabhängig vom Ausgang des Urteils ist dieser Prozess die erste gerichtliche Überprüfung der Frage, ob Non-Profit-zu-For-Profit-Umwandlungen bei AI-Unternehmen legitim sind.
+
+108
+00:14:12,862 --> 00:14:18,112
+Das Urteil wird Präzedenzwirkung haben – für OpenAI und weit darüber hinaus.
+
+109
+00:14:18,112 --> 00:14:19,825
+Leseliste.
+
+110
+00:14:19,825 --> 00:14:31,650
+📖  Cerebras IPO: Der größte Tech-Börsengang 2026  – TechCrunch erklärt, warum Wafer-Scale-Chips der nächste Engpass im AI-Stack sein könnten  7 min
+
+111
+00:14:31,650 --> 00:14:47,300
+📖  OpenAI vs. Apple: Wenn KI-Partnerschaften scheitern  – Eine Analyse, warum die WWDC-Partnerschaft 2024 zur Klage 2026 wurde – und was das für andere Platform-KI-Deals bedeutet  6 min
+
+112
+00:14:47,300 --> 00:14:57,587
+📖  arXiv's neues Regelwerk gegen KI-Geisterschreiber  – Was die "One-Strike"-Regel konkret bedeutet und wie arXiv Verstöße nachweisen will  5 min
+
+113
+00:14:57,587 --> 00:15:01,900
+Next Week: Musk-Urteil und ChatGPT Finance Rollout.
+
+114
+00:15:01,900 --> 00:15:05,562
+Die nächste Woche wird von zwei Entwicklungen dominiert:.
+
+115
+00:15:05,562 --> 00:15:13,550
+Urteil im Musk vs. OpenAI-Prozess: Richterin Gonzalez Rogers könnte ihre Entscheidung bereits Anfang nächster Woche verkünden.
+
+116
+00:15:13,550 --> 00:15:23,650
+Ein Urteil zugunsten von Musk würde die gesamte Unternehmensstruktur von OpenAI in Frage stellen – mit unmittelbaren Auswirkungen auf die geplante IPO-Vorbereitung .
+
+117
+00:15:23,650 --> 00:15:30,587
+ChatGPT Finance Expansion: Die persönlichen Finanztools sind aktuell auf US-Pro-Abonnenten beschränkt .
+
+118
+00:15:30,587 --> 00:15:37,975
+OpenAI hat signalisiert, dass ein breiterer Rollout folgt – sowohl geografisch als auch auf andere Abo-Tiers.
+
+119
+00:15:37,975 --> 00:15:45,112
+Die ersten Nutzerberichte werden zeigen, ob der Ansatz funktioniert oder ob Datenschutzbedenken die Adoption bremsen.
+
+120
+00:15:45,112 --> 00:15:54,000
+Außerdem: Mit dem Open-Source-Boom der letzten Wochen stehen erste systematische Benchmarks zu Gemma 4 und DeepSeek V4 im direkten Vergleich an .
+
+121
+00:15:54,000 --> 00:15:55,475
+Footer.
+
+122
+00:15:55,475 --> 00:15:58,962
+AI Weekly wird von  BKS-Lab  produziert.
+
+123
+00:15:58,962 --> 00:16:03,787
+Newsletter abonnieren:  bks-lab.com/newsletter .
+
+124
+00:16:03,787 --> 00:16:07,512
+Kontakt:  ai@bks-lab.com .
+
+125
+00:16:07,512 --> 00:16:09,062
+Sources:.
+
+126
+00:16:09,062 --> 00:16:19,500
+1]  Cerebras raises $5.5B, kicking off 2026's IPO season with a bang  (2026-05-14)
+
+127
+00:16:19,500 --> 00:16:28,250
+2]  OpenAI launches ChatGPT for personal finance, will let you connect bank accounts  (2026-05-15)
+
+128
+00:16:28,250 --> 00:16:37,350
+3]  Research repository arXiv will ban authors for a year if they let AI do all the work  (2026-05-16)
+
+129
+00:16:37,350 --> 00:16:44,600
+4]  OpenAI is reportedly preparing legal action against Apple  (2026-05-14)
+
+130
+00:16:44,600 --> 00:16:50,812
+5]  Malta ChatGPT Plus Partnership  (2026-05-16)
+
+131
+00:16:50,812 --> 00:16:58,750
+6]  Latest Open Artifacts #21: Open Model Boom  (2026-05-16)
+
+132
+00:16:58,750 --> 00:17:05,050
+7]  Anthropic and Gates Foundation Partnership  (2026-05-14)
+
+133
+00:17:05,050 --> 00:17:11,837
+8]  NVIDIA SANA-WM: Open-Source World Model  (2026-05-16)
+
+134
+00:17:11,837 --> 00:17:21,575
+9]  Cisco cuts nearly 4,000 jobs to spend more on AI, reports record quarterly revenue  (2026-05-14)
+
+135
+00:17:21,575 --> 00:17:29,375
+10]  Closing arguments complete in Musk vs. OpenAI/Altman trial  (2026-05-14)
+
+136
+00:17:29,375 --> 00:17:37,850
+Generiert mit Claude Sonnet 4.6  Hero-Image: KI-generiert (Pollinations.ai)  Alle Fakten durch primäre Quellen belegt.
+
