@@ -106,11 +106,11 @@ const heroAlt = entry.data.heroImageAlt || entry.data.title;
             <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
             <line x1="12" x2="12" y1="19" y2="22"/>
           </svg>
-          <span>AI-cloned voice audio{entry.data.audioDuration ? ` (${Math.round(entry.data.audioDuration / 60 * 10) / 10} min.)` : ''}</span>
+          <span>Audio edition{entry.data.audioDuration ? ` (${Math.round(entry.data.audioDuration / 60 * 10) / 10} min.)` : ''}</span>
         </div>
         <audio controls preload="none" src={`${baseUrl}${entry.data.audioFile}`}></audio>
         <p class="audio-disclosure">
-          Voice: AI-cloned voice of Michael Boiman, generated with <code>{entry.data.audioModel || 'chatterbox-multilingual'}</code> (Resemble AI, MIT license) on local hardware. Contains PerthNet audio watermark. Generated on {entry.data.audioGeneratedAt ? new Date(entry.data.audioGeneratedAt).toLocaleString('en-GB') : '—'}.
+          Speech synthesis: <code>{entry.data.audioModel || 'edge-tts (en-US-AndrewNeural)'}</code>{entry.data.audioGeneratedAt ? `, generated on ${new Date(entry.data.audioGeneratedAt).toLocaleString('en-GB')}` : ''}.
         </p>
       </div>
     )}

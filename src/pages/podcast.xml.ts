@@ -1,5 +1,5 @@
 // Podcast RSS feed (iTunes/Apple Podcasts compatible) — serves ONLY briefings that have
-// a voice-audio file. The voice pipeline on macminim4 sets `audioFile` in the frontmatter.
+// a voice-audio file. The audio pipeline (edge-tts) on macminim4 sets `audioFile` in the frontmatter.
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
@@ -13,7 +13,7 @@ export async function GET(context: APIContext) {
 
   return rss({
     title: 'BKS KI News (Deutsch) — Audio-Ausgabe',
-    description: 'Wöchentliche KI-News-Briefings von BKS-Lab, vorgelesen mit der KI-geklonten Stimme von Michael Boiman (Chatterbox Multilingual, PerthNet-Watermark). Original-Text immer auf bks-lab.github.io/bks-news.',
+    description: 'Wöchentliche KI-News-Briefings von BKS-Lab als Audio-Ausgabe (edge-tts, neural voice). Original-Text immer auf bks-lab.github.io/bks-news.',
     site,
     xmlns: {
       itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
@@ -30,7 +30,7 @@ export async function GET(context: APIContext) {
         enclosure: {
           url: audioUrl,
           length: 0,
-          type: 'audio/mp4',
+          type: 'audio/mpeg',
         },
         customData: `<itunes:duration>${post.data.audioDuration ?? 0}</itunes:duration>
 <itunes:explicit>false</itunes:explicit>
@@ -45,6 +45,6 @@ export async function GET(context: APIContext) {
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
 <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-<generator>BKS-Lab voice-news on macminim4 (Chatterbox Multilingual)</generator>`,
+<generator>BKS-Lab bks-news (edge-tts)</generator>`,
   });
 }

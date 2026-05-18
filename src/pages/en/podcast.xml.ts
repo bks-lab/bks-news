@@ -12,7 +12,7 @@ export async function GET(context: APIContext) {
 
   return rss({
     title: 'BKS AI News (English) — Audio Edition',
-    description: 'Weekly AI news briefings from BKS-Lab, narrated with the AI-cloned voice of Michael Boiman (Chatterbox Multilingual, PerthNet watermark). Full text always at bks-lab.github.io/bks-news.',
+    description: 'Weekly AI news briefings from BKS-Lab as audio edition (edge-tts, neural voice). Full text always at bks-lab.github.io/bks-news.',
     site,
     xmlns: {
       itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
@@ -29,7 +29,7 @@ export async function GET(context: APIContext) {
         enclosure: {
           url: audioUrl,
           length: 0,
-          type: 'audio/mp4',
+          type: 'audio/mpeg',
         },
         customData: `<itunes:duration>${post.data.audioDuration ?? 0}</itunes:duration>
 <itunes:explicit>false</itunes:explicit>
@@ -44,6 +44,6 @@ export async function GET(context: APIContext) {
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
 <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-<generator>BKS-Lab voice-news on macminim4 (Chatterbox Multilingual)</generator>`,
+<generator>BKS-Lab bks-news (edge-tts)</generator>`,
   });
 }
