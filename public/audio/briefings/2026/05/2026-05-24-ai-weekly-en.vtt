@@ -1,0 +1,460 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:14,425
+Math milestone: OpenAI's reasoning model disproves the Erdős Unit Distance Problem after 80 years — verified by three independent top mathematicians, not a marketing claim.
+
+4
+00:00:14,425 --> 00:00:26,350
+Security shift: Anthropic's Project Glasswing finds 10,000+ critical vulnerabilities in open-source software — the new bottleneck isn't finding them, it's patching them.
+
+5
+00:00:26,350 --> 00:00:39,262
+Google all-in: Gemini 3.5 Flash outperforms Gemini 3.1 Pro at lower cost, 1 billion monthly AI Search users, and the search bar looks different for the first time in 25 years.
+
+6
+00:00:39,262 --> 00:00:50,187
+Music law rewritten: Spotify and Universal Music legalize AI covers and remixes as a premium add-on — with revenue share for artists and an explicit consent model.
+
+7
+00:00:50,187 --> 00:00:51,437
+Story of the Week.
+
+8
+00:00:51,437 --> 00:00:56,312
+OpenAI AI Disproves 80-Year-Old Mathematics — And This Time It's Real.
+
+9
+00:00:56,312 --> 00:01:05,850
+For nearly 80 years, mathematicians considered it settled that square lattice arrangements represented the optimal solution to the Erdős Unit Distance Problem.
+
+10
+00:01:05,850 --> 00:01:11,625
+On May 20, 2026, an OpenAI reasoning model proved that assumption wrong .
+
+11
+00:01:11,625 --> 00:01:21,062
+The Erdős Unit Distance Problem, posed in 1946, asks: how many point pairs in a set of n points can share exactly the same distance?
+
+12
+00:01:21,062 --> 00:01:31,975
+The model found new geometric constructions that systematically outperform classical lattice arrangements — through an unexpected connection between combinatorics and algebraic number theory .
+
+13
+00:01:31,975 --> 00:01:40,062
+OpenAI describes it as "the first time AI has autonomously solved a prominent open problem central to a field of mathematics" .
+
+14
+00:01:40,062 --> 00:01:46,037
+"AI is helping us to more fully explore the cathedral of mathematics we have built over the centuries."
+
+15
+00:01:46,037 --> 00:01:49,062
+— Thomas Bloom, Erdős Problems Website
+
+16
+00:01:49,062 --> 00:02:01,875
+What sets this announcement apart from previous ones: three independent top mathematicians externally verified the solution — Noga Alon, Melanie Wood, and Thomas Bloom (who also serves as the quote source) .
+
+17
+00:02:01,875 --> 00:02:16,912
+This is a deliberate contrast to the October 2025 debacle, when OpenAI exec Kevin Weil claimed GPT-5 had solved ten Erdős problems — a claim that proved baseless and damaged trust in AI research announcements .
+
+18
+00:02:16,912 --> 00:02:17,925
+Who should care?
+
+19
+00:02:17,925 --> 00:02:33,025
+Anyone using or planning to use AI as a research tool: the breakthrough shows that AI models can not only verify existing proofs but find genuinely new mathematical constructions — using approaches humans hadn't discovered in 80 years.
+
+20
+00:02:33,025 --> 00:02:39,125
+This has direct implications for cryptography, algorithm design, and theoretical computer science.
+
+21
+00:02:39,125 --> 00:02:45,125
+Critical context: OpenAI has shown transparency problems with previous research claims.
+
+22
+00:02:45,125 --> 00:02:51,050
+External peer review by at least three mathematicians is the decisive quality marker this time.
+
+23
+00:02:51,050 --> 00:03:01,362
+Open questions remain about how far the model's reasoning extends beyond the specific task and what this tells us about transfer capabilities to other mathematical domains.
+
+24
+00:03:01,362 --> 00:03:11,512
+Bottom line: An AI model has autonomously solved an open mathematical problem for the first time — verified, reproducible, 80 years after Erdős.
+
+25
+00:03:11,512 --> 00:03:12,850
+More Top Stories.
+
+26
+00:03:12,850 --> 00:03:21,387
+Anthropic Project Glasswing: 10,000+ Vulnerabilities — And That's Just the Beginning (Company Announcement).
+
+27
+00:03:21,387 --> 00:03:24,950
+The bottleneck in software security has fundamentally shifted.
+
+28
+00:03:24,950 --> 00:03:38,787
+Anthropic's Project Glasswing, deploying Claude Mythos Preview together with around 50 partner organizations, identified over 10,000 highly critical security vulnerabilities in its first weeks, according to Anthropic .
+
+29
+00:03:38,787 --> 00:03:47,462
+In over 1,000 open-source projects alone, the system found 6,202 critical vulnerabilities per Anthropic's report.
+
+30
+00:03:47,462 --> 00:03:57,375
+90.6% of AI-found vulnerabilities were externally confirmed as valid, with 62.4% rated as high or critical severity .
+
+31
+00:03:57,375 --> 00:04:15,987
+For context: classical static analysis tools (SAST) typically validate only 10–30% of their findings as genuine vulnerabilities — the reported rate of 90.6% would be a significant improvement, though this comparison figure does not come from the Anthropic report itself.
+
+32
+00:04:16,912 --> 00:04:33,175
+Numbers from individual partners are impressive: Cloudflare discovered 2,000 bugs (400 of them critical or high severity) per the report; Mozilla found 271 vulnerabilities in Firefox 150 — ten times more than in previous testing .
+
+33
+00:04:33,175 --> 00:04:41,675
+The UK AI Security Institute confirmed Mythos Preview as the first model ever to fully solve both of their cyber simulations .
+
+34
+00:04:41,675 --> 00:04:44,675
+Anthropic articulates the new problem clearly:.
+
+35
+00:04:44,675 --> 00:04:51,112
+"Progress on software security is now limited by how quickly we can verify, disclose, and patch."
+
+36
+00:04:51,112 --> 00:05:01,125
+Of 10,000+ vulnerabilities found, only 75 patches are available so far, with an average patching time of around two weeks .
+
+37
+00:05:01,125 --> 00:05:13,150
+Bottom line: AI has democratized and scaled vulnerability discovery — the next critical challenge is whether human patch capacity can keep up before attackers exploit published findings.
+
+38
+00:05:13,150 --> 00:05:20,200
+Google I/O 2026: Everything Becomes AI — And the Search Bar Looks New After 25 Years.
+
+39
+00:05:20,200 --> 00:05:29,712
+Google delivered a week of announcements at I/O 2026 that together paint a clear picture: the entire product portfolio is being rebuilt AI-first .
+
+40
+00:05:29,712 --> 00:05:40,987
+Gemini 3.5 Flash outperforms Gemini 3.1 Pro on coding and agent benchmarks (76.2% on Terminal-Bench 2.1) — at lower cost .
+
+41
+00:05:40,987 --> 00:05:52,137
+Note: all cited benchmark figures compare Gemini models against each other; comparisons against Anthropic's Claude or OpenAI's models are absent from Google's official communications.
+
+42
+00:05:52,137 --> 00:06:07,725
+More relevant for developers is Google Antigravity: a new agent-first development platform with a desktop app, CLI, and SDK for multi-agent orchestration, directly competing with Anthropic's Claude SDK and OpenAI's Agents platform .
+
+43
+00:06:07,725 --> 00:06:14,512
+AI Mode in Google Search has surpassed one billion monthly users, with queries doubling every quarter .
+
+44
+00:06:14,512 --> 00:06:23,087
+The new search bar accepts image, video, and file uploads for the first time — the first fundamental redesign in over 25 years  .
+
+45
+00:06:23,087 --> 00:06:31,200
+All generated content receives imperceptible SynthID watermarks, which have been verified 50 million times globally to date .
+
+46
+00:06:31,200 --> 00:06:38,950
+Android XR glasses in partnership with Gentle Monster, Warby Parker, and Samsung are slated for fall 2026 .
+
+47
+00:06:38,950 --> 00:06:49,925
+Bottom line: Google demonstrates that the battle for the AI platform won't be decided by model benchmarks alone — but by integration into existing products with a billion users.
+
+48
+00:06:49,925 --> 00:06:56,162
+Spotify + Universal Music: AI Covers Now Legal — With Consent and Revenue Share.
+
+49
+00:06:56,162 --> 00:07:11,700
+The first major label-streaming licensing deal for AI-generated music has arrived: Spotify and Universal Music Group have agreed to allow fans to officially create AI covers and remixes of UMG artists — as a paid add-on for Spotify Premium .
+
+50
+00:07:11,700 --> 00:07:19,600
+Participating artists receive a revenue share; participation is based on their explicit consent ("Artist-First" approach) .
+
+51
+00:07:19,600 --> 00:07:24,987
+"What we're building is grounded in consent, credit, and compensation for the artists."
+
+52
+00:07:24,987 --> 00:07:26,637
+— Spotify Co-CEO
+
+53
+00:07:26,637 --> 00:07:35,812
+The contrast with Suno and Udio is intentional: instead of litigation over existing catalogs, this model relies on upfront agreements .
+
+54
+00:07:35,812 --> 00:07:42,575
+UMG is the world's largest music label — whatever standard is set here will influence the entire industry.
+
+55
+00:07:42,575 --> 00:07:46,650
+The add-on's price and specific launch date have not yet been announced .
+
+56
+00:07:46,650 --> 00:07:56,637
+Critical voices come from indie artists and professional associations like the UK Musicians' Union: the consent model only applies to artists contracted with UMG.
+
+57
+00:07:56,637 --> 00:08:06,100
+Independent musicians and smaller labels are left out — facing a choice of signing similar deals or fighting against a new de-facto industry practice.
+
+58
+00:08:06,100 --> 00:08:19,112
+Bottom line: The music industry has found a workable path to monetize AI creativity without bypassing artists — a model that puts pressure on other labels but leaves important questions open for indie artists.
+
+59
+00:08:19,112 --> 00:08:20,062
+Quick Hits.
+
+60
+00:08:20,062 --> 00:08:21,137
+Briefly noted:.
+
+61
+00:08:21,137 --> 00:08:32,875
+KPMG + Claude (Company Announcement): One of the Big Four is rolling out Claude to 276,000 employees — not a pilot, enterprise-wide integration into core business .
+
+62
+00:08:32,875 --> 00:08:51,225
+Hark $700M: Brett Adcock (Figure AI, Archer Aviation) raises $700 million Series A at a $6 billion valuation for a still-secret "Universal AI Interface" with 70 employees and its own B200 GPU data center .
+
+63
+00:08:52,150 --> 00:09:05,400
+Google Search Redesign: The iconic Google search bar gets its first fundamental redesign in over 25 years — now with text, voice, and image support as an AI-powered conversational interface .
+
+64
+00:09:05,400 --> 00:09:06,525
+Tool of the Week.
+
+65
+00:09:06,525 --> 00:09:13,037
+NVIDIA Nemotron-Labs Diffusion — Text generation in parallel blocks instead of token by token.
+
+66
+00:09:13,037 --> 00:09:26,725
+While all other LLMs output text sequentially, NVIDIA's new Diffusion Language Models (DLM) generate 32 tokens simultaneously — achieving a 6.4× speedup over standard autoregression .
+
+67
+00:09:26,725 --> 00:09:34,650
+On NVIDIA B200, that's ~865 tokens/second (4× faster than the autoregressive baseline) .
+
+68
+00:09:34,650 --> 00:09:44,812
+What's special: a single model supports three modes without code changes — autoregressive (classic), diffusion (blocks), and self-speculation (hybrid) .
+
+69
+00:09:44,812 --> 00:09:47,200
+NVIDIA describes the key advantage:.
+
+70
+00:09:47,200 --> 00:09:58,300
+"Not only can these models better leverage the computational model of modern GPUs, they can also revise generated tokens, making them more suitable for revising existing text."
+
+71
+00:09:58,300 --> 00:10:07,087
+The models are available as Open Models (3B, 8B, 14B text; 8B vision-language) via HuggingFace .
+
+72
+00:10:07,087 --> 00:10:20,675
+Particularly relevant for teams optimizing inference costs or working on text-revision workflows — the ability to revise already-generated tokens is a genuine differentiator versus classical autoregressive models.
+
+73
+00:10:20,675 --> 00:10:23,612
+Nemotron-Labs Diffusion on HuggingFace
+
+74
+00:10:23,612 --> 00:10:24,762
+Fail of the Week.
+
+75
+00:10:24,762 --> 00:10:29,887
+"$50M ARR — $42M of it actually active"
+
+76
+00:10:29,887 --> 00:10:46,150
+A systemic problem runs through the AI startup scene: startups and their investors present "Contracted ARR" (CARR) as regular ARR — counting contracts not yet activated, free pilot phases, and multi-year deals as ongoing revenue .
+
+77
+00:10:46,150 --> 00:10:59,225
+A concrete example from the report: one startup reported $50M ARR, but only $42M was active; another counted year-long free pilot phases as ARR — and the board knew it .
+
+78
+00:10:59,225 --> 00:11:02,787
+"The biggest funds support this and mislead journalists."
+
+79
+00:11:02,787 --> 00:11:05,425
+— Scott Stevenson, Spellbook CEO
+
+80
+00:11:05,425 --> 00:11:09,312
+"Some investors look the other way when their companies inflate numbers."
+
+81
+00:11:09,312 --> 00:11:11,425
+— Jack Newton, Clio CEO
+
+82
+00:11:11,425 --> 00:11:14,325
+Root cause: Structural incentive conflict.
+
+83
+00:11:14,325 --> 00:11:20,362
+VCs benefit from inflated paper valuations for easier fundraising and talent acquisition.
+
+84
+00:11:20,362 --> 00:11:26,562
+Anyone who breaks the convention looks worse than competitors who play along — a classic race to the bottom .
+
+85
+00:11:26,562 --> 00:11:35,587
+What we learn: When evaluating AI startups, always ask for the distinction between CARR (Contracted ARR) and active, paying ARR.
+
+86
+00:11:35,587 --> 00:11:38,812
+Anyone who won't answer that question has something to hide.
+
+87
+00:11:38,812 --> 00:11:39,950
+Number of the Week.
+
+88
+00:11:39,950 --> 00:11:41,987
+276,000
+
+89
+00:11:41,987 --> 00:11:45,637
+That's how many KPMG employees now have access to Claude .
+
+90
+00:11:45,637 --> 00:11:53,175
+This is not a pilot program in one department — it's enterprise-wide deployment at one of the Big Four global auditing firms.
+
+91
+00:11:53,175 --> 00:11:58,137
+For comparison: OpenAI's entire workforce is around 3,000 people.
+
+92
+00:11:58,137 --> 00:12:04,462
+KPMG now has nearly 100× as many Claude users as OpenAI has employees.
+
+93
+00:12:04,462 --> 00:12:10,587
+Enterprise AI has left the "strategic experiment" phase and become operational infrastructure.
+
+94
+00:12:10,587 --> 00:12:16,450
+Bonus number: $6 billion — Hark's valuation with just 70 employees .
+
+95
+00:12:16,450 --> 00:12:18,962
+That's ~$86 million per person.
+
+96
+00:12:18,962 --> 00:12:23,725
+The AI hype multiplier at early-stage investments remains very much real.
+
+97
+00:12:23,725 --> 00:12:24,825
+Reading List.
+
+98
+00:12:24,825 --> 00:12:25,825
+For the weekend:.
+
+99
+00:12:25,825 --> 00:12:44,512
+1.  OpenAI: Model disproves discrete geometry conjecture  — OpenAI's original blog post with technical details on the method: how the model connected combinatorics and algebraic number theory, exactly what the new construction achieves, and why the problem remained unsolved for 80 years.
+
+100
+00:12:44,512 --> 00:12:48,925
+For anyone who wants to understand what actually happened here beyond the headline claim.
+
+101
+00:12:48,925 --> 00:12:50,025
+(12 min)
+
+102
+00:12:50,025 --> 00:13:01,425
+2.  Anthropic Project Glasswing: Initial Update  — Anthropic's detailed report on methodology, partner findings, and the new bottleneck of "verification over detection."
+
+103
+00:13:01,425 --> 00:13:05,475
+With concrete numbers from real deployments at Cloudflare and Mozilla.
+
+104
+00:13:05,475 --> 00:13:11,100
+Required reading for anyone working in software security or dealing with open-source projects.
+
+105
+00:13:11,100 --> 00:13:12,400
+(15 min)
+
+106
+00:13:13,325 --> 00:13:29,162
+3.  How VCs and founders use inflated ARR to kingmake AI startups  — One of the most candid articles on structural misaligned incentives in the AI startup ecosystem, with named quotes from CEOs indicting the system while operating within it.
+
+107
+00:13:29,162 --> 00:13:31,825
+Helps you read funding announcements more critically.
+
+108
+00:13:31,825 --> 00:13:32,862
+(10 min)
+
+109
+00:13:32,862 --> 00:13:33,837
+Next Week.
+
+110
+00:13:33,837 --> 00:13:34,725
+What's coming:.
+
+111
+00:13:34,725 --> 00:13:44,575
+AI math follow-up: The Erdős community will submit OpenAI's result for peer review publication — first reactions from the broader mathematics community expected.
+
+112
+00:13:44,575 --> 00:13:58,800
+Google Antigravity Early Access: Following the I/O announcement, Google is expected to open first developer access to the new multi-agent platform — direct competition with Anthropic and OpenAI SDKs begins.
+
+113
+00:13:58,800 --> 00:14:11,225
+Hark stealth reveal: Brett Adcock's "Universal AI Interface" has raised $700M without disclosing a single product detail — first information from the company is expected.
+
+114
+00:14:11,225 --> 00:14:14,600
+This newsletter was researched and written AI-assisted.
+
+115
+00:14:14,600 --> 00:14:17,475
+Images generated with  Pollinations.ai .
+
