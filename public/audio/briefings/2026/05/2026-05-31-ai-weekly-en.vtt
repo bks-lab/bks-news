@@ -1,0 +1,428 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:15,300
+Anthropic: $65B funding round catapults valuation to $965B – just below a trillion, likely the last private round before the IPO.
+
+4
+00:00:15,300 --> 00:00:27,212
+GitHub Copilot: Token-based billing starting June 1 causes costs to explode from $29 to up to $750/month – developers respond with open outrage.
+
+5
+00:00:27,212 --> 00:00:37,675
+Claude Opus 4.8: New model recognizes its own mistakes 4× better and becomes the first model to break the 10% mark on the Legal Agent Benchmark.
+
+6
+00:00:37,675 --> 00:00:49,112
+AI Security: Microsoft Copilot vulnerability allowed file exfiltration via prompt injection – and on TikTok Shop, scammers are using AI-generated fake influencers.
+
+7
+00:00:49,112 --> 00:00:50,362
+Story of the Week.
+
+8
+00:00:50,362 --> 00:00:57,087
+$965 Billion: Anthropic Makes AI History – and Prepares for Its IPO
+
+9
+00:00:57,087 --> 00:01:08,925
+Just under a trillion dollars in valuation – and still a private company: Anthropic closed a Series H funding round of $65 billion on May 28, 2026 .
+
+10
+00:01:08,925 --> 00:01:22,287
+This is the largest funding round in the history of the AI sector – a signal that reframes the "AI bubble" debate, even as skeptics rightly point out that the company is still posting losses despite these figures.
+
+11
+00:01:22,287 --> 00:01:35,287
+The post-money valuation of $965 billion  is backed by a consortium of Altimeter Capital, Dragoneer, Greenoaks, Sequoia, Capital Group, Coatue, and D1 Capital Partners.
+
+12
+00:01:35,287 --> 00:01:46,612
+Strategic investors were far from randomly chosen: Samsung, SK Hynix, and Micron – the world's three largest chip players – are securing a seat at the table early.
+
+13
+00:01:46,612 --> 00:01:51,950
+Amazon, which had already committed $5 billion in April, rounds out the picture .
+
+14
+00:01:51,950 --> 00:01:58,687
+"Claude's latest advancements have driven large-scale adoption among the world's most demanding organizations."
+
+15
+00:01:58,687 --> 00:02:01,112
+— Brad Gerstner, Altimeter Capital
+
+16
+00:02:01,112 --> 00:02:14,787
+The underlying numbers are remarkable: Anthropic already generates an annualized run-rate revenue of over $47 billion  – with projected growth of 130% through its first profitable quarter.
+
+17
+00:02:14,787 --> 00:02:21,437
+For comparison: OpenAI was valued at $852 billion in March 2026 .
+
+18
+00:02:21,437 --> 00:02:27,000
+Anthropic has not only closed the gap – it is now $113 billion ahead.
+
+19
+00:02:27,000 --> 00:02:33,175
+For developers and enterprises, this means: Anthropic is no longer a likable underdog.
+
+20
+00:02:33,175 --> 00:02:43,650
+With this capital base, the company can build its own data centers, recruit top talent from anywhere, and iterate on products that challenge OpenAI and Google as equals.
+
+21
+00:02:43,650 --> 00:02:49,250
+Claude in 2026 is a serious infrastructure decision, not a lifestyle choice.
+
+22
+00:02:49,250 --> 00:02:53,512
+Open Questions: When does the IPO come, and at what valuation?
+
+23
+00:02:53,512 --> 00:03:00,000
+How will the market respond to a company with a $47B run rate that is still posting losses?
+
+24
+00:03:00,000 --> 00:03:05,362
+And: does a $1 trillion valuation force different priorities than safety research?
+
+25
+00:03:05,362 --> 00:03:19,950
+Bottom Line: Valued at $965B, with its first profitable quarter in sight and the largest AI chip consortium behind it – Anthropic is 2026's heavyweight that nobody can ignore.
+
+26
+00:03:19,950 --> 00:03:21,287
+More Top Stories.
+
+27
+00:03:21,287 --> 00:03:25,087
+GitHub Copilot: From Flat-Rate to Usage-Based Billing.
+
+28
+00:03:25,087 --> 00:03:34,625
+Starting June 1, 2026, Microsoft is billing its AI coding assistant GitHub Copilot by tokens – and developers are in shock .
+
+29
+00:03:34,625 --> 00:03:41,750
+What was previously available for a monthly flat rate of ~$29 can now cost up to $750/month.
+
+30
+00:03:41,750 --> 00:03:49,475
+In documented extreme cases, costs explode from ~$50 to ~$3,000/month .
+
+31
+00:03:49,475 --> 00:03:52,137
+The developer community is outraged:.
+
+32
+00:03:52,137 --> 00:03:53,137
+"What a joke…
+
+33
+00:03:53,137 --> 00:03:56,350
+This new usage model is just stupidly expensive."
+
+34
+00:03:56,350 --> 00:03:57,537
+— User on Reddit
+
+35
+00:03:57,537 --> 00:04:07,912
+The real problem runs deeper: Microsoft had for years actively encouraged intensive Copilot usage – training, integrations, evangelist-driven adoption.
+
+36
+00:04:07,912 --> 00:04:14,975
+The switch to token-based billing raises the question of whether the old flat-rate model simply subsidized heavy usage.
+
+37
+00:04:14,975 --> 00:04:17,762
+Microsoft offered no comment by press time .
+
+38
+00:04:17,762 --> 00:04:28,575
+Token-based billing is already market standard with other AI providers – the difference lies in the magnitude of the price shock for existing power users, not in the model itself.
+
+39
+00:04:28,575 --> 00:04:29,400
+So What?
+
+40
+00:04:29,400 --> 00:04:41,725
+Anyone using Copilot heavily must now set token budgets, actively monitor usage, and evaluate alternatives like Cursor or Windsurf in parallel – before the first monthly bill arrives.
+
+41
+00:04:41,725 --> 00:04:47,175
+Microsoft's "Lethal Trifecta": Files Exfiltrated via Prompt Injection.
+
+42
+00:04:48,100 --> 00:04:56,850
+A critical security vulnerability in Microsoft's Copilot "Cowork" agent allowed attackers to steal files without any user approval .
+
+43
+00:04:56,850 --> 00:05:05,737
+The attack vector was alarmingly simple: manipulated messages with external images automatically triggered network requests to attacker servers.
+
+44
+00:05:05,737 --> 00:05:11,912
+Through pre-authenticated download links, OneDrive files and email content were fully exfiltrable .
+
+45
+00:05:11,912 --> 00:05:28,225
+Security researcher Simon Willison, who publicly documented the vulnerability, called this attack a "lethal trifecta": data access, an exfiltration path, and autonomous action without user consent – all three components combined in a single system .
+
+46
+00:05:28,225 --> 00:05:33,987
+"The greatest challenge in designing agent systems is preventing attackers from exfiltrating data."
+
+47
+00:05:33,987 --> 00:05:35,200
+— Simon Willison
+
+48
+00:05:35,200 --> 00:05:39,287
+Microsoft responded after disclosure and closed the vulnerability.
+
+49
+00:05:39,287 --> 00:05:47,937
+But the incident is a wake-up call: the more autonomy an AI agent is given, the more critical security design becomes from the very start.
+
+50
+00:05:47,937 --> 00:05:48,762
+So What?
+
+51
+00:05:48,762 --> 00:05:57,550
+Agentic AI requires security reviews just like classical software development – and must be designed according to the principle of least privilege.
+
+52
+00:05:57,550 --> 00:06:03,037
+Anyone deploying agents with file or email access should read Willison's analysis.
+
+53
+00:06:03,037 --> 00:06:09,975
+Claude Opus 4.8: More Honest, Sharper, and First to Cross 10% on the Legal Benchmark.
+
+54
+00:06:09,975 --> 00:06:17,212
+Simultaneous with the $65B round, Claude Opus 4.8 was released on May 28 .
+
+55
+00:06:17,212 --> 00:06:19,600
+The focus of the update: honesty.
+
+56
+00:06:19,600 --> 00:06:28,912
+The model not only recognizes its own mistakes better – it communicates them proactively, which makes the difference in complex, exploratory tasks.
+
+57
+00:06:28,912 --> 00:06:42,525
+The technical benchmarks are clear: Opus 4.8 is approximately 4× less likely to overlook flaws in written code  – and has become the first model ever to break the 10% threshold on the Legal Agent Benchmark .
+
+58
+00:06:42,525 --> 00:06:49,350
+Pricing remains constant: $5/$25 per million tokens (input/output).
+
+59
+00:06:49,350 --> 00:06:53,137
+"Claude Opus 4.8 has noticeably better judgment.
+
+60
+00:06:53,137 --> 00:06:59,750
+It asks the right questions, catches its own mistakes, and builds trust during complex explorations."
+
+61
+00:06:59,750 --> 00:07:01,925
+— Tom Pritchard, Staff Engineer
+
+62
+00:07:01,925 --> 00:07:15,475
+New features round out the release: Dynamic Workflows in Claude Code (parallelizing hundreds of subagents), Effort Control in claude.ai, and system entries in the Messages API for mid-task adjustments .
+
+63
+00:07:15,475 --> 00:07:16,300
+So What?
+
+64
+00:07:16,300 --> 00:07:25,437
+Dynamic Workflows alone can fundamentally accelerate agentic pipelines – this update is worth it for any team using Claude Code in production.
+
+65
+00:07:25,437 --> 00:07:26,387
+Quick Hits.
+
+66
+00:07:26,387 --> 00:07:27,462
+Briefly noted:.
+
+67
+00:07:27,462 --> 00:07:43,212
+DeepMind CEO: Demis Hassabis warned at Stanford that AI is developing "approximately 10× faster than the Industrial Revolution" and represents a "species-level transition" – he called for international regulation within 5–10 years .
+
+68
+00:07:43,212 --> 00:08:01,262
+Pope & AI: Pope Leo XIV published the first papal encyclical on AI: "Magnifica humanitas" – Anthropic co-founder Chris Olah responded publicly that external moral voices are indispensable for AI labs, as commercial interests often dominate internally .
+
+69
+00:08:01,262 --> 00:08:14,225
+Groq: The AI chip startup is seeking $650M in fresh capital from existing investors – months after its $20B deal with Nvidia, under interim CEO Adam Winter.
+
+70
+00:08:14,225 --> 00:08:21,487
+The absence of an external lead investor can be read as a confidence signal from existing backers or as market hesitation .
+
+71
+00:08:21,487 --> 00:08:22,612
+Tool of the Week.
+
+72
+00:08:22,612 --> 00:08:27,825
+Mistral Physics AI – Physical simulations in seconds instead of weeks.
+
+73
+00:08:27,825 --> 00:08:33,425
+Mistral has acquired the startup Emmi AI and is launching its own Physics AI division .
+
+74
+00:08:33,425 --> 00:08:41,375
+The technology computes physical simulations – classically a task of hours to weeks – in seconds on a single GPU .
+
+75
+00:08:41,375 --> 00:08:50,975
+The system is not a generic LLM but is specialized for geometric and parametric generalization for aerospace, automotive, energy, and electronics.
+
+76
+00:08:50,975 --> 00:08:55,837
+"Engineers iterate on a handful of designs when they should be exploring thousands."
+
+77
+00:08:55,837 --> 00:08:57,012
+— Mistral AI
+
+78
+00:08:57,012 --> 00:09:05,162
+For engineering teams, this opens up real-time digital twins and design exploration at a scale that was simply not possible before.
+
+79
+00:09:05,162 --> 00:09:10,800
+Particularly compelling for anyone who has experienced physical simulation as a bottleneck.
+
+80
+00:09:10,800 --> 00:09:12,462
+To Mistral Physics AI
+
+81
+00:09:12,462 --> 00:09:13,612
+Fail of the Week.
+
+82
+00:09:13,612 --> 00:09:18,250
+"AI-Generated Fake Influencers Selling Shein Products on TikTok Shop"
+
+83
+00:09:19,175 --> 00:09:27,687
+On TikTok Shop, scammers are using AI-generated videos of non-existent influencers to sell low-quality Shein dropshipping products .
+
+84
+00:09:27,687 --> 00:09:35,325
+The Verge documents the pattern as a new deepfake abuse model with racist and economic harm dimensions simultaneously.
+
+85
+00:09:35,325 --> 00:09:41,487
+Platforms are under pressure to better detect and label synthetic identities in commercial contexts .
+
+86
+00:09:41,487 --> 00:09:51,162
+Root Cause: Generative AI makes it trivial to produce convincing persona videos – without budget, without a real person, without legal accountability.
+
+87
+00:09:51,162 --> 00:09:58,412
+TikTok's content moderation is structurally unprepared for the combination of synthetic identity and commercial intent.
+
+88
+00:09:58,412 --> 00:10:10,050
+What We Learn: AI disclosure rules for commercial content are long overdue – platforms must actively detect synthetic identities in shopping flows, not just react after user reports.
+
+89
+00:10:10,050 --> 00:10:15,775
+Anyone using AI-generated content for marketing should treat disclosure as an ethical minimum.
+
+90
+00:10:15,775 --> 00:10:16,912
+Number of the Week.
+
+91
+00:10:16,912 --> 00:10:18,925
+$47 Billion
+
+92
+00:10:18,925 --> 00:10:28,012
+Anthropic's annualized run-rate revenue in May 2026 – with projected growth of 130% through its first profitable quarter .
+
+93
+00:10:28,012 --> 00:10:36,887
+For comparison: Spotify generated around $5.3B in revenue during its entire first public year (2018).
+
+94
+00:10:36,887 --> 00:10:44,400
+Anthropic is running at nearly nine times that figure – as a still-private company, founded only in 2021.
+
+95
+00:10:44,400 --> 00:10:52,437
+Anyone who asked in 2024 whether the AI market is sustainable has their answer written in $47 billion.
+
+96
+00:10:52,437 --> 00:10:53,537
+Reading List.
+
+97
+00:10:53,537 --> 00:10:54,537
+For the weekend:.
+
+98
+00:10:54,537 --> 00:11:11,300
+1.  Copilot Cowork exfiltrates files via prompt injection  – Simon Willison's technical analysis explains precisely why autonomous agents with data access represent a systemic security problem – required reading for anyone building agents (10 min)
+
+99
+00:11:11,300 --> 00:11:24,687
+2.  Claude Opus 4.8 Announcement  – Anthropic's own documentation of the new features including Dynamic Workflows explains how parallel subagents are redefining agentic pipelines (8 min)
+
+100
+00:11:24,687 --> 00:11:38,312
+3.  DeepMind CEO warns about AI – Stanford Daily  – Demis Hassabis' Stanford talk in full: a rare look at what the man who built AlphaFold really thinks about AI risks and regulation (12 min)
+
+101
+00:11:38,312 --> 00:11:39,287
+Next Week.
+
+102
+00:11:39,287 --> 00:11:40,175
+What's coming:.
+
+103
+00:11:40,175 --> 00:11:53,062
+June 1, 2026: GitHub Copilot's token-based billing goes live – first real cost data from the community is expected as early as the weekend; watch r/github and Hacker News.
+
+104
+00:11:53,062 --> 00:12:11,850
+Anthropic IPO preparation: Following the $65B round, initial reports on IPO timeline, underwriter mandates, and S-1 filing are expected – Anthropic has not announced a public date, but signals from the investor community point to Q4 2026.
+
+105
+00:12:11,850 --> 00:12:22,975
+EU AI Act: Further enforcement milestones for high-risk AI systems are approaching – whether the first companies publish compliance reports will show how seriously the Act is being taken.
+
+106
+00:12:22,975 --> 00:12:27,100
+This newsletter was researched and written with AI-assisted support.
+
+107
+00:12:27,100 --> 00:12:29,975
+Images generated with  Pollinations.ai .
+
