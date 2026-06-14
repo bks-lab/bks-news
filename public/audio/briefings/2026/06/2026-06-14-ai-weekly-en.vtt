@@ -1,0 +1,448 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:14,100
+AI Emergency Shutdown: The US government halts Anthropic's Fable 5 & Mythos 5 via directive – three days after launch, worldwide, effective immediately.
+
+4
+00:00:14,100 --> 00:00:26,400
+Siri Becomes Gemini: Apple replaces Siri's AI engine with Google Gemini; iOS 27 runs from iPhone 11 onward – EU and China remain locked out due to regulations.
+
+5
+00:00:26,400 --> 00:00:40,237
+IPO + Attorney General: OpenAI files an S-1 with the SEC, projecting an $85B loss for 2028 – while simultaneously receiving a subpoena from US state attorneys general.
+
+6
+00:00:40,237 --> 00:00:54,737
+Prometheus Awakens: Jeff Bezos launches AI startup with $12B in capital and a $41B valuation, 150 employees – goal: develop jet engines and pharmaceuticals via AI.
+
+7
+00:00:54,737 --> 00:00:55,987
+Story of the Week.
+
+8
+00:00:55,987 --> 00:01:02,387
+First Documented Case: US Government Forces Emergency Shutdown of a Commercial AI Model.
+
+9
+00:01:02,387 --> 00:01:03,375
+Three days.
+
+10
+00:01:03,375 --> 00:01:06,375
+That's all Anthropic's most powerful model got.
+
+11
+00:01:06,375 --> 00:01:18,787
+On June 9, 2026, Anthropic launched Fable 5 and Mythos 5 as the most capable models in company history – setting new records in coding, reasoning, and multimodality .
+
+12
+00:01:18,787 --> 00:01:29,575
+Then came June 12, 5:21 PM Eastern Time: a directive from the US Department of Commerce forced Anthropic to immediately and globally block both models .
+
+13
+00:01:29,575 --> 00:01:36,537
+The government's official justification: a potential jailbreak bypass classified as a national security risk .
+
+14
+00:01:36,537 --> 00:01:52,050
+From the agency's perspective, the risk calculus was clear: an uncontrolled jailbreak in an already widely deployed frontier model could be exploited by state actors – and since selective deactivation was technically impossible, only one option remained.
+
+15
+00:01:52,050 --> 00:01:57,725
+Whether this assessment proportionally justifies the measures taken remains publicly unanswered.
+
+16
+00:01:57,725 --> 00:02:08,250
+The technical problem is structural: Anthropic cannot selectively disable the models for specific user groups – a complete global shutdown was the only available option .
+
+17
+00:02:08,250 --> 00:02:14,262
+Not only US users are affected, but all international customers and foreign employees as well.
+
+18
+00:02:14,262 --> 00:02:17,725
+Mythos-class customer data is retained for 30 days .
+
+19
+00:02:17,725 --> 00:02:21,662
+Anthropic complied with the directive while clearly objecting to it:.
+
+20
+00:02:21,662 --> 00:02:30,600
+"We disagree that finding a narrow potential jailbreak should be grounds for recalling a commercial model distributed to hundreds of millions of people."
+
+21
+00:02:30,600 --> 00:02:33,987
+— Anthropic, official statement on the government directive
+
+22
+00:02:33,987 --> 00:02:43,750
+Internally, Amazon CEO Andy Jassy reportedly raised safety concerns even before the regulatory directive, as TechCrunch reported on June 13 .
+
+23
+00:02:43,750 --> 00:02:51,387
+Amazon is one of Anthropic's strategic cloud partners via AWS – making this dynamic particularly significant.
+
+24
+00:02:51,387 --> 00:03:02,350
+Why This Affects Everyone: This is the first documented case of a US government agency stopping an already commercially deployed frontier model via an emergency directive.
+
+25
+00:03:02,350 --> 00:03:18,750
+This sets precedents in three dimensions: for AI export control as a regulatory instrument, for the architectural question of whether selective deactivation will become mandatory in the future, and for the liability of model providers vis-à-vis government authorities.
+
+26
+00:03:18,750 --> 00:03:25,937
+Anthropic had reportedly pursued a "multilayered defense strategy"  – the fact that this wasn't enough is the real signal.
+
+27
+00:03:25,937 --> 00:03:29,462
+Open Questions: How long will the block remain in effect?
+
+28
+00:03:29,462 --> 00:03:33,150
+Can Anthropic patch the jailbreak and apply for reinstatement?
+
+29
+00:03:33,150 --> 00:03:38,162
+And: will other governments – above all the EU – use this lever as well?
+
+30
+00:03:38,162 --> 00:03:49,775
+Bottom Line: If even Anthropic – the company that considers safety its core mission – cannot prevent a government emergency shutdown, AI export control has become a reality.
+
+31
+00:03:49,775 --> 00:03:51,112
+More Top Stories.
+
+32
+00:03:51,112 --> 00:03:57,387
+Apple Turns Siri into a Gemini App – iOS 27 for Everyone from iPhone 11.
+
+33
+00:03:57,387 --> 00:04:05,675
+Apple rebuilt Siri from the ground up at WWDC 2026 – with Google Gemini as the AI engine under the hood .
+
+34
+00:04:05,675 --> 00:04:18,462
+The partnership with a direct rival in the AI race is an unusual strategic move: Apple gains Gemini's reasoning capabilities, while Google gets access to over one billion active iOS devices.
+
+35
+00:04:18,462 --> 00:04:26,337
+At the same time, iOS 27, iPadOS 27, and macOS 27 "Golden Gate" were announced .
+
+36
+00:04:27,262 --> 00:04:38,887
+iOS 27 is the most inclusive iOS version ever: compatible from iPhone 11, with 70% faster photo display and 80% faster AirDrop transfers .
+
+37
+00:04:38,887 --> 00:04:47,462
+Tim Cook said farewell at WWDC – his successor as CEO will be John Ternus, planned for September 2026 .
+
+38
+00:04:47,462 --> 00:04:56,700
+However, the Gemini integration remains blocked in the EU and China for now – regulation is stalling the rollout in two of the most important markets.
+
+39
+00:04:56,700 --> 00:05:03,037
+Craig Federighi put Apple's stance succinctly: "We believe privacy in AI is non-negotiable."
+
+40
+00:05:03,037 --> 00:05:08,912
+– a statement that raises interesting questions in the context of a Google model at the core of the platform.
+
+41
+00:05:08,912 --> 00:05:15,912
+Apple has not yet communicated details on how data processing works between iOS and Google's Gemini infrastructure.
+
+42
+00:05:15,912 --> 00:05:16,737
+So What?
+
+43
+00:05:16,737 --> 00:05:22,050
+For developers, Gemini-in-Siri means Apple Intelligence finally becomes usable.
+
+44
+00:05:22,050 --> 00:05:25,387
+For Google: the world's largest distribution channel.
+
+45
+00:05:25,387 --> 00:05:32,050
+For everyone else: which manufacturer will be next to rely on a third-party LLM instead of training their own?
+
+46
+00:05:32,050 --> 00:05:40,112
+OpenAI: $852B Valuation, $85B Loss, One Attorney General Subpoena.
+
+47
+00:05:40,112 --> 00:05:57,175
+OpenAI has confidentially filed an S-1 prospectus with the US Securities and Exchange Commission – one week after rival Anthropic, with Goldman Sachs, Morgan Stanley, and JPMorgan as lead bankers, and a planned IPO in September 2026 .
+
+48
+00:05:57,175 --> 00:06:22,762
+The leaked numbers are remarkably contradictory: approximately 900 million weekly active users, a valuation of $852B (March 2026) and $880B on the secondary market (April 2026)  – alongside a projected annual loss of $85B for 2028 with $122B in compute costs alone .
+
+49
+00:06:22,762 --> 00:06:29,987
+At the same time, US state attorneys general led by New York served OpenAI with a subpoena just before the IPO .
+
+50
+00:06:29,987 --> 00:06:39,912
+Requested: documents on advertising practices, user engagement, health data, and minors' protection – supplementing an ongoing lawsuit from Florida .
+
+51
+00:06:39,912 --> 00:06:40,737
+So What?
+
+52
+00:06:40,737 --> 00:06:55,575
+If the world's largest AI company at ~$900B valuation and 900 million users will still lose $85B in 2028, the key IPO question isn't "growth?" but "when does the model flip to profitability?"
+
+53
+00:06:55,575 --> 00:07:00,287
+– and the answer is buried in an S-1 the public isn't allowed to see yet.
+
+54
+00:07:00,287 --> 00:07:06,512
+Jeff Bezos' Prometheus: $12B for the AI Engineer of the Physical World.
+
+55
+00:07:06,512 --> 00:07:21,500
+Out of stealth mode and straight into the headlines: Prometheus, founded by Jeff Bezos and Vik Bajaj (ex-Verily/Google X), has gone public with a new $12B funding round and a $41B valuation .
+
+56
+00:07:21,500 --> 00:07:32,150
+The goal is an "Artificial General Engineer" – AI software that fully automates the design and manufacturing of physical systems like jet engines and pharmaceutical compounds.
+
+57
+00:07:32,150 --> 00:07:35,575
+Offices in San Francisco, London, and Zurich .
+
+58
+00:07:35,575 --> 00:07:41,775
+The ratio is staggering: just 150 employees at a $41B valuation .
+
+59
+00:07:41,775 --> 00:07:46,200
+Investors include JPMorgan, BlackRock, and Goldman Sachs.
+
+60
+00:07:46,200 --> 00:07:56,212
+Bezos himself predicted at the announcement "labor shortages rather than job losses": "Significant productivity in the economy is going to raise the standard of living."
+
+61
+00:07:56,212 --> 00:08:07,812
+Critics point out that productivity-enhancing technologies have historically first eliminated existing jobs before new fields emerge – a transition dynamic Bezos' statement glosses over.
+
+62
+00:08:07,812 --> 00:08:17,775
+The startup builds on an earlier stealth round of $6.2B (late 2025) – total capital raised amounts to approximately $18B .
+
+63
+00:08:17,775 --> 00:08:18,600
+So What?
+
+64
+00:08:18,600 --> 00:08:33,725
+When biotech and aerospace veterans from Verily and Google X join forces with Bezos capital to bet on physical AI, this is no longer a research project – it's the next industrial bet, with $41B in chips on the table.
+
+65
+00:08:33,725 --> 00:08:34,675
+Quick Hits.
+
+66
+00:08:34,675 --> 00:08:35,662
+In brief:.
+
+67
+00:08:35,662 --> 00:08:50,950
+Mistral: Europe's leading AI startup plans a €3B round at a €20B valuation – nearly doubling from the last Series C; sovereign wealth funds and global VC syndicates as investors (Bloomberg-confirmed) .
+
+68
+00:08:50,950 --> 00:09:06,237
+Meta/Manus: Meta is unwinding its $2B deal with Chinese AI agent startup Manus after Beijing imposed conditions Meta found unacceptable – a textbook case of geopolitical risks in US-China AI investments .
+
+69
+00:09:07,162 --> 00:09:25,250
+AI Music Flood: 44% of all songs uploaded daily to Deezer are AI-generated – around 75,000 tracks per day, of which approximately 85% of streams are classified as fraudulent (fake artists, royalty manipulation) and demonetized according to Deezer .
+
+70
+00:09:25,250 --> 00:09:26,375
+Tool of the Week.
+
+71
+00:09:26,375 --> 00:09:33,250
+Deezer AI Music Detector – Automatically identifies AI-generated songs in your streaming playlists.
+
+72
+00:09:33,250 --> 00:09:44,550
+Deezer has launched a free online tool that detects AI-generated music across platforms in playlists – compatible with Spotify, Apple Music, SoundCloud, and YouTube Music .
+
+73
+00:09:44,550 --> 00:09:53,737
+The tool supports 27 languages and is designed to simplify licensing and labeling processes for labels, platforms, and rights holders.
+
+74
+00:09:53,737 --> 00:10:01,950
+Deezer itself already removes AI tracks from recommendations and editorial playlists and demonetizes fraudulent streams .
+
+75
+00:10:01,950 --> 00:10:10,675
+Particularly useful for music producers, playlist curators, and anyone who wants to know how much of their favorite playlist still comes from human hands.
+
+76
+00:10:10,675 --> 00:10:17,387
+What sets Deezer apart from alternatives: it's the only publicly available, cross-platform tool of its kind.
+
+77
+00:10:17,387 --> 00:10:25,712
+CEO Alexis Lanternier: "No other company has followed our lead yet, so we decided to give everyone control over their playlists." .
+
+78
+00:10:25,712 --> 00:10:28,537
+Deezer AI Detector – TechCrunch Article
+
+79
+00:10:28,537 --> 00:10:29,687
+Fail of the Week.
+
+80
+00:10:29,687 --> 00:10:34,850
+"We expect our employees to use AI responsibly – including human review."
+
+81
+00:10:34,850 --> 00:10:45,562
+KPMG had to withdraw its report "Redefining excellence in the age of agentic AI" this week after AI detection tool GPTZero identified inaccuracies .
+
+82
+00:10:45,562 --> 00:10:58,125
+Several organizations named in the report – UBS, NHS (UK), Swiss Federal Railways, and Transport for London – confirmed in writing that statements attributed to them were false or misleading .
+
+83
+00:10:58,125 --> 00:11:05,275
+The report apparently contained AI-generated statistics and citations that were adopted without human verification.
+
+84
+00:11:05,275 --> 00:11:12,887
+Not an isolated incident: EY also withdrew a report in May 2026 due to AI-hallucinated footnotes .
+
+85
+00:11:12,887 --> 00:11:21,537
+What makes this fail particularly notable: KPMG sells AI governance consulting to its clients – and failed to follow its own guidelines.
+
+86
+00:11:21,537 --> 00:11:34,750
+Root Cause: LLM output was directly incorporated into the final report as research findings, without anyone contacting the cited organizations or verifying the stated figures against primary sources.
+
+87
+00:11:34,750 --> 00:11:39,000
+Classic copy-paste from model output without factual verification.
+
+88
+00:11:39,000 --> 00:11:52,475
+What We Learn: Every figure, every quote, every company name in an AI-generated document requires manual verification against primary sources – especially when the document bears the name of a Big Four firm.
+
+89
+00:11:52,475 --> 00:11:53,612
+Number of the Week.
+
+90
+00:11:53,612 --> 00:11:55,550
+$85,000,000,000
+
+91
+00:11:55,550 --> 00:12:06,262
+OpenAI's projected annual loss for 2028 – despite approximately 900 million weekly users and a valuation of $852B .
+
+92
+00:12:06,262 --> 00:12:14,037
+In the same year, the company plans to spend ~$122B on compute alone – more than the GDP of Slovakia .
+
+93
+00:12:14,037 --> 00:12:22,112
+These figures are contained in the confidentially filed S-1 prospectus for the planned IPO in September 2026.
+
+94
+00:12:22,112 --> 00:12:27,100
+For comparison: Amazon needed nine years to reach its first profitability.
+
+95
+00:12:27,100 --> 00:12:40,075
+For OpenAI, the critical question hinges on whether compute costs fall faster than user growth drives losses – and whether investors are willing to accept that for a $852B valuation.
+
+96
+00:12:40,075 --> 00:12:41,175
+Reading List.
+
+97
+00:12:41,175 --> 00:12:42,175
+For the weekend:.
+
+98
+00:12:42,175 --> 00:12:52,100
+1.  Anthropic: Fable 5 & Mythos 5 – Launch Announcement  – What Fable 5 and Mythos 5 can do technically – before the government pulled the plug.
+
+99
+00:12:52,100 --> 00:12:57,900
+Essential reading to understand what was blocked here and why the jailbreak allegation is so controversial.
+
+100
+00:12:57,900 --> 00:12:58,937
+(8 min)
+
+101
+00:12:58,937 --> 00:13:14,787
+2.  TechCrunch: OpenAI S-1 – What the Leaked Numbers Mean  – The $85B loss projection for 2028 in context: why this raises a fundamental profitability question for AI investors, not a short-term growth story.
+
+102
+00:13:14,787 --> 00:13:15,825
+(10 min)
+
+103
+00:13:15,825 --> 00:13:33,037
+3.  TechCrunch: Prometheus – Bezos' Bet on the Physical AI Engineer  – Why a startup with 150 employees at a $41B valuation wants to redefine engineering – and what that means concretely for manufacturing, pharma, and aerospace.
+
+104
+00:13:33,037 --> 00:13:34,187
+(7 min)
+
+105
+00:13:34,187 --> 00:13:35,162
+Next Week.
+
+106
+00:13:35,162 --> 00:13:36,050
+What's coming:.
+
+107
+00:13:36,975 --> 00:13:47,387
+Anthropic/Fable 5: The critical question: can Anthropic patch the jailbreak within the next 7–10 days and apply to the Department of Commerce for reinstatement?
+
+108
+00:13:47,387 --> 00:13:51,825
+A formal justification from the agency is expected mid-next week.
+
+109
+00:13:51,825 --> 00:14:03,687
+OpenAI IPO: Following the attorney general subpoena, statements from lead bankers (Goldman Sachs, Morgan Stanley) are expected – and whether the September timeline still holds.
+
+110
+00:14:03,687 --> 00:14:17,012
+Apple WWDC Developer Sessions: Technical sessions on Gemini-in-Siri and the Apple Intelligence APIs continue; first SDK documentation for external developers is expected by end of week.
+
+111
+00:14:17,012 --> 00:14:20,387
+This newsletter was researched and written AI-assisted.
+
+112
+00:14:20,387 --> 00:14:23,262
+Images generated with  Pollinations.ai .
+

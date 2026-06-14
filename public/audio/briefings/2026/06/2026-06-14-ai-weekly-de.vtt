@@ -1,0 +1,444 @@
+1
+00:00:00,100 --> 00:00:02,287
+TL;DR.
+
+2
+00:00:02,237 --> 00:00:04,912
+Diese Woche in 30 Sekunden:.
+
+3
+00:00:04,912 --> 00:00:14,487
+KI-Notabschaltung: Die US-Regierung stoppt Anthropics Fable 5 & Mythos 5 per Direktive – drei Tage nach Launch, weltweit, sofort.
+
+4
+00:00:14,487 --> 00:00:25,550
+Siri wird Gemini: Apple ersetzt Siris KI-Engine durch Google Gemini; iOS 27 läuft ab iPhone 11 – EU und China bleiben regulierungsbedingt ausgesperrt.
+
+5
+00:00:25,550 --> 00:00:40,412
+IPO + Staatsanwalt: OpenAI reicht S-1 bei der SEC ein und erwartet 2028 einen Verlust von $85 Mrd. – zeitgleich landet eine Vorladung von US-Generalstaatsanwälten im Briefkasten.
+
+6
+00:00:40,412 --> 00:00:54,537
+Prometheus erwacht: Jeff Bezos launcht KI-Startup mit $12 Mrd. Kapital und $41 Mrd. Bewertung, 150 Mitarbeitende – Ziel: Strahltriebwerke und Medikamente per KI entwickeln.
+
+7
+00:00:54,537 --> 00:00:56,512
+Die Story der Woche.
+
+8
+00:00:56,512 --> 00:01:02,887
+Erster dokumentierter Fall: US-Regierung erzwingt Notabschaltung eines kommerziellen KI-Modells.
+
+9
+00:01:02,887 --> 00:01:04,612
+Drei Tage.
+
+10
+00:01:04,612 --> 00:01:08,012
+Mehr Zeit hatte Anthropics stärkstes Modell nicht.
+
+11
+00:01:08,012 --> 00:01:20,212
+Am 9. Juni 2026 launchte Anthropic Fable 5 und Mythos 5 als die leistungsfähigsten Modelle der Unternehmensgeschichte – neue Rekorde in Coding, Reasoning und Multimodalität .
+
+12
+00:01:20,212 --> 00:01:31,212
+Dann kam der 12. Juni, 17:21 Uhr Eastern Time: Eine Direktive des US-Handelsministeriums zwang Anthropic zur sofortigen globalen Sperrung beider Modelle .
+
+13
+00:01:31,212 --> 00:01:39,237
+Die offizielle Begründung der Regierung: Ein potenzieller Jailbreak-Bypass, den sie als nationales Sicherheitsrisiko einstuft .
+
+14
+00:01:39,237 --> 00:01:55,562
+Aus Sicht der Behörde ist das Risikokalkül klar: Ein unkontrollierter Jailbreak in einem bereits flächendeckend ausgerollten Frontier-Modell könnte von staatlichen Akteuren ausgenutzt werden – und da eine selektive Deaktivierung technisch nicht möglich war, galt für die Behörde nur eine Option.
+
+15
+00:01:55,562 --> 00:02:02,050
+Ob diese Einschätzung die verhängten Maßnahmen proportional rechtfertigt, bleibt öffentlich unbeantwortet.
+
+16
+00:02:02,050 --> 00:02:13,375
+Das technische Problem ist strukturell: Anthropic kann die Modelle nicht selektiv für bestimmte Nutzergruppen deaktivieren – eine vollständige globale Abschaltung war die einzige verfügbare Option .
+
+17
+00:02:13,375 --> 00:02:20,237
+Betroffen sind nicht nur US-Nutzer, sondern sämtliche internationalen Kunden und ausländische Mitarbeitende.
+
+18
+00:02:20,237 --> 00:02:24,637
+Kundendaten der Mythos-Klasse werden für 30 Tage aufbewahrt .
+
+19
+00:02:24,637 --> 00:02:29,687
+Anthropic befolgte die Direktive, widersprach ihr aber unmissverständlich:.
+
+20
+00:02:29,687 --> 00:02:39,487
+Wir stimmen nicht zu, dass das Finden eines engen potenziellen Jailbreaks Grund für die Rückrufung eines an Hunderte Millionen Menschen verteilten kommerziellen Modells sein sollte.
+
+21
+00:02:39,487 --> 00:02:43,650
+Anthropic, offizielles Statement zur Regierungsdirektive
+
+22
+00:02:43,650 --> 00:02:53,225
+Intern soll Amazon-CEO Andy Jassy bereits vor der behördlichen Direktive Sicherheitsbedenken geäußert haben, wie TechCrunch am 13. Juni berichtete .
+
+23
+00:02:53,225 --> 00:03:00,412
+Amazon ist über AWS einer der strategischen Cloud-Partner Anthropics – was diese Dynamik besonders brisant macht.
+
+24
+00:03:00,412 --> 00:03:11,050
+Warum das jeden betrifft: Dies ist der erste dokumentierte Fall, in dem eine US-Regierungsbehörde ein bereits kommerziell ausgerolltes Frontier-Modell durch eine Notdirektive stoppt.
+
+25
+00:03:11,050 --> 00:03:25,800
+Das schafft Präzedenzfälle in drei Dimensionen: für KI-Exportkontrolle als regulatorisches Instrument, für die Architekturfrage ob selektive Deaktivierbarkeit künftig Pflicht wird, und für die Haftung von Modellanbietern gegenüber staatlichen Stellen.
+
+26
+00:03:25,800 --> 00:03:34,887
+Anthropic hatte laut eigenem Statement eine „Strategie der mehrschichtigen Verteidigung" verfolgt  – dass das nicht ausreichte, ist das eigentliche Signal.
+
+27
+00:03:34,887 --> 00:03:38,762
+Offene Fragen: Wie lange bleibt die Sperrung aktiv?
+
+28
+00:03:38,762 --> 00:03:43,887
+Kann Anthropic den Jailbreak patchen und einen Wiederanlauf beantragen?
+
+29
+00:03:43,887 --> 00:03:49,850
+Und: Werden andere Regierungen – allen voran die EU – diesen Hebel ebenfalls nutzen?
+
+30
+00:03:49,850 --> 00:04:02,012
+Bottom Line: Wenn selbst Anthropic – das Unternehmen, das Sicherheit als Kernmission versteht – eine staatliche Notabschaltung nicht verhindern kann, ist KI-Exportkontrolle in der Realität angekommen.
+
+31
+00:04:02,012 --> 00:04:04,187
+Weitere Top-Stories.
+
+32
+00:04:04,187 --> 00:04:09,575
+Apple macht Siri zur Gemini-App – iOS 27 für alle ab iPhone 11.
+
+33
+00:04:10,550 --> 00:04:19,225
+Apple hat Siri auf dem WWDC 2026 von Grund auf neu gebaut – mit Google Gemini als KI-Engine unter der Haube .
+
+34
+00:04:19,175 --> 00:04:31,575
+Die Partnerschaft mit dem direkten Rivalen im AI-Rennen ist ein ungewöhnlicher Strategieschachzug: Apple gewinnt Geminis Reasoning-Fähigkeiten, Google erhält Zugang zu über einer Milliarde aktiver iOS-Geräte.
+
+35
+00:04:31,575 --> 00:04:39,187
+Gleichzeitig kamen iOS 27, iPadOS 27 und macOS 27 „Golden Gate" .
+
+36
+00:04:39,187 --> 00:04:50,937
+iOS 27 ist die inklusivste iOS-Version aller Zeiten: kompatibel ab iPhone 11, mit 70% schnellerer Fotoanzeige und 80% schnelleren AirDrop-Transfers .
+
+37
+00:04:50,937 --> 00:04:59,875
+Tim Cook verabschiedete sich beim WWDC – sein Nachfolger als CEO wird John Ternus, geplant für September 2026 .
+
+38
+00:04:59,875 --> 00:05:08,300
+Die Gemini-Integration bleibt jedoch in EU und China vorerst gesperrt – Regulierung bremst den Rollout in zwei der wichtigsten Märkte aus.
+
+39
+00:05:08,300 --> 00:05:15,200
+Craig Federighi formulierte Apples Haltung knapp: „Wir glauben, dass Datenschutz bei KI nicht verhandelbar ist.
+
+40
+00:05:15,200 --> 00:05:21,850
+eine Aussage, die im Kontext eines Google-Modells im Kern der Plattform interessante Fragen aufwirft.
+
+41
+00:05:21,850 --> 00:05:30,212
+Apple hat bislang keine Details dazu kommuniziert, wie die Datenverarbeitung zwischen iOS und Googles Gemini-Infrastruktur abläuft.
+
+42
+00:05:30,212 --> 00:05:31,662
+So What?
+
+43
+00:05:31,662 --> 00:05:36,987
+Für Entwickler bedeutet Gemini-in-Siri: Apple Intelligence wird endlich brauchbar.
+
+44
+00:05:36,987 --> 00:05:40,975
+Für Google: der größte Distributionskanal der Welt.
+
+45
+00:05:40,975 --> 00:05:48,200
+Für alle anderen: Welcher Hersteller setzt als nächstes auf einen Drittanbieter-LLM, statt selbst zu trainieren?
+
+46
+00:05:48,200 --> 00:05:56,850
+OpenAI: $852 Mrd. Bewertung, $85 Mrd. Verlust, eine Staatsanwalts-Vorladung.
+
+47
+00:05:56,850 --> 00:06:13,162
+OpenAI hat vertraulich einen S-1-Prospekt bei der US-Börsenaufsicht SEC eingereicht – eine Woche nach Konkurrent Anthropic, mit Goldman Sachs, Morgan Stanley und JPMorgan als Lead-Bankern, geplantem Börsengang im September 2026 .
+
+48
+00:06:13,162 --> 00:06:41,937
+Die durchgesickerten Zahlen sind bemerkenswert widersprüchlich: rund 900 Millionen wöchentlich aktive Nutzer, eine Bewertung von $852 Mrd. (März 2026) und $880 Mrd. auf dem Sekundärmarkt (April 2026)  – und gleichzeitig ein projizierter Jahresverlust von $85 Mrd. für 2028 bei $122 Mrd. allein für Rechenkosten .
+
+49
+00:06:41,937 --> 00:06:50,262
+Parallel dazu belegten US-Generalstaatsanwälte unter Federführung von New York OpenAI mit einer Vorladung kurz vor dem IPO .
+
+50
+00:06:50,262 --> 00:06:59,837
+Angefordert: Unterlagen zu Werbepraktiken, Nutzer-Engagement, Gesundheitsdaten und Minderjährigenschutz – ergänzend zu einer laufenden Klage aus Florida .
+
+51
+00:06:59,837 --> 00:07:01,287
+So What?
+
+52
+00:07:01,287 --> 00:07:23,125
+Wenn das größte KI-Unternehmen der Welt bei ~$900 Mrd. Bewertung und 900 Millionen Nutzern 2028 noch $85 Mrd. verlieren wird, ist die entscheidende IPO-Frage nicht „Wachstum?" sondern „Wann kippt das Modell in die Profitabilität?" – und die Antwort steckt im S-1, den die Öffentlichkeit noch nicht sehen darf.
+
+53
+00:07:23,125 --> 00:07:29,250
+Jeff Bezos' Prometheus: $12 Mrd. für den KI-Ingenieur der physischen Welt.
+
+54
+00:07:29,250 --> 00:07:46,050
+Aus dem Stealth-Modus direkt in die Schlagzeilen: Prometheus, gegründet von Jeff Bezos und Vik Bajaj (ex-Verily/Google X), hat sich mit einer neuen $12-Mrd.-Finanzierungsrunde und einer Bewertung von $41 Mrd. öffentlich präsentiert .
+
+55
+00:07:46,050 --> 00:07:56,512
+Ziel ist ein „Artificial General Engineer" – KI-Software, die Design und Fertigung physischer Systeme wie Strahltriebwerke und Pharmawirkstoffe vollständig automatisiert.
+
+56
+00:07:56,512 --> 00:08:00,600
+Standorte: San Francisco, London, Zürich .
+
+57
+00:08:00,600 --> 00:08:07,712
+Die Verhältniszahl verblüfft: Nur 150 Mitarbeitende bei $41 Mrd. Bewertung .
+
+58
+00:08:07,712 --> 00:08:12,112
+Investoren sind JPMorgan, BlackRock und Goldman Sachs.
+
+59
+00:08:12,112 --> 00:08:21,912
+Bezos selbst prognostizierte bei der Ankündigung „Arbeitskräftemangel statt Jobverluste": „Significant productivity in the economy is going to raise the standard of living.
+
+60
+00:08:21,912 --> 00:08:34,362
+Kritiker verweisen darauf, dass produktivitätssteigernde Technologien historisch zunächst bestehende Jobs eliminieren, bevor neue Berufsfelder entstehen – eine Übergangsdynamik, die Bezos' Aussage auslässt.
+
+61
+00:08:34,362 --> 00:08:46,212
+Das Startup baut auf einer früheren Stealth-Runde von $6,2 Mrd. (Ende 2025) auf – das Gesamtkapital beläuft sich damit auf rund $18 Mrd. .
+
+62
+00:08:47,187 --> 00:08:48,637
+So What?
+
+63
+00:08:48,587 --> 00:09:03,662
+Wenn Biotech- und Aerospace-Veteranen aus Verily und Google X gemeinsam mit Bezos-Kapital auf physische KI setzen, ist das kein Forschungsprojekt mehr – das ist die nächste industrielle Wette, mit $41 Mrd. Chips auf dem Tisch.
+
+64
+00:09:03,662 --> 00:09:05,200
+Quick Hits.
+
+65
+00:09:05,200 --> 00:09:06,937
+Kurz notiert:.
+
+66
+00:09:06,937 --> 00:09:22,000
+Mistral: Europas führendes KI-Startup plant eine €3-Mrd.-Runde bei €20 Mrd. Bewertung – nahezu eine Verdopplung zur letzten Serie C; Staatsfonds und globale VC-Syndikate als Investoren (Bloomberg-bestätigt) .
+
+67
+00:09:22,000 --> 00:09:37,575
+Meta/Manus: Meta rückabwickelt seinen $2-Mrd.-Deal mit dem chinesischen KI-Agenten-Startup Manus, nachdem Peking für Meta inakzeptable Konditionen stellte – ein Lehrbuchfall für geopolitische Risiken in US-China-KI-Investments .
+
+68
+00:09:37,575 --> 00:09:56,662
+KI-Musik-Flut: 44% aller täglich auf Deezer hochgeladenen Songs sind KI-generiert – rund 75.000 Tracks pro Tag, von denen laut Deezer-Angaben rund 85% der Streams als betrügerisch (Fake-Artists, Royalty-Manipulation) eingestuft und entmonetarisiert werden .
+
+69
+00:09:56,662 --> 00:09:58,462
+Tool der Woche.
+
+70
+00:09:58,462 --> 00:10:04,862
+Deezer KI-Musik-Detektor – Erkennt automatisch KI-generierte Songs in deinen Streaming-Playlists.
+
+71
+00:10:04,862 --> 00:10:16,675
+Deezer hat ein kostenloses Online-Tool gelauncht, das KI-generierte Musik plattformübergreifend in Playlists erkennt – kompatibel mit Spotify, Apple Music, SoundCloud und YouTube Music .
+
+72
+00:10:16,675 --> 00:10:25,700
+Das Tool unterstützt 27 Sprachen und soll Lizenz- und Kennzeichnungsprozesse für Labels, Plattformen und Rechteinhaber vereinfachen.
+
+73
+00:10:25,700 --> 00:10:33,612
+Deezer selbst entfernt KI-Tracks bereits aus Empfehlungen und Redaktions-Playlists und entmonetarisiert betrügerische Streams .
+
+74
+00:10:33,612 --> 00:10:42,787
+Besonders nützlich für Musikproduzenten, Playlist-Kuratoren und alle, die wissen wollen, wie viel ihrer Lieblingsplaylist noch aus menschlichen Händen stammt.
+
+75
+00:10:42,787 --> 00:10:50,762
+Was Deezer von Alternativen unterscheidet: Es ist das einzige öffentlich zugängliche, plattformübergreifende Tool dieser Art.
+
+76
+00:10:50,762 --> 00:10:58,775
+CEO Alexis Lanternier: „No other company has followed our lead yet, so we decided to give everyone control over their playlists.
+
+77
+00:10:58,775 --> 00:11:02,175
+Deezer KI-Detektor – TechCrunch-Artikel
+
+78
+00:11:02,175 --> 00:11:04,000
+Fail der Woche.
+
+79
+00:11:04,000 --> 00:11:10,875
+Wir erwarten, dass unsere Mitarbeitenden KI verantwortungsvoll nutzen – inklusive menschlicher Überprüfung.
+
+80
+00:11:10,875 --> 00:11:22,725
+KPMG musste diese Woche seinen Bericht „Redefining excellence in the age of agentic AI" zurückziehen, nachdem das KI-Detektionstool GPTZero Ungenauigkeiten identifiziert hatte .
+
+81
+00:11:22,725 --> 00:11:35,937
+Mehrere im Bericht genannte Organisationen – UBS, NHS (UK), Schweizerische Bundesbahnen und Transport for London – bestätigten schriftlich, dass die ihnen zugeschriebenen Aussagen falsch oder irreführend waren .
+
+82
+00:11:35,937 --> 00:11:43,900
+Der Bericht enthielt offenbar KI-generierte Statistiken und Quellenangaben, die ohne menschliche Verifikation übernommen wurden.
+
+83
+00:11:43,900 --> 00:11:52,050
+Kein Einzelfall: EY zog im Mai 2026 ebenfalls einen Bericht wegen KI-halluzinierter Fußnoten zurück .
+
+84
+00:11:52,050 --> 00:12:00,500
+Das Besondere an diesem Fail: KPMG verkauft seinen Kunden KI-Governance-Beratung – und hat die eigenen Guidelines nicht eingehalten.
+
+85
+00:12:00,500 --> 00:12:12,887
+Root Cause: LLM-Output wurde direkt als Rechercheergebnis in den finalen Bericht übernommen, ohne dass jemand die zitierten Organisationen kontaktiert oder die genannten Zahlen gegen Primärquellen geprüft hat.
+
+86
+00:12:12,887 --> 00:12:17,750
+Klassisches Copy-Paste aus dem Modell-Output ohne faktische Verifikation.
+
+87
+00:12:17,750 --> 00:12:31,425
+Was wir lernen: Jede Zahl, jedes Zitat, jeder Unternehmensname in einem KI-generierten Dokument braucht manuelle Verifikation gegen Primärquellen – besonders wenn das Dokument mit dem Namen einer Big-Four-Firma erscheint.
+
+88
+00:12:31,425 --> 00:12:33,250
+Zahl der Woche.
+
+89
+00:12:33,250 --> 00:12:36,012
+$85.000.000.000
+
+90
+00:12:36,012 --> 00:12:47,025
+OpenAIs projizierter Jahresverlust für 2028 – trotz rund 900 Millionen wöchentlicher Nutzer und einer Bewertung von $852 Mrd. .
+
+91
+00:12:47,025 --> 00:12:57,025
+Im selben Jahr plant das Unternehmen ~$122 Mrd. allein für Rechenleistung auszugeben – mehr als das Bruttoinlandsprodukt der Slowakei .
+
+92
+00:12:57,025 --> 00:13:05,637
+Diese Zahlen stecken im vertraulich eingereichten S-1-Prospekt für den geplanten IPO im September 2026.
+
+93
+00:13:06,612 --> 00:13:11,850
+Zum Vergleich: Amazon benötigte neun Jahre bis zur ersten Profitabilität.
+
+94
+00:13:11,800 --> 00:13:25,262
+Bei OpenAI hängt die entscheidende Frage daran, ob die Rechenkosten schneller sinken, als das Nutzerwachstum die Verluste treibt – und ob Investoren das für $852 Mrd. Bewertung zu akzeptieren bereit sind.
+
+95
+00:13:25,262 --> 00:13:26,975
+Leseliste.
+
+96
+00:13:26,975 --> 00:13:28,925
+Für's Wochenende:.
+
+97
+00:13:28,925 --> 00:13:38,112
+1.  Anthropic: Fable 5 & Mythos 5 – Launch Announcement  – Was Fable 5 und Mythos 5 technisch können – bevor die Regierung den Stecker zog.
+
+98
+00:13:38,112 --> 00:13:44,925
+Pflichtlektüre um zu verstehen, was hier gesperrt wurde und warum der Jailbreak-Vorwurf so kontrovers ist.
+
+99
+00:13:44,925 --> 00:13:46,725
+8 min)
+
+100
+00:13:46,725 --> 00:14:04,525
+2.  TechCrunch: OpenAI S-1 – Was die durchgesickerten Zahlen bedeuten  – Die $85-Mrd.-Verlustprognose für 2028 im Kontext: Warum das für KI-Investoren eine grundlegende Rentabilitätsfrage aufwirft, keine kurzfristige Wachstumsstory.
+
+101
+00:14:04,525 --> 00:14:06,312
+10 min)
+
+102
+00:14:06,312 --> 00:14:24,287
+3.  TechCrunch: Prometheus – Bezos' Wette auf den physischen KI-Ingenieur  – Warum ein Startup mit 150 Mitarbeitenden bei $41 Mrd. Bewertung die Ingenieurwissenschaften neu definieren will – und was das für Fertigung, Pharmaindustrie und Luft- und Raumfahrt konkret bedeutet.
+
+103
+00:14:24,287 --> 00:14:26,112
+7 min)
+
+104
+00:14:26,112 --> 00:14:27,637
+Next Week.
+
+105
+00:14:27,637 --> 00:14:29,187
+Was kommt:.
+
+106
+00:14:29,187 --> 00:14:40,412
+Anthropic/Fable 5: Entscheidende Frage: Kann Anthropic den Jailbreak innerhalb der nächsten 7–10 Tage patchen und einen Wiederanlauf beim Handelsministerium beantragen?
+
+107
+00:14:40,412 --> 00:14:44,975
+Eine formelle Begründung der Behörde wird Mitte nächster Woche erwartet.
+
+108
+00:14:44,975 --> 00:14:55,700
+OpenAI IPO: Nach der Staatsanwalts-Vorladung werden Stellungnahmen der Lead-Banker (Goldman Sachs, Morgan Stanley) erwartet – und ob der September-Zeitplan noch hält.
+
+109
+00:14:55,700 --> 00:15:08,712
+Apple WWDC Developer Sessions: Die technischen Sessions zu Gemini-in-Siri und den Apple Intelligence APIs laufen weiter; erste SDK-Dokumentation für externe Entwickler wird Ende der Woche erwartet.
+
+110
+00:15:08,712 --> 00:15:13,287
+Dieser Newsletter wurde mit AI-Unterstützung recherchiert und geschrieben.
+
+111
+00:15:13,287 --> 00:15:16,600
+Bilder generiert mit  Pollinations.ai .
+
