@@ -1,0 +1,456 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:13,400
+GPT-5.6 Launch: US government intervenes preventively for the first time — only ~20 pre-approved partners receive access instead of everyone.
+
+4
+00:00:13,400 --> 00:00:22,450
+Anthropic comeback: Mythos-5 export ban lifts after 14 days — 100+ US agencies and companies are unlocked again.
+
+5
+00:00:22,450 --> 00:00:34,475
+Vacuum effect: Japanese (Sakana AI) and Chinese startups (Zhipu AI) launch frontier models — the export ban accelerates exactly the competition it aims to prevent.
+
+6
+00:00:34,475 --> 00:00:45,375
+Content deal: Getty stock jumps +145% intraday after ChatGPT partnership — fair image licensing in AI systems becomes a business model.
+
+7
+00:00:45,375 --> 00:00:46,625
+Story of the Week.
+
+8
+00:00:46,625 --> 00:00:52,700
+Historic First: US Government Stops GPT-5.6 — Before It Launches.
+
+9
+00:00:52,700 --> 00:01:00,475
+For the first time in US history, a government has actively restricted the release of a commercial AI model — before its launch .
+
+10
+00:01:00,475 --> 00:01:10,525
+The Office of the National Cyber Director and the OSTP asked OpenAI to release GPT-5.6 only to a small group of pre-approved partners .
+
+11
+00:01:10,525 --> 00:01:11,925
+Not after an incident.
+
+12
+00:01:11,925 --> 00:01:13,425
+Not after a disaster.
+
+13
+00:01:13,425 --> 00:01:14,450
+Preemptively.
+
+14
+00:01:14,450 --> 00:01:35,000
+GPT-5.6 comprises three models: Sol (flagship, $5 / 1M input tokens, $30 / 1M output tokens), Terra (balanced, half the price of Sol), and Luna (fast and affordable, $1 / 1M input, $6 / 1M output) .
+
+15
+00:01:35,000 --> 00:01:43,037
+Only around 20 companies receive access for now — each additional unlock must be individually approved by US agencies .
+
+16
+00:01:43,037 --> 00:01:47,925
+"We don't believe this kind of government access process should become the long-term default.
+
+17
+00:01:47,925 --> 00:01:55,375
+It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them."
+
+18
+00:01:55,375 --> 00:01:56,300
+— OpenAI
+
+19
+00:01:56,300 --> 00:02:04,125
+The precedent that triggered this process is the complete export ban on Anthropic's Fable 5, which took effect on June 12 .
+
+20
+00:02:04,125 --> 00:02:13,462
+The White House has since been working on a framework for safety evaluation of new frontier models and requires voluntary reviews 30 days before release .
+
+21
+00:02:13,462 --> 00:02:15,287
+Why is the government intervening?
+
+22
+00:02:15,287 --> 00:02:29,750
+Officially the focus is on national security and dual-use risks: frontier models with strong coding capabilities could be used for cyberattacks, bioweapon development, or by state adversaries — according to the security agencies' rationale.
+
+23
+00:02:29,750 --> 00:02:34,475
+The framework aims to ensure risk assessments happen before launch rather than after.
+
+24
+00:02:34,475 --> 00:02:52,887
+Dean Ball, former White House AI advisor and future OpenAI employee, warns from a libertarian policy perspective — and thus as a party with a clear vested interest — that Trump's Executive Order establishes a de-facto licensing requirement for frontier AI that could lead to systematic delays .
+
+25
+00:02:52,887 --> 00:03:01,212
+For developers and businesses this means: Frontier AI access is no longer a right but a governmentally controllable privilege.
+
+26
+00:03:01,212 --> 00:03:10,337
+Anyone building on OpenAI or Anthropic today must now factor in not only pricing risks — but availability risks from government decisions.
+
+27
+00:03:10,337 --> 00:03:14,662
+Multi-provider strategies are no longer a precaution but a necessity.
+
+28
+00:03:14,662 --> 00:03:26,187
+Critical voices: Observers question whether preventive controls without a clear legal basis are constitutionally viable and whether the process is transparent enough for the affected companies.
+
+29
+00:03:26,187 --> 00:03:33,362
+OpenAI itself is cooperating — but explicitly emphasizes that this must not become a permanent state of affairs .
+
+30
+00:03:33,362 --> 00:03:45,100
+Bottom line: The US government has fired the starting gun: anyone developing frontier AI will need government approval going forward — and OpenAI played along for the first time without blocking.
+
+31
+00:03:45,100 --> 00:03:46,437
+More Top Stories.
+
+32
+00:03:46,437 --> 00:03:52,075
+Export Ban Reversal: Anthropic's Mythos 5 Returns — for the Select Few.
+
+33
+00:03:52,075 --> 00:04:02,625
+Fourteen days after the complete export ban on Anthropic's Fable 5 / Mythos 5, Commerce Secretary Howard Lutnick lifts the restrictions partially via letter .
+
+34
+00:04:02,625 --> 00:04:12,112
+More than 100 US government agencies and critical infrastructure companies regain access — including for non-American employees of those organizations .
+
+35
+00:04:12,112 --> 00:04:19,937
+"I have determined that appropriate safeguards are in place to permit certain trusted partners to access the Claude Mythos 5 Model."
+
+36
+00:04:19,937 --> 00:04:22,375
+— Howard Lutnick, Commerce Secretary
+
+37
+00:04:22,490 --> 00:04:29,065
+The complete export ban for the general public and international users, however, remains in place.
+
+38
+00:04:29,065 --> 00:04:41,515
+Anthropic, with an ARR of $47 billion in May 2026 (according to industry reports, not independently verified), had been negotiating with the US government since June 12 .
+
+39
+00:04:41,515 --> 00:04:52,540
+The model was simply unavailable to 99% of users for fourteen days — a substantial economic damage that brutally exposes the dependency on government decisions.
+
+40
+00:04:52,540 --> 00:05:00,227
+The pattern becomes clear: government access first, general public later (maybe) — and international partners at the very back.
+
+41
+00:05:00,227 --> 00:05:05,090
+The Vacuum Paradox: Export Bans Breed the Competition They're Meant to Fight.
+
+42
+00:05:05,090 --> 00:05:12,252
+While Fable 5 remains blocked for international users, Japanese and Chinese startups are launching competing models .
+
+43
+00:05:12,252 --> 00:05:22,715
+Sakana AI from Tokyo presents "Fugu" — positioned as on par with "Fable 5 and Mythos Preview," optimized for agent orchestration and Japanese .
+
+44
+00:05:22,715 --> 00:05:36,327
+Sakana, valued at $2.65 billion (according to company statements, Series B, November 2025) with $135 million in funding, is no longer a garage startup .
+
+45
+00:05:36,327 --> 00:05:39,277
+"Access to top models can disappear overnight."
+
+46
+00:05:39,277 --> 00:05:41,465
+— David Ha, Sakana CEO
+
+47
+00:05:41,465 --> 00:05:52,640
+In parallel, Zhipu AI (Tsinghua spinout) from China brings the models "Tulongfeng" and "Yitianzhen" — specialized in cybersecurity and vulnerability detection .
+
+48
+00:05:52,640 --> 00:06:03,815
+The irony is hard to miss: US export bans, designed to secure technological leadership, are accelerating exactly the international development of frontier alternatives .
+
+49
+00:06:03,815 --> 00:06:18,365
+An important distinction: Japanese alternatives like Sakana AI are considered geopolitically unproblematic for Western allies — Chinese cybersecurity models like those from Zhipu AI are a different category from a US security perspective.
+
+50
+00:06:18,365 --> 00:06:22,965
+The export ban treats both equally, but creates very different risks.
+
+51
+00:06:22,965 --> 00:06:30,940
+Sakana co-founder Ren Ito puts it plainly: "The first priority should be preserving access for America's closest allies." .
+
+52
+00:06:30,940 --> 00:06:36,852
+Getty + OpenAI: The First Major Precedent for Fair Content Compensation in AI.
+
+53
+00:06:36,852 --> 00:06:41,677
+Getty Images and OpenAI are entering a multi-year display partnership .
+
+54
+00:06:41,677 --> 00:06:52,702
+When ChatGPT can illustrate a response with a real image, a licensed Getty photo appears — with attribution, without training use, with indemnification for Getty customers .
+
+55
+00:06:52,702 --> 00:07:04,365
+Around 600,000 content creators and 360 content partners are affected, with coverage spanning 160,000+ events per year according to Getty .
+
+56
+00:07:04,365 --> 00:07:09,577
+"High-quality, licensed visual content makes AI-powered search more trustworthy."
+
+57
+00:07:09,577 --> 00:07:12,427
+— Craig Peters, CEO Getty Images
+
+58
+00:07:12,427 --> 00:07:16,702
+Caveat: The model applies only to Getty-represented creators.
+
+59
+00:07:16,702 --> 00:07:26,727
+The majority of photographers worldwide — who don't license through Getty — receive no compensation and no attribution when their images end up in AI training data.
+
+60
+00:07:26,727 --> 00:07:35,927
+The market responded decisively: an intraday price surge of up to 145%, closing price approximately +90% .
+
+61
+00:07:35,927 --> 00:07:43,452
+This is no coincidence — it's a signal that investors take fair licensing seriously as a scalable AI business model.
+
+62
+00:07:43,452 --> 00:07:53,452
+For the entire content industry — music, text, video — this is a precedent: not bans or lawsuits, but partnership models could be the way forward.
+
+63
+00:07:53,452 --> 00:07:54,402
+Quick Hits.
+
+64
+00:07:54,402 --> 00:07:55,477
+Briefly noted:.
+
+65
+00:07:55,477 --> 00:08:15,115
+Claude vs. ChatGPT: ChatGPT's market share among paying users fell below 50% for the first time (46.4%); Gemini holds 27.7%, Claude 10.3% — among premium users, Claude scores disproportionately through coding strength and quality .
+
+66
+00:08:15,115 --> 00:08:29,302
+Adobe + Topaz: Adobe acquires Topaz Labs, known for AI-based image and video upscaling and noise reduction — a direct attack on generative AI competition in the creative market via the Firefly ecosystem .
+
+67
+00:08:29,302 --> 00:08:45,552
+AI Energy Shift: Former Databricks AI chief founds startup with a promise: 1,000x reduction in AI energy consumption through novel hardware architecture — concrete details are still pending, but the political nerve has been struck .
+
+68
+00:08:45,552 --> 00:08:46,677
+Tool of the Week.
+
+69
+00:08:46,677 --> 00:08:51,665
+HuggingFace Jobs — Private vLLM Inference Server with a Single Command.
+
+70
+00:08:51,665 --> 00:09:03,340
+HuggingFace enables launching a private, OpenAI-compatible LLM inference endpoint on HF infrastructure — no own GPU, no Kubernetes, no idle costs .
+
+71
+00:09:03,340 --> 00:09:05,665
+A single command is all it takes:.
+
+72
+00:09:05,786 --> 00:09:13,223
+hf jobs run --flavor a10g-large --expose 8000 --timeout 2h \
+
+73
+00:09:13,223 --> 00:09:17,086
+vllm/vllm-openai:latest \
+
+74
+00:09:17,086 --> 00:09:24,761
+vllm serve Qwen/Qwen3-4B --host 0.0.0.0 --port 8000
+
+75
+00:09:24,761 --> 00:09:39,448
+Pay-per-second billing, various GPU flavors (A10G, etc.), authentication via HF token out-of-the-box, and support for large models via tensor parallelism (e.g. Qwen3.5-122B) .
+
+76
+00:09:39,448 --> 00:09:53,786
+The feature is a practical counterpoint to the closed-source chip strategies of OpenAI and Google: anyone who needs open-source models with high-performance inference without wanting to operate their own infrastructure gets a ready-to-deploy solution here.
+
+77
+00:09:53,786 --> 00:09:56,923
+HuggingFace vLLM Jobs Documentation
+
+78
+00:09:56,923 --> 00:09:58,073
+Fail of the Week.
+
+79
+00:09:58,073 --> 00:10:04,686
+"Orbital AI Data Centers by 2028" — when even SoftBank's Masayoshi Son hits the brakes
+
+80
+00:10:04,686 --> 00:10:16,898
+SoftBank CEO Masayoshi Son — known for billion-dollar bets on wild ideas like WeWork and Uber — publicly questions the feasibility of Elon Musk's plans for orbital AI data centers .
+
+81
+00:10:16,898 --> 00:10:19,561
+Sam Altman also expresses skepticism.
+
+82
+00:10:19,561 --> 00:10:24,811
+When the man who invented the "Vision Fund" pumps the brakes, a second look is warranted.
+
+83
+00:10:24,811 --> 00:10:34,373
+Root cause: The next two to three years are decisive in the AI race — and orbital-based solutions simply don't help with the acute infrastructure bottleneck.
+
+84
+00:10:34,373 --> 00:10:41,723
+There's also a structural problem: more orbital data centers means more SpaceX launches, means more revenue for Musk.
+
+85
+00:10:41,723 --> 00:10:46,273
+When the seller promotes the product, in English that's called "Talking Your Book" .
+
+86
+00:10:46,273 --> 00:10:52,348
+What we learn: Infrastructure hype is dangerous when timelines and feasibility remain unclear.
+
+87
+00:10:52,348 --> 00:11:01,711
+When evaluating any bold infrastructure vision, ask first: who benefits from the hype — and are the assumptions physically and economically sound?
+
+88
+00:11:01,711 --> 00:11:02,848
+Number of the Week.
+
+89
+00:11:02,848 --> 00:11:05,136
++145%
+
+90
+00:11:05,136 --> 00:11:16,286
+That's how much the Getty Images stock rose intraday on June 21 after the display partnership with OpenAI was announced (closing price: approximately +90%) .
+
+91
+00:11:16,286 --> 00:11:30,748
+This is the largest single-day gain by an established media and content company following an AI partnership — and a clear market signal that licensing models are taken seriously as a sustainable bridge between the content industry and AI.
+
+92
+00:11:30,748 --> 00:11:41,048
+The signal is unambiguous: the market believes not only that AI and content can coexist — it believes that licensing models will revalue the content industry.
+
+93
+00:11:41,048 --> 00:11:50,473
+For everyone who creates and licenses content, this is a strong sign that fair partnership with AI companies is economic value, not capitulation.
+
+94
+00:11:50,473 --> 00:11:51,573
+Reading List.
+
+95
+00:11:51,573 --> 00:11:52,573
+For the weekend:.
+
+96
+00:11:52,573 --> 00:12:06,336
+1.  OpenAI limits GPT-5.6 rollout after government request  — The full TechCrunch article with direct quotes from OpenAI and Dean Ball explains the new control regime better than any summary.
+
+97
+00:12:06,336 --> 00:12:09,986
+Essential reading for anyone planning API dependencies.
+
+98
+00:12:09,986 --> 00:12:11,023
+(8 min)
+
+99
+00:12:11,023 --> 00:12:20,811
+2.  Run a vLLM Server with a Single Command on Hugging Face  — Hands-on guide with example commands for various models and GPU configurations.
+
+100
+00:12:20,811 --> 00:12:26,698
+Anyone looking to build their own inference endpoints will find the most practical entry point of the week here.
+
+101
+00:12:26,698 --> 00:12:27,798
+(12 min)
+
+102
+00:12:27,798 --> 00:12:43,386
+3.  Asian AI startups launch Mythos-like models as export ban drags on  — Explains in detail how Sakana AI and Zhipu AI are exploiting the export ban vacuum — including benchmark claims and investor context.
+
+103
+00:12:43,386 --> 00:12:48,761
+Anyone wanting to understand the geopolitical dimension of AI regulation starts here.
+
+104
+00:12:48,761 --> 00:12:49,798
+(10 min)
+
+105
+00:12:49,798 --> 00:12:50,773
+Next Week.
+
+106
+00:12:50,773 --> 00:12:51,661
+What's coming:.
+
+107
+00:12:51,661 --> 00:13:05,198
+GPT-5.6 Rollout Watch: The ~20 approved partners go live in the first days — first real benchmark comparisons with Anthropic Mythos 5 and Gemini 2.5 Ultra are expected.
+
+108
+00:13:05,198 --> 00:13:14,136
+Anthropic Export Ban Week 27: Will the Fable-5 ban for the general public remain in place, or does the next relaxation follow?
+
+109
+00:13:14,136 --> 00:13:17,211
+The Commerce Department has not communicated a timeline.
+
+110
+00:13:17,211 --> 00:13:28,673
+Getty Partnership Live: The ChatGPT-Getty display rollout begins — first user experiences and creator reactions will show whether the compensation model works in practice.
+
+111
+00:13:28,673 --> 00:13:38,311
+Sakana Fugu API: Sakana AI has announced API access for Fugu — availability and pricing for non-Japanese developers pending.
+
+112
+00:13:38,311 --> 00:13:41,686
+This newsletter was researched and written AI-assisted.
+
+113
+00:13:41,686 --> 00:13:44,561
+Images generated with  Pollinations.ai .
+
+114
+00:13:44,666 --> 00:13:53,653
+Financial disclaimer: Price data and financial figures in this newsletter are for informational purposes only and do not constitute investment advice.
+

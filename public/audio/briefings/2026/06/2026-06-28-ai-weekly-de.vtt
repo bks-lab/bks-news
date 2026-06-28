@@ -1,0 +1,456 @@
+1
+00:00:00,100 --> 00:00:02,287
+TL;DR.
+
+2
+00:00:02,237 --> 00:00:04,912
+Diese Woche in 30 Sekunden:.
+
+3
+00:00:04,912 --> 00:00:15,100
+GPT-5.6-Launch: US-Regierung greift erstmals präventiv ein — nur ~20 vorab genehmigte Partner erhalten Zugang, statt alle.
+
+4
+00:00:15,100 --> 00:00:24,137
+Anthropic-Comeback: Mythos-5-Exportsperre endet nach 14 Tagen — 100+ US-Behörden und Unternehmen sind wieder freigeschaltet.
+
+5
+00:00:24,137 --> 00:00:36,237
+Vakuum-Effekt: Japanische (Sakana AI) und chinesische Startups (Zhipu AI) launchen Frontier-Modelle — das Exportverbot beschleunigt genau die Konkurrenz, die es verhindern soll.
+
+6
+00:00:36,237 --> 00:00:47,025
+Content-Deal: Getty-Aktie springt +145% intraday nach ChatGPT-Partnerschaft — faire Bildlizenzierung in KI-Systemen wird zum Geschäftsmodell.
+
+7
+00:00:47,025 --> 00:00:49,000
+Die Story der Woche.
+
+8
+00:00:49,000 --> 00:00:55,425
+Historische Premiere: US-Regierung stoppt GPT-5.6 — bevor er startet.
+
+9
+00:00:55,425 --> 00:01:04,200
+Zum ersten Mal in der Geschichte der USA hat eine Regierung die Veröffentlichung eines kommerziellen KI-Modells aktiv eingeschränkt — noch vor dem Launch .
+
+10
+00:01:04,200 --> 00:01:14,637
+Das Office of the National Cyber Director und das OSTP forderten OpenAI auf, GPT-5.6 nur an eine kleine Gruppe vorab genehmigter Partner freizugeben .
+
+11
+00:01:14,637 --> 00:01:16,937
+Nicht nach einem Vorfall.
+
+12
+00:01:16,937 --> 00:01:19,450
+Nicht nach einer Katastrophe.
+
+13
+00:01:19,450 --> 00:01:21,075
+Präventiv.
+
+14
+00:01:21,075 --> 00:01:38,812
+GPT-5.6 umfasst drei Modelle: Sol (Flaggschiff, $5 / 1M Input-Token, $30 / 1M Output-Token), Terra (ausgewogen, halber Preis von Sol) und Luna (schnell und günstig, $1 / 1M Input, $6 / 1M Output) .
+
+15
+00:01:38,812 --> 00:01:46,787
+Nur rund 20 Unternehmen erhalten vorerst Zugang — jede weitere Freischaltung muss individuell von US-Behörden genehmigt werden .
+
+16
+00:01:46,787 --> 00:01:51,862
+We don't believe this kind of government access process should become the long-term default.
+
+17
+00:01:51,862 --> 00:01:59,150
+It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.
+
+18
+00:01:59,150 --> 00:02:00,687
+OpenAI
+
+19
+00:02:00,687 --> 00:02:10,337
+Der Präzedenzfall, der diesen Prozess ausgelöst hat, ist das vollständige Exportverbot für Anthropics Fable 5, das am 12. Juni in Kraft trat .
+
+20
+00:02:10,337 --> 00:02:19,437
+Das Weiße Haus arbeitet seither an einem Rahmenwerk zur Sicherheitsbewertung neuer Frontier-Modelle und verlangt freiwillige Prüfungen 30 Tage vor Release .
+
+21
+00:02:19,437 --> 00:02:22,137
+Warum greift die Regierung ein?
+
+22
+00:02:22,137 --> 00:02:35,812
+Offiziell geht es um nationale Sicherheit und Dual-Use-Risiken: Frontier-Modelle mit starken Code-Fähigkeiten könnten für Cyberangriffe, Biowaffen-Entwicklung oder staatliche Gegner nutzbar sein — so die Begründung der Sicherheitsbehörden.
+
+23
+00:02:35,812 --> 00:02:41,787
+Das Rahmenwerk soll sicherstellen, dass Risikobewertungen vor dem Launch statt danach stattfinden.
+
+24
+00:02:41,787 --> 00:03:00,475
+Dean Ball, ehemaliger Weißhaus-KI-Berater und künftiger OpenAI-Mitarbeiter, warnt aus libertärer Policy-Perspektive — und damit als Partei mit klarem Eigeninteresse —, dass Trumps Executive Order einen de-facto Lizenzierungszwang für Frontier-KI etabliert, der zu systematischen Verzögerungen führen könnte .
+
+25
+00:03:00,475 --> 00:03:08,700
+Für Entwickler und Unternehmen bedeutet das: Frontier-KI-Zugang ist kein Recht mehr, sondern ein behördlich kontrollierbares Privileg.
+
+26
+00:03:08,700 --> 00:03:17,900
+Wer heute auf OpenAI oder Anthropic baut, kalkuliert künftig nicht nur Preisrisiken ein — sondern Verfügbarkeitsrisiken durch Regierungsentscheidungen.
+
+27
+00:03:17,900 --> 00:03:23,500
+Multi-Provider-Strategien sind damit keine Vorsichtsmaßnahme mehr, sondern Pflicht.
+
+28
+00:03:23,500 --> 00:03:34,962
+Kritische Stimmen: Beobachter fragen, ob Präventivkontrollen ohne klare gesetzliche Grundlage verfassungsrechtlich haltbar sind und ob der Prozess transparent genug für die betroffenen Unternehmen ist.
+
+29
+00:03:34,962 --> 00:03:41,162
+OpenAI selbst kooperiert — betont aber explizit, dass dies kein Dauerzustand sein darf .
+
+30
+00:03:41,162 --> 00:03:52,687
+Bottom Line: Der US-Staat hat das Startzeichen gegeben: Wer Frontier-KI entwickelt, braucht künftig staatliche Genehmigung — und OpenAI hat das erste Mal mitgespielt, ohne zu blockieren.
+
+31
+00:03:52,687 --> 00:03:54,862
+Weitere Top-Stories.
+
+32
+00:03:54,862 --> 00:04:00,087
+Exportverbot-Wende: Anthropics Mythos 5 kehrt zurück — für Auserwählte.
+
+33
+00:04:00,087 --> 00:04:09,687
+Vierzehn Tage nach dem vollständigen Exportverbot für Anthropics Fable 5 / Mythos 5 hebt Commerce Secretary Howard Lutnick per Brief die Beschränkungen partiell auf .
+
+34
+00:04:09,687 --> 00:04:19,725
+Über 100 US-Regierungsbehörden und Unternehmen der kritischen Infrastruktur erhalten wieder Zugang — auch für nicht-amerikanische Mitarbeiter dieser Organisationen .
+
+35
+00:04:19,725 --> 00:04:27,075
+I have determined that appropriate safeguards are in place to permit certain trusted partners to access the Claude Mythos 5 Model.
+
+36
+00:04:27,244 --> 00:04:30,181
+Howard Lutnick, Commerce Secretary
+
+37
+00:04:30,131 --> 00:04:36,869
+Das vollständige Exportverbot für die breite Öffentlichkeit und internationale Nutzer bleibt dagegen bestehen.
+
+38
+00:04:36,869 --> 00:04:50,569
+Anthropic, mit einem ARR von $47 Milliarden im Mai 2026 (laut Branchenberichten, nicht unabhängig verifiziert), hatte seit dem 12. Juni mit der US-Regierung verhandelt .
+
+39
+00:04:50,569 --> 00:05:02,031
+Das Modell war vierzehn Tage für 99% der Nutzer schlicht nicht verfügbar — ein erheblicher wirtschaftlicher Schaden, der die Abhängigkeit von Regierungsentscheidungen brutal sichtbar macht.
+
+40
+00:05:02,031 --> 00:05:10,294
+Das Muster wird deutlich: Regierungszugang zuerst, Öffentlichkeit später (vielleicht) — und internationale Partner ganz hinten.
+
+41
+00:05:10,294 --> 00:05:15,944
+Das Vakuum-Paradox: Exportverbote züchten die Konkurrenz, die sie bekämpfen wollen.
+
+42
+00:05:15,944 --> 00:05:23,756
+Während Fable 5 für internationale Nutzer gesperrt bleibt, launchen japanische und chinesische Startups konkurrierende Modelle .
+
+43
+00:05:23,756 --> 00:05:33,919
+Sakana AI aus Tokio präsentiert "Fugu" — positioniert als ebenbürtig mit "Fable 5 und Mythos Preview", optimiert für Agenten-Orchestrierung und Japanisch .
+
+44
+00:05:33,919 --> 00:05:49,144
+Sakana, mit einer Bewertung von $2,65 Milliarden (laut Unternehmensangaben, Serie B, November 2025) und $135 Millionen Finanzierung, ist kein Startup mehr aus der Garage .
+
+45
+00:05:49,144 --> 00:05:54,369
+sinngemäß übersetzt) "Der Zugriff auf Top-Modelle kann über Nacht verschwinden.
+
+46
+00:05:54,369 --> 00:05:57,119
+David Ha, Sakana-CEO
+
+47
+00:05:57,119 --> 00:06:07,669
+Parallel dazu bringt Zhipu AI (Tsinghua-Spinout) aus China die Modelle "Tulongfeng" und "Yitianzhen" — spezialisiert auf Cybersecurity und Schwachstellen-Erkennung .
+
+48
+00:06:07,669 --> 00:06:18,469
+Die Ironie ist schwer zu übersehen: US-Exportverbote, gedacht um technologischen Vorsprung zu sichern, beschleunigen exakt die internationale Entwicklung von Frontier-Alternativen .
+
+49
+00:06:18,469 --> 00:06:33,244
+Ein wichtiger Unterschied: Japanische Alternativen wie Sakana AI gelten als geopolitisch unproblematisch für westliche Verbündete — chinesische Cybersecurity-Modelle wie die von Zhipu AI sind aus US-Sicherheitsperspektive eine andere Kategorie.
+
+50
+00:06:33,244 --> 00:06:38,519
+Das Exportverbot behandelt beide gleich, schafft aber sehr unterschiedliche Risiken.
+
+51
+00:06:38,519 --> 00:06:48,406
+Sakana-Mitgründer Ren Ito bringt es auf den Punkt: (sinngemäß übersetzt) "Die erste Priorität sollte sein, den Zugang für Amerikas engste Verbündete zu bewahren.
+
+52
+00:06:48,406 --> 00:06:54,519
+Getty + OpenAI: Der erste große Präzedenzfall für faire Content-Vergütung in KI.
+
+53
+00:06:54,519 --> 00:06:59,369
+Getty Images und OpenAI schließen eine mehrjährige Display-Partnerschaft .
+
+54
+00:06:59,369 --> 00:07:10,756
+Wenn ChatGPT eine Antwort mit einem Echtbild illustrieren kann, erscheint ein lizenziertes Getty-Foto — mit Attribution, ohne Training-Nutzung, mit Indemnifizierung für Getty-Kunden .
+
+55
+00:07:10,756 --> 00:07:21,794
+Rund 600.000 Content-Creator und 360 Content-Partner sind betroffen, das Coverage umfasst laut Getty 160.000+ Ereignisse pro Jahr .
+
+56
+00:07:21,794 --> 00:07:29,194
+sinngemäß übersetzt) "Hochwertige, lizenzierte visuelle Inhalte machen KI-gestützte Suche vertrauenswürdiger.
+
+57
+00:07:29,194 --> 00:07:32,406
+Craig Peters, CEO Getty Images
+
+58
+00:07:32,406 --> 00:07:36,694
+Einschränkung: Das Modell gilt nur für Getty-vertretene Creator.
+
+59
+00:07:36,694 --> 00:07:46,719
+Die Mehrheit der Fotografen weltweit — die nicht über Getty lizenzieren — erhält keine Vergütung und keine Attribution, wenn ihre Bilder in KI-Trainingsdaten landen.
+
+60
+00:07:46,719 --> 00:07:55,681
+Der Markt reagierte eindeutig: Intraday-Kursanstieg von bis zu 145%, Schlusskurs ca. +90% .
+
+61
+00:07:55,681 --> 00:08:03,869
+Das ist kein Zufall — sondern ein Signal, dass Investoren faire Lizenzierung als skalierbares KI-Geschäftsmodell ernst nehmen.
+
+62
+00:08:03,869 --> 00:08:14,006
+Für die gesamte Content-Branche — Musik, Text, Video — ist das ein Präzedenzfall: Nicht Verbote oder Klagen, sondern Partnerschaftsmodelle könnten der Weg sein.
+
+63
+00:08:14,006 --> 00:08:15,544
+Quick Hits.
+
+64
+00:08:15,544 --> 00:08:17,281
+Kurz notiert:.
+
+65
+00:08:17,281 --> 00:08:36,544
+Claude vs. ChatGPT: ChatGPTs Marktanteil unter zahlenden Nutzern fiel erstmals unter 50% (46,4%); Gemini hält 27,7%, Claude 10,3% — bei Premium-Nutzern punktet Claude überproportional durch Coding-Stärke und Qualität .
+
+66
+00:08:36,544 --> 00:08:50,506
+Adobe + Topaz: Adobe übernimmt Topaz Labs, bekannt für KI-basiertes Bild- und Video-Upscaling sowie Rauschreduktion — ein direkter Angriff auf generative KI-Konkurrenz im Creative-Markt via Firefly-Ökosystem .
+
+67
+00:08:50,668 --> 00:09:06,293
+Energiewende KI: Ex-Databricks-KI-Chef gründet Startup mit einem Versprechen: Faktor-1.000-Reduktion des KI-Energieverbrauchs durch neuartige Hardware-Architektur — konkrete Details stehen noch aus, der politische Nerv ist getroffen .
+
+68
+00:09:06,243 --> 00:09:08,043
+Tool der Woche.
+
+69
+00:09:08,043 --> 00:09:13,093
+HuggingFace Jobs — privater vLLM-Inference-Server mit einem Befehl.
+
+70
+00:09:13,093 --> 00:09:24,293
+HuggingFace ermöglicht das Starten eines privaten, OpenAI-kompatiblen LLM-Inference-Endpoints auf HF-Infrastruktur — ohne eigene GPU, ohne Kubernetes, ohne Idle-Kosten .
+
+71
+00:09:24,293 --> 00:09:26,693
+Ein einziger Befehl reicht:.
+
+72
+00:09:26,693 --> 00:09:33,105
+hf jobs run --flavor a10g-large --expose 8000 --timeout 2h \
+
+73
+00:09:33,105 --> 00:09:37,355
+vllm/vllm-openai:latest \
+
+74
+00:09:37,355 --> 00:09:44,305
+vllm serve Qwen/Qwen3-4B --host 0.0.0.0 --port 8000
+
+75
+00:09:44,305 --> 00:10:00,030
+Pay-per-Second-Abrechnung, verschiedene GPU-Flavors (A10G, etc.), Authentifizierung via HF-Token out-of-the-box, und Unterstützung großer Modelle via Tensor-Parallelismus (z.B. Qwen3.5-122B) .
+
+76
+00:10:00,030 --> 00:10:15,080
+Das Feature ist ein praktischer Gegenpol zu den Closed-Source-Chip-Strategien von OpenAI und Google: Wer Open-Source-Modelle mit Hochleistungs-Inference braucht, ohne eine eigene Infrastruktur betreiben zu wollen, bekommt hier eine sofort einsatzbereite Lösung.
+
+77
+00:10:15,080 --> 00:10:18,705
+HuggingFace vLLM Jobs Dokumentation
+
+78
+00:10:18,705 --> 00:10:20,530
+Fail der Woche.
+
+79
+00:10:20,530 --> 00:10:27,993
+Orbital KI-Rechenzentren bis 2028" — wenn selbst SoftBanks Masayoshi Son die Bremse zieht
+
+80
+00:10:27,993 --> 00:10:39,893
+SoftBank-CEO Masayoshi Son — bekannt für Milliarden-Wetten auf wilde Ideen wie WeWork und Uber — bezweifelt öffentlich die Realisierbarkeit von Elon Musks Plänen für orbitale KI-Rechenzentren .
+
+81
+00:10:39,893 --> 00:10:43,168
+Sam Altman äußert sich ebenfalls skeptisch.
+
+82
+00:10:43,168 --> 00:10:49,668
+Wenn ausgerechnet der Mann, der den "Vision Fund" erfunden hat, bremst, lohnt ein zweiter Blick.
+
+83
+00:10:49,668 --> 00:10:59,443
+Root Cause: Die nächsten zwei bis drei Jahre sind im KI-Rennen entscheidend — und orbital basierte Lösungen helfen beim akuten Infrastruktur-Engpass schlicht nicht.
+
+84
+00:10:59,443 --> 00:11:07,330
+Hinzu kommt ein strukturelles Problem: Mehr Orbital-Datacenter bedeutet mehr SpaceX-Launches, bedeutet mehr Umsatz für Musk.
+
+85
+00:11:07,330 --> 00:11:12,280
+Wenn der Verkäufer das Produkt bewirbt, heißt das auf Englisch "Talking Your Book" .
+
+86
+00:11:12,280 --> 00:11:19,043
+Was wir lernen: Infrastruktur-Hype ist gefährlich, wenn Zeitrahmen und Machbarkeit unklar bleiben.
+
+87
+00:11:19,043 --> 00:11:27,693
+Prüfe bei jeder kühnen Infrastruktur-Vision zuerst: Wer profitiert vom Hype — und sind die Annahmen physikalisch und wirtschaftlich belastbar?
+
+88
+00:11:27,693 --> 00:11:29,518
+Zahl der Woche.
+
+89
+00:11:29,518 --> 00:11:32,680
++145 %
+
+90
+00:11:32,680 --> 00:11:43,780
+So stark stieg die Getty-Images-Aktie intraday am 21. Juni an, nachdem die Display-Partnerschaft mit OpenAI bekannt wurde (Schlusskurs: ca. +90 %) .
+
+91
+00:11:43,780 --> 00:11:58,218
+Das ist der größte Kurssprung eines etablierten Medien- und Content-Unternehmens infolge einer KI-Partnerschaft — und ein deutliches Marktsignal, dass Lizenzierungsmodelle als nachhaltige Brücke zwischen Content-Industrie und KI ernst genommen werden.
+
+92
+00:11:58,218 --> 00:12:08,680
+Das Signal ist eindeutig: Der Markt glaubt nicht nur, dass KI und Content koexistieren können — er glaubt, dass Lizenzierungsmodelle die Content-Branche neu bewerten.
+
+93
+00:12:08,680 --> 00:12:19,180
+Für alle, die Inhalte erstellen und lizenzieren, ist das ein starkes Zeichen, dass faire Partnerschaft mit KI-Unternehmen wirtschaftlicher Wert ist, keine Kapitulation.
+
+94
+00:12:19,180 --> 00:12:20,893
+Leseliste.
+
+95
+00:12:20,893 --> 00:12:22,843
+Für's Wochenende:.
+
+96
+00:12:22,843 --> 00:12:35,855
+1.  OpenAI limits GPT-5.6 rollout after government request  — Der vollständige TechCrunch-Artikel mit O-Tönen von OpenAI und Dean Ball erklärt das neue Kontrollregime besser als jede Zusammenfassung.
+
+97
+00:12:35,855 --> 00:12:40,193
+Pflichtlektüre für alle, die API-Abhängigkeiten planen.
+
+98
+00:12:40,193 --> 00:12:41,993
+8 min)
+
+99
+00:12:41,993 --> 00:12:51,730
+2.  Run a vLLM Server with a Single Command on Hugging Face  — Hands-on Anleitung mit Beispiel-Befehlen für verschiedene Modelle und GPU-Konfigurationen.
+
+100
+00:12:51,730 --> 00:12:57,293
+Wer eigene Inference-Endpoints bauen will, findet hier den praktischsten Einstieg der Woche.
+
+101
+00:12:57,293 --> 00:12:59,205
+12 min)
+
+102
+00:12:59,205 --> 00:13:12,293
+3.  Asian AI startups launch Mythos-like models as export ban drags on  — Erklärt detailliert, wie Sakana AI und Zhipu AI das Exportverbot-Vakuum nutzen — inklusive Benchmark-Claims und Investoren-Kontext.
+
+103
+00:13:12,293 --> 00:13:17,605
+Wer die geopolitische Dimension der KI-Regulierung verstehen will, beginnt hier.
+
+104
+00:13:17,605 --> 00:13:19,393
+10 min)
+
+105
+00:13:19,393 --> 00:13:20,918
+Next Week.
+
+106
+00:13:20,918 --> 00:13:22,468
+Was kommt:.
+
+107
+00:13:22,636 --> 00:13:36,086
+GPT-5.6 Rollout-Watch: Die ~20 genehmigten Partner gehen in den ersten Tagen produktiv — erste echte Benchmark-Vergleiche mit Anthropic Mythos 5 und Gemini 2.5 Ultra werden erwartet.
+
+108
+00:13:36,036 --> 00:13:45,211
+Anthropic Exportverbot KW 27: Bleibt das Fable-5-Verbot für die breite Öffentlichkeit bestehen, oder folgt die nächste Lockerung?
+
+109
+00:13:45,211 --> 00:13:49,086
+Das Commerce Department hat keinen Zeitplan kommuniziert.
+
+110
+00:13:49,086 --> 00:13:59,823
+Getty-Partnerschaft live: Das ChatGPT-Getty-Display rollout beginnt — erste Nutzererfahrungen und Creator-Reaktionen werden zeigen, ob das Vergütungsmodell in der Praxis funktioniert.
+
+111
+00:13:59,823 --> 00:14:09,198
+Sakana Fugu API: Sakana AI hat API-Zugang für Fugu angekündigt — Verfügbarkeit und Pricing für nicht-japanische Entwickler ausstehend.
+
+112
+00:14:09,198 --> 00:14:13,773
+Dieser Newsletter wurde mit AI-Unterstützung recherchiert und geschrieben.
+
+113
+00:14:13,773 --> 00:14:17,086
+Bilder generiert mit  Pollinations.ai .
+
+114
+00:14:17,086 --> 00:14:26,098
+Finanzhinweis: Kursangaben und Finanzkennzahlen in diesem Newsletter dienen ausschließlich der Information und stellen keine Anlageberatung dar.
+
