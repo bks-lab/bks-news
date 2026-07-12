@@ -1,0 +1,364 @@
+1
+00:00:00,100 --> 00:00:02,287
+TL;DR.
+
+2
+00:00:02,237 --> 00:00:04,912
+Diese Woche in 30 Sekunden:.
+
+3
+00:00:04,912 --> 00:00:18,650
+Grok 4.5: xAI launcht sein erstes Modell nach Börsengang und Cursor-Übernahme zu $2/$6 pro Mio. Token – deutlich günstiger als Anthropics Opus 4.7 ($5/$25).
+
+4
+00:00:18,650 --> 00:00:26,650
+China: Peking berät mit Alibaba, ByteDance und Z.ai über ein gestuftes Exportkontrollsystem für Frontier-Modelle.
+
+5
+00:00:26,650 --> 00:00:37,250
+Layoffs: 120.000 Tech-Jobs 2026 bereits gestrichen, AI im Mai häufigster Kündigungsgrund – trotz Rekordgewinnen bei Oracle & Co.
+
+6
+00:00:37,250 --> 00:00:48,325
+Kapitalfrage: Die Branche plant $1,5 Billionen CapEx 2026, braucht laut Analysten aber $3 Billionen Umsatz zur Rechtfertigung.
+
+7
+00:00:48,325 --> 00:00:50,300
+Die Story der Woche.
+
+8
+00:00:50,300 --> 00:00:55,487
+Grok 4.5: xAI wechselt vom Chatbot zum Enterprise-Werkzeug.
+
+9
+00:00:55,487 --> 00:01:07,162
+$2 pro Million Input-Token, gegen $5 bei Anthropics Opus 4.7 – mit diesem Preis schickt xAI sein erstes Modell seit dem eigenen Börsengang und der Cursor-Übernahme ins Rennen .
+
+10
+00:01:07,162 --> 00:01:23,575
+Grok 4.5 erschien am 8. Juli 2026, exakt eine Woche vor OpenAIs für den 15. Juli angekündigtem GPT-5.6-Launch, der zuvor von der Trump-Administration aus Sicherheitsbedenken zeitweise blockiert worden war .
+
+11
+00:01:23,575 --> 00:01:31,287
+Der Fokus liegt explizit nicht mehr auf dem Consumer-Chatbot, sondern auf Coding, Büroarbeit und agentischen Aufgaben .
+
+12
+00:01:31,287 --> 00:01:37,225
+xAI bewirbt das Modell mit "zweifach höherer Token-Effizienz" gegenüber der Konkurrenz .
+
+13
+00:01:37,225 --> 00:01:49,250
+Bei den Kosten unterbietet Grok 4.5 sowohl Opus 4.7 ($5/$25 pro Mio. Token) als auch OpenAIs Sol-Modell ($5/$30) deutlich .
+
+14
+00:01:49,250 --> 00:01:55,087
+EU-Nutzer müssen sich allerdings bis Mitte Juli gedulden, bevor das Modell dort verfügbar ist .
+
+15
+00:01:55,087 --> 00:02:03,425
+An Opus-class model, but faster, more token-efficient and lower cost – roughly comparable to Opus 4.7, but much faster.
+
+16
+00:02:03,425 --> 00:02:05,125
+Elon Musk
+
+17
+00:02:05,125 --> 00:02:22,162
+Für Entwickler- und Ops-Teams bedeutet das: Wer bislang wegen der Kosten bei Coding-Agenten zurückhaltend war, bekommt mit Grok 4.5 eine spürbar günstigere Alternative auf vergleichbarem Qualitätsniveau – vorausgesetzt, die "Opus-class"-Einordnung hält dem Praxistest stand.
+
+18
+00:02:22,162 --> 00:02:33,375
+Kritische Stimmen: Musks Vergleich mit Opus 4.7 stammt direkt von xAI selbst – unabhängige Benchmark-Ergebnisse zu Grok 4.5 lagen zum Redaktionsschluss noch nicht vor.
+
+19
+00:02:33,375 --> 00:02:41,737
+Offene Fragen: Wie sich der Preisvorteil bei tatsächlichem Agenten-Workload (mit hohem Tool-Call-Overhead) auswirkt, ist noch unklar.
+
+20
+00:02:41,737 --> 00:02:53,512
+Bottom Line: Grok 4.5 markiert xAIs strategische Wende weg vom Consumer-Chatbot hin zum Preiskampf um Enterprise- und Coding-Workloads – zulasten der Marge von Anthropic und OpenAI.
+
+21
+00:02:53,512 --> 00:02:55,687
+Weitere Top-Stories.
+
+22
+00:02:55,687 --> 00:03:00,087
+Peking erwägt Exportbeschränkungen für chinesische KI-Modelle.
+
+23
+00:03:00,087 --> 00:03:12,862
+Chinas Handelsministerium berät mit Alibaba (Qwen), ByteDance (Doubao) und Z.ai (GLM-5.2) über Beschränkungen des Auslandszugriffs auf die fortschrittlichsten heimischen KI-Modelle .
+
+24
+00:03:12,862 --> 00:03:29,825
+Im Gespräch sind Strafverschärfungen bei Leaks als Verstoß gegen das National-Security-Gesetz sowie ein gestuftes Kontrollsystem: einfache Open-Source-Tools mit Registrierungspflicht, fortgeschrittene Modelle mit Sicherheitsprüfung, Frontier-Modelle nur zur Inlandsnutzung oder gar nicht veröffentlicht .
+
+25
+00:03:29,825 --> 00:03:37,600
+Peking behandelt KI damit – ähnlich wie die USA – zunehmend als "kritisches nationales Gut, das Kontrollen benötigt" .
+
+26
+00:03:37,600 --> 00:03:41,887
+Zeitrahmen und finaler Umfang der Maßnahmen sind noch offen .
+
+27
+00:03:41,887 --> 00:03:43,337
+So What?
+
+28
+00:03:43,337 --> 00:03:56,762
+Sollte China seine Open-Weight-Modelle wie Qwen oder GLM tatsächlich beschränken, würde das die westliche Open-Source-Szene hart treffen – gerade Qwen-Derivate gehören derzeit zu den meistgenutzten Basismodellen außerhalb der USA.
+
+29
+00:03:56,762 --> 00:04:02,700
+UN Global Dialogue on AI Governance: Alle 193 Staaten am Tisch.
+
+30
+00:04:02,700 --> 00:04:15,937
+Am 6. und 7. Juli fand in Genf die erste Sitzung des UN Global Dialogue on AI Governance statt – mit Vertretern aller 193 UN-Mitgliedsstaaten sowie Industrie, Zivilgesellschaft und Wissenschaft .
+
+31
+00:04:15,937 --> 00:04:23,287
+Ein 40-köpfiges internationales Expertenpanel veröffentlichte dabei das erste umfassende globale Governance-Assessment .
+
+32
+00:04:23,287 --> 00:04:32,987
+Diskutiert wurden Chancen wie Produktivitätsgewinne und bessere Gesundheitssysteme, aber auch Risiken wie Desinformation und die Aushöhlung demokratischer Prozesse .
+
+33
+00:04:32,987 --> 00:04:37,400
+Science cannot guarantee that AI will not cause catastrophic harm.
+
+34
+00:04:37,400 --> 00:04:39,412
+Yoshua Bengio
+
+35
+00:04:39,580 --> 00:04:48,980
+Besonders brisant: Botschafter Rein Tammsaar verwies auf die geopolitische Konzentration der Frontier-KI-Entwicklung auf nur zwei Länder – USA und China .
+
+36
+00:04:48,930 --> 00:04:50,380
+So What?
+
+37
+00:04:50,380 --> 00:04:59,180
+Für alle anderen Staaten (und ihre Unternehmen) bedeutet das eine strukturelle Abhängigkeit von Modellen, deren Regulierung sie nicht mitbestimmen.
+
+38
+00:04:59,180 --> 00:05:04,867
+AI-Agent-Startup lässt eigenen Agenten die 100-Mio.-Dollar-Runde leiten.
+
+39
+00:05:04,867 --> 00:05:15,580
+Das Enterprise-Agent-Startup Lyzr aus Jersey City ließ seinen KI-Agenten "SivaClaw" die eigene Series-B-Finanzierungsrunde leiten – als lebenden Produktbeweis .
+
+40
+00:05:15,580 --> 00:05:26,092
+Der Agent beantwortete Fragen von über 130 Investoren, verfasste Investment-Memos und trackte sogar, welche Folien die Investoren am längsten betrachteten .
+
+41
+00:05:26,092 --> 00:05:37,517
+Am Ende standen $100 Mio. Series B bei rund $500 Mio. Bewertung und $400 Mio. Gesamtinteresse aus Silicon Valley, dem Nahen Osten und dem Finanzsektor .
+
+42
+00:05:37,517 --> 00:05:44,817
+There's so much capital chasing AI bets that startup founders with traction barely have to leave their desks to raise nine figures.
+
+43
+00:05:44,817 --> 00:05:46,267
+So What?
+
+44
+00:05:46,267 --> 00:05:57,005
+Ob das PR-Stunt oder echter Vorgeschmack auf agentische Fundraising-Prozesse ist, wird sich zeigen – aber die schiere Nachfrage von $400 Mio. bei $100 Mio.
+
+45
+00:05:57,005 --> 00:06:01,217
+Ziel zeigt, wie überhitzt der AI-Funding-Markt weiterhin ist.
+
+46
+00:06:01,217 --> 00:06:02,755
+Quick Hits.
+
+47
+00:06:02,755 --> 00:06:04,492
+Kurz notiert:.
+
+48
+00:06:04,492 --> 00:06:25,730
+Meta: Neue MTIA-Chip-Generation geht im September in Produktion, um GPU-Kosten inmitten eines beispiellosen Komponentenmangels zu senken – geplante CapEx 2026: $125-145 Mrd., 7 GW Rechenleistung mit geplanter Verdopplung 2027 .
+
+49
+00:06:25,730 --> 00:06:38,630
+DeepSeek: Chinesisches Unternehmen entwickelt eigenen Inferenz-Chip, um Abhängigkeit von Nvidia und Huawei zu reduzieren – verstärkte Einstellung von Chip-Design-Ingenieuren und vertrauliche Foundry-Gespräche laufen bereits .
+
+50
+00:06:38,630 --> 00:06:52,605
+Google: Kennzeichnet ab sofort AI-generierte Werbung im "My Ad Center" für Search, YouTube und Discover – automatisch bei Googles eigenen AI-Ad-Tools, manuell bei extern erstellten Anzeigen, ohne eigene Verifikation .
+
+51
+00:06:52,605 --> 00:07:06,267
+Ollama: Sammelt $65 Mio. Series B unter Führung von Theory Ventures ein, Gesamtfinanzierung damit $88 Mio. bei 8,9 Mio. monatlichen Nutzern und nur 14 Mitarbeitern .
+
+52
+00:07:06,267 --> 00:07:21,442
+Tech-Layoffs: Oracle streicht 21.000 Stellen (-13%) trotz $3,7 Mrd. Quartalsgewinn (+27%) und nennt explizit "Adoption und Einsatz von AI-Technologien" als Grund .
+
+53
+00:07:21,442 --> 00:07:23,242
+Tool der Woche.
+
+54
+00:07:23,242 --> 00:07:27,180
+Ollama – Lokale KI-Modelle so einfach wie Docker.
+
+55
+00:07:27,180 --> 00:07:36,005
+Ollama macht Open-Source-LLMs lokal lauffähig, ohne dass Nutzer sich um CUDA-Versionen, Quantisierung oder Modell-Formate kümmern müssen .
+
+56
+00:07:36,005 --> 00:07:49,080
+Nach der frischen $65-Mio.-Series-B-Runde bietet das Tool neben der kostenlosen Desktop-Version jetzt auch einen Cloud-Service mit Abo-Tiers, abgerechnet nach GPU-Zeit statt nach Token-Limits .
+
+57
+00:07:49,080 --> 00:08:01,192
+Besonders nützlich für Entwickler-Teams, die Modelle lokal testen oder aus Datenschutzgründen keine Cloud-APIs nutzen wollen: Ein Modell wie Llama oder Mistral ist mit einem einzigen -Befehl einsatzbereit.
+
+58
+00:08:01,192 --> 00:08:06,992
+Open Models kamen 2023 heraus, waren aber sehr schwer zu nutzen.
+
+59
+00:08:06,992 --> 00:08:09,792
+Jeff Morgan, CEO Ollama
+
+60
+00:08:09,792 --> 00:08:22,330
+Mit 176.000 GitHub-Stars und Einsatz bei 85% der Fortune-500-Unternehmen hat sich Ollama faktisch als Standard-Interface für lokale KI-Modelle etabliert .
+
+61
+00:08:22,330 --> 00:08:24,092
+Link zum Tool
+
+62
+00:08:24,092 --> 00:08:25,917
+Fail der Woche.
+
+63
+00:08:25,917 --> 00:08:30,055
+AI-Bezug" als Entlassungsgrund – trotz Rekordgewinnen
+
+64
+00:08:30,055 --> 00:08:38,980
+TechCrunch führt eine laufende Liste großer Tech-Entlassungen 2026, bei denen Arbeitgeber KI explizit als Grund nannten .
+
+65
+00:08:38,980 --> 00:08:47,780
+Rund 120.000 Tech-Stellen wurden 2026 bereits gestrichen, im Mai war KI der meistgenannte Kündigungsgrund .
+
+66
+00:08:47,780 --> 00:08:53,855
+Das Paradoxe: Mehrere betroffene Unternehmen meldeten im selben Zeitraum Rekordumsätze.
+
+67
+00:08:53,855 --> 00:09:05,967
+Oracle strich 21.000 Stellen (-13% der Belegschaft über 12 Monate) bei gleichzeitig $3,7 Mrd. Quartalsgewinn (+27%) .
+
+68
+00:09:05,967 --> 00:09:21,592
+GitLab kürzte 350 Stellen (-14%) trotz $264 Mio. Quartalsumsatz (+23% YoY) und begründete dies mit der Forderung nach "100x Wachstum" bei Agent-Workloads .
+
+69
+00:09:21,748 --> 00:09:39,760
+Root Cause: Unternehmen nutzen "AI-Efficiency"-Narrative zur Rechtfertigung von Kostensenkungen gegenüber Investoren, unabhängig davon, ob die tatsächliche operative Ursache Automatisierung, Nachfrageverschiebung oder schlicht Margendruck ist – eine Vermischung von PR und tatsächlicher technischer Ursache.
+
+70
+00:09:39,760 --> 00:09:55,110
+Was wir lernen: Wer öffentliche "AI hat X Jobs ersetzt"-Aussagen von Unternehmen liest, sollte parallel die Quartalszahlen prüfen – oft sagt die Kündigungsbegründung mehr über die Investor-Relations-Strategie aus als über den tatsächlichen Automatisierungsgrad.
+
+71
+00:09:55,110 --> 00:09:56,935
+Zahl der Woche.
+
+72
+00:09:56,935 --> 00:09:59,048
+3 Billionen Dollar
+
+73
+00:09:59,048 --> 00:10:10,098
+So viel Umsatz muss die AI-Industrie laut Analysten generieren, um die für 2026 geplanten $1,5 Billionen an Infrastruktur-CapEx zu rechtfertigen .
+
+74
+00:10:10,098 --> 00:10:24,048
+Zum Vergleich: Anthropic erzielt aktuell rund $60 Mrd. ARR, OpenAI lag im November 2025 bei $20 Mrd. ARR – zusammen also weit unter einem Zehntel der benötigten Summe .
+
+75
+00:10:24,048 --> 00:10:30,410
+Verschärft wird die Lücke durch zunehmende Konkurrenz billigerer Open-Source-Modelle und sinkende Token-Preise .
+
+76
+00:10:30,410 --> 00:10:38,373
+Die erforderlichen Einnahmen pro GW Kapitalausgaben sind aufgrund dieser Engpässe und steigenden Baukosten stark gestiegen.
+
+77
+00:10:38,373 --> 00:10:41,135
+David Cahn, Sequoia Capital
+
+78
+00:10:41,135 --> 00:10:50,148
+Apollo-Chefökonom Torsten Slok warnt vor Rezessionsrisiken, sollten Hyperscaler ihre Gewinnprognosen für 2028 verfehlen .
+
+79
+00:10:50,148 --> 00:10:51,860
+Leseliste.
+
+80
+00:10:51,860 --> 00:10:53,810
+Für's Wochenende:.
+
+81
+00:10:53,810 --> 00:10:57,660
+1.  Can AI answer the $3 trillion question?
+
+82
+00:10:57,660 --> 00:11:06,160
+Tiefgehende Einordnung der CapEx-vs-Revenue-Lücke der gesamten Branche, mit Einschätzungen von Sequoia und Apollo (8 min)
+
+83
+00:11:06,160 --> 00:11:19,285
+2.  The running list of major tech layoffs in 2026  - Laufend aktualisierte Übersicht aller AI-bezogenen Entlassungen 2026, gut als Nachschlagewerk (5 min)
+
+84
+00:11:19,285 --> 00:11:32,273
+3.  UN Global Dialogue on AI Governance  - Zusammenfassung der ersten UN-Sitzung zur KI-Governance mit Zitaten von Bengio und Ressa, guter Überblick über den globalen Regulierungsdiskurs (6 min)
+
+85
+00:11:32,273 --> 00:11:33,798
+Next Week.
+
+86
+00:11:33,798 --> 00:11:35,348
+Was kommt:.
+
+87
+00:11:35,348 --> 00:11:46,760
+Mi 15.07.: OpenAI plant den Launch von GPT-5.6, nachdem die Trump-Administration den Release zuvor aus Sicherheitsbedenken zeitweise blockiert hatte .
+
+88
+00:11:46,760 --> 00:11:57,323
+Grok 4.5 wird Mitte Juli offiziell in der EU verfügbar – dann zeigt sich, ob der Preisvorteil gegenüber Opus 4.7 auch im europäischen Enterprise-Markt zieht .
+
+89
+00:11:57,323 --> 00:12:07,760
+Wir beobachten weiter: Ob Pekings Exportkontroll-Pläne konkrete Fristen bekommen, dürfte sich in den kommenden Wochen über offizielle Statements des Handelsministeriums klären .
+
+90
+00:12:07,760 --> 00:12:12,335
+Dieser Newsletter wurde mit AI-Unterstützung recherchiert und geschrieben.
+
+91
+00:12:12,335 --> 00:12:15,648
+Bilder generiert mit  Pollinations.ai .
+

@@ -1,0 +1,360 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:18,275
+Grok 4.5: xAI launches its first model since going public and acquiring Cursor, at $2/$6 per million tokens — significantly cheaper than Anthropic's Opus 4.7 ($5/$25).
+
+4
+00:00:18,275 --> 00:00:26,625
+China: Beijing consults with Alibaba, ByteDance, and Z.ai on a tiered export control system for frontier models.
+
+5
+00:00:26,625 --> 00:00:37,637
+Layoffs: 120,000 tech jobs already cut in 2026, with AI the most-cited reason in May — despite record profits at Oracle and others.
+
+6
+00:00:37,637 --> 00:00:48,475
+Capital question: The industry is planning $1.5 trillion in 2026 CapEx, but analysts say it needs $3 trillion in revenue to justify it.
+
+7
+00:00:48,475 --> 00:00:49,725
+Story of the Week.
+
+8
+00:00:49,725 --> 00:00:54,637
+Grok 4.5: xAI Pivots from Chatbot to Enterprise Tool.
+
+9
+00:00:54,637 --> 00:01:07,862
+$2 per million input tokens, versus $5 for Anthropic's Opus 4.7 — with this pricing, xAI sends its first model since its own IPO and the Cursor acquisition into the race .
+
+10
+00:01:07,862 --> 00:01:23,650
+Grok 4.5 launched on July 8, 2026, exactly one week ahead of OpenAI's GPT-5.6 launch announced for July 15, which had previously been temporarily blocked by the Trump administration over safety concerns .
+
+11
+00:01:23,650 --> 00:01:30,387
+The focus is now explicitly on coding, office work, and agentic tasks rather than the consumer chatbot .
+
+12
+00:01:30,387 --> 00:01:35,662
+xAI markets the model as "twice as token-efficient" compared to the competition .
+
+13
+00:01:35,662 --> 00:01:48,462
+On cost, Grok 4.5 significantly undercuts both Opus 4.7 ($5/$25 per million tokens) and OpenAI's Sol model ($5/$30) .
+
+14
+00:01:48,462 --> 00:01:54,437
+EU users, however, will need to wait until mid-July before the model becomes available there .
+
+15
+00:01:54,437 --> 00:02:03,537
+"An Opus-class model, but faster, more token-efficient and lower cost — roughly comparable to Opus 4.7, but much faster."
+
+16
+00:02:03,537 --> 00:02:04,612
+— Elon Musk
+
+17
+00:02:04,612 --> 00:02:19,912
+For developer and ops teams, this means: anyone who has been hesitant about coding agents due to cost now has a noticeably cheaper alternative at a comparable quality level with Grok 4.5 — provided the "Opus-class" label holds up in practice.
+
+18
+00:02:19,912 --> 00:02:31,537
+Critical voices: Musk's comparison to Opus 4.7 comes directly from xAI itself — independent benchmark results for Grok 4.5 were not yet available at time of writing.
+
+19
+00:02:31,537 --> 00:02:39,912
+Open questions remain: how the price advantage plays out under real agentic workloads with high tool-call overhead is still unclear.
+
+20
+00:02:39,912 --> 00:02:52,937
+Bottom Line: Grok 4.5 marks xAI's strategic shift away from the consumer chatbot toward a price war for enterprise and coding workloads — at the expense of Anthropic's and OpenAI's margins.
+
+21
+00:02:52,937 --> 00:02:54,275
+More Top Stories.
+
+22
+00:02:54,275 --> 00:02:58,050
+Beijing Weighs Export Restrictions on Chinese AI Models.
+
+23
+00:02:58,050 --> 00:03:12,500
+China's Ministry of Commerce is consulting with Alibaba (Qwen), ByteDance (Doubao), and Z.ai (GLM-5.2) on restricting foreign access to the country's most advanced domestic AI models .
+
+24
+00:03:12,500 --> 00:03:30,675
+Under discussion: harsher penalties for leaks as violations of the National Security Law, plus a tiered control system — basic open-source tools subject to registration, advanced models requiring security review, and frontier models restricted to domestic use only or not released at all .
+
+25
+00:03:30,675 --> 00:03:38,987
+Beijing is thus increasingly treating AI — much like the US does — as "a critical national asset that requires controls" .
+
+26
+00:03:38,987 --> 00:03:42,400
+The timeline and final scope of the measures remain open .
+
+27
+00:03:42,400 --> 00:03:43,225
+So what?
+
+28
+00:03:43,225 --> 00:03:56,375
+Should China actually restrict its open-weight models like Qwen or GLM, it would hit the Western open-source scene hard — Qwen derivatives in particular are currently among the most widely used base models outside the US.
+
+29
+00:03:56,375 --> 00:04:02,187
+UN Global Dialogue on AI Governance: All 193 States at the Table.
+
+30
+00:04:02,187 --> 00:04:17,025
+On July 6 and 7, the first session of the UN Global Dialogue on AI Governance took place in Geneva — with representatives from all 193 UN member states as well as industry, civil society, and academia .
+
+31
+00:04:17,025 --> 00:04:23,962
+A 40-member international panel of experts released the first comprehensive global governance assessment during the session .
+
+32
+00:04:23,962 --> 00:04:34,087
+Discussions covered opportunities such as productivity gains and improved healthcare systems, but also risks like disinformation and the erosion of democratic processes .
+
+33
+00:04:34,087 --> 00:04:38,300
+"Science cannot guarantee that AI will not cause catastrophic harm."
+
+34
+00:04:38,300 --> 00:04:39,675
+— Yoshua Bengio
+
+35
+00:04:39,794 --> 00:04:50,444
+Particularly notable: Ambassador Rein Tammsaar pointed to the geopolitical concentration of frontier AI development in just two countries — the US and China .
+
+36
+00:04:50,444 --> 00:04:51,269
+So what?
+
+37
+00:04:51,269 --> 00:04:58,394
+For every other state (and their companies), this means a structural dependence on models whose regulation they have no say in.
+
+38
+00:04:58,394 --> 00:05:03,856
+AI Agent Startup Lets Its Own Agent Run $100M Funding Round.
+
+39
+00:05:03,856 --> 00:05:14,169
+Jersey City-based enterprise agent startup Lyzr had its AI agent, "SivaClaw," run its own Series B funding round — as a living proof of product .
+
+40
+00:05:14,169 --> 00:05:23,744
+The agent answered questions from over 130 investors, drafted investment memos, and even tracked which slides investors spent the most time viewing .
+
+41
+00:05:23,744 --> 00:05:36,806
+The round closed at $100 million in Series B funding at roughly a $500 million valuation, with $400 million in total interest from Silicon Valley, the Middle East, and the financial sector .
+
+42
+00:05:36,806 --> 00:05:44,844
+"There's so much capital chasing AI bets that startup founders with traction barely have to leave their desks to raise nine figures."
+
+43
+00:05:44,844 --> 00:05:45,669
+So what?
+
+44
+00:05:45,669 --> 00:06:01,256
+Whether this is a PR stunt or a genuine preview of agentic fundraising processes remains to be seen — but the sheer demand of $400 million against a $100 million target shows just how overheated the AI funding market remains.
+
+45
+00:06:01,256 --> 00:06:02,206
+Quick Hits.
+
+46
+00:06:02,206 --> 00:06:03,281
+Briefly noted:.
+
+47
+00:06:03,281 --> 00:06:22,406
+Meta: New MTIA chip generation enters production in September to cut GPU costs amid an unprecedented component shortage — planned 2026 CapEx: $125-145B, 7 GW of compute capacity with planned doubling in 2027 .
+
+48
+00:06:22,406 --> 00:06:35,006
+DeepSeek: Chinese company is developing its own inference chip to reduce dependence on Nvidia and Huawei — already ramping up hiring of chip design engineers and holding confidential foundry talks .
+
+49
+00:06:35,006 --> 00:06:49,056
+Google: Now labels AI-generated ads in "My Ad Center" for Search, YouTube, and Discover — automatic for Google's own AI ad tools, manual for externally created ads, with no independent verification .
+
+50
+00:06:49,056 --> 00:07:01,544
+Ollama: Raises $65M Series B led by Theory Ventures, bringing total funding to $88M with 8.9M monthly users and just 14 employees .
+
+51
+00:07:01,544 --> 00:07:17,419
+Tech Layoffs: Oracle cuts 21,000 jobs (-13%) despite a $3.7B quarterly profit (+27%), explicitly citing "adoption and deployment of AI technologies" as the reason .
+
+52
+00:07:17,419 --> 00:07:18,544
+Tool of the Week.
+
+53
+00:07:18,544 --> 00:07:22,319
+Ollama — Local AI models made as easy as Docker.
+
+54
+00:07:22,319 --> 00:07:30,544
+Ollama makes open-source LLMs run locally without users having to worry about CUDA versions, quantization, or model formats .
+
+55
+00:07:30,544 --> 00:07:43,331
+Following its fresh $65M Series B, the tool now offers a cloud service with subscription tiers billed by GPU time rather than token limits, alongside the free desktop version .
+
+56
+00:07:43,331 --> 00:07:54,469
+Particularly useful for developer teams who want to test models locally or avoid cloud APIs for privacy reasons: a model like Llama or Mistral is ready to run with a single  command.
+
+57
+00:07:54,469 --> 00:07:58,619
+"Open models came out in 2023 but were very hard to use."
+
+58
+00:07:58,619 --> 00:08:00,869
+— Jeff Morgan, CEO Ollama
+
+59
+00:08:00,869 --> 00:08:13,519
+With 176,000 GitHub stars and adoption at 85% of Fortune 500 companies, Ollama has effectively established itself as the standard interface for local AI models .
+
+60
+00:08:13,519 --> 00:08:14,519
+Link to tool
+
+61
+00:08:14,519 --> 00:08:15,669
+Fail of the Week.
+
+62
+00:08:15,669 --> 00:08:19,919
+"AI-related" as a layoff reason — despite record profits
+
+63
+00:08:19,919 --> 00:08:27,994
+TechCrunch maintains a running list of major tech layoffs in 2026 where employers explicitly cited AI as the reason .
+
+64
+00:08:27,994 --> 00:08:36,956
+Roughly 120,000 tech jobs have already been cut in 2026, with AI the most frequently cited reason for layoffs in May .
+
+65
+00:08:36,956 --> 00:08:42,194
+The paradox: several affected companies reported record revenues in the same period.
+
+66
+00:08:42,194 --> 00:08:53,931
+Oracle cut 21,000 jobs (-13% of its workforce over 12 months) while posting a $3.7B quarterly profit (+27%) .
+
+67
+00:08:53,931 --> 00:09:09,806
+GitLab trimmed 350 jobs (-14%) despite $264M in quarterly revenue (+23% YoY), citing a demand for "100x growth" in agentic workloads as justification .
+
+68
+00:09:09,806 --> 00:09:26,756
+Root cause: Companies are using "AI efficiency" narratives to justify cost cuts to investors, regardless of whether the actual operational driver is automation, shifting demand, or simply margin pressure — a blending of PR messaging and genuine technical cause.
+
+69
+00:09:26,858 --> 00:09:41,833
+What we're learning: Anyone reading corporate "AI replaced X jobs" statements should check the quarterly numbers in parallel — often, the stated reason for layoffs says more about investor-relations strategy than about the actual degree of automation.
+
+70
+00:09:41,833 --> 00:09:42,970
+Number of the Week.
+
+71
+00:09:42,970 --> 00:09:44,708
+$3 Trillion
+
+72
+00:09:44,708 --> 00:09:55,558
+That's how much revenue the AI industry needs to generate, according to analysts, to justify the $1.5 trillion in infrastructure CapEx planned for 2026 .
+
+73
+00:09:55,558 --> 00:10:09,420
+For comparison: Anthropic currently generates roughly $60B in ARR, while OpenAI stood at $20B ARR as of November 2025 — together, well under a tenth of the required sum .
+
+74
+00:10:09,420 --> 00:10:16,145
+The gap is widening further amid growing competition from cheaper open-source models and falling token prices .
+
+75
+00:10:16,145 --> 00:10:24,483
+"The required revenue per GW of capital expenditure has risen sharply due to these bottlenecks and rising construction costs."
+
+76
+00:10:24,483 --> 00:10:26,658
+— David Cahn, Sequoia Capital
+
+77
+00:10:26,658 --> 00:10:34,320
+Apollo chief economist Torsten Slok warns of recession risk should hyperscalers miss their 2028 profit projections .
+
+78
+00:10:34,320 --> 00:10:35,420
+Reading List.
+
+79
+00:10:35,420 --> 00:10:36,420
+For the weekend:.
+
+80
+00:10:36,420 --> 00:10:39,820
+1.  Can AI answer the $3 trillion question?
+
+81
+00:10:39,820 --> 00:10:47,295
+- An in-depth look at the industry-wide CapEx-vs-revenue gap, with assessments from Sequoia and Apollo (8 min)
+
+82
+00:10:47,295 --> 00:10:59,108
+2.  The running list of major tech layoffs in 2026  - Continuously updated overview of all AI-related layoffs in 2026, useful as a reference (5 min)
+
+83
+00:10:59,108 --> 00:11:12,508
+3.  UN Global Dialogue on AI Governance  - Summary of the first UN session on AI governance with quotes from Bengio and Ressa, a good overview of the global regulatory discourse (6 min)
+
+84
+00:11:12,508 --> 00:11:13,483
+Next Week.
+
+85
+00:11:13,483 --> 00:11:14,370
+What's coming:.
+
+86
+00:11:14,370 --> 00:11:25,170
+Wed 7/15: OpenAI plans to launch GPT-5.6, after the Trump administration had temporarily blocked the release over safety concerns .
+
+87
+00:11:25,170 --> 00:11:36,558
+Grok 4.5 officially becomes available in the EU mid-July — that's when we'll see whether its price advantage over Opus 4.7 holds up in the European enterprise market too .
+
+88
+00:11:36,558 --> 00:11:46,708
+Still watching: whether Beijing's export control plans acquire concrete deadlines should become clearer over the coming weeks via official statements from the Ministry of Commerce .
+
+89
+00:11:46,708 --> 00:11:50,083
+This newsletter was researched and written AI-assisted.
+
+90
+00:11:50,083 --> 00:11:52,958
+Images generated with  Pollinations.ai .
+
