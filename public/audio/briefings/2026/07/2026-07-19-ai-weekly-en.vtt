@@ -1,0 +1,316 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:16,425
+Building freeze: New York becomes the first US state to impose a one-year moratorium on new data centers of 50 megawatts or more — electricity prices have risen 68% since 2019 .
+
+4
+00:00:16,425 --> 00:00:26,150
+Power bloc: Xi Jinping launches WAICO, a new AI alliance with 29 founding states, positioned as a counterweight to the US-led AI order .
+
+5
+00:00:26,150 --> 00:00:38,425
+Arms race: Moonshot AI's Kimi K3, with 2–3 trillion parameters, is set to catch up with Anthropic's Opus 4.8 — open weights expected on July 27 .
+
+6
+00:00:38,425 --> 00:00:49,900
+Blind spot: Anthropic's own analysis of 309,815 conversations shows Claude responds with varying warmth or rigor depending on the input language .
+
+7
+00:00:49,900 --> 00:00:51,150
+Story of the Week.
+
+8
+00:00:51,150 --> 00:00:54,375
+New York halts the data center boom — for one year.
+
+9
+00:00:54,375 --> 00:01:08,400
+A state that has so far welcomed every hyperscaler with open arms is hitting the brakes: Governor Kathy Hochul has signed a statewide, one-year moratorium on new "hyperscale" data centers requiring 50 megawatts or more of power .
+
+10
+00:01:08,400 --> 00:01:13,487
+New York is the first US state to freeze AI construction plans of this scale .
+
+11
+00:01:13,487 --> 00:01:28,475
+The trigger isn't abstract AI skepticism — it's the electricity bill: statewide power prices have risen 68% since 2019, and concern over grid capacity is growing faster than new transmission lines can be built .
+
+12
+00:01:28,475 --> 00:01:38,387
+Unlike earlier local pushback against individual construction projects, this is the first statewide, government-level intervention into the US data center boom.
+
+13
+00:01:38,387 --> 00:01:56,762
+Why it matters: For cloud providers and AI labs, this signals a measurable shift in the data center site-selection race toward states with looser energy policy — and for New York consumers, it's a rare case where electricity-price concerns actually carry political weight against the AI infrastructure lobby.
+
+14
+00:01:56,762 --> 00:02:07,125
+Critical voices: Direct statements from supporters or opponents of the moratorium were not accessible at the time of research (the source page blocked automated access).
+
+15
+00:02:07,125 --> 00:02:23,150
+The tech industry can generally be expected to argue that such a building freeze weakens competitiveness in the global AI race and shifts investment to other states or countries — but no official statements from Amazon, Microsoft, Google, or Meta are available yet.
+
+16
+00:02:23,150 --> 00:02:30,862
+Open questions: how the affected hyperscalers will actually respond, and whether other states follow suit, remain unclear.
+
+17
+00:02:30,862 --> 00:02:39,125
+Bottom line: Rising electricity prices have just become the first serious political brake on US AI infrastructure expansion.
+
+18
+00:02:39,125 --> 00:02:40,462
+More Top Stories.
+
+19
+00:02:40,462 --> 00:02:44,287
+Gemini 3.5 Pro reaches general availability.
+
+20
+00:02:44,287 --> 00:02:51,375
+Google has officially brought Gemini 3.5 Pro to general availability after roughly a six-week delay .
+
+21
+00:02:51,375 --> 00:03:02,725
+New features include a context window expanded to 2 million tokens and a new "Deep Think" reasoning mode, available in the $250/month Ultra subscription .
+
+22
+00:03:02,725 --> 00:03:14,900
+The delay itself is notable: a six-week slip on a flagship model suggests Google is under heightened pressure in the current model race — though the available sources don't give a concrete reason for the delay.
+
+23
+00:03:14,900 --> 00:03:15,725
+So what?
+
+24
+00:03:15,725 --> 00:03:29,075
+Anyone planning production workflows on Gemini 3.5 Pro can now count on the wider context window and the new reasoning mode, but given the long delay should plan a careful independent evaluation before rollout.
+
+25
+00:03:29,075 --> 00:03:34,700
+Kimi K3: China's largest open model takes aim at Opus 4.8.
+
+26
+00:03:34,700 --> 00:03:52,150
+Moonshot AI is preparing to release Kimi K3 — an open-weight, mixture-of-experts model with 2 to 3 trillion parameters and a 1-million-token context window, reportedly expected to perform "at par with or even surpass Anthropic's Opus 4.8" .
+
+27
+00:03:52,150 --> 00:03:55,875
+It's considered the largest open-weight model out of China to date .
+
+28
+00:03:55,875 --> 00:04:00,987
+The open weights are expected to be released on July 27, 2026 .
+
+29
+00:04:00,987 --> 00:04:18,112
+Critical context: Open weights from Chinese models routinely raise questions for Western companies around training-data provenance, possible export-control implications, and safety or censorship bias — but Moonshot has not yet provided concrete details on any of this for Kimi K3.
+
+30
+00:04:18,218 --> 00:04:18,993
+So what?
+
+31
+00:04:18,993 --> 00:04:35,243
+For teams betting on open weights over proprietary APIs, Kimi K3 could become a serious alternative to Western frontier models with comparable context length starting late July — provided the provenance and safety questions are acceptable for the intended use case.
+
+32
+00:04:35,243 --> 00:04:40,318
+Xi Jinping launches WAICO: China's counter-model to the AI world order.
+
+33
+00:04:40,318 --> 00:04:54,855
+For the first time, Xi Jinping personally delivered the opening address at the World AI Conference in Shanghai — accompanied by the founding of the "World Artificial Intelligence Cooperation Organisation" (WAICO) with 29 founding states .
+
+34
+00:04:54,855 --> 00:04:58,255
+UN Secretary-General Guterres was also present .
+
+35
+00:04:58,255 --> 00:05:11,630
+Xi explicitly positioned the initiative as a multilateral counter-model to the US-led AI order: "AI development should not be a solo performance by a single country, but a symphony of international cooperation" .
+
+36
+00:05:11,630 --> 00:05:21,493
+At the same time, he stressed that "AI is always under human control" and warned against overstretching the concept of national security in the AI domain .
+
+37
+00:05:21,493 --> 00:05:35,143
+Critical context: China itself runs one of the world's strictest censorship and surveillance infrastructures in the AI domain — Xi's call for "international cooperation" sits in tension with its own domestic practice.
+
+38
+00:05:35,143 --> 00:05:43,330
+Statements from Western governments or US-led AI alliances on the founding of WAICO were not yet available at the time of research.
+
+39
+00:05:43,330 --> 00:05:44,155
+So what?
+
+40
+00:05:44,155 --> 00:05:56,918
+With 29 founding states — mostly from the Global South — China is building its own standardization and cooperation framework that directly competes with Western governance initiatives like the AI Safety Summit.
+
+41
+00:05:56,918 --> 00:05:57,868
+Quick Hits.
+
+42
+00:05:57,868 --> 00:05:58,943
+Briefly noted:.
+
+43
+00:05:58,943 --> 00:06:10,555
+Anthropic: Claude for Teachers offers verified US K-12 teachers free premium access, curriculum-aligned across all 50 states, with a pilot launch in Detroit .
+
+44
+00:06:10,555 --> 00:06:20,780
+Worth noting critically: as an Anthropic in-house product, independent assessments of student data-privacy implications and statements from teacher unions are still missing.
+
+45
+00:06:20,780 --> 00:06:34,055
+Apple: China's Cyberspace Administration has approved Apple Intelligence with local partners (Alibaba's Qwen for text/image, Baidu for search) — Apple remains the only foreign provider on the approval list .
+
+46
+00:06:34,055 --> 00:06:50,205
+Microsoft: "Project Perception" combines Anthropic, OpenAI, and in-house models into a cheaper security tool for vulnerability detection — the main argument against Anthropic's Mythos is price, whose API costs are reportedly roughly double those of Opus .
+
+47
+00:06:50,205 --> 00:06:51,330
+Tool of the Week.
+
+48
+00:06:51,330 --> 00:06:58,168
+Gemini Notebook (formerly NotebookLM) — Google's research tool gets a new name and a new core feature.
+
+49
+00:06:58,168 --> 00:07:09,168
+Google is fully rebranding NotebookLM as "Gemini Notebook," tying it more closely to the Gemini brand, including a planned integration into Search's AI Mode .
+
+50
+00:07:09,168 --> 00:07:17,993
+New is a cloud compute environment that runs code directly inside notebooks — a secure cloud environment for data analysis in the Pro tier .
+
+51
+00:07:17,993 --> 00:07:28,580
+Over 30 million users and 600,000+ organizations already use the tool; old NotebookLM links and the domain remain functional .
+
+52
+00:07:28,580 --> 00:07:36,543
+Especially useful for teams that want to combine research notes with real code execution without setting up a separate analysis environment.
+
+53
+00:07:36,543 --> 00:07:44,318
+The Gemini 3.5 and Antigravity upgrade is announced to arrive for AI Pro subscribers in the coming weeks .
+
+54
+00:07:44,318 --> 00:07:45,330
+View the tool
+
+55
+00:07:45,330 --> 00:07:46,480
+Fail of the Week.
+
+56
+00:07:46,480 --> 00:07:51,355
+"Claude is warmer in Hindi and stricter in English — and Anthropic didn't know"
+
+57
+00:07:51,355 --> 00:08:10,843
+Anthropic's own analysis of 309,815 anonymized Claude.ai conversations reveals systematic, unintended value differences: depending on input language and model, Claude responds either warmer or stricter — Hindi triggers the warmest responses, English the strictest .
+
+58
+00:08:10,843 --> 00:08:23,668
+Notably, the models studied (Sonnet 4.6, Opus 4.6/4.7) have since been superseded by Sonnet 5 — the inconsistency only became visible in retrospect .
+
+59
+00:08:23,786 --> 00:08:33,736
+Context: The fact that Anthropic published the study itself is not reassuring on its own — it mainly means the only available data comes from the company under scrutiny.
+
+60
+00:08:33,736 --> 00:08:46,323
+Independent reviews of the methodology or comparison data for competing models (GPT, Gemini) are still lacking, so it's not yet possible to tell whether the issue is Claude-specific or industry-wide.
+
+61
+00:08:46,323 --> 00:09:08,423
+Root cause: The value axes (warmth vs. rigor, restraint vs. caution) drift apart depending on the distribution of training data per language, without any single training step specifically optimizing against it — a side effect of unevenly distributed multilingual training corpora that only becomes visible through after-the-fact conversation analysis .
+
+62
+00:09:08,423 --> 00:09:21,023
+What we're learning: Anyone running a model in production across multiple languages should evaluate behavior separately per language — an eval pass in English says nothing about behavior in Hindi, Arabic, or German.
+
+63
+00:09:21,023 --> 00:09:22,161
+Number of the Week.
+
+64
+00:09:22,161 --> 00:09:25,023
+309,815
+
+65
+00:09:25,023 --> 00:09:33,511
+That's how many anonymized Claude.ai conversations Anthropic analyzed for its study on language- and model-dependent value differences .
+
+66
+00:09:33,511 --> 00:09:48,898
+Compared to classic red-teaming samples of a few hundred to a few thousand examples, this scale shows how systematically Anthropic now analyzes real user behavior — and how easily biases of this kind can still slip through production unnoticed for months .
+
+67
+00:09:48,898 --> 00:09:49,998
+Reading List.
+
+68
+00:09:49,998 --> 00:09:50,998
+For the weekend:.
+
+69
+00:09:50,998 --> 00:09:55,623
+1.  China's Xi Jinping launches new AI alliance: What is it?
+
+70
+00:09:55,623 --> 00:10:01,273
+- Context on the founding of WAICO and what it means for global AI governance (8 min)
+
+71
+00:10:01,273 --> 00:10:13,323
+2.  Moonshot's upcoming Kimi K3 is expected to close the gap with Anthropic's Opus 4.8  - Background on Moonshot's model architecture and funding history (6 min)
+
+72
+00:10:13,323 --> 00:10:26,461
+3.  Claude values differ by language, Anthropic study maps warmth, rigor gaps  - Details on the methodology behind the 309,815-conversation analysis (5 min)
+
+73
+00:10:26,461 --> 00:10:27,436
+Next Week.
+
+74
+00:10:27,436 --> 00:10:28,323
+What's coming:.
+
+75
+00:10:28,323 --> 00:10:34,498
+Mon Jul 27: Moonshot AI plans to release the open weights of Kimi K3 .
+
+76
+00:10:34,498 --> 00:10:42,811
+How Gemini 3.5 Pro performs against competing models in practice after its GA launch should become clearer in the coming weeks .
+
+77
+00:10:42,811 --> 00:10:51,361
+Reactions from major hyperscalers (Amazon, Microsoft, Google, Meta) to New York's data center moratorium are expected .
+
+78
+00:10:51,361 --> 00:10:54,736
+This newsletter was researched and written AI-assisted.
+
+79
+00:10:54,736 --> 00:10:59,498
+Hero images, where available, are generated with  Pollinations.ai .
+
