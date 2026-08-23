@@ -1,0 +1,328 @@
+1
+00:00:00,050 --> 00:00:00,962
+TL;DR.
+
+2
+00:00:00,962 --> 00:00:03,087
+This week in 30 seconds:.
+
+3
+00:00:03,087 --> 00:00:15,812
+Claude Biotech: Anthropic's models autonomously design protein binders for 14 of 15 target proteins – up to 40% hit rate versus 3.7% for human competitors .
+
+4
+00:00:15,812 --> 00:00:25,350
+Stripe Deal: Stripe acquires OpenRouter for over $7B – 5.4x its May valuation of $1.3B .
+
+5
+00:00:25,350 --> 00:00:35,212
+Geopolitics: US pressures 35 countries to pick between the US and China AI camps, China counters with its own cooperation organization .
+
+6
+00:00:35,212 --> 00:00:44,000
+Hardware Costs: Nvidia server systems get over 15% more expensive starting 2027 – memory chip costs drive the surcharge .
+
+7
+00:00:44,000 --> 00:00:45,250
+Story of the Week.
+
+8
+00:00:45,250 --> 00:00:51,950
+Claude Designs Proteins Faster and More Accurately Than Human Researchers – Completely Unsupervised.
+
+9
+00:00:51,950 --> 00:01:11,487
+14 of 15 target proteins successfully designed, without a single human intervention during the process: Anthropic had Claude Opus 4.8 and the new Mythos Preview run a multi-day wet lab campaign autonomously – and the results significantly exceed what the biotech industry has been used to so far .
+
+10
+00:01:11,487 --> 00:01:25,275
+In collaboration with the independent labs Adaptyv Bio and Twist Bioscience, the models tested 1,320 designs against 15 target proteins, validated in the real lab rather than just in simulation .
+
+11
+00:01:25,275 --> 00:01:38,687
+Mythos Preview achieved a 26.7% hit rate over 48 hours in multi-target mode, Opus 4.8 reached 22.6% – the industry average is only 10-15% .
+
+12
+00:01:38,687 --> 00:01:45,737
+In single-target mode over 24 hours, Mythos Preview even climbed to 35.1% .
+
+13
+00:01:45,737 --> 00:02:03,275
+The most striking case is the extreme outlier target protein RBX1: there, Mythos Preview achieved a 40% hit rate – in an open Adaptyv Bio competition with 245 human participants, the best submissions reached just 3.7% .
+
+14
+00:02:03,275 --> 00:02:09,662
+In total, 354 of 1,320 tested designs were confirmed in the lab .
+
+15
+00:02:09,662 --> 00:02:19,850
+Anthropic emphasizes that the models carried out design, iteration, and evaluation entirely on their own – no human had to intervene between iteration steps .
+
+16
+00:02:19,850 --> 00:02:29,012
+Direct quotes from the technical preprint are not yet publicly accessible, as the publication is either paywalled or only available as a preprint .
+
+17
+00:02:29,012 --> 00:02:30,212
+Why does this matter?
+
+18
+00:02:30,212 --> 00:02:44,612
+For biotech startups and pharmaceutical companies, this means: design campaigns that used to tie up entire research teams for months can now be run in days with a single model setup – at a hit rate that beats specialized human teams.
+
+19
+00:02:44,612 --> 00:02:51,862
+This shifts the bottleneck in drug and materials development from the design phase to lab validation and production scaling.
+
+20
+00:02:51,862 --> 00:03:02,725
+Critical voices: Open questions remain: How well do these results generalize to more complex, therapeutically relevant target proteins beyond the 15 test cases?
+
+21
+00:03:02,725 --> 00:03:12,750
+And how reproducible are the results outside the tightly curated partnership with Adaptyv Bio and Twist Bioscience, whose validation processes Anthropic helped shape?
+
+22
+00:03:12,750 --> 00:03:24,412
+Bottom Line: Claude has shown that autonomous, multi-day scientific design campaigns with above-industry success rates are possible – the next question is whether this also scales to harder targets.
+
+23
+00:03:24,412 --> 00:03:25,750
+More Top Stories.
+
+24
+00:03:25,750 --> 00:03:29,775
+Stripe Acquires OpenRouter for Over $7B.
+
+25
+00:03:29,775 --> 00:03:41,725
+Stripe is buying the AI model routing startup OpenRouter, which serves as a central access point to over 400 AI models from more than 80 providers and protects customers from vendor lock-in .
+
+26
+00:03:41,725 --> 00:04:01,612
+The purchase price of over $7B is 5.4x the Series B valuation of $1.3B that OpenRouter achieved just in May 2026 in a $113M funding round with investors including Sequoia, Andreessen Horowitz, Menlo Ventures, and Alphabet's CapitalG .
+
+27
+00:04:01,612 --> 00:04:11,862
+OpenRouter's CEO described the company as "Stripe for AI" – a unified access point for different AI systems, similar to how Stripe unifies payment providers .
+
+28
+00:04:11,862 --> 00:04:22,250
+With 8 million global users, OpenRouter has become a central infrastructure layer for developers who want to switch between models without rebuilding their integration each time .
+
+29
+00:04:22,250 --> 00:04:23,075
+So what?
+
+30
+00:04:23,075 --> 00:04:38,475
+For teams already testing multiple models through OpenRouter today, this is a signal: payment infrastructure and AI infrastructure are converging – anyone who wants billing and model routing from a single provider should keep an eye on the Stripe integration path.
+
+31
+00:04:38,475 --> 00:04:44,512
+US Pressures 35 Countries to Choose Between US and China AI Ecosystems.
+
+32
+00:04:44,618 --> 00:04:56,293
+The US State Department is preparing a letter to 35 signatory states of the "Pax Silica" declaration (AI Opportunity Statement) demanding a clear commitment to one technology camp .
+
+33
+00:04:56,293 --> 00:05:07,118
+"Signature of the Pax Silica Declaration is not merely a membership subscription, but a commitment"  – the wording makes clear that Washington no longer tolerates dual membership.
+
+34
+00:05:07,118 --> 00:05:15,005
+China counters with its own "World Artificial Intelligence Cooperation Organization" and promotes open models as an alternative .
+
+35
+00:05:15,005 --> 00:05:22,743
+Kazakhstan is so far the only country to have joined both blocs, which has raised concerns in Washington about dual loyalty .
+
+36
+00:05:22,743 --> 00:05:29,130
+According to Reuters reporting, the letter has not yet been officially sent, and the draft could still change .
+
+37
+00:05:29,130 --> 00:05:29,955
+So what?
+
+38
+00:05:29,955 --> 00:05:46,443
+For internationally active AI companies, geopolitics is becoming a compliance issue: anyone with customers or data centers in multiple of the 35 countries should actively track the bloc formation before export controls or procurement rules get tied to it.
+
+39
+00:05:46,443 --> 00:05:51,430
+Nvidia Customers Warned of AI Chip Price Hikes Above 15%.
+
+40
+00:05:51,430 --> 00:06:02,855
+Server manufacturers building systems with Nvidia's Vera Rubin and Grace Blackwell chips for Microsoft, Google, and Oracle have been informed of price increases above 15% .
+
+41
+00:06:02,855 --> 00:06:14,418
+Rising memory chip costs are the cause; the increases affect systems shipping from early 2027, with the exact amount varying by chip generation and memory configuration .
+
+42
+00:06:14,418 --> 00:06:21,130
+Direct quotes from manufacturers are not available per Bloomberg's reporting, which relies on sources at suppliers .
+
+43
+00:06:21,130 --> 00:06:21,955
+So what?
+
+44
+00:06:21,955 --> 00:06:34,605
+Anyone doing 2027 capacity planning for GPU clusters should factor the price surcharge into budgets now – AI infrastructure costs keep rising, independent of the model pricing competition.
+
+45
+00:06:34,605 --> 00:06:35,555
+Quick Hits.
+
+46
+00:06:35,555 --> 00:06:36,705
+Noted briefly:.
+
+47
+00:06:36,705 --> 00:06:52,643
+OpenAI: Launches its own ChatGPT version for 13-17-year-olds with age estimation, suicide/self-harm blocks, and "Study Mode" – after the service had already reached 900 million weekly users before such safeguards arrived .
+
+48
+00:06:52,643 --> 00:07:09,593
+Pennsylvania: Governor Shapiro issues an executive order against unregulated data center construction – facilities over 25 MW lose fast-track status, NDAs with municipalities are banned; 76% of voters oppose data centers in their neighborhood .
+
+49
+00:07:09,593 --> 00:07:30,105
+Robotics: Chinese X-Humanoid robots beat Usain Bolt's 100m record at the Beijing Robot Games (9.39s vs. 9.58s) and exceed the high jump world record (2.88m vs. 2.45m) among 2,000+ participating robots .
+
+50
+00:07:30,105 --> 00:07:44,005
+DeepSeek: Introduces peak/off-peak pricing – V4 Pro output costs $3.96/1M tokens at peak times instead of the previous $0.87, more than four times as much .
+
+51
+00:07:44,005 --> 00:07:53,155
+Anthropic: Confirms a 42-minute major outage across Claude.ai, Claude Code, and Cowork – official cause remained unclear .
+
+52
+00:07:53,155 --> 00:07:54,280
+Tool of the Week.
+
+53
+00:07:54,280 --> 00:07:59,105
+Grok Bot – xAI's "always-on" AI teammate exits beta.
+
+54
+00:07:59,105 --> 00:08:06,668
+Grok Bot logs into existing tools on its own, completes tasks end-to-end, and only checks back in when approval is needed .
+
+55
+00:08:06,668 --> 00:08:16,568
+After a beta launch on August 11, the service has been available on Mac, iOS, Windows, and Linux since August 21, with Android to follow .
+
+56
+00:08:16,568 --> 00:08:25,455
+Particularly useful for teams looking to automate recurring multi-tool workflows, since the bots remember conversations and learn preferences over time .
+
+57
+00:08:25,455 --> 00:08:39,355
+Grok Bot is included in SuperGrok Plus/Heavy as well as Cursor Pro+/Ultra/Teams – originally available only for SuperGrok Heavy and Cursor Ultra/Teams Premium, now rolled out more broadly .
+
+58
+00:08:39,355 --> 00:08:44,680
+"Bots sign in to your tools, use them just like you do, and come back with finished work."
+
+59
+00:08:44,680 --> 00:08:45,993
+More on Grok Bot
+
+60
+00:08:45,993 --> 00:08:47,143
+Fail of the Week.
+
+61
+00:08:47,143 --> 00:08:50,205
+"Claude is down – and nobody quite knows why"
+
+62
+00:08:50,205 --> 00:09:09,130
+On August 16, Claude.ai, Claude Code, Claude Cowork, and platform.claude.com went down for about 42 minutes (21:58-22:40 UTC) – login problems, loading errors, and hanging requests affected multiple services simultaneously .
+
+63
+00:09:09,130 --> 00:09:15,943
+Claude Console and the API remained available, suggesting a contained issue in the auth or frontend layer .
+
+64
+00:09:15,943 --> 00:09:25,580
+Root Cause: Anthropic initially investigated authentication issues, later general performance degradation – the exact technical cause was not published .
+
+65
+00:09:25,682 --> 00:09:41,332
+What we learn: Anyone building production workflows on Claude Code or Cowork should plan a fallback path via the API or a secondary model – even established providers with a "major outage" classification don't always deliver a public root-cause analysis.
+
+66
+00:09:41,332 --> 00:09:42,469
+Number of the Week.
+
+67
+00:09:42,469 --> 00:09:44,457
+1,100%
+
+68
+00:09:44,457 --> 00:09:58,869
+That's how much DeepSeek's most expensive single rate – the V4 Pro peak cache-hit input price – jumped with the new peak/off-peak pricing model, in effect since August 17 for V4 Flash and V4 Pro .
+
+69
+00:09:58,869 --> 00:10:04,769
+Peak times are 9-12 and 14-18 Beijing time, off-peak costs only half .
+
+70
+00:10:04,769 --> 00:10:23,169
+V4 Pro output gets more expensive at peak time from $0.87 to $3.96 per 1M tokens, V4 Flash output from $0.28 to $1.32  – a clear signal that the era of dumping prices for Chinese open-weight models is hitting its limits.
+
+71
+00:10:23,169 --> 00:10:24,269
+Reading List.
+
+72
+00:10:24,269 --> 00:10:25,269
+For the weekend:.
+
+73
+00:10:25,269 --> 00:10:37,257
+1.  Claude accelerates protein design  - Anthropic's own research post on the autonomous wet lab campaign, with methodology details on the Adaptyv Bio collaboration (15 min)
+
+74
+00:10:37,257 --> 00:10:50,769
+2.  US issues ultimatum to countries in AI race  - Background on the "Pax Silica" declaration and how geopolitical AI bloc formation has intensified since 2025 (8 min)
+
+75
+00:10:50,769 --> 00:11:01,107
+3.  Grok Bot: all-new iPhone and Mac app  - Hands-on overview of xAI's autonomous teammate concept and the Cursor integration (6 min)
+
+76
+00:11:01,107 --> 00:11:02,082
+Next Week.
+
+77
+00:11:02,082 --> 00:11:02,969
+What's coming:.
+
+78
+00:11:02,969 --> 00:11:13,019
+Further details on Stripe's OpenRouter acquisition are expected once the deal is officially confirmed and integration into Stripe's billing infrastructure is finalized.
+
+79
+00:11:13,019 --> 00:11:23,082
+The response of the 35 "Pax Silica" signatory states to the announced US letter should become clear in the coming days, once the letter is officially sent.
+
+80
+00:11:23,082 --> 00:11:33,744
+We continue watching whether other AI providers follow DeepSeek's example and introduce peak/off-peak pricing models, as memory chip costs rise industry-wide.
+
+81
+00:11:33,744 --> 00:11:37,119
+This newsletter was researched and written AI-assisted.
+
+82
+00:11:37,119 --> 00:11:39,994
+Images generated with  Pollinations.ai .
+
