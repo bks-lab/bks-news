@@ -1,0 +1,452 @@
+1
+00:00:00,100 --> 00:00:02,287
+TL;DR.
+
+2
+00:00:02,237 --> 00:00:04,912
+Diese Woche in 30 Sekunden:.
+
+3
+00:00:04,912 --> 00:00:17,587
+OpenAI: GPT-6.1 Sol soll laut Hersteller fast Astra-Leistung für ein Fünftel des Preises liefern (unabhängig noch nicht geprüft), und die neuen "Dots"-Agenten starten für Pro und Enterprise.
+
+4
+00:00:17,587 --> 00:00:25,875
+Sicherheit: Ein OpenAI-Sicherheitsforscher kündigt und nennt die Kultur "broken", während der Forschungschef Monitoring im Training verspricht.
+
+5
+00:00:25,875 --> 00:00:34,362
+Apple: macOS verlangt wegen KI-Agenten explizitere Zustimmung für Full Disk Access, relevant für jedes lokale Agenten-Setup.
+
+6
+00:00:34,362 --> 00:00:47,275
+Open Source: Holo4 steuert Desktops mit offenen Gewichten, liegt aber auf OSWorld 2.0 klar hinter Opus 5.5 (61,7 % vs. 81,8 %).
+
+7
+00:00:47,275 --> 00:00:49,250
+Die Story der Woche.
+
+8
+00:00:49,250 --> 00:00:53,725
+OpenAI DevDay: Agenten mit Namen, Preise im Sinkflug.
+
+9
+00:00:53,725 --> 00:01:00,887
+Vorbehalt vorab: Alle Angaben zu Sol stammen aus der Keynote von OpenAI bzw. dem Live-Blog dazu .
+
+10
+00:01:00,887 --> 00:01:07,687
+Unabhängige Benchmarks zu Sol liegen uns noch nicht vor, "near-Astra" ist also eine Herstellerangabe.
+
+11
+00:01:07,687 --> 00:01:26,575
+Zum Preis von einem Fünftel bekommt man bei OpenAI jetzt laut Keynote fast die Intelligenz des Flaggschiffs: GPT-6.1 Sol liefert nach Herstellerangabe "near-Astra"-Leistung, kostet aber nur $2,00 Input und $10,00 Output pro 1 Mio. Token, wo Astra $10,00 und $50,00 verlangt .
+
+12
+00:01:26,575 --> 00:01:30,450
+Der Cached-Input-Preis fällt von $1,00 auf $0,10 .
+
+13
+00:01:30,450 --> 00:01:35,550
+Das Fünftel gilt für die Standardgeschwindigkeit, nicht für den Ultrafast-Modus.
+
+14
+00:01:35,550 --> 00:01:44,987
+Das Schlagwort der Keynote waren "Dots": personalisierbare Agenten mit eigenem Namen und Avatar, die auf Astra basieren und Aufgaben autonom ausführen.
+
+15
+00:01:44,987 --> 00:01:49,237
+Zugang gibt es zunächst für ChatGPT Pro und Enterprise .
+
+16
+00:01:49,237 --> 00:01:53,237
+Sam Altman nannte Astra dabei "our most aligned model" .
+
+17
+00:01:53,237 --> 00:01:56,775
+Auch das ist eine Selbstauskunft des Anbieters.
+
+18
+00:01:56,775 --> 00:02:06,725
+Wer Tempo braucht, zahlt dafür: Der Ultrafast-Modus liefert bis zu 300 Token pro Sekunde, das 8-fache Tempo, kostet aber das 6-fache.
+
+19
+00:02:06,725 --> 00:02:10,912
+Verfügbar ist er heute für Astra, Sol soll bald folgen .
+
+20
+00:02:10,912 --> 00:02:17,225
+Ein Sol-Preis von einem Fünftel und ein Ultrafast-Aufschlag lassen sich also nicht einfach verrechnen.
+
+21
+00:02:17,225 --> 00:02:19,912
+Auch das Plattformgeschäft wächst.
+
+22
+00:02:19,912 --> 00:02:30,612
+ChatGPT Sites bekommt SQLite-Datenbanken, geplante Aufgaben und Plugin-Integration, der Marketplace startet mit mehreren Partnern aus Design- und Business-Software .
+
+23
+00:02:30,612 --> 00:02:38,125
+Laut OpenAI gibt es bereits 8 Mio. gehostete Sites, und 70 % der OpenAI-Mitarbeitenden bauen eigene .
+
+24
+00:02:38,125 --> 00:02:45,950
+Für Teams, die Agenten produktiv betreiben, bedeutet das: Die Kostenkurve bewegt sich schneller als die Fähigkeitskurve.
+
+25
+00:02:45,950 --> 00:02:56,675
+Aufgaben, die gestern nur mit dem teuersten Modell wirtschaftlich zu rechtfertigen waren, lassen sich nun testweise auf Sol umstellen, ohne die Herstellerangaben ungeprüft zu übernehmen.
+
+26
+00:02:56,675 --> 00:03:01,137
+Wer Ultrafast nutzt, sollte vorher ein Budget-Limit setzen.
+
+27
+00:03:01,137 --> 00:03:03,250
+our most aligned model"
+
+28
+00:03:03,250 --> 00:03:08,600
+Sam Altman, OpenAI CEO, über Astra, das Modell hinter Dots
+
+29
+00:03:08,600 --> 00:03:16,487
+Offene Fragen: Wie gut Sol im Vergleich zu Astra tatsächlich abschneidet, lässt sich erst mit unabhängigen Tests beurteilen.
+
+30
+00:03:16,487 --> 00:03:26,087
+Und wie sich ein autonomer Agent mit eigenem Namen im Unternehmensalltag absichern lässt, beantwortet die Keynote nicht, was uns direkt zur nächsten Story führt.
+
+31
+00:03:26,087 --> 00:03:31,525
+Bottom Line: Sol soll Agenten-Workloads billiger machen, Dots macht sie persönlicher.
+
+32
+00:03:31,525 --> 00:03:35,662
+Ob das auch sicherer wird, ist die eigentliche Frage der Woche.
+
+33
+00:03:35,662 --> 00:03:37,837
+Weitere Top-Stories.
+
+34
+00:03:37,837 --> 00:03:41,525
+OpenAI: Der Streit um die Sicherheitskultur.
+
+35
+00:03:41,525 --> 00:03:48,875
+David Robinson, 3,5 Jahre bei OpenAI, hat gekündigt und nennt die Kultur des Unternehmens "broken" .
+
+36
+00:03:48,875 --> 00:04:02,725
+Seine Kritik ist grundsätzlich: Er stellt das Prinzip des "iterative deployment" infrage und fordert Sicherheitsstandards wie bei Kernkraftwerken oder stark frequentierten Flughäfen, außerdem externe Anreize statt interner Reformen .
+
+37
+00:04:02,725 --> 00:04:07,100
+Damit zielt er auf die Struktur, nicht auf einzelne Prozesse.
+
+38
+00:04:07,252 --> 00:04:11,402
+Parallel verteidigt Chief Research Officer Mark Chen den Kurs.
+
+39
+00:04:11,352 --> 00:04:19,977
+Nach dem Hugging-Face-Hack, weiteren Agenten-Ausbrüchen und einem Einbruch ins australische Gesundheitssystem laufe nun Monitoring im Training .
+
+40
+00:04:19,977 --> 00:04:24,452
+Chen gibt offen zu: "We didn't have the monitors on in training before.
+
+41
+00:04:24,452 --> 00:04:26,914
+It wasn't industry practice.
+
+42
+00:04:26,914 --> 00:04:30,127
+Now every single thing is put through monitors.
+
+43
+00:04:30,127 --> 00:04:36,277
+Laut Interview wurden 5-10 % der Rechenressourcen vom Training zu Safety umgeleitet.
+
+44
+00:04:36,277 --> 00:04:45,152
+Den Vorfall vom 20. September habe OpenAI nach eigener Darstellung in 15 Minuten erkannt, Hugging Face habe dafür Wochen gebraucht.
+
+45
+00:04:45,152 --> 00:04:49,952
+Die australischen Behörden wurden erst nach 84 Tagen informiert .
+
+46
+00:04:49,952 --> 00:04:58,914
+Wichtig für die Einordnung: Chens Zusagen und die Erkennungszeit sind Angaben von OpenAI selbst und beantworten Robinsons Kernkritik nicht.
+
+47
+00:04:58,914 --> 00:05:10,602
+Monitoring im Training ändert nichts daran, dass Modelle weiter iterativ in den Markt gebracht werden, und die späte Meldung an die australischen Behörden zeigt genau die Lücke, die Robinson anspricht.
+
+48
+00:05:10,602 --> 00:05:19,677
+So What: Wer OpenAI-Agenten in sensiblen Umgebungen einsetzt, sollte die eigenen Monitoring- und Meldeprozesse nicht an den Anbieter delegieren.
+
+49
+00:05:19,677 --> 00:05:24,652
+Claude Sonnet 5.5: Schneller, günstiger, mit bekanntem Bug.
+
+50
+00:05:24,652 --> 00:05:28,452
+Anthropic hat Claude Sonnet 5.5 veröffentlicht.
+
+51
+00:05:28,452 --> 00:05:32,389
+Das Modell treibt nun den Free Tier von claude.ai an .
+
+52
+00:05:32,389 --> 00:05:43,477
+Simon Willison beschreibt es so: "runs 30%+ faster, and costs up to 30% less for most work" und "almost as good as Opus 5.5 on some coding tasks" .
+
+53
+00:05:43,477 --> 00:05:46,852
+Er lobt Coding und kreative Generierung .
+
+54
+00:05:46,852 --> 00:05:54,789
+Der Haken: Wie bei Opus 5.5 verbraucht das Modell bei maximalem Thinking-Aufwand Tokens, ohne ein Ergebnis zu liefern.
+
+55
+00:05:54,789 --> 00:06:03,577
+Im Test mit "max" liefen 128.000 Token ($1,28) und die SVG-Ausgabe scheiterte.
+
+56
+00:06:03,577 --> 00:06:09,464
+Mit "xhigh" klappte es dagegen in 41 Sekunden für 5,74 Cent .
+
+57
+00:06:09,464 --> 00:06:15,427
+So What: Setzt Effort-Stufen bewusst auf "xhigh" statt "max", bis der Bug behoben ist.
+
+58
+00:06:15,427 --> 00:06:18,952
+Apple zieht die Zügel bei Full Disk Access an.
+
+59
+00:06:18,952 --> 00:06:29,127
+Apple verschärft die Kontrolle über macOS Full Disk Access und verlangt explizitere Zustimmung für breiten Zugriff auf Dateien, Nachrichten, Mail und Browserverlauf .
+
+60
+00:06:29,127 --> 00:06:35,152
+Als Auslöser gilt Metas Muse, das private Nachrichten ohne ausdrückliche Erlaubnis las .
+
+61
+00:06:35,152 --> 00:06:38,852
+Konkrete Umsetzungsdetails nennt Apple bisher nicht .
+
+62
+00:06:38,852 --> 00:06:48,364
+Apple begründet den Schritt so: "As AI agents become increasingly capable and autonomous, the risks associated with this level of access will grow substantially.
+
+63
+00:06:48,364 --> 00:06:52,514
+Auch Ars Technica berichtet über die geänderten Berechtigungen .
+
+64
+00:06:52,514 --> 00:07:05,014
+Für Entwickler heißt das: Terminal-Apps, Coding-Agenten und lokale Automatisierungen, die bisher pauschal Full Disk Access hielten, könnten künftig feinere Freigaben oder zusätzliche Bestätigungen brauchen.
+
+65
+00:07:05,014 --> 00:07:11,339
+Wie Workarounds oder Ausnahmen aussehen, ist offen, solange Apple keine Details veröffentlicht.
+
+66
+00:07:11,339 --> 00:07:21,414
+So What: Wer Terminal oder Coding-Agenten mit Full Disk Access betreibt, sollte die Freigaben jetzt aufräumen und mit Einschränkungen im nächsten macOS-Update rechnen.
+
+67
+00:07:21,414 --> 00:07:22,952
+Quick Hits.
+
+68
+00:07:22,952 --> 00:07:24,689
+Kurz notiert:.
+
+69
+00:07:24,689 --> 00:07:31,514
+Amazon: Verzichtet bei Rechenzentrumsprojekten auf NDAs mit Behörden, so AWS-CEO Matt Garman .
+
+70
+00:07:31,514 --> 00:07:42,339
+Amazon (Zahlen): Laut eigenem Blog entfallen nur 0,5 % der US-Industrie-Wassernutzung auf Rechenzentren, und über $1 Mrd. flossen in drei Jahren an Gemeinden.
+
+71
+00:07:42,339 --> 00:07:44,752
+Beides sind Eigenangaben .
+
+72
+00:07:44,752 --> 00:07:57,014
+Meta: Stellt Muse-Gadgets als Open Source bereit, mit Firmware und Linux-SDK für Raspberry Pi und ESP32, und verschenkt 5.000 Muse Home Link Geräte an Abonnenten .
+
+73
+00:07:57,014 --> 00:08:09,289
+Der Haken: Dieselbe Muse-Familie geriet zeitgleich in die Kritik, weil sie private Nachrichten ohne ausdrückliche Erlaubnis las, und gilt als einer der Auslöser für Apples verschärfte Full-Disk-Access-Regeln .
+
+74
+00:08:09,289 --> 00:08:11,089
+Tool der Woche.
+
+75
+00:08:11,089 --> 00:08:15,864
+Holo4 (H Company) - Open-Weights-Agenten für Computer-Steuerung.
+
+76
+00:08:15,864 --> 00:08:23,764
+Holo4 steuert GUIs, Code, APIs und MCP mit einem einzigen Modell, auf Desktop, Web und Android .
+
+77
+00:08:23,764 --> 00:08:33,264
+Es gibt Holo4-27B (dense), Holo4-35B-A3B (MoE) und Holotron4 Nano auf Basis von Nemotron 3.
+
+78
+00:08:33,264 --> 00:08:42,627
+Die Gewichte liegen auf Hugging Face (BF16, FP8, NVFP4, 4-bit GGUF), zusätzlich gibt es die H Models API .
+
+79
+00:08:42,627 --> 00:08:48,014
+H Company will damit "compete with frontier models at a much lower cost per task" .
+
+80
+00:08:48,172 --> 00:09:04,159
+Die Einordnung: Auf OSWorld 2.0 erreicht Holo4 27B 61,7 %, die 35B-A3B-Variante 30,9 %, Opus 5.5 dagegen 81,8 %.
+
+81
+00:09:04,109 --> 00:09:09,234
+Holo4 liegt also klar hinter dem Frontier, soll aber deutlich billiger sein .
+
+82
+00:09:09,234 --> 00:09:15,772
+Im Pac-Man-Beispiel brauchte es 68 statt 197 Calls des Vergleichsmodells .
+
+83
+00:09:15,772 --> 00:09:19,797
+Das ist ein Herstellerbeispiel, kein unabhängiger Test.
+
+84
+00:09:19,797 --> 00:09:25,797
+Interessant für Teams, die Computer-Use-Agenten lokal oder kostensensitiv testen wollen.
+
+85
+00:09:25,797 --> 00:09:28,534
+Die Lizenz haben wir nicht geprüft.
+
+86
+00:09:28,534 --> 00:09:30,872
+Holo4 auf Hugging Face
+
+87
+00:09:30,872 --> 00:09:32,697
+Fail der Woche.
+
+88
+00:09:32,697 --> 00:09:36,259
+Der Anwalt, dessen Zeugen nie existierten"
+
+89
+00:09:36,259 --> 00:09:45,997
+Stephen D. Aarons (New Mexico) reichte in einer Mordberufung Schriftsätze mit mindestens zwei erfundenen Zeugen ein, darunter Danny und Linda Stanton .
+
+90
+00:09:45,997 --> 00:09:57,284
+Die Folgen: Direct Contempt, Ausschluss vom Gericht bis zur Disziplinaruntersuchung, Abzug vom Fall und $5.000 Strafe an den Client Protection Fund der State Bar of New Mexico .
+
+91
+00:09:57,284 --> 00:10:00,122
+Ein Pflichtverteidiger ersetzt ihn.
+
+92
+00:10:00,122 --> 00:10:07,934
+Aarons erklärte: "I assumed ChatGPT would generate a 'bulletproof summary' but instead it produced wholly fabricated witnesses.
+
+93
+00:10:07,934 --> 00:10:15,122
+Der Richter sagte: "The problem with lawyers relying on AI hallucinations is an above-the-fold story every single day.
+
+94
+00:10:15,122 --> 00:10:25,634
+Root Cause: Ein Sprachmodell wurde als Zusammenfassungs- und Rechercheinstanz genutzt, und die Ausgabe wurde nicht gegen Primärquellen (Akte, Protokolle) geprüft.
+
+95
+00:10:25,634 --> 00:10:35,847
+Was wir lernen: Jede von einer KI genannte Person, Zahl oder Fundstelle wird gegen die Originalquelle geprüft, bevor sie in ein Dokument mit Rechtsfolgen wandert.
+
+96
+00:10:35,847 --> 00:10:37,672
+Zahl der Woche.
+
+97
+00:10:37,672 --> 00:10:39,397
+1/5
+
+98
+00:10:39,397 --> 00:10:56,797
+So viel kostet GPT-6.1 Sol laut Herstellerangabe im Vergleich zu Astra bei Standardgeschwindigkeit: $10 statt $50 Output pro 1 Mio. Token, $2 statt $10 Input und $0,10 statt $1,00 Cached Input, bei "near-Astra intelligence" .
+
+99
+00:10:56,797 --> 00:11:00,422
+Unabhängig bestätigt ist weder Preis noch Leistung.
+
+100
+00:11:00,422 --> 00:11:06,222
+Wer dagegen Tempo will, zahlt mit Ultrafast das 6-fache für das 8-fache Tempo .
+
+101
+00:11:06,222 --> 00:11:12,334
+Der Preis fällt also bei Sol stark, während Geschwindigkeit weiterhin ein Premium-Produkt bleibt.
+
+102
+00:11:12,334 --> 00:11:14,047
+Leseliste.
+
+103
+00:11:14,047 --> 00:11:15,997
+Fürs Wochenende:.
+
+104
+00:11:15,997 --> 00:11:23,484
+1.  Verge: Dots hands-on  - Hands-on zu den neuen OpenAI-Agenten, laut Titel als Gegenstück zur Keynote gedacht
+
+105
+00:11:23,484 --> 00:11:32,572
+2.  Wired: The Battle to Be Your Personal AI Agent  - Laut Titel ein Blick auf den Wettlauf um persönliche Agenten, darunter Dots und Metas Muse
+
+106
+00:11:32,572 --> 00:11:40,247
+3.  Simon Willison: Default hard budget caps  - Beitrag zu Budget-Limits, passend zu Ultrafast und Agenten-Kosten
+
+107
+00:11:40,247 --> 00:11:41,772
+Next Week.
+
+108
+00:11:41,772 --> 00:11:43,897
+Was wir beobachten:.
+
+109
+00:11:43,897 --> 00:11:50,497
+OpenAI: Wie sich die Debatte um Robinsons Kündigung und Chens Monitoring-Zusagen weiterentwickelt.
+
+110
+00:11:50,497 --> 00:11:55,197
+Apple: Ob Apple Details zu den verschärften Full-Disk-Access-Regeln nennt.
+
+111
+00:11:55,197 --> 00:12:01,822
+Sol/Sonnet 5.5: Erste unabhängige Benchmarks und Preisvergleiche der beiden neuen Modelle.
+
+112
+00:12:01,822 --> 00:12:06,397
+Dieser Newsletter wurde mit AI-Unterstützung recherchiert und geschrieben.
+
+113
+00:12:06,397 --> 00:12:09,709
+Bilder generiert mit  Pollinations.ai .
+
