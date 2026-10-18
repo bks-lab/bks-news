@@ -35,7 +35,7 @@ const basePath = isEn ? '/bks-news/en' : '/bks-news';
         </svg>
         GitHub
       </a>
-      <a href="/bks-news/rss.xml">
+      <a href={isEn ? '/bks-news/en/rss.xml' : '/bks-news/rss.xml'}>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M4 11a9 9 0 0 1 9 9"/>
           <path d="M4 4a16 16 0 0 1 16 16"/>
@@ -47,7 +47,7 @@ const basePath = isEn ? '/bks-news/en' : '/bks-news';
   </div>
 
   <div class="footer-note">
-    <p>{isEn ? 'All content is researched and written by AI - as a demonstration of AI research capabilities.' : 'Alle Inhalte werden von KI recherchiert und geschrieben - als Demonstration von AI-Recherche-Capabilities.'}</p>
+    <p>{isEn ? 'Content is created automatically with AI. BKS News demonstrates what AI-assisted research can do.' : 'Inhalte werden automatisch mit KI erstellt. BKS News zeigt, was KI-gestützte Recherche leisten kann.'}</p>
   </div>
 </footer>
 

@@ -17,62 +17,25 @@ Astro 5 static site for AI-generated news briefings. Deployed via GitHub Actions
 ### Content Pipeline
 
 ```
-launchd (cron) → run-task.sh → Claude CLI → output-repo.sh → Git push → GitHub Actions → Static Site
+launchd auf macminim4 (Workload bks-weekly-newsletter, Sonntag 10:00)
+  → newsletter-wrapper.sh (Skill bks-news-generator in der Bridge, 10 Schritte)
+  → Commit + Push auf main → GitHub Actions (deploy.yml) → GitHub Pages
 ```
 
-## News Generation (Claude Scheduler)
+Die Pipeline lebt nicht in diesem Repo, sondern in Michaels Bridge
+(`mboiman/mboiman-bks-bridge`): Skill `skills/bks-news-generator/`, Deklaration
+`workflow/workloads/bks-weekly-newsletter.yaml`. Der alte claude-scheduler
+(`~/.claude/scheduler`, `run-task.sh`) ist abgelöst.
 
-Briefings werden automatisch via Claude Scheduler generiert.
+Die 10 Schritte: Quellen sammeln und Datum prüfen, Stories auswählen, Entwurf DE,
+Bilder, Validierung durch vier Agenten, Korrekturen, Audio DE, Übersetzung EN,
+Audio EN, Review mit Commit und Push.
 
-### Relevante Dateien (außerhalb dieses Repos)
-
-| Datei | Pfad | Beschreibung |
-|-------|------|--------------|
-| Task-Config | `~/.claude/scheduler/config/tasks.yaml` | Prompt, Schedule, Output-Routing |
-| run-task.sh | `~/.claude/skills/claude-scheduler/scripts/run-task.sh` | Führt Claude aus, routet Output |
-| output-repo.sh | `~/.claude/skills/claude-scheduler/scripts/output-repo.sh` | Schreibt MD, committed, pushed |
-
-### Manuelle Ausführung
-
-```bash
-# Test (schreibt in test-briefing.md)
-~/.claude/skills/claude-scheduler/scripts/run-task.sh "AI Weekly Briefing"
-
-# Dry-run (zeigt Config, führt nicht aus)
-~/.claude/skills/claude-scheduler/scripts/run-task.sh "AI Weekly Briefing" --dry-run
-```
-
-### Production aktivieren
-
-Die Konfiguration ist bereits vorbereitet in `~/.claude/scheduler/config/tasks.yaml`:
-
-```yaml
-output:
-  type: repo
-  destination: ~/Developer/bks/bks-news
-  path_pattern: src/content/briefings/{{YYYY}}/{{MM}}/{{DATE}}-{{SLUG}}.md
-```
-
-**Scheduler aktivieren:**
-```bash
-~/.claude/skills/claude-scheduler/scripts/install-schedule.sh install
-```
-
-**Scheduler deaktivieren:**
-```bash
-~/.claude/skills/claude-scheduler/scripts/install-schedule.sh uninstall
-```
-
-**Status prüfen:**
-```bash
-~/.claude/skills/claude-scheduler/scripts/install-schedule.sh status
-```
-
-### Schedule
-
-- **AI Weekly Briefing**: Montag 8:00 (`0 8 * * 1`)
-
-Siehe [PLAN.md](./PLAN.md) für vollständige Architektur-Dokumentation.
+- **Titelbild:** Codex-CLI mit gpt-image-2 (`generate-hero.sh`, ChatGPT-Login der
+  Maschine), Rückfall ist ein Symbolfoto von Lorem Picsum.
+- **Audio:** edge-tts (`de-DE-ConradNeural`, `en-US-AndrewNeural`).
+- **Deploy:** nur bei Push auf `main` oder per Hand (`workflow_dispatch`). Ein PR
+  löst weder Build noch Deploy aus.
 
 ### Key Structure
 
@@ -102,22 +65,64 @@ sources:
 draft: false
 ```
 
-### Hero-Image Workflow (Pollinations.ai)
+### Optionale Felder für Erklärung und Transparenz
 
-Hero-Images werden via Pollinations.ai generiert - **kostenlos, kein API-Key nötig**.
-
-**Generierung:**
-```bash
-~/.claude/skills/bks-news-generator/scripts/generate-hero.sh \
-  "AI abstract tech visualization blue" \
-  "public/images/briefings/2025/12/2025-12-27-hero.jpg" \
-  1200 630
+```yaml
+keyFigure:            # Karte unter "## Zahl der Woche" (fehlt die Überschrift: oben)
+  value: 16.8
+  suffix: " Mrd. USD"
+  label: "Quartalsumsatz laut FT-Bericht"
+  source: 4           # 1-basierter Index in sources
+images:               # Herkunft je Bild, zugeordnet über den Dateinamen
+  - file: "/images/briefings/2026/10/2026-10-18-hero.jpg"
+    role: hero        # hero | inline
+    generated: true   # zeigt "KI-generiert" und "Wie entstanden?"
+    prompt: "..."
+    model: "gpt-image-2"
+    tool: "OpenAI Codex CLI 0.163.0"
+    host: "macminim4"
+    createdAt: "2026-10-18T20:21:00+02:00"
+  # Symbolfoto: generated: false, credit: "Lorem Picsum (Unsplash)", sourceUrl: "..."
 ```
 
-- **Kostenlos** - Keine API-Keys oder Kosten
-- **Rechtlich sicher** - AI-generiert = eigenes Werk
-- **Format** - 1200×630 (OG-Image Standard)
-- **Speicherort** - `/public/images/briefings/YYYY/MM/`
+Ein Bild ohne `images[]`-Eintrag bekommt keine Herkunftszeile. Ist es ein
+Inline-Bild, meldet der Build eine Warnung.
+
+Erklär-Grafiken stehen als Codeblock im Text, Typen `bars`, `growth`, `timeline`
+und `flow`, `source` ist Pflicht:
+
+````markdown
+```animation
+type: growth
+title: "Quartalsumsatz Anthropic (laut FT-Bericht)"
+source: 4
+items:
+  from: {label: "Q2", value: 11.5}
+  to: {label: "Q3", value: 16.8}
+unit: "Mrd. USD"
+```
+````
+
+Welche Typen und Felder die Site kann, steht in `src/lib/capabilities.json` (eine Quelle der
+Wahrheit, die Pipeline liest sie aus diesem Checkout). Passen Datei und Renderer nicht
+zusammen, bricht der Build ab. Typen und wann welcher passt: Kommentar oben im Abschnitt animation in `src/lib/explain.mjs`
+(bars, rank, share, growth, trend, timeline, flow). Umgesetzt in `src/lib/explain.mjs` (remark/rehype, in `astro.config.mjs`) und
+`src/components/Explain.astro` (Stile, Bewegung). Ein ungültiger Block bleibt als
+Codeblock stehen und meldet eine Warnung, der Build bricht nicht ab. Ohne
+JavaScript und bei `prefers-reduced-motion` steht sofort der Endzustand da.
+
+Bilder liegen unter `/public/images/briefings/YYYY/MM/`, Format 1200×630 (OG-Image).
+
+**Falle:** Astro speichert gerenderte Ausgaben in `node_modules/.astro/data-store.json`. Nach
+einer Änderung an den Plugins dort löschen, sonst baut lokal das alte HTML (CI baut frisch).
+
+### Feeds
+
+`src/lib/feeds.ts` baut alle vier Feeds: `rss.xml` und `en/rss.xml` mit Volltext
+(`content:encoded`, die 10 jüngsten Ausgaben), `podcast.xml` (DE) und `podcast-en.xml`
+(EN, alte Adresse `en/podcast.xml` bleibt). Die MP3 findet der Podcast-Feed über die
+Konvention `public/audio/briefings/YYYY/MM/<slug>-<de|en>.mp3`, Größe aus der Datei,
+Dauer aus der `.vtt` daneben. Cover: `public/podcast-cover.png` (3000×3000).
 
 ## Bildrechte (WICHTIG!)
 
@@ -129,7 +134,7 @@ Das Hotlinking oder Einbetten von Bildern von Quellseiten (TechCrunch, Fortune, 
 
 | Quelle | Beispiel | Hinweis |
 |--------|----------|---------|
-| KI-generiert | DALL-E, Midjourney | Rechtlich am sichersten |
+| KI-generiert | gpt-image-2 über die Codex-CLI | Herkunft in `images[]` eintragen |
 | Lizenzfrei (CC0) | Unsplash, Pexels | Keine Attribution nötig |
 | Eigene Bilder | `/public/images/` | Selbst erstellt |
 | Offizielle Press-Kits | openai.com/brand | Nur mit Genehmigung |

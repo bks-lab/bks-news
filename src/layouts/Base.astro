@@ -15,6 +15,13 @@ const { title, description = 'AI-generated news briefings by BKS-Lab', heroImage
 const siteUrl = 'https://bks-lab.github.io/bks-news';
 const fullTitle = `${title} | BKS News`;
 const basePath = lang === 'en' ? '/bks-news/en' : '/bks-news';
+// og:image/twitter:image müssen absolut sein. Seiten reichen den Pfad mit Basis
+// (/bks-news/images/...) herein; die Basis steckt schon in siteUrl, also nur einmal.
+const ogImage = heroImage
+  ? /^https?:\/\//.test(heroImage)
+    ? heroImage
+    : `${siteUrl}${heroImage.replace(/^\/bks-news(?=\/)/, '')}`
+  : undefined;
 const skipLinkText = lang === 'en' ? 'Skip to content' : 'Zum Inhalt springen';
 ---
 
@@ -30,16 +37,17 @@ const skipLinkText = lang === 'en' ? 'Skip to content' : 'Zum Inhalt springen';
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:site_name" content="BKS News" />
-    {heroImage && <meta property="og:image" content={heroImage} />}
+    {ogImage && <meta property="og:image" content={ogImage} />}
 
     <!-- Twitter -->
     <meta name="twitter:card" content={heroImage ? "summary_large_image" : "summary"} />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
-    {heroImage && <meta name="twitter:image" content={heroImage} />}
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
 
     <link rel="icon" type="image/svg+xml" href="/bks-news/favicon.svg" />
-    <link rel="alternate" type="application/rss+xml" title="BKS News RSS" href="/bks-news/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="BKS News RSS" href={lang === 'en' ? '/bks-news/en/rss.xml' : '/bks-news/rss.xml'} />
+    <link rel="alternate" type="application/rss+xml" title={lang === 'en' ? 'BKS AI News Audio' : 'BKS KI-News Audio'} href={lang === 'en' ? '/bks-news/podcast-en.xml' : '/bks-news/podcast.xml'} />
     <title>{fullTitle}</title>
 
     <script is:inline>
@@ -47,6 +55,12 @@ const skipLinkText = lang === 'en' ? 'Skip to content' : 'Zum Inhalt springen';
       const savedTheme = localStorage.getItem('theme');
       const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       document.documentElement.setAttribute('data-theme', savedTheme || (systemPrefersDark ? 'dark' : 'light'));
+      // Bewegung für Erklär-Grafiken (components/Explain.astro): nur mit Observer und ohne
+      // reduced motion. Kommt das Skript nicht binnen 4 s, bleibt der Endzustand stehen.
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+        document.documentElement.classList.add('motion');
+        setTimeout(function () { if (!window.__explainReady) document.documentElement.classList.remove('motion'); }, 4000);
+      }
     </script>
 
     <style is:global>
