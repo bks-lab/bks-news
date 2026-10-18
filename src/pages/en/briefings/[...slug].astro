@@ -6,6 +6,7 @@ import ScrollToTop from '../../../components/ScrollToTop.astro';
 import TagLink from '../../../components/TagLink.astro';
 import RelatedArticles from '../../../components/RelatedArticles.astro';
 import SourceCard from '../../../components/SourceCard.astro';
+import KeyFigure from '../../../components/KeyFigure.astro';
 import { t } from '../../../i18n/translations';
 
 const lang = 'en';
@@ -42,7 +43,7 @@ const typeLabels: Record<string, string> = {
   craftsmanship: 'AI Craftsmanship'
 };
 
-// Hero-Image: AI-generiert via Pollinations.ai (generate-hero.sh)
+// Titelbild: KI-generiert über die Codex-CLI (gpt-image-2), Rückfall Symbolfoto
 // Füge Base-URL hinzu für GitHub Pages (/bks-news/)
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const heroUrl = entry.data.heroImage ? `${baseUrl}${entry.data.heroImage}` : null;
@@ -116,6 +117,13 @@ const heroAlt = entry.data.heroImageAlt || entry.data.title;
     )}
 
     <TableOfContents headings={headings} label={t('toc.title', lang)} />
+
+    {entry.data.keyFigure && (
+      <KeyFigure
+        {...entry.data.keyFigure}
+        sourceCount={entry.data.sources?.length ?? 0} lang="en"
+      />
+    )}
 
     <div class="content">
       <Content />

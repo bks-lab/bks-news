@@ -1,0 +1,192 @@
+---
+/**
+ * KeyFigure: die "Zahl der Woche" als große Kennzahl.
+ *
+ * Der Endwert steht immer im HTML (ohne JavaScript sichtbar, für Screenreader
+ * im sr-only-Text). Mit JavaScript zählt die sichtbare Zahl beim ersten
+ * Sichtbarwerden einmal ruhig hoch: ease-out-cubic über 1,7 s nach 0,2 s,
+ * dieselbe Kurve wie `ruhig-count` im explainer-video-Katalog (`o3(ramp(T, .2, 1.7))`).
+ * Ein unsichtbarer Platzhalter mit dem Endwert hält die Breite fest, Tabellenziffern
+ * halten die Ziffern still. `prefers-reduced-motion: reduce` zeigt sofort den Endwert.
+ */
+interface Props {
+  value: number;
+  prefix?: string;
+  suffix?: string;
+  label: string;
+  source?: number;
+  sourceCount?: number;
+  lang?: 'de' | 'en';
+}
+
+const { value, prefix = '', suffix = '', label, source, sourceCount = 0, lang = 'de' } = Astro.props;
+
+const locale = lang === 'en' ? 'en-US' : 'de-DE';
+const decimals = Math.min(3, (String(value).split('.')[1] || '').length);
+const fmt = new Intl.NumberFormat(locale, { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+const formatted = fmt.format(value);
+const zero = fmt.format(0);
+const heading = lang === 'en' ? 'Number of the Week' : 'Zahl der Woche';
+const sourceLabel = lang === 'en' ? 'Source' : 'Quelle';
+// Kurze Einheiten ("B", "%") stehen in voller Größe, lange ("Mrd. USD") kleiner.
+const shortSuffix = suffix.trim().length <= 2;
+const hasSource = typeof source === 'number' && source >= 1 && source <= sourceCount;
+---
+
+<aside class="key-figure" aria-label={heading}>
+  <p class="kf-heading">{heading}</p>
+  <p class="kf-figure">
+    <span class="kf-sr">{prefix}{formatted}{suffix}</span>
+    <span class="kf-visual" aria-hidden="true">
+      {prefix && <span class="kf-affix">{prefix}</span>}
+      <span class="kf-num">
+        <span class="kf-sizer">{formatted}</span>
+        <span
+          class="kf-live"
+          data-keyfigure
+          data-value={value}
+          data-decimals={decimals}
+          data-locale={locale}
+          data-zero={zero}
+        >{formatted}</span>
+      </span>
+      {suffix && <span class:list={['kf-affix', { 'kf-suffix': !shortSuffix }]}>{suffix}</span>}
+    </span>
+  </p>
+  <p class="kf-label">
+    {label}
+    {hasSource && (
+      <>
+        {' '}<a class="kf-source" href={`#source-${source}`}>{sourceLabel} [{source}]</a>
+      </>
+    )}
+  </p>
+</aside>
+
+<script is:inline>
+  (function () {
+    var el = document.querySelector('[data-keyfigure]:not([data-kf-init])');
+    if (!el) return;
+    el.setAttribute('data-kf-init', '');
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce || !('IntersectionObserver' in window) || !window.requestAnimationFrame) return;
+
+    var to = Number(el.dataset.value) || 0;
+    var dec = Number(el.dataset.decimals) || 0;
+    var fmt = new Intl.NumberFormat(el.dataset.locale, { minimumFractionDigits: dec, maximumFractionDigits: dec });
+    var final = el.textContent;
+    var step = Math.pow(10, dec);
+    var clamp = function (a, b, x) { return Math.min(b, Math.max(a, x)); };
+    var ramp = function (t, t0, d) { return clamp(0, 1, (t - t0) / d); };
+    var o3 = function (x) { return 1 - Math.pow(1 - x, 3); };
+    var DUR = 1.9;
+
+    // Vor dem ersten Bild auf Null, damit der Endwert nicht kurz aufblitzt.
+    el.textContent = el.dataset.zero;
+
+    function play() {
+      var start = performance.now();
+      function frame(now) {
+        var T = (now - start) / 1000;
+        if (T >= DUR) { el.textContent = final; return; }
+        el.textContent = fmt.format(Math.round(to * o3(ramp(T, 0.2, 1.7)) * step) / step);
+        requestAnimationFrame(frame);
+      }
+      requestAnimationFrame(frame);
+    }
+
+    var io = new IntersectionObserver(function (entries) {
+      if (entries.some(function (e) { return e.isIntersecting; })) { io.disconnect(); play(); }
+    }, { threshold: 0.6 });
+    io.observe(el);
+  })();
+</script>
+
+<style>
+  .key-figure {
+    margin: 0 0 2.5rem 0;
+    padding: 1.5rem 1.5rem 1.25rem;
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-left: 3px solid var(--color-highlight);
+    border-radius: 12px;
+  }
+
+  .key-figure p {
+    margin: 0;
+  }
+
+  .kf-heading {
+    color: var(--color-muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .kf-figure {
+    margin: 0.35rem 0 0.5rem;
+    line-height: 1.1;
+  }
+
+  .kf-visual {
+    display: inline-flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    color: var(--color-highlight);
+    font-weight: 800;
+    font-size: clamp(2.5rem, 9vw, 3.75rem);
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Platzhalter und Live-Zahl liegen in derselben Zelle: die Breite steht fest. */
+  .kf-num {
+    display: inline-grid;
+    justify-items: end;
+  }
+
+  .kf-sizer,
+  .kf-live {
+    grid-area: 1 / 1;
+    white-space: nowrap;
+  }
+
+  .kf-sizer {
+    visibility: hidden;
+  }
+
+  .kf-affix {
+    white-space: pre;
+  }
+
+  .kf-suffix {
+    font-size: 0.55em;
+    font-weight: 700;
+  }
+
+  .kf-label {
+    color: var(--color-text);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .kf-source {
+    color: var(--color-highlight);
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .kf-sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>

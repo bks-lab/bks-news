@@ -15,6 +15,13 @@ const { title, description = 'AI-generated news briefings by BKS-Lab', heroImage
 const siteUrl = 'https://bks-lab.github.io/bks-news';
 const fullTitle = `${title} | BKS News`;
 const basePath = lang === 'en' ? '/bks-news/en' : '/bks-news';
+// og:image/twitter:image müssen absolut sein. Seiten reichen den Pfad mit Basis
+// (/bks-news/images/...) herein; die Basis steckt schon in siteUrl, also nur einmal.
+const ogImage = heroImage
+  ? /^https?:\/\//.test(heroImage)
+    ? heroImage
+    : `${siteUrl}${heroImage.replace(/^\/bks-news(?=\/)/, '')}`
+  : undefined;
 const skipLinkText = lang === 'en' ? 'Skip to content' : 'Zum Inhalt springen';
 ---
 
@@ -30,13 +37,13 @@ const skipLinkText = lang === 'en' ? 'Skip to content' : 'Zum Inhalt springen';
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:site_name" content="BKS News" />
-    {heroImage && <meta property="og:image" content={heroImage} />}
+    {ogImage && <meta property="og:image" content={ogImage} />}
 
     <!-- Twitter -->
     <meta name="twitter:card" content={heroImage ? "summary_large_image" : "summary"} />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
-    {heroImage && <meta name="twitter:image" content={heroImage} />}
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
 
     <link rel="icon" type="image/svg+xml" href="/bks-news/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="BKS News RSS" href="/bks-news/rss.xml" />
