@@ -103,12 +103,24 @@ unit: "Mrd. USD"
 ```
 ````
 
-Umgesetzt in `src/lib/explain.mjs` (remark/rehype, in `astro.config.mjs`) und
+Typen und wann welcher passt: Kommentar oben im Abschnitt animation in `src/lib/explain.mjs`
+(bars, rank, share, growth, trend, timeline, flow). Umgesetzt in `src/lib/explain.mjs` (remark/rehype, in `astro.config.mjs`) und
 `src/components/Explain.astro` (Stile, Bewegung). Ein ungültiger Block bleibt als
 Codeblock stehen und meldet eine Warnung, der Build bricht nicht ab. Ohne
 JavaScript und bei `prefers-reduced-motion` steht sofort der Endzustand da.
 
 Bilder liegen unter `/public/images/briefings/YYYY/MM/`, Format 1200×630 (OG-Image).
+
+**Falle:** Astro speichert gerenderte Ausgaben in `node_modules/.astro/data-store.json`. Nach
+einer Änderung an den Plugins dort löschen, sonst baut lokal das alte HTML (CI baut frisch).
+
+### Feeds
+
+`src/lib/feeds.ts` baut alle vier Feeds: `rss.xml` und `en/rss.xml` mit Volltext
+(`content:encoded`, die 10 jüngsten Ausgaben), `podcast.xml` (DE) und `podcast-en.xml`
+(EN, alte Adresse `en/podcast.xml` bleibt). Die MP3 findet der Podcast-Feed über die
+Konvention `public/audio/briefings/YYYY/MM/<slug>-<de|en>.mp3`, Größe aus der Datei,
+Dauer aus der `.vtt` daneben. Cover: `public/podcast-cover.png` (3000×3000).
 
 ## Bildrechte (WICHTIG!)
 

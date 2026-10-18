@@ -46,7 +46,8 @@ const skipLinkText = lang === 'en' ? 'Skip to content' : 'Zum Inhalt springen';
     {ogImage && <meta name="twitter:image" content={ogImage} />}
 
     <link rel="icon" type="image/svg+xml" href="/bks-news/favicon.svg" />
-    <link rel="alternate" type="application/rss+xml" title="BKS News RSS" href="/bks-news/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="BKS News RSS" href={lang === 'en' ? '/bks-news/en/rss.xml' : '/bks-news/rss.xml'} />
+    <link rel="alternate" type="application/rss+xml" title={lang === 'en' ? 'BKS AI News Audio' : 'BKS KI-News Audio'} href={lang === 'en' ? '/bks-news/podcast-en.xml' : '/bks-news/podcast.xml'} />
     <title>{fullTitle}</title>
 
     <script is:inline>
