@@ -13,6 +13,9 @@
 import yaml from 'js-yaml';
 import { visit } from 'unist-util-visit';
 import { toString } from 'mdast-util-to-string';
+// Eine Quelle der Wahrheit für das, was die Site darstellen kann. Die Pipeline liest
+// dieselbe Datei aus dem bks-news-Checkout und schreibt nur, was hier steht.
+import capabilities from './capabilities.json';
 
 const TEXT = {
   de: {
@@ -121,7 +124,7 @@ export function keyFigureHtml(kf, { lang = 'de', sourceCount = 0 } = {}) {
 // Zahlen stehen von Anfang an fest, nur Balken und Linie bewegen sich: Zwischenwerte
 // eines Zählers sind keine Daten. Gezählt wird allein bei der Zahl der Woche.
 
-const TYPES = ['bars', 'rank', 'share', 'growth', 'trend', 'timeline', 'flow'];
+const TYPES = capabilities.animationTypes;
 const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
 const isText = (v) => (typeof v === 'string' && v.trim() !== '') || isNum(v);
 const valueItems = (it, min, max, what) => {
@@ -327,23 +330,40 @@ ${foot(spec, sourceCount, lang)}
 </figure>`;
 }
 
+const RENDERERS = {
+  bars: barsHtml,
+  rank: barsHtml,
+  share: shareHtml,
+  growth: growthHtml,
+  trend: trendHtml,
+  timeline: timelineHtml,
+  flow: flowHtml
+};
+
+/**
+ * Build-Check: capabilities.json und Renderer müssen übereinstimmen. Ein Unterschied ist
+ * ein Codefehler, kein Inhaltsfehler, deshalb bricht er den Build ab (anders als ein
+ * ungültiger Block, der nur warnt).
+ */
+export function checkCapabilities() {
+  const declared = [...capabilities.animationTypes].sort();
+  const rendered = Object.keys(RENDERERS).sort();
+  const problems = [];
+  if (capabilities.version !== 1) problems.push(`version ${capabilities.version} unbekannt`);
+  const missing = declared.filter((t) => !rendered.includes(t));
+  const undeclared = rendered.filter((t) => !declared.includes(t));
+  if (missing.length) problems.push(`in capabilities.json, aber ohne Renderer: ${missing.join(', ')}`);
+  if (undeclared.length) problems.push(`Renderer ohne Eintrag in capabilities.json: ${undeclared.join(', ')}`);
+  for (const key of ['keyFigure', 'images', 'kiHinweis']) if (typeof capabilities[key] !== 'boolean') problems.push(`${key} muss true oder false sein`);
+  if (problems.length) throw new Error(`[bks-news] src/lib/capabilities.json passt nicht zum Renderer: ${problems.join('; ')}`);
+}
+
+// Läuft beim Laden des Moduls, also schon beim Einlesen von astro.config.mjs.
+checkCapabilities();
+
 export function animationHtml(spec, { lang = 'de', sourceCount = 0 } = {}) {
-  switch (spec.type) {
-    case 'bars':
-    case 'rank':
-      return barsHtml(spec, lang, sourceCount);
-    case 'share':
-      return shareHtml(spec, lang, sourceCount);
-    case 'growth':
-      return growthHtml(spec, lang, sourceCount);
-    case 'trend':
-      return trendHtml(spec, lang, sourceCount);
-    case 'timeline':
-      return timelineHtml(spec, lang, sourceCount);
-    case 'flow':
-      return flowHtml(spec, lang, sourceCount);
-  }
-  return '';
+  const render = RENDERERS[spec.type];
+  return render ? render(spec, lang, sourceCount) : '';
 }
 
 const warn = (file, msg) => console.warn(`[bks-news] ${file.path ? file.path.replace(/^.*\/src\//, 'src/') : '?'}: ${msg}`);

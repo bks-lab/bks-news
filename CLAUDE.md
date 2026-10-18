@@ -103,7 +103,9 @@ unit: "Mrd. USD"
 ```
 ````
 
-Typen und wann welcher passt: Kommentar oben im Abschnitt animation in `src/lib/explain.mjs`
+Welche Typen und Felder die Site kann, steht in `src/lib/capabilities.json` (eine Quelle der
+Wahrheit, die Pipeline liest sie aus diesem Checkout). Passen Datei und Renderer nicht
+zusammen, bricht der Build ab. Typen und wann welcher passt: Kommentar oben im Abschnitt animation in `src/lib/explain.mjs`
 (bars, rank, share, growth, trend, timeline, flow). Umgesetzt in `src/lib/explain.mjs` (remark/rehype, in `astro.config.mjs`) und
 `src/components/Explain.astro` (Stile, Bewegung). Ein ungültiger Block bleibt als
 Codeblock stehen und meldet eine Warnung, der Build bricht nicht ab. Ohne
