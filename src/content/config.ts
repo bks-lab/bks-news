@@ -43,7 +43,23 @@ const briefingSchema = z.object({
     suffix: z.string().default(''),
     label: z.string(),
     source: z.number().int().positive().optional()
-  }).optional()
+  }).optional(),
+  // Herkunft der Bilder (optional): Titelbild (role: hero) und Inline-Bilder im Text,
+  // zugeordnet über den Dateinamen. generated: true zeigt "KI-generiert" mit Prompt,
+  // Modell, Werkzeug, Ort und Zeitpunkt; generated: false zeigt "Symbolfoto" mit credit.
+  images: z.array(z.object({
+    file: z.string(),
+    role: z.enum(['hero', 'inline']).default('inline'),
+    alt: z.string().optional(),
+    generated: z.boolean(),
+    prompt: z.string().optional(),
+    model: z.string().optional(),
+    tool: z.string().optional(),
+    host: z.string().optional(),
+    createdAt: z.string().optional(),
+    credit: z.string().optional(),
+    sourceUrl: z.string().url().optional()
+  })).optional()
 });
 
 const briefingsCollection = defineCollection({
