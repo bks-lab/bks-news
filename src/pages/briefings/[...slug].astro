@@ -6,7 +6,8 @@ import ScrollToTop from '../../components/ScrollToTop.astro';
 import TagLink from '../../components/TagLink.astro';
 import RelatedArticles from '../../components/RelatedArticles.astro';
 import SourceCard from '../../components/SourceCard.astro';
-import KeyFigure from '../../components/KeyFigure.astro';
+import Explain from '../../components/Explain.astro';
+import { keyFigureHtml, hasKeyFigureHeading, findImage, imageFigureHtml } from '../../lib/explain.mjs';
 
 export async function getStaticPaths() {
   const briefings = await getCollection('briefings');
@@ -44,23 +45,15 @@ const typeLabels: Record<string, string> = {
 // Füge Base-URL hinzu für GitHub Pages (/bks-news/)
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const heroUrl = entry.data.heroImage ? `${baseUrl}${entry.data.heroImage}` : null;
-const heroAlt = entry.data.heroImageAlt || entry.data.title;
+// Herkunft aus images[] (role: hero oder gleicher Dateiname); ohne Eintrag keine Bildunterschrift.
+const heroEntry = entry.data.images?.find((i) => i.role === 'hero') ?? (entry.data.heroImage ? findImage(entry.data.images, entry.data.heroImage) : undefined);
+const heroAlt = heroEntry?.alt || entry.data.heroImageAlt || entry.data.title;
 ---
 
 <Base title={entry.data.title} description={entry.data.description} heroImage={heroUrl || undefined}>
   <article>
     {heroUrl && (
-      <figure class="hero-figure">
-        <img
-          src={heroUrl}
-          alt={heroAlt}
-          class="hero-image"
-          loading="lazy"
-        />
-        <figcaption class="hero-credit">
-          Bild generiert mit <a href="https://pollinations.ai" target="_blank" rel="noopener">Pollinations.ai</a>
-        </figcaption>
-      </figure>
+      <Fragment set:html={imageFigureHtml({ src: heroUrl, alt: heroAlt, entry: heroEntry, lang: 'de', role: 'hero' })} />
     )}
     <header>
       <div class="header-meta">
@@ -115,11 +108,8 @@ const heroAlt = entry.data.heroImageAlt || entry.data.title;
 
     <TableOfContents headings={headings} />
 
-    {entry.data.keyFigure && (
-      <KeyFigure
-        {...entry.data.keyFigure}
-        sourceCount={entry.data.sources?.length ?? 0} lang="de"
-      />
+    {entry.data.keyFigure && !hasKeyFigureHeading(entry.body) && (
+      <Fragment set:html={keyFigureHtml(entry.data.keyFigure, { lang: 'de', sourceCount: entry.data.sources?.length ?? 0 })} />
     )}
 
     <div class="content">
@@ -164,6 +154,7 @@ const heroAlt = entry.data.heroImageAlt || entry.data.title;
   </article>
 
   <ScrollToTop />
+  <Explain />
 
 </Base>
 
@@ -201,32 +192,6 @@ const heroAlt = entry.data.heroImageAlt || entry.data.title;
     background: rgba(0,0,0,0.05);
     padding: 1px 4px;
     border-radius: 3px;
-  }
-
-  /* Hero Image */
-  .hero-figure {
-    margin: 0 0 2rem 0;
-  }
-
-  .hero-image {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 12px;
-  }
-
-  .hero-credit {
-    font-size: 0.75rem;
-    color: var(--color-muted);
-    text-align: right;
-    margin-top: 0.5rem;
-    opacity: 0.7;
-  }
-
-  .hero-credit a {
-    color: var(--color-muted);
-    text-decoration: underline;
   }
 
   article header {

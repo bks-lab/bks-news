@@ -1,0 +1,409 @@
+---
+/**
+ * Stile und Bewegung für Erklär-Grafiken, "Zahl der Woche" und Bildherkunft.
+ * Das HTML kommt fertig aus src/lib/explain.mjs und zeigt den Endzustand.
+ *
+ * Bewegt wird nur, wenn Base.astro im <head> die Klasse `motion` gesetzt hat
+ * (kein prefers-reduced-motion, IntersectionObserver vorhanden). Dann starten
+ * die Grafiken im Ausgangszustand und laufen beim ersten Sichtbarwerden einmal ab.
+ * Kurven und Staffelung wie im explainer-video-Katalog (motion.js: ramp, o3, io3,
+ * rowIn mit .12 s Versatz): jedes Bild ist eine Funktion der Zeit T.
+ */
+---
+
+<script>
+  const root = document.documentElement;
+
+  const clamp = (a: number, b: number, x: number) => Math.min(b, Math.max(a, x));
+  const ramp = (t: number, t0: number, d: number) => clamp(0, 1, (t - t0) / d);
+  const o3 = (x: number) => 1 - Math.pow(1 - x, 3);
+  const io3 = (x: number) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+
+  type Scene = { dur: number; setT: (T: number) => void };
+
+  function counter(el: HTMLElement) {
+    const dec = Number(el.dataset.decimals) || 0;
+    const fmt = new Intl.NumberFormat(el.dataset.locale || 'de-DE', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+    const step = Math.pow(10, dec);
+    return (live: HTMLElement, v: number) => {
+      live.textContent = fmt.format(Math.round(v * step) / step);
+    };
+  }
+
+  const lives = (el: HTMLElement) => [...el.querySelectorAll<HTMLElement>('.ex-live')];
+  const bars = (el: HTMLElement) => [...el.querySelectorAll<HTMLElement>('.ex-bar')];
+  const lis = (el: HTMLElement) => [...el.querySelectorAll<HTMLElement>('li')];
+
+  const scenes: Record<string, (el: HTMLElement) => Scene> = {
+    keyfigure(el) {
+      const set = counter(el);
+      const [live] = lives(el);
+      const to = Number(live.dataset.to);
+      return { dur: 1.9, setT: (T) => set(live, to * o3(ramp(T, 0.2, 1.7))) };
+    },
+    bars(el) {
+      const set = counter(el);
+      const ls = lives(el), bs = bars(el);
+      const n = bs.length;
+      return {
+        dur: 0.1 + (n - 1) * 0.12 + 1.1,
+        setT: (T) =>
+          bs.forEach((b, i) => {
+            const p = o3(ramp(T, 0.1 + i * 0.12, 1.0));
+            b.style.transform = `scaleX(${p})`;
+            set(ls[i], Number(ls[i].dataset.to) * p);
+          })
+      };
+    },
+    growth(el) {
+      const set = counter(el);
+      const [lf, lt] = lives(el), [bf, bt] = bars(el);
+      const from = Number(el.dataset.from), to = Number(el.dataset.to);
+      const delta = el.querySelector<HTMLElement>('.ex-delta');
+      const start = to > 0 ? Math.min(1, from / to) : 0;
+      return {
+        dur: 2.5,
+        setT: (T) => {
+          const a = o3(ramp(T, 0.1, 0.8));
+          bf.style.transform = `scaleX(${a})`;
+          set(lf, from * a);
+          // Der zweite Balken startet auf der Länge des ersten und wächst dann weiter.
+          const b = io3(ramp(T, 0.7, 1.3));
+          const show = ramp(T, 0.55, 0.2);
+          bt.style.transform = `scaleX(${(start + (1 - start) * b) * Math.min(1, show * 4)})`;
+          bt.style.opacity = String(show);
+          set(lt, from + (to - from) * b);
+          lt.style.opacity = String(show);
+          if (delta) {
+            const d = o3(ramp(T, 2.0, 0.45));
+            delta.style.opacity = String(d);
+            delta.style.transform = `translateY(${(1 - d) * 6}px)`;
+          }
+        }
+      };
+    },
+    timeline(el) {
+      const items = lis(el);
+      const ol = el.querySelector<HTMLElement>('ol')!;
+      const n = items.length;
+      return {
+        dur: 0.15 + n * 0.15 + 0.6,
+        setT: (T) => {
+          ol.style.setProperty('--line', String(io3(ramp(T, 0, 0.3 + n * 0.15))));
+          items.forEach((li, i) => {
+            const a = o3(ramp(T, 0.15 + i * 0.15, 0.55));
+            li.style.opacity = String(a);
+            li.style.transform = `translateY(${(1 - a) * 8}px)`;
+          });
+        }
+      };
+    },
+    flow(el) {
+      const items = lis(el);
+      const n = items.length;
+      return {
+        dur: (n - 1) * 0.28 + 0.75,
+        setT: (T) =>
+          items.forEach((li, i) => {
+            const a = o3(ramp(T, i * 0.28, 0.6));
+            li.style.opacity = String(a);
+            li.style.transform = `translateY(${(1 - a) * 10}px)`;
+          })
+      };
+    }
+  };
+
+  function play(el: HTMLElement) {
+    const make = scenes[el.dataset.explain || ''];
+    if (!make) return;
+    const scene = make(el);
+    scene.setT(0);
+    el.classList.add('ex-playing');
+    const start = performance.now();
+    const frame = (now: number) => {
+      const T = (now - start) / 1000;
+      if (T >= scene.dur) {
+        scene.setT(scene.dur);
+        el.classList.replace('ex-playing', 'ex-played');
+        return;
+      }
+      scene.setT(T);
+      requestAnimationFrame(frame);
+    };
+    requestAnimationFrame(frame);
+  }
+
+  if (root.classList.contains('motion')) {
+    (window as any).__explainReady = true;
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) {
+          // Hohe Grafiken (Ablauf auf dem Handy) erreichen den Anteil nie, dann zählt die halbe Fensterhöhe.
+          if (e.isIntersecting && (e.intersectionRatio >= 0.45 || e.intersectionRect.height >= innerHeight * 0.5)) {
+            io.unobserve(e.target);
+            play(e.target as HTMLElement);
+          }
+        }
+      },
+      { threshold: [0, 0.15, 0.3, 0.45, 0.6] }
+    );
+    document.querySelectorAll<HTMLElement>('[data-explain]').forEach((el) => io.observe(el));
+  }
+</script>
+
+<style is:global>
+  /* ---------- gemeinsame Teile ---------- */
+  .ex {
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem 1rem;
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+  }
+
+  .ex p { margin: 0; }
+
+  .ex-title {
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-bottom: 0.9rem;
+    color: var(--color-text);
+  }
+
+  .ex-unit { color: var(--color-muted); font-weight: 400; }
+
+  .ex-source {
+    margin-top: 0.75rem !important;
+    font-size: 0.8rem;
+  }
+
+  .ex-source-link {
+    color: var(--color-highlight) !important;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  /* Die Seite stellt Zitate [n] im Text hochgestellt dar; der Quellverweis einer Grafik nicht. */
+  .content .ex .ex-source-link[href] { vertical-align: baseline; font-size: 0.8rem; padding: 0; }
+
+  .ex-sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .ex-num {
+    display: inline-grid;
+    justify-items: end;
+    font-variant-numeric: tabular-nums;
+  }
+  .ex-sizer, .ex-live { grid-area: 1 / 1; white-space: nowrap; }
+  .ex-sizer { visibility: hidden; }
+
+  /* ---------- Balken und Wachstum ---------- */
+  .ex-grid {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    gap: 0.6rem 0.9rem;
+    align-items: center;
+  }
+  .ex-row { display: contents; }
+  .ex-label { color: var(--color-muted); font-size: 0.9rem; }
+  .ex-track { height: 0.9rem; position: relative; }
+  .ex-bar {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: var(--w);
+    border-radius: 4px;
+    background: var(--color-muted);
+    opacity: 0.55;
+    transform-origin: left center;
+  }
+  .ex-bars .ex-bar, .ex-growth .ex-to .ex-bar { background: var(--color-highlight); opacity: 1; }
+  .ex-grid .ex-num { font-weight: 700; font-size: 1rem; color: var(--color-text); }
+  .ex-growth .ex-to .ex-num { color: var(--color-highlight); }
+  .ex-delta {
+    margin-top: 0.75rem !important;
+    color: var(--color-highlight);
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- Zeitleiste ---------- */
+  .ex-tl {
+    list-style: none;
+    position: relative;
+    padding-left: 1.4rem;
+    margin: 0;
+    --line: 1;
+  }
+  .ex-tl::before {
+    content: '';
+    position: absolute;
+    left: 0.35rem;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    width: 2px;
+    background: var(--color-border);
+    transform: scaleY(var(--line));
+    transform-origin: top;
+  }
+  .ex-tl li { position: relative; padding: 0.2rem 0 0.6rem; line-height: 1.45; }
+  .ex-tl li::before {
+    content: '';
+    position: absolute;
+    left: -1.32rem;
+    top: 0.62rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: var(--color-highlight);
+  }
+  .ex-date { display: block; font-size: 0.8rem; font-weight: 600; color: var(--color-highlight); font-variant-numeric: tabular-nums; }
+  .ex-text { font-size: 0.95rem; }
+
+  /* ---------- Ablauf ---------- */
+  .ex-flow-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 1.6rem;
+  }
+  .ex-flow-list li {
+    position: relative;
+    padding: 0.75rem 0.85rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: var(--color-bg);
+    line-height: 1.4;
+  }
+  .ex-flow-list li + li::before {
+    content: '→';
+    position: absolute;
+    left: -1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-highlight);
+    font-weight: 700;
+  }
+  .ex-step {
+    display: inline-block;
+    min-width: 1.4rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-highlight);
+  }
+  .ex-flow-label { font-weight: 600; font-size: 0.92rem; }
+  .ex-flow-text { display: block; margin-top: 0.25rem; color: var(--color-muted); font-size: 0.85rem; }
+  @media (max-width: 600px) {
+    .ex-flow-list { grid-auto-flow: row; gap: 1.4rem; }
+    .ex-flow-list li + li::before { content: '↓'; left: 1rem; top: -1.25rem; transform: none; }
+  }
+
+  /* ---------- Zahl der Woche ---------- */
+  .key-figure { margin: 0 0 2.5rem 0; padding: 1.5rem 1.5rem 1.25rem; border-left: 3px solid var(--color-highlight); }
+  .content .key-figure { margin: 1rem 0 1.5rem; }
+  .kf-heading {
+    color: var(--color-muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .content h2 + .key-figure .kf-heading { display: none; }
+  .kf-figure { margin: 0.35rem 0 0.5rem !important; line-height: 1.1; }
+  .kf-visual {
+    display: inline-flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    color: var(--color-highlight);
+    font-weight: 800;
+    font-size: clamp(2.5rem, 9vw, 3.75rem);
+    letter-spacing: -0.02em;
+  }
+  .kf-affix { white-space: pre; }
+  .kf-suffix { font-size: 0.55em; font-weight: 700; }
+  .kf-label { color: var(--color-text); font-size: 0.95rem; line-height: 1.5; }
+
+  /* ---------- Ausgangszustand, nur mit Bewegung und vor dem Abspielen ---------- */
+  .motion .ex:not(.ex-playing):not(.ex-played) .ex-live { visibility: hidden; }
+  .motion .ex:not(.ex-playing):not(.ex-played) .ex-bar { transform: scaleX(0); }
+  .motion .ex-growth:not(.ex-playing):not(.ex-played) .ex-to .ex-bar,
+  .motion .ex-growth:not(.ex-playing):not(.ex-played) .ex-delta,
+  .motion .ex:not(.ex-playing):not(.ex-played) li { opacity: 0; }
+  .motion .ex-timeline:not(.ex-playing):not(.ex-played) .ex-tl { --line: 0; }
+
+  /* ---------- Bildherkunft ---------- */
+  .img-prov { margin: 1.5rem 0; }
+  .img-prov img { display: block; width: 100%; height: auto; border-radius: 12px; }
+  .img-prov-hero { margin: 0 0 2rem 0; }
+  .img-prov-hero img { max-height: 400px; object-fit: cover; }
+  .img-prov-caption {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--color-muted);
+  }
+  .img-prov-caption a { color: var(--color-muted); text-decoration: underline; }
+  .img-prov-badge {
+    display: inline-block;
+    padding: 0.05rem 0.45rem;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--color-highlight);
+    background: color-mix(in srgb, var(--color-highlight) 14%, transparent);
+  }
+  .img-prov-badge-stock { color: var(--color-text); background: var(--color-accent-subtle); }
+  .img-prov-how { display: inline; }
+  .img-prov-how summary {
+    display: inline;
+    cursor: pointer;
+    margin-left: 0.35rem;
+    color: var(--color-text);
+    text-decoration: underline dotted;
+  }
+  .img-prov-how[open] summary { display: inline-block; }
+  .img-prov-how dl {
+    margin-top: 0.5rem;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: var(--color-card-bg);
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.35rem 0.9rem;
+  }
+  .img-prov-how dt { font-weight: 600; color: var(--color-text); }
+  .img-prov-how dd { margin: 0; color: var(--color-muted); }
+  .img-prov-how .img-prov-prompt {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    overflow: visible;
+    white-space: pre-wrap;
+    font-family: ui-monospace, monospace;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--color-text);
+  }
+  @media (max-width: 600px) {
+    .img-prov-how dl { grid-template-columns: 1fr; }
+    .img-prov-how dd { margin-bottom: 0.4rem; }
+  }
+</style>
