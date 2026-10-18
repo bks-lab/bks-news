@@ -1,0 +1,810 @@
+{
+  "meta": {
+    "description": "Story Memory: Tracks past newsletter stories to prevent duplicates",
+    "version": "1.0",
+    "last_updated": "2026-10-18"
+  },
+  "newsletters": {
+    "2026-01-04": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "stories": [
+        {
+          "title": "DeepSeek mHC Efficiency Breakthrough",
+          "slug": "deepseek",
+          "section": "story_of_week",
+          "source_domain": "scmp.com",
+          "tags": [
+            "deepseek",
+            "china",
+            "efficiency",
+            "training"
+          ]
+        },
+        {
+          "title": "CES 2026 AI Hardware Revolution",
+          "slug": "ces",
+          "section": "top_story",
+          "source_domain": "theverge.com",
+          "tags": [
+            "ces",
+            "hardware",
+            "nvidia",
+            "robotics"
+          ]
+        },
+        {
+          "title": "Tech IPO Year - OpenAI, Anthropic, SpaceX",
+          "slug": "ipo",
+          "section": "top_story",
+          "source_domain": "gizmodo.com",
+          "tags": [
+            "ipo",
+            "openai",
+            "anthropic",
+            "valuation"
+          ]
+        },
+        {
+          "title": "Claude Code Productivity",
+          "slug": "claudecode",
+          "section": "tool_of_week",
+          "source_domain": "the-decoder.com",
+          "tags": [
+            "claude",
+            "anthropic",
+            "coding",
+            "productivity"
+          ]
+        }
+      ],
+      "quick_hits": [
+        "Gemini 3 @-Menu Model Switching",
+        "MCP becomes industry standard",
+        "Chip Rally ASML Micron",
+        "End of Scaling debate",
+        "World Models research"
+      ],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "deepseek",
+        "ces",
+        "ipo",
+        "openai",
+        "anthropic",
+        "gemini",
+        "mcp",
+        "robotics",
+        "china"
+      ]
+    },
+    "2025-12-28": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "stories": [
+        {
+          "title": "Year in Review 2025",
+          "slug": "year-review",
+          "section": "story_of_week",
+          "source_domain": "various",
+          "tags": [
+            "review",
+            "2025",
+            "trends"
+          ]
+        }
+      ],
+      "quick_hits": [],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "review",
+        "2025"
+      ]
+    },
+    "2025-12-21": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "stories": [
+        {
+          "title": "OpenAI o3 Release",
+          "slug": "o3",
+          "section": "story_of_week",
+          "source_domain": "openai.com",
+          "tags": [
+            "openai",
+            "o3",
+            "reasoning",
+            "benchmark"
+          ]
+        }
+      ],
+      "quick_hits": [],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "openai",
+        "o3"
+      ]
+    },
+    "2025-12-14": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "stories": [
+        {
+          "title": "Google Gemini 2.0",
+          "slug": "gemini2",
+          "section": "story_of_week",
+          "source_domain": "google.com",
+          "tags": [
+            "google",
+            "gemini",
+            "multimodal"
+          ]
+        }
+      ],
+      "quick_hits": [],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "google",
+        "gemini"
+      ]
+    },
+    "2025-12-07": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "stories": [
+        {
+          "title": "Claude 3.5 Sonnet Update",
+          "slug": "claude-sonnet",
+          "section": "story_of_week",
+          "source_domain": "anthropic.com",
+          "tags": [
+            "anthropic",
+            "claude",
+            "sonnet"
+          ]
+        }
+      ],
+      "quick_hits": [],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "anthropic",
+        "claude"
+      ]
+    },
+    "2026-01-11": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "stories": [
+        {
+          "title": "OpenAI ChatGPT Health",
+          "slug": "chatgpt-health",
+          "section": "story_of_week",
+          "source_domain": "techcrunch.com",
+          "tags": [
+            "openai",
+            "health",
+            "medical-ai"
+          ]
+        },
+        {
+          "title": "Nvidia Rubin Platform CES",
+          "slug": "nvidia-rubin",
+          "section": "top_story",
+          "source_domain": "nvidianews.nvidia.com",
+          "tags": [
+            "nvidia",
+            "hardware",
+            "ces2026"
+          ]
+        },
+        {
+          "title": "Google Gemini Gmail Integration",
+          "slug": "gemini-gmail",
+          "section": "top_story",
+          "source_domain": "blog.google",
+          "tags": [
+            "google",
+            "gemini",
+            "gmail"
+          ]
+        },
+        {
+          "title": "Anthropic Allianz Enterprise Partnership",
+          "slug": "anthropic-allianz",
+          "section": "top_story",
+          "source_domain": "techcrunch.com",
+          "tags": [
+            "anthropic",
+            "enterprise",
+            "allianz"
+          ]
+        }
+      ],
+      "quick_hits": [
+        "Meta Nuclear Power 6GW",
+        "Indonesia Blocks Grok Deepfakes",
+        "Microsoft Copilot Checkout",
+        "OpenAI Audio-First Device",
+        "OpenAI Grove Accelerator"
+      ],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "openai",
+        "health",
+        "nvidia",
+        "rubin",
+        "google",
+        "gemini",
+        "anthropic",
+        "enterprise",
+        "ces2026",
+        "meta",
+        "grok",
+        "microsoft"
+      ]
+    },
+    "2026-01-18": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "stories": [
+        {
+          "title": "OpenAI ChatGPT Ads",
+          "slug": "chatgpt-ads",
+          "section": "story_of_week",
+          "source_domain": "techcrunch.com",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "ads",
+            "monetization"
+          ]
+        },
+        {
+          "title": "Anthropic Cowork Desktop Agent",
+          "slug": "cowork",
+          "section": "top_story",
+          "source_domain": "venturebeat.com",
+          "tags": [
+            "anthropic",
+            "cowork",
+            "agent",
+            "desktop"
+          ]
+        },
+        {
+          "title": "Musk $134B OpenAI Lawsuit",
+          "slug": "musk-lawsuit",
+          "section": "top_story",
+          "source_domain": "techcrunch.com",
+          "tags": [
+            "musk",
+            "openai",
+            "lawsuit"
+          ]
+        },
+        {
+          "title": "Google Gemini Personal Intelligence",
+          "slug": "gemini-personal",
+          "section": "top_story",
+          "source_domain": "techcrunch.com",
+          "tags": [
+            "google",
+            "gemini",
+            "personal-intelligence"
+          ]
+        }
+      ],
+      "quick_hits": [
+        "Runpod $120M ARR",
+        "Apple Gemini Siri",
+        "Wikimedia AI Deals",
+        "Taiwan Chips $250B",
+        "xAI Deepfakes Cease-and-Desist"
+      ],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "openai",
+        "anthropic",
+        "chatgpt",
+        "ads",
+        "cowork",
+        "lawsuit",
+        "google",
+        "gemini",
+        "bci"
+      ]
+    },
+    "2026-01-25": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "stories": [
+        {
+          "title": "IMF AI Tsunami Warning",
+          "slug": "imf-tsunami",
+          "section": "story_of_week",
+          "source_domain": "fortune.com",
+          "tags": [
+            "imf",
+            "jobs",
+            "davos"
+          ]
+        },
+        {
+          "title": "DeepMind vs OpenAI Ads",
+          "slug": "deepmind-openai-ads",
+          "section": "top_story",
+          "source_domain": "techcrunch.com",
+          "tags": [
+            "deepmind",
+            "openai",
+            "monetization"
+          ]
+        },
+        {
+          "title": "Claude Code Enterprise Boom",
+          "slug": "claude-code-enterprise",
+          "section": "top_story",
+          "source_domain": "fortune.com",
+          "tags": [
+            "anthropic",
+            "claude-code",
+            "enterprise"
+          ]
+        },
+        {
+          "title": "Sequoia invests in Anthropic",
+          "slug": "sequoia-anthropic",
+          "section": "quick_hit",
+          "source_domain": "techcrunch.com",
+          "tags": [
+            "sequoia",
+            "anthropic",
+            "funding"
+          ]
+        }
+      ],
+      "quick_hits": [
+        "Sequoia VC taboo",
+        "OpenAI age verification",
+        "Davos 2026",
+        "AAAI-26 Singapore",
+        "Musk robotaxi prediction"
+      ],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "davos",
+        "imf",
+        "jobs",
+        "openai",
+        "deepmind",
+        "anthropic",
+        "claude-code"
+      ]
+    },
+    "2026-02-01": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "stories": [
+        {
+          "title": "Claude Mars Rover Navigation",
+          "slug": "claude-mars",
+          "section": "story_of_week",
+          "source_domain": "anthropic.com",
+          "tags": [
+            "anthropic",
+            "claude",
+            "mars",
+            "nasa",
+            "space"
+          ]
+        },
+        {
+          "title": "Meta $135B AI Investment",
+          "slug": "meta-investment",
+          "section": "top_story",
+          "source_domain": "fortune.com",
+          "tags": [
+            "meta",
+            "investment",
+            "zuckerberg"
+          ]
+        },
+        {
+          "title": "OpenAI $60B Funding + Deprecations",
+          "slug": "openai-funding",
+          "section": "top_story",
+          "source_domain": "theregister.com",
+          "tags": [
+            "openai",
+            "funding",
+            "deprecation"
+          ]
+        },
+        {
+          "title": "Google Project Genie",
+          "slug": "genie",
+          "section": "top_story",
+          "source_domain": "techcrunch.com",
+          "tags": [
+            "google",
+            "genie",
+            "world-models"
+          ]
+        }
+      ],
+      "quick_hits": [
+        "Anthropic $3B Lawsuit",
+        "ServiceNow Partnership",
+        "MCP Apps",
+        "Gartner AI Agents Forecast",
+        "AI Security Warning"
+      ],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "anthropic",
+        "claude",
+        "mars",
+        "nasa",
+        "meta",
+        "openai",
+        "google",
+        "genie",
+        "lawsuit",
+        "copyright"
+      ]
+    },
+    "2026-02-08": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "stories": [
+        {
+          "title": "Claude Opus 4.6 Launch",
+          "slug": "claude-opus-46",
+          "section": "story_of_week",
+          "source_domain": "cnbc.com",
+          "tags": [
+            "anthropic",
+            "claude",
+            "opus",
+            "security",
+            "zero-days",
+            "agent-teams"
+          ]
+        },
+        {
+          "title": "OpenAI Frontier Platform",
+          "slug": "openai-frontier",
+          "section": "top_story",
+          "source_domain": "techcrunch.com",
+          "tags": [
+            "openai",
+            "frontier",
+            "enterprise",
+            "agents"
+          ]
+        },
+        {
+          "title": "Big Tech $650B AI Spending",
+          "slug": "big-tech-spending",
+          "section": "top_story",
+          "source_domain": "bloomberg.com",
+          "tags": [
+            "alphabet",
+            "google",
+            "spending",
+            "infrastructure"
+          ]
+        }
+      ],
+      "quick_hits": [
+        "Google Gemini 750M Users",
+        "Software Stocks $1T Loss",
+        "Grok Deepfake Crisis",
+        "Moltbook AI Network",
+        "NASA Claude Mars Rover"
+      ],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "anthropic",
+        "claude",
+        "openai",
+        "frontier",
+        "google",
+        "gemini",
+        "spending",
+        "security",
+        "zero-days",
+        "enterprise",
+        "grok",
+        "deepfake"
+      ]
+    },
+    "2026-10-19": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "title": "AI Weekly #43/2026: Zwei Landgerichte machen Google für KI-Antworten haftbar",
+      "stories": [
+        {
+          "title": "Zweites deutsches Gericht: Google haftet für falsche Antworten seiner KI-Suche",
+          "slug": "zweites-deutsches-gericht-google-haftet-fuer-falsche-antwort",
+          "section": "story_of_week",
+          "source_domain": "the-decoder.com"
+        },
+        {
+          "title": "CRA-Durchführungsgesetz: BSI wird Marktaufsicht für vernetzte Produkte",
+          "slug": "cra-durchfuehrungsgesetz-bsi-wird-marktaufsicht-fuer-vernetz",
+          "section": "top_story",
+          "source_domain": "bsi.bund.de"
+        },
+        {
+          "title": "Bundesregierung plant Kooperation mit Nvidia zu „physischer KI“",
+          "slug": "bundesregierung-plant-kooperation-mit-nvidia-zu-physischer-k",
+          "section": "top_story",
+          "source_domain": "heise.de"
+        }
+      ],
+      "quick_hits": [
+        "KI-Steuer",
+        "Smartbrillen",
+        "KI-Würmer",
+        "Laborwerte",
+        "Marge"
+      ],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "haftung",
+        "google",
+        "cra",
+        "cybersicherheit",
+        "nvidia",
+        "anthropic",
+        "mistral",
+        "openai"
+      ]
+    }
+  },
+  "index": {
+    "by_source_domain": {
+      "anthropic.com": [
+        "2026-02-01"
+      ],
+      "blog.google": [
+        "2026-01-11"
+      ],
+      "bloomberg.com": [
+        "2026-02-08"
+      ],
+      "bsi.bund.de": [
+        "2026-10-19"
+      ],
+      "cnbc.com": [
+        "2026-02-08"
+      ],
+      "fortune.com": [
+        "2026-02-01"
+      ],
+      "gizmodo.com": [
+        "2026-01-04"
+      ],
+      "google.com": [
+        "2025-12-14"
+      ],
+      "heise.de": [
+        "2026-10-19"
+      ],
+      "nvidianews.nvidia.com": [
+        "2026-01-11"
+      ],
+      "openai.com": [
+        "2025-12-21"
+      ],
+      "scmp.com": [
+        "2026-01-04"
+      ],
+      "techcrunch.com": [
+        "2026-02-08"
+      ],
+      "the-decoder.com": [
+        "2026-10-19"
+      ],
+      "theregister.com": [
+        "2026-02-01"
+      ],
+      "theverge.com": [
+        "2026-01-04"
+      ],
+      "various": [
+        "2025-12-28"
+      ],
+      "venturebeat.com": [
+        "2026-01-18"
+      ]
+    },
+    "by_tag": {
+      "2025": [
+        "2025-12-28"
+      ],
+      "ads": [
+        "2026-01-18"
+      ],
+      "ai": [
+        "2026-10-19"
+      ],
+      "anthropic": [
+        "2026-10-19"
+      ],
+      "bci": [
+        "2026-01-18"
+      ],
+      "ces": [
+        "2026-01-04"
+      ],
+      "ces2026": [
+        "2026-01-11"
+      ],
+      "chatgpt": [
+        "2026-01-18"
+      ],
+      "china": [
+        "2026-01-04"
+      ],
+      "claude": [
+        "2026-02-08"
+      ],
+      "claude-code": [
+        "2026-01-25"
+      ],
+      "copyright": [
+        "2026-02-01"
+      ],
+      "cowork": [
+        "2026-01-18"
+      ],
+      "cra": [
+        "2026-10-19"
+      ],
+      "cybersicherheit": [
+        "2026-10-19"
+      ],
+      "davos": [
+        "2026-01-25"
+      ],
+      "deepfake": [
+        "2026-02-08"
+      ],
+      "deepmind": [
+        "2026-01-25"
+      ],
+      "deepseek": [
+        "2026-01-04"
+      ],
+      "enterprise": [
+        "2026-02-08"
+      ],
+      "frontier": [
+        "2026-02-08"
+      ],
+      "gemini": [
+        "2026-02-08"
+      ],
+      "genie": [
+        "2026-02-01"
+      ],
+      "google": [
+        "2026-10-19"
+      ],
+      "grok": [
+        "2026-02-08"
+      ],
+      "haftung": [
+        "2026-10-19"
+      ],
+      "health": [
+        "2026-01-11"
+      ],
+      "imf": [
+        "2026-01-25"
+      ],
+      "ipo": [
+        "2026-01-04"
+      ],
+      "jobs": [
+        "2026-01-25"
+      ],
+      "lawsuit": [
+        "2026-02-01"
+      ],
+      "mars": [
+        "2026-02-01"
+      ],
+      "mcp": [
+        "2026-01-04"
+      ],
+      "meta": [
+        "2026-02-01"
+      ],
+      "microsoft": [
+        "2026-01-11"
+      ],
+      "mistral": [
+        "2026-10-19"
+      ],
+      "nasa": [
+        "2026-02-01"
+      ],
+      "nvidia": [
+        "2026-10-19"
+      ],
+      "o3": [
+        "2025-12-21"
+      ],
+      "openai": [
+        "2026-10-19"
+      ],
+      "review": [
+        "2025-12-28"
+      ],
+      "robotics": [
+        "2026-01-04"
+      ],
+      "rubin": [
+        "2026-01-11"
+      ],
+      "security": [
+        "2026-02-08"
+      ],
+      "spending": [
+        "2026-02-08"
+      ],
+      "weekly": [
+        "2026-10-19"
+      ],
+      "zero-days": [
+        "2026-02-08"
+      ]
+    },
+    "by_slug": {
+      "deepseek": "2026-01-04",
+      "ces": "2026-01-04",
+      "ipo": "2026-01-04",
+      "claudecode": "2026-01-04",
+      "year-review": "2025-12-28",
+      "o3": "2025-12-21",
+      "gemini2": "2025-12-14",
+      "claude-sonnet": "2025-12-07",
+      "chatgpt-health": "2026-01-11",
+      "nvidia-rubin": "2026-01-11",
+      "gemini-gmail": "2026-01-11",
+      "anthropic-allianz": "2026-01-11",
+      "chatgpt-ads": "2026-01-18",
+      "cowork": "2026-01-18",
+      "musk-lawsuit": "2026-01-18",
+      "gemini-personal": "2026-01-18",
+      "imf-tsunami": "2026-01-25",
+      "deepmind-openai-ads": "2026-01-25",
+      "claude-code-enterprise": "2026-01-25",
+      "sequoia-anthropic": "2026-01-25",
+      "claude-mars": "2026-02-01",
+      "meta-investment": "2026-02-01",
+      "openai-funding": "2026-02-01",
+      "genie": "2026-02-01",
+      "claude-opus-46": "2026-02-08",
+      "openai-frontier": "2026-02-08",
+      "big-tech-spending": "2026-02-08",
+      "zweites-deutsches-gericht-google-haftet-fuer-falsche-antwort": "2026-10-19",
+      "cra-durchfuehrungsgesetz-bsi-wird-marktaufsicht-fuer-vernetz": "2026-10-19",
+      "bundesregierung-plant-kooperation-mit-nvidia-zu-physischer-k": "2026-10-19"
+    }
+  }
+}
