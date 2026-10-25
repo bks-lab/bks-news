@@ -2,7 +2,7 @@
   "meta": {
     "description": "Story Memory: Tracks past newsletter stories to prevent duplicates",
     "version": "1.0",
-    "last_updated": "2026-10-18"
+    "last_updated": "2026-10-25"
   },
   "newsletters": {
     "2026-01-04": {
@@ -572,6 +572,53 @@
         "mistral",
         "openai"
       ]
+    },
+    "2026-10-25": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "title": "AI Weekly #43/2026: EU-Länder öffnen das KI-Training für personenbezogene Daten",
+      "stories": [
+        {
+          "title": "EU-Länder öffnen das KI-Training für personenbezogene Daten",
+          "slug": "eu-laender-oeffnen-das-ki-training-fuer-personenbezogene-dat",
+          "section": "story_of_week",
+          "source_domain": "netzpolitik.org"
+        },
+        {
+          "title": "OpenAI wirbt Anthropic-Kunden mit Rabatten bis 90 Prozent ab",
+          "slug": "openai-wirbt-anthropic-kunden-mit-rabatten-bis-90-prozent-ab",
+          "section": "top_story",
+          "source_domain": "the-decoder.com"
+        },
+        {
+          "title": "Meta-AGB: Verlage fordern EU-Stopp wegen KI-Scraping",
+          "slug": "meta-agb-verlage-fordern-eu-stopp-wegen-ki-scraping",
+          "section": "top_story",
+          "source_domain": "heise.de"
+        },
+        {
+          "title": "PHP: BSI warnt vor kritischen Schwachstellen",
+          "slug": "php-bsi-warnt-vor-kritischen-schwachstellen",
+          "section": "top_story",
+          "source_domain": "bsi.bund.de"
+        }
+      ],
+      "quick_hits": [
+        "Kimi K3.1 Pro",
+        "Kimi-Preise und Architektur",
+        "Google",
+        "Claude Duet"
+      ],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "datenschutz",
+        "dsgvo",
+        "daten-omnibus",
+        "openai",
+        "anthropic",
+        "sicherheit"
+      ]
     }
   },
   "index": {
@@ -586,7 +633,7 @@
         "2026-02-08"
       ],
       "bsi.bund.de": [
-        "2026-10-19"
+        "2026-10-25"
       ],
       "cnbc.com": [
         "2026-02-08"
@@ -601,7 +648,10 @@
         "2025-12-14"
       ],
       "heise.de": [
-        "2026-10-19"
+        "2026-10-25"
+      ],
+      "netzpolitik.org": [
+        "2026-10-25"
       ],
       "nvidianews.nvidia.com": [
         "2026-01-11"
@@ -616,7 +666,7 @@
         "2026-02-08"
       ],
       "the-decoder.com": [
-        "2026-10-19"
+        "2026-10-25"
       ],
       "theregister.com": [
         "2026-02-01"
@@ -639,10 +689,10 @@
         "2026-01-18"
       ],
       "ai": [
-        "2026-10-19"
+        "2026-10-25"
       ],
       "anthropic": [
-        "2026-10-19"
+        "2026-10-25"
       ],
       "bci": [
         "2026-01-18"
@@ -677,6 +727,12 @@
       "cybersicherheit": [
         "2026-10-19"
       ],
+      "daten-omnibus": [
+        "2026-10-25"
+      ],
+      "datenschutz": [
+        "2026-10-25"
+      ],
       "davos": [
         "2026-01-25"
       ],
@@ -688,6 +744,9 @@
       ],
       "deepseek": [
         "2026-01-04"
+      ],
+      "dsgvo": [
+        "2026-10-25"
       ],
       "enterprise": [
         "2026-02-08"
@@ -750,7 +809,7 @@
         "2025-12-21"
       ],
       "openai": [
-        "2026-10-19"
+        "2026-10-25"
       ],
       "review": [
         "2025-12-28"
@@ -764,11 +823,14 @@
       "security": [
         "2026-02-08"
       ],
+      "sicherheit": [
+        "2026-10-25"
+      ],
       "spending": [
         "2026-02-08"
       ],
       "weekly": [
-        "2026-10-19"
+        "2026-10-25"
       ],
       "zero-days": [
         "2026-02-08"
@@ -804,7 +866,11 @@
       "big-tech-spending": "2026-02-08",
       "zweites-deutsches-gericht-google-haftet-fuer-falsche-antwort": "2026-10-19",
       "cra-durchfuehrungsgesetz-bsi-wird-marktaufsicht-fuer-vernetz": "2026-10-19",
-      "bundesregierung-plant-kooperation-mit-nvidia-zu-physischer-k": "2026-10-19"
+      "bundesregierung-plant-kooperation-mit-nvidia-zu-physischer-k": "2026-10-19",
+      "eu-laender-oeffnen-das-ki-training-fuer-personenbezogene-dat": "2026-10-25",
+      "openai-wirbt-anthropic-kunden-mit-rabatten-bis-90-prozent-ab": "2026-10-25",
+      "meta-agb-verlage-fordern-eu-stopp-wegen-ki-scraping": "2026-10-25",
+      "php-bsi-warnt-vor-kritischen-schwachstellen": "2026-10-25"
     }
   }
 }
