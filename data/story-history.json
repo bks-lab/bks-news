@@ -2,7 +2,7 @@
   "meta": {
     "description": "Story Memory: Tracks past newsletter stories to prevent duplicates",
     "version": "1.0",
-    "last_updated": "2026-10-25"
+    "last_updated": "2026-11-01"
   },
   "newsletters": {
     "2026-01-04": {
@@ -619,12 +619,63 @@
         "anthropic",
         "sicherheit"
       ]
+    },
+    "2026-11-01": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "title": "AI Weekly #44/2026: Schwarz-Gruppe führt Milliardenrunde für Cohere an",
+      "stories": [
+        {
+          "title": "Schwarz-Gruppe führt Milliardenrunde für Cohere an, Aleph Alpha geht in Cohere auf",
+          "slug": "schwarz-gruppe-fuehrt-milliardenrunde-fuer-cohere-an-aleph-a",
+          "section": "story_of_week",
+          "source_domain": "heise.de"
+        },
+        {
+          "title": "Mistral veröffentlicht Gewichte von Large 4",
+          "slug": "mistral-veroeffentlicht-gewichte-von-large-4",
+          "section": "top_story",
+          "source_domain": "heise.de"
+        },
+        {
+          "title": "Manipulierte Anthropic-Erweiterung im Cursor-Marktplatz",
+          "slug": "manipulierte-anthropic-erweiterung-im-cursor-marktplatz",
+          "section": "top_story",
+          "source_domain": "arstechnica.com"
+        },
+        {
+          "title": "Oracle Fusion: Geschäftsabläufe per ChatGPT auslösen",
+          "slug": "oracle-fusion-geschaeftsablaeufe-per-chatgpt-ausloesen",
+          "section": "top_story",
+          "source_domain": "heise.de"
+        }
+      ],
+      "quick_hits": [
+        "Scraping-Opt-out",
+        "Zeitplan",
+        "Meta",
+        "Microsoft"
+      ],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "cohere",
+        "aleph-alpha",
+        "mistral",
+        "stackit",
+        "sicherheit",
+        "openai",
+        "oracle"
+      ]
     }
   },
   "index": {
     "by_source_domain": {
       "anthropic.com": [
         "2026-02-01"
+      ],
+      "arstechnica.com": [
+        "2026-11-01"
       ],
       "blog.google": [
         "2026-01-11"
@@ -648,7 +699,7 @@
         "2025-12-14"
       ],
       "heise.de": [
-        "2026-10-25"
+        "2026-11-01"
       ],
       "netzpolitik.org": [
         "2026-10-25"
@@ -689,7 +740,10 @@
         "2026-01-18"
       ],
       "ai": [
-        "2026-10-25"
+        "2026-11-01"
+      ],
+      "aleph-alpha": [
+        "2026-11-01"
       ],
       "anthropic": [
         "2026-10-25"
@@ -714,6 +768,9 @@
       ],
       "claude-code": [
         "2026-01-25"
+      ],
+      "cohere": [
+        "2026-11-01"
       ],
       "copyright": [
         "2026-02-01"
@@ -797,7 +854,7 @@
         "2026-01-11"
       ],
       "mistral": [
-        "2026-10-19"
+        "2026-11-01"
       ],
       "nasa": [
         "2026-02-01"
@@ -809,7 +866,10 @@
         "2025-12-21"
       ],
       "openai": [
-        "2026-10-25"
+        "2026-11-01"
+      ],
+      "oracle": [
+        "2026-11-01"
       ],
       "review": [
         "2025-12-28"
@@ -824,13 +884,16 @@
         "2026-02-08"
       ],
       "sicherheit": [
-        "2026-10-25"
+        "2026-11-01"
       ],
       "spending": [
         "2026-02-08"
       ],
+      "stackit": [
+        "2026-11-01"
+      ],
       "weekly": [
-        "2026-10-25"
+        "2026-11-01"
       ],
       "zero-days": [
         "2026-02-08"
@@ -870,7 +933,11 @@
       "eu-laender-oeffnen-das-ki-training-fuer-personenbezogene-dat": "2026-10-25",
       "openai-wirbt-anthropic-kunden-mit-rabatten-bis-90-prozent-ab": "2026-10-25",
       "meta-agb-verlage-fordern-eu-stopp-wegen-ki-scraping": "2026-10-25",
-      "php-bsi-warnt-vor-kritischen-schwachstellen": "2026-10-25"
+      "php-bsi-warnt-vor-kritischen-schwachstellen": "2026-10-25",
+      "schwarz-gruppe-fuehrt-milliardenrunde-fuer-cohere-an-aleph-a": "2026-11-01",
+      "mistral-veroeffentlicht-gewichte-von-large-4": "2026-11-01",
+      "manipulierte-anthropic-erweiterung-im-cursor-marktplatz": "2026-11-01",
+      "oracle-fusion-geschaeftsablaeufe-per-chatgpt-ausloesen": "2026-11-01"
     }
   }
 }
