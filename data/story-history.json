@@ -2,7 +2,7 @@
   "meta": {
     "description": "Story Memory: Tracks past newsletter stories to prevent duplicates",
     "version": "1.0",
-    "last_updated": "2026-11-01"
+    "last_updated": "2026-11-08"
   },
   "newsletters": {
     "2026-01-04": {
@@ -668,6 +668,54 @@
         "openai",
         "oracle"
       ]
+    },
+    "2026-11-08": {
+      "slug": "ai-weekly",
+      "type": "weekly",
+      "title": "AI Weekly #45/2026: Anthropic hält trotz KI-Börsencrash am Börsengang fest, mit niedrigerer Bewertung",
+      "stories": [
+        {
+          "title": "KI-Börsencrash nach US-Zwischenwahl: Anthropic senkt die Erwartung für den Börsengang",
+          "slug": "ki-boersencrash-nach-us-zwischenwahl-anthropic-senkt-die-erw",
+          "section": "story_of_week",
+          "source_domain": "heise.de"
+        },
+        {
+          "title": "Windows-11-Umstieg stockt wegen „Chipflation“ und „RAMageddon“",
+          "slug": "windows-11-umstieg-stockt-wegen-chipflation-und-ramageddon",
+          "section": "top_story",
+          "source_domain": "computerwoche.de"
+        },
+        {
+          "title": "Smart Reports: Anthropic gibt Admins Einblick in die Claude-Nutzung",
+          "slug": "smart-reports-anthropic-gibt-admins-einblick-in-die-claude-n",
+          "section": "top_story",
+          "source_domain": "heise.de"
+        },
+        {
+          "title": "Studie: Wasserbedarf deutscher Rechenzentren könnte sich bis 2030 mehr als verdoppeln",
+          "slug": "studie-wasserbedarf-deutscher-rechenzentren-koennte-sich-bis",
+          "section": "top_story",
+          "source_domain": "heise.de"
+        }
+      ],
+      "quick_hits": [
+        "TikTok",
+        "OpenAI",
+        "Anthropic",
+        "Rechenzentren"
+      ],
+      "all_tags": [
+        "ai",
+        "weekly",
+        "boerse",
+        "anthropic",
+        "openai",
+        "windows",
+        "rechenzentren",
+        "dsa",
+        "perplexity"
+      ]
     }
   },
   "index": {
@@ -690,6 +738,9 @@
       "cnbc.com": [
         "2026-02-08"
       ],
+      "computerwoche.de": [
+        "2026-11-08"
+      ],
       "fortune.com": [
         "2026-02-01"
       ],
@@ -700,7 +751,7 @@
         "2025-12-14"
       ],
       "heise.de": [
-        "2026-11-01"
+        "2026-11-08"
       ],
       "netzpolitik.org": [
         "2026-10-25"
@@ -741,16 +792,19 @@
         "2026-01-18"
       ],
       "ai": [
-        "2026-11-01"
+        "2026-11-08"
       ],
       "aleph-alpha": [
         "2026-11-01"
       ],
       "anthropic": [
-        "2026-10-25"
+        "2026-11-08"
       ],
       "bci": [
         "2026-01-18"
+      ],
+      "boerse": [
+        "2026-11-08"
       ],
       "ces": [
         "2026-01-04"
@@ -802,6 +856,9 @@
       ],
       "deepseek": [
         "2026-01-04"
+      ],
+      "dsa": [
+        "2026-11-08"
       ],
       "dsgvo": [
         "2026-10-25"
@@ -867,10 +924,16 @@
         "2025-12-21"
       ],
       "openai": [
-        "2026-11-01"
+        "2026-11-08"
       ],
       "oracle": [
         "2026-11-01"
+      ],
+      "perplexity": [
+        "2026-11-08"
+      ],
+      "rechenzentren": [
+        "2026-11-08"
       ],
       "review": [
         "2025-12-28"
@@ -894,7 +957,10 @@
         "2026-11-01"
       ],
       "weekly": [
-        "2026-11-01"
+        "2026-11-08"
+      ],
+      "windows": [
+        "2026-11-08"
       ],
       "zero-days": [
         "2026-02-08"
@@ -938,7 +1004,11 @@
       "schwarz-gruppe-fuehrt-milliardenrunde-fuer-cohere-an-aleph-a": "2026-11-01",
       "mistral-veroeffentlicht-gewichte-von-large-4": "2026-11-01",
       "manipulierte-anthropic-erweiterung-im-cursor-marktplatz": "2026-11-01",
-      "oracle-fusion-geschaeftsablaeufe-per-chatgpt-ausloesen": "2026-11-01"
+      "oracle-fusion-geschaeftsablaeufe-per-chatgpt-ausloesen": "2026-11-01",
+      "ki-boersencrash-nach-us-zwischenwahl-anthropic-senkt-die-erw": "2026-11-08",
+      "windows-11-umstieg-stockt-wegen-chipflation-und-ramageddon": "2026-11-08",
+      "smart-reports-anthropic-gibt-admins-einblick-in-die-claude-n": "2026-11-08",
+      "studie-wasserbedarf-deutscher-rechenzentren-koennte-sich-bis": "2026-11-08"
     }
   }
 }
