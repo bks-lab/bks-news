@@ -672,49 +672,44 @@
     "2026-11-08": {
       "slug": "ai-weekly",
       "type": "weekly",
-      "title": "AI Weekly #45/2026: Anthropic hält trotz KI-Börsencrash am Börsengang fest, mit niedrigerer Bewertung",
+      "title": "AI Weekly #45/2026: OpenAI übernimmt Pierre Computer und baut Konkurrenz zu GitHub auf",
       "stories": [
         {
-          "title": "KI-Börsencrash nach US-Zwischenwahl: Anthropic senkt die Erwartung für den Börsengang",
-          "slug": "ki-boersencrash-nach-us-zwischenwahl-anthropic-senkt-die-erw",
+          "title": "OpenAI übernimmt Pierre Computer und baut Konkurrenz zu GitHub auf",
+          "slug": "openai-uebernimmt-pierre-computer-und-baut-konkurrenz-zu-git",
           "section": "story_of_week",
           "source_domain": "heise.de"
         },
         {
-          "title": "Windows-11-Umstieg stockt wegen „Chipflation“ und „RAMageddon“",
-          "slug": "windows-11-umstieg-stockt-wegen-chipflation-und-ramageddon",
-          "section": "top_story",
-          "source_domain": "computerwoche.de"
-        },
-        {
-          "title": "Smart Reports: Anthropic gibt Admins Einblick in die Claude-Nutzung",
-          "slug": "smart-reports-anthropic-gibt-admins-einblick-in-die-claude-n",
+          "title": "KI-Task-Force der Bundesregierung nennt Ziele bis 2030",
+          "slug": "ki-task-force-der-bundesregierung-nennt-ziele-bis-2030",
           "section": "top_story",
           "source_domain": "heise.de"
         },
         {
-          "title": "Studie: Wasserbedarf deutscher Rechenzentren könnte sich bis 2030 mehr als verdoppeln",
-          "slug": "studie-wasserbedarf-deutscher-rechenzentren-koennte-sich-bis",
+          "title": "Proteste gegen KI-Rechenzentren erreichen Europa",
+          "slug": "proteste-gegen-ki-rechenzentren-erreichen-europa",
           "section": "top_story",
-          "source_domain": "heise.de"
+          "source_domain": "bloomberg.com"
         }
       ],
       "quick_hits": [
-        "TikTok",
-        "OpenAI",
-        "Anthropic",
-        "Rechenzentren"
+        "Hacking-Benchmark",
+        "Angriffskosten",
+        "NVIDIA Cosmos 3",
+        "Bundesbehörden"
       ],
       "all_tags": [
         "ai",
         "weekly",
-        "boerse",
-        "anthropic",
         "openai",
-        "windows",
+        "codex",
+        "github",
+        "ki-strategie",
         "rechenzentren",
-        "dsa",
-        "perplexity"
+        "mistral",
+        "open-source",
+        "ki-ausgaben"
       ]
     }
   },
@@ -730,16 +725,13 @@
         "2026-01-11"
       ],
       "bloomberg.com": [
-        "2026-02-08"
+        "2026-11-08"
       ],
       "bsi.bund.de": [
         "2026-10-25"
       ],
       "cnbc.com": [
         "2026-02-08"
-      ],
-      "computerwoche.de": [
-        "2026-11-08"
       ],
       "fortune.com": [
         "2026-02-01"
@@ -798,13 +790,10 @@
         "2026-11-01"
       ],
       "anthropic": [
-        "2026-11-08"
+        "2026-10-25"
       ],
       "bci": [
         "2026-01-18"
-      ],
-      "boerse": [
-        "2026-11-08"
       ],
       "ces": [
         "2026-01-04"
@@ -823,6 +812,9 @@
       ],
       "claude-code": [
         "2026-01-25"
+      ],
+      "codex": [
+        "2026-11-08"
       ],
       "cohere": [
         "2026-11-01"
@@ -857,9 +849,6 @@
       "deepseek": [
         "2026-01-04"
       ],
-      "dsa": [
-        "2026-11-08"
-      ],
       "dsgvo": [
         "2026-10-25"
       ],
@@ -874,6 +863,9 @@
       ],
       "genie": [
         "2026-02-01"
+      ],
+      "github": [
+        "2026-11-08"
       ],
       "google": [
         "2026-10-19"
@@ -896,6 +888,12 @@
       "jobs": [
         "2026-01-25"
       ],
+      "ki-ausgaben": [
+        "2026-11-08"
+      ],
+      "ki-strategie": [
+        "2026-11-08"
+      ],
       "lawsuit": [
         "2026-02-01"
       ],
@@ -912,7 +910,7 @@
         "2026-01-11"
       ],
       "mistral": [
-        "2026-11-01"
+        "2026-11-08"
       ],
       "nasa": [
         "2026-02-01"
@@ -923,14 +921,14 @@
       "o3": [
         "2025-12-21"
       ],
+      "open-source": [
+        "2026-11-08"
+      ],
       "openai": [
         "2026-11-08"
       ],
       "oracle": [
         "2026-11-01"
-      ],
-      "perplexity": [
-        "2026-11-08"
       ],
       "rechenzentren": [
         "2026-11-08"
@@ -957,9 +955,6 @@
         "2026-11-01"
       ],
       "weekly": [
-        "2026-11-08"
-      ],
-      "windows": [
         "2026-11-08"
       ],
       "zero-days": [
@@ -1005,10 +1000,9 @@
       "mistral-veroeffentlicht-gewichte-von-large-4": "2026-11-01",
       "manipulierte-anthropic-erweiterung-im-cursor-marktplatz": "2026-11-01",
       "oracle-fusion-geschaeftsablaeufe-per-chatgpt-ausloesen": "2026-11-01",
-      "ki-boersencrash-nach-us-zwischenwahl-anthropic-senkt-die-erw": "2026-11-08",
-      "windows-11-umstieg-stockt-wegen-chipflation-und-ramageddon": "2026-11-08",
-      "smart-reports-anthropic-gibt-admins-einblick-in-die-claude-n": "2026-11-08",
-      "studie-wasserbedarf-deutscher-rechenzentren-koennte-sich-bis": "2026-11-08"
+      "openai-uebernimmt-pierre-computer-und-baut-konkurrenz-zu-git": "2026-11-08",
+      "ki-task-force-der-bundesregierung-nennt-ziele-bis-2030": "2026-11-08",
+      "proteste-gegen-ki-rechenzentren-erreichen-europa": "2026-11-08"
     }
   }
 }
