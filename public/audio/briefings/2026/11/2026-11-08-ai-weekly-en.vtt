@@ -1,275 +1,248 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:01.377
+00:00:00.000 --> 00:00:01.434
 AI Weekly, week 45.
 
-00:00:01.377 --> 00:00:04.782
+00:00:01.434 --> 00:00:04.983
 The weekly briefing on artificial intelligence.
 
-00:00:04.782 --> 00:00:09.853
+00:00:04.983 --> 00:00:10.268
 Created automatically with AI, not read by a human before publication.
 
-00:00:09.853 --> 00:00:12.679
+00:00:10.268 --> 00:00:13.212
 Please report errors to ai@bks-lab.com.
 
-00:00:14.079 --> 00:00:15.120
+00:00:14.612 --> 00:00:15.728
 The key points.
 
-00:00:15.120 --> 00:00:24.559
-Market crash: The US semiconductor index loses over 12 percent in a single day, and Anthropic now aims for its IPO at a lower valuation.
+00:00:15.728 --> 00:00:21.534
+OpenAI: The company acquires Pierre Computer and moves Codex closer to GitHub.
 
-00:00:24.559 --> 00:00:33.998
-Windows 11: A year after end of support, Windows 10 still runs on 27.7 percent of Windows PCs, and expensive memory slows the migration.
+00:00:21.534 --> 00:00:31.581
+German government: The AI task force names 18 key measures and wants 55 percent of small and medium-sized businesses to use AI by 2030.
 
-00:00:33.998 --> 00:00:41.494
-Claude reports: Anthropic gives admins up to ten usage reports per month, and the feature is off by default.
+00:00:31.581 --> 00:00:41.108
+Data centers: In Dublin, around 2,000 people marched against AI data centers according to RTE and YLE, in Helsinki around 1,300.
 
-00:00:41.494 --> 00:00:49.545
-Open models: DeepSeek simulates attacks in test networks for 2 to 3 dollars, while GPT-6-Sol costs 17 to 46 dollars.
-
-00:00:50.945 --> 00:00:52.392
+00:00:42.508 --> 00:00:43.947
 Our story of the week.
 
-00:00:52.392 --> 00:00:57.122
-AI market crash after US midterms: Anthropic lowers expectations for its IPO.
+00:00:43.947 --> 00:00:47.496
+OpenAI acquires Pierre Computer and builds a rival to GitHub.
 
-00:00:57.122 --> 00:01:05.169
-The PHLX Semiconductor Sector Index lost over 12 percent on Thursday, the Nasdaq fell 5.5 percent and the S&P 500 fell 4.4 percent.
+00:00:47.496 --> 00:00:50.755
+OpenAI has announced the acquisition of Pierre Computer.
 
-00:01:05.169 --> 00:01:06.644
-Nvidia lost 9.3 percent.
+00:00:50.755 --> 00:00:58.145
+According to heise, OpenAI has already built parts of Pierre's tools into Codex, including the Git infrastructure Code Storage.
 
-00:01:06.644 --> 00:01:12.111
-According to Reuters, the Nasdaq 100 lost around 2.5 trillion US dollars in market value.
+00:00:58.145 --> 00:01:06.815
+With the acquisition, OpenAI may be entering another area of friction with GitHub, according to heise, and Codex is slowly approaching its functions.
 
-00:01:12.111 --> 00:01:14.691
-The Nasdaq 100 recovered partly on Friday.
+00:01:06.815 --> 00:01:13.797
+For context: Microsoft and OpenAI also compete in other fields, which heise describes as not unusual in the AI industry.
 
-00:01:14.691 --> 00:01:16.657
-Chart: Price losses on Thursday.
+00:01:13.797 --> 00:01:16.125
+OpenAI gave no information on the price.
 
-00:01:16.657 --> 00:01:27.837
-According to heise, the US midterm elections were the trigger: in dozens of local votes, citizens voted against building AI data centers, with one exception in Harwood, North Dakota.
+00:01:16.125 --> 00:01:20.140
+Pierre's open source projects remain openly accessible after closing.
 
-00:01:27.837 --> 00:01:37.297
-The Decoder, by contrast, names rising financing costs and high AI spending plans as the cause, and says the election result only accelerated the selloff.
+00:01:20.140 --> 00:01:26.366
+On the rationale, heise reports OpenAI's position as follows: the systems around Git have to keep evolving.
 
-00:01:37.297 --> 00:01:43.993
-According to Bloomberg, as relayed by heise, the crash stems from fully developed fears around the AI sector.
+00:01:26.366 --> 00:01:36.723
+The move hits a market that Microsoft occupies: in 2018 Microsoft bought GitHub for 7.5 billion US dollars, and Microsoft currently holds about a quarter of the shares in OpenAI.
 
-00:01:43.993 --> 00:01:47.249
-Anthropic is sticking to its IPO before Thanksgiving.
+00:01:36.723 --> 00:01:40.912
+This week OpenAI also presented "Pando", a backend for Git repositories.
 
-00:01:47.249 --> 00:01:56.709
-According to investors cited by the Financial Times, the company wants to raise 80 to 100 billion dollars at a valuation of 1.25 to 1.75 trillion dollars.
+00:01:40.912 --> 00:01:45.626
+In addition, GitHub's former CEO has launched a GitHub alternative called Entire.
 
-00:01:56.709 --> 00:01:59.535
-That is above the current 965 billion dollars.
+00:01:45.626 --> 00:01:54.528
+Critical voices: According to heise, critics say GitHub has become less reliable lately and point to an outage that disrupted Actions, Pages and billing.
 
-00:01:59.535 --> 00:02:04.817
-According to The Decoder, the reported annualized revenue is about 81 billion dollars.
+00:01:54.528 --> 00:01:56.099
+Heise cites them via Axios.
 
-00:02:04.817 --> 00:02:11.206
-According to the Wall Street Journal, one key investor now considers only around one trillion realistic.
+00:01:56.099 --> 00:01:58.427
+What the acquisition costs remains open.
 
-00:02:11.206 --> 00:02:17.411
-Critical voices: Volume and valuation range rest on investor statements cited by the Financial Times.
-
-00:02:17.411 --> 00:02:25.949
-The loss figures also refer to different indices: heise gives 5.5 percent for the Nasdaq, The Decoder gives 6.4 percent for the Nasdaq 100.
-
-00:02:25.949 --> 00:02:27.731
+00:01:58.427 --> 00:02:00.114
 What it means for you: Watch.
 
-00:02:27.731 --> 00:02:37.068
-Anyone locking in AI services from large providers for several years should review contract terms, price adjustment clauses and exit options at renewal.
+00:02:00.114 --> 00:02:09.366
+Engineering leads who keep their source code on GitHub should clarify by year end which dependencies on repository, CI and coding agents they might move later.
 
-00:02:38.468 --> 00:02:43.558
-Next: Windows 11 migration stalls over "chipflation" and "RAMageddon".
+00:02:10.766 --> 00:02:15.463
+Next: German government AI task force sets targets for 2030.
 
-00:02:43.558 --> 00:02:48.778
-In September, Windows 10 still ran on 27.7 percent of Windows PCs worldwide.
+00:02:15.463 --> 00:02:27.162
+The German government is setting clear targets for 2030: at least 80 percent of large companies and 55 percent of small and medium-sized businesses are to use AI by then.
 
-00:02:48.778 --> 00:02:56.197
-According to CFO Amy Hood, Microsoft's Windows revenue from PC makers fell 27 percent in the latest quarter.
+00:02:27.162 --> 00:02:31.154
+The task force report ends with a list of 18 key measures.
 
-00:02:56.197 --> 00:03:04.851
-PC shipments dropped 21 percent in the third quarter, driven by high memory prices, uncertainty over tariffs and the Iran war.
+00:02:31.154 --> 00:02:34.595
+These are government targets, not measured values.
 
-00:03:04.851 --> 00:03:10.758
-For the fourth quarter of 2026, one analyst expects a 27 percent decline year on year.
+00:02:34.595 --> 00:02:44.368
+Public administration is also meant to deliver: by 2030, 90 percent of federal agencies are to use at least one AI application for core tasks.
 
-00:03:10.758 --> 00:03:22.023
-Dean McCarron, principal analyst at Mercury Research, describes the mechanism as follows: when prices rise, demand falls, and the replacement cycle shifts backward.
+00:02:44.368 --> 00:02:48.979
+The report warns that the window to narrow the gap is closing soon.
 
-00:03:22.023 --> 00:03:27.518
-According to Hyperframe Research, memory supply shortages could last until 2029.
+00:02:48.979 --> 00:02:53.452
+Heise, however, considers the report to be hardly critical of AI.
 
-00:03:27.518 --> 00:03:37.959
-The 27.7 percent share comes from StatCounter measurement data, and only the fourth-quarter forecast and the shortage expectation are analyst estimates.
-
-00:03:37.959 --> 00:03:40.225
-What it means for you: Check now.
-
-00:03:40.225 --> 00:03:50.185
-IT leads should secure hardware orders for the Windows 11 migration with price quotes now and list the Windows 10 devices that are still running.
-
-00:03:50.185 --> 00:03:55.299
-Next: Smart Reports: Anthropic gives admins insight into Claude usage.
-
-00:03:55.299 --> 00:04:00.034
-With "Smart Reports", authorized managers can have Claude usage in the company analyzed.
-
-00:04:00.034 --> 00:04:08.211
-According to the company, the feature is free for Enterprise customers but disabled by default, and each company can create up to ten reports per month.
-
-00:04:08.211 --> 00:04:20.694
-In a help page article, Anthropic describes the analysis this way: Claude reads a sample of the transcripts in that scope, groups them by workflow and output type, assigns the matching costs to each group and summarizes the results.
-
-00:04:20.694 --> 00:04:28.925
-The background is cost concern: according to a Bitkom survey, a third of companies in Germany said they were surprised by the high costs of their AI use.
-
-00:04:28.925 --> 00:04:30.486
+00:02:53.452 --> 00:02:55.448
 What it means for you: Watch.
 
-00:04:30.486 --> 00:04:37.964
-Anyone using Claude Enterprise should clarify with data protection and the works council which analyses are permitted before activating it.
+00:02:55.448 --> 00:03:10.244
+Managing directors at mid-sized companies should treat the 55 percent target as a political benchmark that depends on broad participation, and check where their own company stands today as part of their AI planning.
 
-00:04:37.964 --> 00:04:44.376
-Next: Study: Water demand of German data centers could more than double by 2030.
+00:03:10.244 --> 00:03:13.902
+Next: Protests against AI data centers reach Europe.
 
-00:04:44.376 --> 00:04:52.833
-German data centers needed around 13 billion liters of water for cooling in 2025, and by 2030 demand could grow to up to 27 billion liters per year.
+00:03:13.902 --> 00:03:21.416
+In Dublin around 2,000 people marched according to the broadcaster RTE, and in Helsinki about 1,300 gathered according to YLE.
 
-00:04:52.833 --> 00:04:57.576
-This is the result of a short study by the Öko-Institut commissioned by Greenpeace.
+00:03:21.416 --> 00:03:27.797
+On November 7, the group Stop Dirty Data Centres protested at a Microsoft data center near Køge in Denmark.
 
-00:04:57.576 --> 00:05:02.547
-The weighted average is 0.67 liters of water per kilowatt hour of IT power consumption.
+00:03:27.797 --> 00:03:31.912
+No location in Germany, Austria or Switzerland appears in the report.
 
-00:05:02.547 --> 00:05:10.490
-The study warns that new mega data centers could cause acute groundwater stress and distribution conflicts in regions that are already dry.
+00:03:31.912 --> 00:03:39.962
+Still, for operators and users it shows that the siting and energy demand of data centers are being negotiated in public across Europe.
 
-00:05:10.490 --> 00:05:19.233
-It contrasts sharply with the digital industry's account: the industry association Bitkom had shortly before rated water demand as largely unproblematic.
-
-00:05:19.233 --> 00:05:20.890
+00:03:39.962 --> 00:03:41.692
 What it means for you: Watch.
 
-00:05:20.890 --> 00:05:28.604
-Anyone tendering colocation or cloud contracts or compiling sustainability reports should ask providers for water consumption per site.
+00:03:41.692 --> 00:03:49.504
+IT leads who buy data center capacity or AI services from Europe should add location and energy source to their provider selection.
 
-00:05:30.004 --> 00:05:30.947
+00:03:50.904 --> 00:03:51.833
 In brief.
 
-00:05:30.947 --> 00:05:41.297
-Briefly noted: TikTok: The EU Commission has preliminarily found the "For You" feed in breach of the Digital Services Act, and this is not a final decision.
+00:03:51.833 --> 00:04:03.254
+Briefly noted: Hacking benchmark: In the Vals test, the open model DeepSeek completes 73 percent of tasks and OpenAI's Daybreak 81 percent, measured in simulated networks.
 
-00:05:41.297 --> 00:05:51.713
-OpenAI: According to a Bloomberg report, OpenAI has so far raised 11 billion dollars at a valuation of 1.25 trillion dollars, against a target of 30 billion.
+00:04:03.254 --> 00:04:11.736
+Attack costs: According to Vals, an attack with DeepSeek costs 2 to 3 US dollars in tokens, with GPT-6-Sol 17 to 46 US dollars.
 
-00:05:51.713 --> 00:05:58.149
-Anthropic: According to The Decoder, the reported annualized revenue is about 81 billion dollars.
+00:04:11.736 --> 00:04:16.612
+According to Wired, real attackers mostly use older, less capable models.
 
-00:05:58.149 --> 00:06:05.911
-Data centers: According to Greenpeace, only 139 reports from around 1,200 operators subject to reporting were usable.
+00:04:16.612 --> 00:04:28.100
+NVIDIA Cosmos 3: Four new open-weight checkpoints with 16 billion parameters under the OpenMDW1.1 license, which according to NVIDIA permits commercial use under its terms.
 
-00:06:07.311 --> 00:06:08.438
+00:04:28.100 --> 00:04:34.779
+Federal agencies: By 2030, 90 percent of them are to use at least one AI application for core tasks.
+
+00:04:36.179 --> 00:04:37.332
 Tool of the week.
 
-00:06:08.438 --> 00:06:11.240
-Perplexity Teammates: Always-on AI agents.
+00:04:37.332 --> 00:04:40.601
+Mistral Studio: Agents, workflows and apps on one platform.
 
-00:06:11.240 --> 00:06:17.779
-According to the report, each Teammate runs on its own virtual machine with a desktop and browser.
+00:04:40.601 --> 00:04:43.759
+Mistral is expanding Studio with Managed Agents and Apps.
 
-00:06:17.779 --> 00:06:23.250
-Progress is tracked through threads in the app, and instructions go through Slack.
+00:04:43.759 --> 00:05:01.488
+According to the vendor, the agents can be deployed wherever the customer wants: "Deploy them wherever you choose: in the cloud, in your own VPC, on-premises or across a combination of environments." As references, Mistral names BNP Paribas, Accenture and Capgemini, among others, which already use Studio in production.
 
-00:06:23.250 --> 00:06:31.657
-It requires the Max plan at 200 dollars per month, while competing products start at 100 dollars (Dots) and 20 dollars (Duet).
+00:05:01.488 --> 00:05:07.638
+Mistral also reports from its own teams: an internal workflow saves product operations about 35 hours per week.
 
-00:06:31.657 --> 00:06:36.994
-In practice, the cheaper offerings are likely to hit their usage limits quickly.
+00:05:07.638 --> 00:05:10.574
+The reference customers named are large corporations.
 
-00:06:36.994 --> 00:06:38.462
-Report at The Decoder.
+00:05:10.574 --> 00:05:19.051
+For European mid-sized companies that need to run agents in their own cloud or on-premises, the free choice of environment is the main point of interest.
 
-00:06:39.862 --> 00:06:40.970
+00:05:19.051 --> 00:05:19.882
+Mistral Studio.
+
+00:05:21.282 --> 00:05:22.399
 Fail of the week.
 
-00:06:40.970 --> 00:06:47.544
-"Meta pauses controversial commercial terms" Meta has paused an update to its commercial terms of use indefinitely.
+00:05:22.399 --> 00:05:25.058
+Meta pauses terms change after criticism.
 
-00:06:47.544 --> 00:06:52.689
-It was originally due to take effect on October 30, and the date was moved to November 20.
+00:05:25.058 --> 00:05:32.452
+Meta wanted to introduce new commercial terms, and after criticism the company suspended the change on October 28.
 
-00:06:52.689 --> 00:06:59.949
-Courts in Brazil and Norway issued preliminary injunctions, and the UK competition authority CMA opened a formal investigation.
+00:05:32.452 --> 00:05:42.051
+According to Ars Technica, the change affects operators of business Facebook pages, who would have had to allow Meta to crawl linked external sites.
 
-00:06:59.949 --> 00:07:04.123
-A Meta spokesperson told Reuters that the existing terms remain in force.
+00:05:42.051 --> 00:05:49.055
+The changes were originally due to apply on October 30, and Meta had already pushed the date to November 20.
 
-00:07:04.123 --> 00:07:09.039
-Meta stresses that it never intended to use the terms of use to get around robots.txt.
+00:05:49.055 --> 00:05:55.671
+According to Nieman Lab, courts in Brazil and Norway issued preliminary injunctions against the terms.
 
-00:07:09.039 --> 00:07:13.898
-Cause: The change met judicial and regulatory resistance before it could take effect.
+00:05:55.671 --> 00:06:00.405
+In addition, the UK competition authority CMA opened a formal proceeding.
 
-00:07:13.898 --> 00:07:22.130
-What we learn: Anyone changing vendor terms on data use and AI training must expect pushback, and customers should actively read change notices.
+00:06:00.405 --> 00:06:06.956
+Cause: The terms were under pressure from courts, a regulator and the public before they took effect.
 
-00:07:23.530 --> 00:07:24.718
+00:06:06.956 --> 00:06:12.534
+Meta denies circumventing robots.txt and says its crawling practice remains unchanged.
+
+00:06:12.534 --> 00:06:21.938
+What we learn: Anyone changing terms of use for AI data should involve those affected and the regulator beforehand, or courts will stop it later.
+
+00:06:23.338 --> 00:06:24.521
 Number of the week.
 
-00:07:24.718 --> 00:07:32.656
-2 to 3 USD per attack: Token cost of a simulated attack with DeepSeek according to Vals measurements (GPT-6-Sol: 17 to 46 USD).
+00:06:24.521 --> 00:06:30.622
+1.5 percent: Growth in AI token spending in August and September combined, according to Ramp data.
 
-00:07:32.656 --> 00:07:41.407
-The Vals platform measured the token cost of an attack in simulated networks: 2 to 3 dollars with DeepSeek, 17 to 46 dollars with GPT-6-Sol.
+00:06:30.622 --> 00:06:40.146
+According to Ramp data, token spending on AI grew by only 1.5 percent in August and September combined, after rising 42 percent month over month in July.
 
-00:07:41.407 --> 00:07:50.033
-The values concern different models, and according to the source, open models are generally cheaper because they run on your own hardware.
+00:06:40.146 --> 00:06:44.130
+In October it picked up again by 8.9 percent, according to Ramp.
 
-00:07:50.033 --> 00:07:56.908
-DeepSeek met 73 percent of the objectives on average, and OpenAI's Daybreak completed 81 percent of the tasks.
+00:06:44.130 --> 00:06:48.426
+Ramp economist Ara Kharazian says the era of hypergrowth may be over.
 
-00:07:56.908 --> 00:08:09.097
-Nikil Ravi, a researcher at Vals, says the best models, which sit in the labs and are available only through access programs, are now being caught up with by open models that anyone can download.
+00:06:48.426 --> 00:06:57.328
+For context: most of the spending comes from venture-funded tech companies, so the data reflects mid-sized businesses only to a limited extent.
 
-00:08:09.097 --> 00:08:16.723
-These are measurements in simulations, not real attacks, and Wired points out that real attackers mostly use older models.
-
-00:08:18.123 --> 00:08:20.222
+00:06:58.728 --> 00:07:00.717
 The reading list for the weekend.
 
-00:08:20.222 --> 00:08:31.224
-For the weekend: Studie warnt vor Wasserstress durch neue Mega-Rechenzentren in Deutschland: Compact summary of the Öko-Institut study with Bitkom's counterposition (3 min).
+00:07:00.717 --> 00:07:10.119
+For the weekend: New NVIDIA Cosmos 3 Open Models for Interactive World Simulation: Technically deep piece on open world models with license details (7 min).
 
-00:08:31.224 --> 00:08:40.254
-Free Chinese AI Models Are Getting Scary Good at Hacking: Technically deeper look at the Vals measurement and the cost of open models (5 min).
+00:07:10.119 --> 00:07:18.135
+Free Chinese AI Models Are Getting Scary Good at Hacking: Accessible report on the Vals comparison of open and closed models (5 min).
 
-00:08:40.254 --> 00:08:48.331
-Windows-11-Umstieg stockt wegen „Chipflation“ und „RAMageddon“: Data on hardware prices, shipments and Windows revenue (6 min).
+00:07:18.135 --> 00:07:19.943
+Does Meta think we can't read?
 
-00:08:49.731 --> 00:08:50.507
+00:07:19.943 --> 00:07:26.332
+Meta abandons sketchy commercial terms update: Timeline of the retreat, with courts and regulator (4 min).
+
+00:07:27.732 --> 00:07:28.439
 The outlook.
 
-00:08:50.507 --> 00:08:59.881
-According to investors cited by the Financial Times, Anthropic wants to complete its IPO before Thanksgiving and raise 80 to 100 billion dollars.
+00:07:28.439 --> 00:07:34.154
+Meta had most recently pushed the start of its changes to November 20 and has now suspended them.
 
-00:08:59.881 --> 00:09:08.027
-According to Bloomberg, citing a source, the OpenAI funding round is not yet closed and could reach around 20 billion dollars.
+00:07:34.154 --> 00:07:39.692
+The task force targets apply until 2030, such as 55 percent AI use among mid-sized businesses.
 
-00:09:08.027 --> 00:09:14.363
-For TikTok, the EU Commission's final decision is still pending after the preliminary DSA finding.
-
-00:09:15.763 --> 00:09:17.638
+00:07:41.092 --> 00:07:42.848
 That was AI Weekly for week 45.
 
-00:09:17.638 --> 00:09:19.997
+00:07:42.848 --> 00:07:45.058
 All sources are in the written edition.
 
-00:09:19.997 --> 00:09:20.965
+00:07:45.058 --> 00:07:45.964
 Until next week.
 

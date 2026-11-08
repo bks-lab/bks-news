@@ -1,284 +1,287 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:02.142
+00:00:00.000 --> 00:00:02.230
 AI Weekly, Kalenderwoche 45.
 
-00:00:02.142 --> 00:00:05.814
+00:00:02.230 --> 00:00:06.052
 Der Wochenüberblick zur künstlichen Intelligenz.
 
-00:00:05.814 --> 00:00:12.163
+00:00:06.052 --> 00:00:12.661
 Automatisch erstellt mit KI, vor Veröffentlichung nicht von einem Menschen gelesen.
 
-00:00:12.163 --> 00:00:14.535
+00:00:12.661 --> 00:00:15.129
 Fehler bitte an ai@bks-lab.com.
 
-00:00:15.935 --> 00:00:17.771
+00:00:16.529 --> 00:00:18.281
 Das Wichtigste in Kürze.
 
-00:00:17.771 --> 00:00:28.479
-Börsencrash: Der US-Halbleiterindex verliert an einem Tag über 12 Prozent, Anthropic strebt den Börsengang nun mit niedrigerer Bewertung an.
+00:00:18.281 --> 00:00:24.485
+Open A.I.: Der Konzern übernimmt Pierre Computer und rückt mit Codex näher an GitHub.
 
-00:00:28.479 --> 00:00:38.652
-Windows 11: Ein Jahr nach dem Supportende läuft Windows 10 noch auf 27,7 Prozent der Windows-PCs, teurer Speicher bremst den Umstieg.
+00:00:24.485 --> 00:00:35.799
+Bundesregierung: Die KI-Task-Force nennt 18 Schlüsselmaßnahmen und will bis 2030 in 55 Prozent der kleineren und mittleren Unternehmen KI im Einsatz sehen.
 
-00:00:38.652 --> 00:00:47.601
-Claude-Berichte: Anthropic liefert Admins bis zu zehn Nutzungsberichte pro Monat, standardmäßig ist die Funktion aus.
+00:00:35.799 --> 00:00:45.580
+Rechenzentren: In Dublin marschierten nach Angaben von RTE und YLE rund 2.000 Menschen gegen KI-Rechenzentren, in Helsinki rund 1.300.
 
-00:00:47.601 --> 00:00:56.550
-Offene Modelle: DeepSeek simuliert Angriffe in Testnetzen für 2 bis 3 Dollar, bei GPT-6-Sol sind es 17 bis 46 Dollar.
-
-00:00:57.950 --> 00:00:59.667
+00:00:46.980 --> 00:00:48.669
 Zur Story der Woche.
 
-00:00:59.667 --> 00:01:04.689
-KI-Börsencrash nach US-Zwischenwahl: Anthropic senkt die Erwartung für den Börsengang.
+00:00:48.669 --> 00:00:49.193
+Open A.I.
 
-00:01:04.689 --> 00:01:12.980
-Der PHLX Semiconductor Sector Index hat am Donnerstag über 12 Prozent verloren, der Nasdaq fiel um 5,5 Prozent und der S&P 500 um 4,4 Prozent.
+00:00:49.193 --> 00:00:52.689
+übernimmt Pierre Computer und baut Konkurrenz zu GitHub auf.
 
-00:01:12.980 --> 00:01:14.499
-Nvidia verlor 9,3 Prozent.
+00:00:52.689 --> 00:00:53.213
+Open A.I.
 
-00:01:14.499 --> 00:01:19.462
-Im Nasdaq 100 gingen laut Reuters rund 2,5 Billionen US-Dollar an Marktwert verloren.
+00:00:53.213 --> 00:00:56.126
+hat die Übernahme von Pierre Computer angekündigt.
 
-00:01:19.462 --> 00:01:22.323
-Der Nasdaq 100 erholte sich am Freitag teilweise.
+00:00:56.126 --> 00:01:01.253
+Teile von Pierres Werkzeugen, darunter die Git-Infrastruktur Code Storage, hat Open A.I.
 
-00:01:22.323 --> 00:01:24.367
-Grafik: Kursverluste am Donnerstag.
+00:01:01.253 --> 00:01:03.467
+laut heise bereits in Codex eingebaut.
 
-00:01:24.367 --> 00:01:35.403
-Laut heise waren die US-Zwischenwahlen der Auslöser: In dutzenden kommunalen Abstimmungen votierten Bürger bis auf eine Ausnahme in Harwood, North Dakota gegen den Bau von KI-Rechenzentren.
+00:01:03.467 --> 00:01:05.506
+Mit der Übernahme betritt Open A.I.
 
-00:01:35.403 --> 00:01:44.103
-The Decoder nennt dagegen steigende Finanzierungskosten und hohe KI-Ausgabenpläne als Auslöser, der Wahlausgang habe den Ausverkauf nur beschleunigt.
+00:01:05.506 --> 00:01:11.972
+laut heise möglicherweise ein weiteres Spannungsfeld zu GitHub, Codex nähert sich dessen Funktionen langsam an.
 
-00:01:44.103 --> 00:01:46.205
-Laut Bloomberg geht der Absturz auf.
+00:01:11.972 --> 00:01:14.244
+Zur Einordnung: Microsoft und Open A.I.
 
-00:01:46.205 --> 00:01:51.110
-"voll ausgeprägte Ängste rund um den KI-Sektor" zurück, so die Wiedergabe von heise.
+00:01:14.244 --> 00:01:19.721
+konkurrieren auch in anderen Feldern, was laut heise in der KI-Branche nicht ungewöhnlich ist.
 
-00:01:51.110 --> 00:01:54.614
-Anthropic hält trotzdem am Börsengang vor Thanksgiving fest.
+00:01:19.721 --> 00:01:21.235
+Zum Preis machte Open A.I.
 
-00:01:54.614 --> 00:02:04.307
-Das Unternehmen will laut Investoren, die die Financial Times zitiert, 80 bis 100 Milliarden Dollar bei einer Bewertung von 1,25 bis 1,75 Billionen Dollar einsammeln.
+00:01:21.235 --> 00:01:22.051
+keine Angaben.
 
-00:02:04.307 --> 00:02:07.285
-Das liegt über den aktuellen 965 Milliarden Dollar.
+00:01:22.051 --> 00:01:26.304
+Pierres quelloffene Projekte bleiben nach dem Abschluss offen zugänglich.
 
-00:02:07.285 --> 00:02:12.423
-Der gemeldete annualisierte Umsatz liegt laut The Decoder bei etwa 81 Milliarden Dollar.
+00:01:26.304 --> 00:01:28.343
+Zur Begründung gibt heise Open A.I.
 
-00:02:12.423 --> 00:02:18.730
-Nach Angaben des Wall Street Journal hält ein wichtiger Investor nur noch rund eine Billion für realistisch.
+00:01:28.343 --> 00:01:34.227
+so wieder: „die Systeme rund um Git müssen sich weiterentwickeln“ Open A.I., Unternehmen, laut heise.
 
-00:02:18.730 --> 00:02:25.211
-Kritische Stimmen: Volumen und Bewertungsspanne beruhen auf Investorenangaben, die die Financial Times zitiert.
+00:01:34.227 --> 00:01:45.063
+Der Schritt trifft einen Markt, den Microsoft besetzt: 2018 kaufte Microsoft GitHub für 7,5 Milliarden US-Dollar, und Microsoft besitzt derzeit rund ein Viertel der Anteile an Open A.I..
 
-00:02:25.211 --> 00:02:33.853
-Zudem beziehen sich die Verlustangaben auf verschiedene Indizes: heise nennt für den Nasdaq 5,5 Prozent, The Decoder für den Nasdaq 100 6,4 Prozent.
+00:01:45.063 --> 00:01:46.578
+Außerdem stellte Open A.I.
 
-00:02:33.853 --> 00:02:35.838
+00:01:46.578 --> 00:01:50.132
+diese Woche mit „Pando“ ein Backend für Git-Repositories vor.
+
+00:01:50.132 --> 00:01:54.676
+Mit Entire hat zudem der frühere GitHub-CEO eine GitHub-Alternative gestartet.
+
+00:01:54.676 --> 00:02:04.522
+Kritische Stimmen: Kritiker bemängeln laut heise, GitHub sei zuletzt weniger zuverlässig, und verweisen auf einen Ausfall, der Actions, Pages und Abrechnung gestört hat.
+
+00:02:04.522 --> 00:02:06.211
+Heise zitiert sie nach Axios.
+
+00:02:06.211 --> 00:02:08.483
+Offen bleibt, was die Übernahme kostet.
+
+00:02:08.483 --> 00:02:10.464
 Was heißt das für Sie: Beobachten.
 
-00:02:35.838 --> 00:02:45.006
-Wer KI-Dienste großer Anbieter über mehrere Jahre bindet, sollte bei Verlängerungen Vertragslaufzeiten, Preisanpassungsklauseln und Ausstiegsoptionen prüfen.
+00:02:10.464 --> 00:02:21.300
+Entwicklungsleitungen, die ihren Quellcode bei GitHub halten, sollten bis Jahresende klären, welche Abhängigkeiten von Repository, CI und Programmieragenten sie später verlagern könnten.
 
-00:02:46.406 --> 00:02:52.590
-Weiter mit: Windows-11-Umstieg stockt wegen „Chipflation“ und „RAMageddon“.
+00:02:22.700 --> 00:02:29.085
+Weiter mit: KI-Task-Force der Bundesregierung nennt Ziele bis 2030.
 
-00:02:52.590 --> 00:02:57.765
-Im September lief Windows 10 noch auf 27,7 Prozent der Windows-PCs weltweit.
+00:02:29.085 --> 00:02:40.906
+Die Bundesregierung setzt sich für 2030 klare Zielwerte: Mindestens 80 Prozent der Großunternehmen und 55 Prozent der kleineren und mittleren Unternehmen sollen dann KI einsetzen.
 
-00:02:57.765 --> 00:03:05.324
-Microsofts Windows-Umsatz mit PC-Herstellern sank laut Finanzchefin Amy Hood im jüngsten Quartal um 27 Prozent.
+00:02:40.906 --> 00:02:45.661
+Der Bericht der KI-Task-Force führt am Ende 18 „Schlüsselmaßnahmen“ auf.
 
-00:03:05.324 --> 00:03:15.539
-Die PC-Auslieferungen gingen im dritten Quartal um 21 Prozent zurück, ausgelöst durch hohe Speicherpreise, Unsicherheit über Zölle und den Iran-Krieg.
+00:02:45.661 --> 00:02:48.963
+Das sind Zielwerte der Regierung, keine Messwerte.
 
-00:03:15.539 --> 00:03:22.349
-Für das vierte Quartal 2026 erwartet ein Analyst einen Rückgang um 27 Prozent gegenüber dem Vorjahr.
+00:02:48.963 --> 00:02:57.813
+Auch die Verwaltung soll liefern: Bis dahin sollen 90 Prozent der Bundesbehörden mindestens eine KI-Anwendung für Kernaufgaben nutzen.
 
-00:03:22.349 --> 00:03:31.337
-Dean McCarron, leitender Analyst bei Mercury Research, beschreibt den Mechanismus so: "Wenn die Preise steigen, sinkt die Nachfrage.
+00:02:57.813 --> 00:03:07.389
+Der Bericht warnt: „Das Zeitfenster, um diesen Abstand zu verringern, schließt sich bald“ KI-Task-Force der Bundesregierung, Bericht, laut heise.
 
-00:03:31.337 --> 00:03:40.667
-Dadurch verschiebt sich der Austauschzyklus nach hinten." Lieferengpässe bei Speicher könnten laut Hyperframe Research bis 2029 anhalten.
+00:03:07.389 --> 00:03:11.813
+Heise sieht den Bericht allerdings als wenig kritisch gegenüber KI.
 
-00:03:40.667 --> 00:03:51.426
-Der Anteil von 27,7 Prozent stammt aus Messdaten von StatCounter, nur die Prognose für das vierte Quartal und die Engpass-Erwartung sind Analystenschätzungen.
-
-00:03:51.426 --> 00:03:53.878
-Was heißt das für Sie: Jetzt prüfen.
-
-00:03:53.878 --> 00:04:05.386
-Die IT-Leitung sollte Hardware-Bestellungen für den Windows-11-Umstieg jetzt mit Preisangeboten absichern und den Bestand an noch laufenden Windows-10-Geräten auflisten.
-
-00:04:05.386 --> 00:04:11.446
-Weiter mit: Smart Reports: Anthropic gibt Admins Einblick in die Claude-Nutzung.
-
-00:04:11.446 --> 00:04:17.669
-Mit „Smart Reports“ können autorisierte Führungskräfte Claude-Nutzung im Unternehmen auswerten lassen.
-
-00:04:17.669 --> 00:04:29.322
-Laut Unternehmensangaben steht die Funktion Enterprise-Kunden kostenlos zur Verfügung, ist aber standardmäßig deaktiviert, und jedes Unternehmen kann monatlich bis zu zehn Berichte erstellen.
-
-00:04:29.322 --> 00:04:56.837
-Anthropic beschreibt die Auswertung in einem Beitrag auf der Hilfeseite so: "Claude liest dann eine Stichprobe der Transkripte in diesem Umfang, gruppiert sie nach Arbeitsabläufen und Ausgabetypen, ordnet jeder Gruppe die entsprechenden Kosten zu und fasst die Ergebnisse zusammen" Hintergrund sind Kostensorgen: Laut einer Bitkom-Umfrage gab ein Drittel der Firmen in Deutschland an, von den hohen Kosten ihres KI-Einsatzes überrascht worden zu sein.
-
-00:04:56.837 --> 00:04:58.911
+00:03:11.813 --> 00:03:14.059
 Was heißt das für Sie: Beobachten.
 
-00:04:58.911 --> 00:05:07.147
-Wer Claude Enterprise einsetzt, sollte vor einer Aktivierung mit Datenschutz und Betriebsrat klären, welche Auswertungen zulässig sind.
+00:03:14.059 --> 00:03:27.399
+Geschäftsführungen im Mittelstand sollten den Zielwert von 55 Prozent als politische Vorgabe verstehen, die von breiter Mitwirkung abhängt, und für die eigene KI-Planung prüfen, wo ihr Haus heute steht.
 
-00:05:07.147 --> 00:05:14.413
-Weiter mit: Studie: Wasserbedarf deutscher Rechenzentren könnte sich bis 2030 mehr als verdoppeln.
+00:03:27.399 --> 00:03:32.682
+Weiter mit: Proteste gegen KI-Rechenzentren erreichen Europa.
 
-00:05:14.413 --> 00:05:24.032
-Deutsche Rechenzentren brauchten 2025 rund 13 Milliarden Liter Wasser zur Kühlung, bis 2030 könnte der Bedarf auf bis zu 27 Milliarden Liter pro Jahr wachsen.
+00:03:32.682 --> 00:03:39.802
+In Dublin marschierten nach Angaben des Senders RTE rund 2.000 Menschen, in Helsinki versammelten sich laut YLE etwa 1.300.
 
-00:05:24.032 --> 00:05:29.025
-Das ist das Ergebnis einer Kurzstudie des Öko-Instituts im Auftrag von Greenpeace.
+00:03:39.802 --> 00:03:40.091
+Am 7.
 
-00:05:29.025 --> 00:05:34.626
-Der gewichtete Mittelwert liegt bei 0,67 Litern Wasser pro Kilowattstunde IT-Stromverbrauch.
+00:03:40.091 --> 00:03:46.574
+November protestierte die Gruppe Stop Dirty Data Centres an einem Microsoft-Rechenzentrum nahe Køge in Dänemark.
 
-00:05:34.626 --> 00:05:43.271
-Die Studie warnt, neue Mega-Rechenzentren könnten in bereits trockenen Regionen akuten Grundwasserstress und Verteilungskonflikte verursachen.
+00:03:46.574 --> 00:03:51.378
+Ein Ort in Deutschland, Österreich oder der Schweiz kommt in der Meldung nicht vor.
 
-00:05:43.271 --> 00:05:53.926
-Sie steht in deutlichem Kontrast zur Darstellung der Digitalwirtschaft: Der Branchenverband Bitkom hatte den Wasserbedarf kurz zuvor als weitgehend unproblematisch eingestuft.
+00:03:51.378 --> 00:03:59.076
+Für Betreiber und Nutzer zeigt sie dennoch, dass Standort und Energiebedarf von Rechenzentren in Europa öffentlich verhandelt werden.
 
-00:05:53.926 --> 00:05:55.996
+00:03:59.076 --> 00:04:01.044
 Was heißt das für Sie: Beobachten.
 
-00:05:55.996 --> 00:06:05.067
-Wer Colocation- oder Cloud-Verträge ausschreibt oder Nachhaltigkeitsberichte erstellt, sollte beim Anbieter den Wasserverbrauch je Standort abfragen.
+00:04:01.044 --> 00:04:09.611
+IT-Leitungen, die Rechenzentrumskapazität oder KI-Dienste aus Europa einkaufen, sollten Standort und Energiequelle in die Anbieterauswahl aufnehmen.
 
-00:06:06.467 --> 00:06:07.903
+00:04:11.011 --> 00:04:12.559
 Kurz notiert.
 
-00:06:07.903 --> 00:06:20.285
-Kurz notiert: TikTok: Die EU-Kommission hat vorläufig einen Verstoß des „For You“-Feeds gegen den Digital Services Act festgestellt, es ist keine endgültige Entscheidung.
+00:04:12.559 --> 00:04:25.480
+Kurz notiert: Hacking-Benchmark: Im Vals-Test erledigt das offene Modell DeepSeek 73 Prozent der Aufgaben, OpenAIs Daybreak 81 Prozent, gemessen in simulierten Netzwerken.
 
-00:06:20.285 --> 00:06:23.708
-Open A.I.: Laut Bloomberg-Bericht hat Open A.I.
+00:04:25.480 --> 00:04:34.547
+Angriffskosten: Laut Vals kostet ein Angriff mit DeepSeek 2 bis 3 US-Dollar an Token, mit GPT-6-Sol 17 bis 46 US-Dollar.
 
-00:06:23.708 --> 00:06:32.230
-bisher 11 Milliarden Dollar bei einer Bewertung von 1,25 Billionen Dollar eingesammelt, das Ziel waren 30 Milliarden.
+00:04:34.547 --> 00:04:39.912
+Echte Angreifer nutzen laut Wired meist ältere, weniger fähige Modelle.
 
-00:06:32.230 --> 00:06:39.441
-Anthropic: Der gemeldete annualisierte Umsatz liegt laut The Decoder bei etwa 81 Milliarden Dollar.
+00:04:39.912 --> 00:04:53.286
+NVIDIA Cosmos 3: Vier neue Open-Weight-Checkpoints mit 16 Milliarden Parametern unter der Lizenz OpenMDW1.1, die laut NVIDIA kommerzielle Nutzung nach ihren Bedingungen erlaubt.
 
-00:06:39.441 --> 00:06:47.307
-Rechenzentren: Laut Greenpeace waren von rund 1200 meldepflichtigen Betreibern nur 139 Meldungen verwertbar.
+00:04:53.286 --> 00:05:01.522
+Bundesbehörden: Bis 2030 sollen 90 Prozent von ihnen mindestens eine KI-Anwendung für Kernaufgaben einsetzen.
 
-00:06:48.707 --> 00:06:50.598
+00:05:02.922 --> 00:05:04.731
 Das Werkzeug der Woche.
 
-00:06:50.598 --> 00:06:53.523
-Perplexity Teammates: Dauerhaft laufende KI-Agenten.
+00:05:04.731 --> 00:05:08.695
+Mistral Studio: Agenten, Workflows und Apps auf einer Plattform.
 
-00:06:53.523 --> 00:06:58.923
-Jeder Teammate läuft laut Bericht auf einer eigenen virtuellen Maschine mit Desktop und Browser.
+00:05:08.695 --> 00:05:11.916
+Mistral erweitert Studio um Managed Agents und Apps.
 
-00:06:58.923 --> 00:07:03.591
-Den Fortschritt verfolgt man über Threads in der App, Anweisungen gehen über Slack.
+00:05:11.916 --> 00:05:31.799
+Laut Hersteller lassen sich die Agenten dort einsetzen, wo es gewünscht ist: „Deploy them wherever you choose: in the cloud, in your own VPC, on-premises or across a combination of environments.“ Als Referenzen nennt Mistral unter anderem BNP Paribas, Accenture und Capgemini, die Studio bereits in der Produktion nutzen.
 
-00:07:03.591 --> 00:07:11.241
-Er setzt den Max-Plan für 200 Dollar im Monat voraus, Konkurrenzprodukte starten bei 100 Dollar (Dots) beziehungsweise 20 Dollar (Duet).
+00:05:31.799 --> 00:05:39.356
+Außerdem berichtet Mistral aus eigenen Teams: Ein interner Workflow spare der Produktoperations rund 35 Stunden pro Woche.
 
-00:07:11.241 --> 00:07:16.078
-In der Praxis dürften die günstigeren Angebote schnell an ihre Nutzungsgrenzen stoßen.
+00:05:39.356 --> 00:05:42.019
+Die genannten Referenzkunden sind Konzerne.
 
-00:07:16.078 --> 00:07:17.428
-Bericht bei The Decoder.
+00:05:42.019 --> 00:05:51.558
+Für europäische Mittelständler, die Agenten in der eigenen Cloud oder On-Premises betreiben müssen, ist vor allem die freie Wahl der Umgebung interessant.
 
-00:07:18.828 --> 00:07:20.565
+00:05:51.558 --> 00:05:52.487
+Mistral Studio.
+
+00:05:53.887 --> 00:05:55.565
 Der Fail der Woche.
 
-00:07:20.565 --> 00:07:29.428
-„Meta pausiert umstrittene Geschäftsbedingungen“ Meta hat ein Update seiner kommerziellen Nutzungsbedingungen unbefristet pausiert.
+00:05:55.565 --> 00:05:59.374
+Meta pausiert Änderung der Geschäftsbedingungen nach Kritik.
 
-00:07:29.428 --> 00:07:31.390
-Es sollte ursprünglich am 30.
+00:05:59.374 --> 00:06:05.976
+Meta wollte neue kommerzielle Bedingungen einführen, nach Kritik hat das Unternehmen die Änderung am 28.
 
-00:07:31.390 --> 00:07:34.367
-Oktober gelten, der Termin wurde auf den 20.
+00:06:05.976 --> 00:06:07.182
+Oktober ausgesetzt.
 
-00:07:34.367 --> 00:07:35.720
+00:06:07.182 --> 00:06:16.450
+Betroffen sind laut Ars Technica Betreiber geschäftlicher Facebook-Seiten, die Meta das Crawlen verlinkter externer Seiten hätten erlauben müssen.
+
+00:06:16.450 --> 00:06:19.116
+Ursprünglich sollten die Änderungen am 30.
+
+00:06:19.116 --> 00:06:22.607
+Oktober gelten, Meta hatte den Termin schon auf den 20.
+
+00:06:22.607 --> 00:06:23.877
 November verschoben.
 
-00:07:35.720 --> 00:07:45.530
-Gerichte in Brasilien und Norwegen erließen einstweilige Verfügungen, die britische Wettbewerbsbehörde CMA eröffnete eine förmliche Untersuchung.
+00:06:23.877 --> 00:06:30.542
+Gerichte in Brasilien und Norwegen erließen laut Nieman Lab vorläufige Verfügungen gegen die Bedingungen.
 
-00:07:45.530 --> 00:07:51.687
-Ein Meta-Sprecher erklärte gegenüber Reuters, die bestehenden Bedingungen blieben in Kraft.
+00:06:30.542 --> 00:06:35.811
+Zusätzlich eröffnete die britische Wettbewerbsbehörde CMA ein förmliches Verfahren.
 
-00:07:51.687 --> 00:07:57.708
-Meta betont, die Nutzungsbedingungen nie zur Umgehung von robots.txt einsetzen zu wollen.
+00:06:35.811 --> 00:06:42.476
+Ursache: Die Bedingungen standen unter Druck von Gerichten, Behörde und Öffentlichkeit, bevor sie galten.
 
-00:07:57.708 --> 00:08:05.015
-Ursache: Die Änderung stieß auf gerichtlichen und behördlichen Widerstand, bevor sie in Kraft treten konnte.
+00:06:42.476 --> 00:06:48.316
+Meta bestreitet, robots.txt zu umgehen, und erklärt, die Crawling-Praxis bleibe unverändert.
 
-00:08:05.015 --> 00:08:15.908
-Was wir lernen: Wer Anbieterbedingungen zu Datennutzung und KI-Training ändert, muss mit Gegenwehr rechnen, und Kunden sollten Änderungsmitteilungen aktiv lesen.
+00:06:48.316 --> 00:06:57.394
+Was wir lernen: Wer Nutzungsbedingungen für KI-Daten ändert, sollte Betroffene und Aufsicht vorher einbinden, sonst stoppen es später Gerichte.
 
-00:08:17.308 --> 00:08:18.554
+00:06:58.794 --> 00:07:00.084
 Die Zahl der Woche.
 
-00:08:18.554 --> 00:08:27.404
-2 bis 3 US-Dollar pro Angriff: Token-Kosten eines simulierten Angriffs mit DeepSeek laut Vals-Messung (GPT-6-Sol: 17 bis 46 US-Dollar).
+00:07:00.084 --> 00:07:05.786
+1,5 Prozent: Wachstum der KI-Token-Ausgaben in August und September laut Ramp-Daten.
 
-00:08:27.404 --> 00:08:38.089
-Die Plattform Vals hat in simulierten Netzwerken gemessen, was ein Angriff an Token-Kosten verursacht: 2 bis 3 Dollar mit DeepSeek, 17 bis 46 Dollar mit GPT-6-Sol.
+00:07:05.786 --> 00:07:17.734
+Die Token-Ausgaben für KI wuchsen laut Ramp-Daten in August und September zusammen nur um 1,5 Prozent, nachdem sie im Juli gegenüber dem Vormonat um 42 Prozent gestiegen waren.
 
-00:08:38.089 --> 00:08:47.136
-Die Werte betreffen unterschiedliche Modelle, und offene Modelle sind laut Quelle generell billiger, weil sie auf eigener Hardware laufen.
+00:07:17.734 --> 00:07:21.604
+Im Oktober zogen sie laut Ramp wieder an, um 8,9 Prozent.
 
-00:08:47.136 --> 00:08:53.167
-DeepSeek erfüllte im Schnitt 73 Prozent der Ziele, OpenAIs Daybreak 81 Prozent der Aufgaben.
+00:07:21.604 --> 00:07:26.967
+Ramp-Ökonom Ara Kharazian sagt, die Zeit des Hyperwachstums könnte vorbei sein.
 
-00:08:53.167 --> 00:09:06.082
-Nikil Ravi, Researcher bei Vals, sagt, die besten Modelle, die in den Labors und nur über Zugangsprogramme verfügbar seien, würden nun von offenen Modellen eingeholt, die jeder herunterladen könne.
+00:07:26.967 --> 00:07:37.218
+Zur Einordnung: Der Großteil der Ausgaben stammt von venture-finanzierten Tech-Unternehmen, die Daten bilden den Mittelstand also nur eingeschränkt ab.
 
-00:09:06.082 --> 00:09:15.784
-Es handelt sich um Messungen in Simulationen, nicht um reale Angriffe, und Wired weist darauf hin, dass reale Angreifer meist ältere Modelle nutzen.
-
-00:09:17.184 --> 00:09:19.310
+00:07:38.618 --> 00:07:40.722
 Die Leseliste fürs Wochenende.
 
-00:09:19.310 --> 00:09:32.068
-Fürs Wochenende: Studie warnt vor Wasserstress durch neue Mega-Rechenzentren in Deutschland: Kompakte Zusammenfassung der Öko-Institut-Studie samt Gegenposition des Bitkom (3 min).
+00:07:40.722 --> 00:07:51.665
+Fürs Wochenende: New NVIDIA Cosmos 3 Open Models for Interactive World Simulation: Technisch tiefes Stück zu offenen Weltmodellen mit Lizenzangaben (7 min).
 
-00:09:32.068 --> 00:09:42.061
-Free Chinese AI Models Are Getting Scary Good at Hacking: Technisch tiefer Blick auf die Vals-Messung und die Kosten offener Modelle (5 min).
+00:07:51.665 --> 00:08:01.837
+Free Chinese AI Models Are Getting Scary Good at Hacking: Zugänglicher Bericht über den Vals-Vergleich offener und geschlossener Modelle (5 min).
 
-00:09:42.061 --> 00:09:51.700
-Windows-11-Umstieg stockt wegen „Chipflation“ und „RAMageddon“: Datenlage zu Hardwarepreisen, Auslieferungen und Windows-Umsatz (6 min).
+00:08:01.837 --> 00:08:03.941
+Does Meta think we can't read?
 
-00:09:53.100 --> 00:09:53.887
+00:08:03.941 --> 00:08:11.377
+Meta abandons sketchy commercial terms update: Chronologie des Rückzugs mit Gerichten und Behörde (4 min).
+
+00:08:12.777 --> 00:08:13.717
 Zum Ausblick.
 
-00:09:53.887 --> 00:10:03.151
-Anthropic will laut Investoren, die die Financial Times zitiert, den Börsengang vor Thanksgiving abschließen und 80 bis 100 Milliarden Dollar einsammeln.
+00:08:13.717 --> 00:08:17.913
+Meta hatte den Start seiner Änderungen zuletzt auf den 20.
 
-00:10:03.151 --> 00:10:12.355
-Die OpenAI-Finanzierungsrunde ist laut Bloomberg, unter Berufung auf eine Quelle, noch nicht geschlossen und könnte rund 20 Milliarden Dollar erreichen.
+00:08:17.913 --> 00:08:21.458
+November verschoben und setzt sie inzwischen aus.
 
-00:10:12.355 --> 00:10:18.713
-Bei TikTok steht nach der vorläufigen DSA-Feststellung die endgültige Entscheidung der EU-Kommission aus.
+00:08:21.458 --> 00:08:28.041
+Bis 2030 gelten die Zielwerte der KI-Task-Force, etwa 55 Prozent KI-Einsatz im Mittelstand.
 
-00:10:20.113 --> 00:10:23.103
+00:08:29.441 --> 00:08:32.295
 Das war AI Weekly für die Kalenderwoche 45.
 
-00:10:23.103 --> 00:10:25.814
+00:08:32.295 --> 00:08:34.884
 Alle Quellen stehen in der Textfassung.
 
-00:10:25.814 --> 00:10:27.066
+00:08:34.884 --> 00:08:36.079
 Bis nächste Woche.
 
